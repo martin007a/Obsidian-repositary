@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/To Do.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do"
+              "title": "Přednáška 01"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks/To Do.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for To Do"
+              "title": "Backlinks for Přednáška 01"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks/To Do.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from To Do"
+              "title": "Outgoing links from Přednáška 01"
             }
           },
           {
@@ -197,11 +197,13 @@
   },
   "active": "31ddc829c361139c",
   "lastOpenFiles": [
-    "Poznámky/Nepřiřaditelné poznámky.md",
+    "Poznámky/Algoritmizace/Přednáška 02.md",
+    "Poznámky/Algoritmizace/Přednáška 01.md",
+    "Přednáška 01.pdf",
     "Tasks/To Do.md",
+    "Poznámky/Nepřiřaditelné poznámky.md",
     "Tasks/Done.md",
     "Tasks/Drawing 2025-09-26 14.57.30.excalidraw.md",
-    "Poznámky/Algoritmizace/Přednáška 01.md",
     "Tasks",
     "Untitled.md",
     "imgs/Untitled",
@@ -229,7 +231,6 @@
     "z_copilot/copilot-custom-prompts/Simplify.md",
     "z_copilot/copilot-custom-prompts/Summarize.md",
     "z_copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "z_copilot/copilot-custom-prompts",
     "2025-09-24.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
