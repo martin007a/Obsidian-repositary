@@ -1,0 +1,1 @@
+Dnes jsme strávil docela dost času tím že jsem se snažil zprovoznit propojení Githabu a pluginu git v Obsidianu, po nějaké době jsem se na to vykašlal protože jsem už na to neměl nervy zatím to vypadá že budu jen používat **git pull** abych si alespoň mohl aktualizovat klon repozitáře snad to později vyřeším

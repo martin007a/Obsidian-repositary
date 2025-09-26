@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Algoritmizace/Přednáška 01.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 01"
+              "title": "Přednáška 02"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Poznámky/Algoritmizace/Přednáška 01.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Přednáška 01"
+              "title": "Backlinks for Přednáška 02"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Poznámky/Algoritmizace/Přednáška 01.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Přednáška 01"
+              "title": "Outgoing links from Přednáška 02"
             }
           },
           {
@@ -197,8 +197,8 @@
   },
   "active": "31ddc829c361139c",
   "lastOpenFiles": [
-    "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Algoritmizace/Přednáška 01.md",
+    "Poznámky/Algoritmizace/Přednáška 02.md",
     "Přednáška 01.pdf",
     "Tasks/To Do.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
