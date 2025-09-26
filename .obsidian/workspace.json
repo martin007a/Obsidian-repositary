@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/To Do.md",
+                "file": "Poznámky/Nepřiřaditelné poznámky.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do"
+              "title": "Nepřiřaditelné poznámky"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Přednáška 01.md",
+                "file": "Poznámky/Nepřiřaditelné poznámky.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Přednáška 01"
+              "title": "Backlinks for Nepřiřaditelné poznámky"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Přednáška 01.md",
+                "file": "Poznámky/Nepřiřaditelné poznámky.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Přednáška 01"
+              "title": "Outgoing links from Nepřiřaditelné poznámky"
             }
           },
           {
@@ -172,12 +172,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +195,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "31ddc829c361139c",
+  "active": "cd883245e9896568",
   "lastOpenFiles": [
     "Tasks/Done.md",
     "Tasks/To Do.md",

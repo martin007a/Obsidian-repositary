@@ -53,6 +53,6 @@ Bonusy -
 - Přirozený jazyk
 - Programovací jazyk
 ###### Grafické vyjádření algoritmu:
-![[diagram_MIN-ABC.jpg]][^1]
+![[diagram_MIN-ABC.jpg]][^2]
 
 - [ ] Procvičit si vývojové diagramy  📅 2025-09-30  🔁
