@@ -1,0 +1,20 @@
+{
+  "cmenu-plugin:subscript": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "cmenu-plugin:superscript": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "U"
+    }
+  ]
+}
