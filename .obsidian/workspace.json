@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Nepřiřaditelné poznámky.md",
+                "file": "Tasks/To Do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nepřiřaditelné poznámky"
+              "title": "To Do"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Poznámky/Nepřiřaditelné poznámky.md",
+                "file": "Tasks/To Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nepřiřaditelné poznámky"
+              "title": "Backlinks for To Do"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Poznámky/Nepřiřaditelné poznámky.md",
+                "file": "Tasks/To Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Nepřiřaditelné poznámky"
+              "title": "Outgoing links from To Do"
             }
           },
           {
@@ -197,9 +197,9 @@
   },
   "active": "31ddc829c361139c",
   "lastOpenFiles": [
+    "Poznámky/Nepřiřaditelné poznámky.md",
     "Tasks/To Do.md",
     "Tasks/Done.md",
-    "Poznámky/Nepřiřaditelné poznámky.md",
     "Tasks/Drawing 2025-09-26 14.57.30.excalidraw.md",
     "Poznámky/Algoritmizace/Přednáška 01.md",
     "Tasks",
