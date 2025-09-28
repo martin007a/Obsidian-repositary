@@ -29,10 +29,17 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "Architektura Počítačů": {
+      "icon": "lucide-keyboard-music",
+      "unsynced": [
+        "c3c19cf0d9cf888f"
+      ]
+    },
     "Poznámky": {
       "icon": "lucide-notebook-pen",
       "unsynced": [
-        "af06dfe3002651ea"
+        "af06dfe3002651ea",
+        "c3c19cf0d9cf888f"
       ],
       "color": "orange"
     },
@@ -40,20 +47,23 @@
       "icon": "line-horizontal",
       "color": "yellow",
       "unsynced": [
-        "af06dfe3002651ea"
+        "af06dfe3002651ea",
+        "c3c19cf0d9cf888f"
       ]
     },
     "Poznámky/Úvod do ICT": {
       "icon": "lucide-folder-up",
       "color": "red",
       "unsynced": [
-        "af06dfe3002651ea"
+        "af06dfe3002651ea",
+        "c3c19cf0d9cf888f"
       ]
     },
     "Tasks": {
       "icon": "lucide-calendar",
       "unsynced": [
-        "af06dfe3002651ea"
+        "af06dfe3002651ea",
+        "c3c19cf0d9cf888f"
       ],
       "color": "green"
     },
@@ -68,13 +78,15 @@
     "imgs": {
       "icon": "lucide-image",
       "unsynced": [
-        "af06dfe3002651ea"
+        "af06dfe3002651ea",
+        "c3c19cf0d9cf888f"
       ]
     },
     "z_copilot": {
       "icon": "lucide-person-standing",
       "unsynced": [
-        "af06dfe3002651ea"
+        "af06dfe3002651ea",
+        "c3c19cf0d9cf888f"
       ]
     }
   },
