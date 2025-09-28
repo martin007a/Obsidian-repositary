@@ -1,1 +1,2 @@
  - [ ] Poznámka 11 hej hej
+ - [ ] git propojení funguje 
