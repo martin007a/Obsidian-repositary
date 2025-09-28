@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/To Do.md",
+                "file": "Poznámky/Architektura počítačů.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do"
+              "title": "Architektura počítačů"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -142,23 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Přednáška 01.md",
+                "file": "Poznámky/Architektura počítačů.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Přednáška 01"
-            }
-          },
-          {
-            "id": "cd883245e9896568",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Architektura počítačů"
             }
           },
           {
@@ -167,12 +158,22 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
+            }
+          },
+          {
+            "id": "ad50edd6d8c4f8ad",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -188,19 +189,19 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "iconic:Open rulebook": false,
-      "copilot:Open Copilot Chat": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "homepage:Open homepage": false,
-      "media-extended:Open external media": false
+      "media-extended:Open external media": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "31ddc829c361139c",
   "lastOpenFiles": [
+    "Poznámky/Architektura počítačů.md",
+    "Tasks/To Do.md",
     "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Algoritmizace/Přednáška 01.md",
     "Přednáška 01.pdf",
-    "Tasks/To Do.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
     "Tasks/Done.md",
     "Tasks/Drawing 2025-09-26 14.57.30.excalidraw.md",
