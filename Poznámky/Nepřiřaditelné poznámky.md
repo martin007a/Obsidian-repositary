@@ -1,2 +1,2 @@
  - [ ] Poznámka 11 hej hej
- - [ ] git propojení funguje 
+ - [x] git propojení funguje ✅ 2025-09-28
