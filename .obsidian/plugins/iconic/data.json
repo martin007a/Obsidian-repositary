@@ -29,12 +29,6 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
-    "Architektura Počítačů": {
-      "icon": "lucide-keyboard-music",
-      "unsynced": [
-        "c3c19cf0d9cf888f"
-      ]
-    },
     "Poznámky": {
       "icon": "lucide-notebook-pen",
       "unsynced": [
@@ -48,6 +42,12 @@
       "color": "yellow",
       "unsynced": [
         "af06dfe3002651ea",
+        "c3c19cf0d9cf888f"
+      ]
+    },
+    "Poznámky/Architektura Počítačů": {
+      "icon": "lucide-keyboard-music",
+      "unsynced": [
         "c3c19cf0d9cf888f"
       ]
     },
