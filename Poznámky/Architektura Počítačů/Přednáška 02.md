@@ -25,6 +25,9 @@ Každý výraz je dán součinem číselného symbolu a jeho váhy, přičemž v
 ![[Pasted image 20250929153341.png]]
 ### **Převody mezi soustavami** 
 ![[Pasted image 20250929153738.png]]
+![[Pasted image 20250929155010.png]]
+![[Pasted image 20250929155203.png]]
+
 **Na zkoušce bude určitě nějaký takový jednoduchý příklad** (viz prezentace)
 #### Obecné uspořádání čísla v pevné řádové čárce
 **pevná řádová čárka** - 2 na 8 - 127do127
