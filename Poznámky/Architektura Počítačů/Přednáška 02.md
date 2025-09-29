@@ -27,8 +27,14 @@ Každý výraz je dán součinem číselného symbolu a jeho váhy, přičemž v
 ![[Pasted image 20250929153738.png]]
 ![[Pasted image 20250929155010.png]]
 ![[Pasted image 20250929155203.png]]
-
+![[Pasted image 20250929160355.png]]
 **Na zkoušce bude určitě nějaký takový jednoduchý příklad** (viz prezentace)
+![[Pasted image 20250929160525.png]]
+Při převodu mezi 10 a 16 soustavou si pomůžeme tím že ji převedeme na desítkovou na potom je rozdělíme po 4 číslech protože hodnoty je 0-15 odpovídají hodnotám 16 soustavy.
+Obdobně tomu je i u osmičkové 3čísla dvojkové soustavy odpovídají hodnotám 0-7
+![[Pasted image 20250929161150.png]]
+![[Pasted image 20250929161406.png]]
+![[Pasted image 20250929161517.png]]
 #### Obecné uspořádání čísla v pevné řádové čárce
 **pevná řádová čárka** - 2 na 8 - 127do127
 	0 = kladné
