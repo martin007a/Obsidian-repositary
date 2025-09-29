@@ -51,6 +51,8 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 **Pozor  při stavu 1+1 = 0 dochází k takzvanému carry a jeden byt si v podstatě držím. xd**
 ![[Pasted image 20250929172553.png]]
 ![[Pasted image 20250929173041.png]]
+![[Pasted image 20250929174156.png]]
+0,8128 a 8125 se na 4 bytech jeví stejné. gg
 Obecné uspořádání čísla v pohybové řádové čárce
 ![[Pasted image 20250929093450.png]]
 mantisa - číslo 1000 - mantisa je 1, 2000 - 2
