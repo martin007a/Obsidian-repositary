@@ -26,5 +26,14 @@ Pravdivostní hodnota výroku je hodnota která nabývá dvou hodnot a to TRUE/F
 ![[Pasted image 20250929192525.png]]
 ###### **Co to je tautologie a Kontradikce? Uveď příklady**
 - **Tautologie** - Výrokovou formuli nazveme tautologie, pokud je vždy pravdivá bez ohledu na pravdivostní hodnotu výrokových proměnných, které obsahuje.
--![[Pasted image 20250929193211.png]]
+-
 - **Kontradikce** - Výrokovou formuli nazveme Kontradikce, pokud je vždy nepravdivá bez ohledu na pravdivostní hodnotu výrokových proměnných, které obsahuje.
+![[Pasted image 20250929193211.png]]
+###### **Jaký je rozdíl mezi obměnou a obrácením Implikace**
+![[Pasted image 20250929193919.png]]
+![[Pasted image 20250929193959.png]]
+###### **Které z logických spojek jsou Komutativní a asociativní?**
+- Konjunkce
+- Disjunkce
+- Ekvivalence
+###### **Co znamená že dva výroky jsou logicky ekvivalentní?**
