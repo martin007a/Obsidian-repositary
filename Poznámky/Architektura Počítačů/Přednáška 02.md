@@ -35,6 +35,7 @@ Obdobně tomu je i u osmičkové 3čísla dvojkové soustavy odpovídají hodnot
 ![[Pasted image 20250929161150.png]]
 ![[Pasted image 20250929161406.png]]
 ![[Pasted image 20250929161517.png]]
+
 #### Obecné uspořádání čísla v pevné řádové čárce
 **pevná řádová čárka** - 2 na 8 - 127do127
 	0 = kladné
