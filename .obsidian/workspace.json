@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -209,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d388247132a2209",
+  "active": "035819ac721c6be8",
   "lastOpenFiles": [
     "Poznámky/Architektura Počítačů/Přednáška 01 1.md",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
