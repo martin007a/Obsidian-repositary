@@ -42,6 +42,15 @@ Obdobně tomu je i u osmičkové 3čísla dvojkové soustavy odpovídají hodnot
 	1 = záporné
 ![[Pasted image 20250929164642.png]]
 Kdy by jsme zobrazovali v Pevné řadové čárce tak jsme schopni zobrazit jen 4 miliardy
+![[Pasted image 20250929171955.png]]
+U doplňku provádíme inverzi kladného čísla 
+$$
+0,110 = 1,001 - inverze
+$$
+Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit(1) 
+**Pozor  při stavu 1+1 = 0 dochází k takzvanému carry a jeden byt si v podstatě držím. xd**
+![[Pasted image 20250929172553.png]]
+![[Pasted image 20250929173041.png]]
 Obecné uspořádání čísla v pohybové řádové čárce
 ![[Pasted image 20250929093450.png]]
 mantisa - číslo 1000 - mantisa je 1, 2000 - 2
