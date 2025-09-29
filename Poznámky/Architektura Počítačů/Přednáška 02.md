@@ -20,8 +20,11 @@ Každé číslo je součet matematických výrazů.
 Každý výraz je dán součinem číselného symbolu a jeho váhy, přičemž váha je mocninou báze (základu). Mocnina (exponent) začíná nulou a roste po jedné(zprava doleva).
 ![[Pasted image 20250929153013.png]]
 #### Váhy v dvojkové soustavě
-
+![[Pasted image 20250929153233.png]]
+#### Tabulka převodů mezi soustavami
+![[Pasted image 20250929153341.png]]
 ### **Převody mezi soustavami** 
+![[Pasted image 20250929153738.png]]
 **Na zkoušce bude určitě nějaký takový jednoduchý příklad** (viz prezentace)
 #### Obecné uspořádání čísla v pevné řádové čárce
 **pevná řádová čárka** - 2 na 8 - 127do127
