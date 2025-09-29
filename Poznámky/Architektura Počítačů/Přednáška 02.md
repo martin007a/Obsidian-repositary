@@ -12,13 +12,16 @@ Veškeré informace jsou zakódovány pomocí 0 a 1 (bool hodnoty).
 Instrukce pokyny data
 Program - soubor instrukcí pro nějaký úkol.
 Zobrazení instrukcí
-- jednoadresní
-- dvouadresní
-- tříadresní
+![[Pasted image 20250929152434.png]]
 #### Číselný systém
 Číslo je řada symbolů.
 Každý symbol má váhu (hodnotu)
-Převody mezi soustavami 
+Každé číslo je součet matematických výrazů.
+Každý výraz je dán součinem číselného symbolu a jeho váhy, přičemž váha je mocninou báze (základu). Mocnina (exponent) začíná nulou a roste po jedné(zprava doleva).
+![[Pasted image 20250929153013.png]]
+#### Váhy v dvojkové soustavě
+
+### **Převody mezi soustavami** 
 **Na zkoušce bude určitě nějaký takový jednoduchý příklad** (viz prezentace)
 #### Obecné uspořádání čísla v pevné řádové čárce
 **pevná řádová čárka** - 2 na 8 - 127do127
