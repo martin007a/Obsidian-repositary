@@ -51,6 +51,13 @@
         "c3c19cf0d9cf888f"
       ]
     },
+    "Poznámky/Teoretické základy informatiky": {
+      "icon": "lucide-computer",
+      "unsynced": [
+        "c3c19cf0d9cf888f"
+      ],
+      "color": "orange"
+    },
     "Poznámky/Úvod do ICT": {
       "icon": "lucide-folder-up",
       "color": "red",
