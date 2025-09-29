@@ -37,9 +37,10 @@ Obdobně tomu je i u osmičkové 3čísla dvojkové soustavy odpovídají hodnot
 ![[Pasted image 20250929161517.png]]
 
 #### Obecné uspořádání čísla v pevné řádové čárce
-**pevná řádová čárka** - 2 na 8 - 127do127
+**pevná řádová čárka** - 1bit = znamínko, hodnoty = 2 na 7 - 127do127
 	0 = kladné
 	1 = záporné
+![[Pasted image 20250929164642.png]]
 Kdy by jsme zobrazovali v Pevné řadové čárce tak jsme schopni zobrazit jen 4 miliardy
 Obecné uspořádání čísla v pohybové řádové čárce
 ![[Pasted image 20250929093450.png]]
