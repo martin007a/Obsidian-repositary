@@ -37,3 +37,6 @@ Pravdivostní hodnota výroku je hodnota která nabývá dvou hodnot a to TRUE/F
 - Disjunkce
 - Ekvivalence
 ###### **Co znamená že dva výroky jsou logicky ekvivalentní?**
+Výroky jsou logicky ekvivalentní pokud mají stejnou pravdivostní hodnotu.
+###### **Jak se negují složené výroky?**
+![[Pasted image 20250929195006.png]]

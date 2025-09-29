@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -190,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,6 +211,7 @@
   },
   "active": "3fd36b1e2852f0a0",
   "lastOpenFiles": [
+    "imgs/Pasted image 20250929195006.png",
     "imgs/Pasted image 20250929193959.png",
     "imgs/Pasted image 20250929193919.png",
     "imgs/Pasted image 20250929193211.png",
@@ -224,7 +225,6 @@
     "imgs/Pasted image 20250929173041.png",
     "imgs/Pasted image 20250929172553.png",
     "imgs/Pasted image 20250929171955.png",
-    "imgs/Pasted image 20250929164642.png",
     "Tasks/To Do.md",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
     "Poznámky/Úvod do ICT/Cviko 01.md",
