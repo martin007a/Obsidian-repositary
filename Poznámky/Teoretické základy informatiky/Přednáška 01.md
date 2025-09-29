@@ -8,3 +8,15 @@ výroků, jejichž strukturu dále nezkoumá.
 - Každé výrokové proměnné lze přiřadit pravdivostní hodnotu.
 #### Složený výrok
 Složeným výrokem rozumíme tak
+
+
+#### Kontrolní otázky
+###### **Co to je výrok?**
+Výrok je tvrzení o němž jde smysluplné prohlásit,
+zda je pravdivé nebo nepravdivé.
+###### **Jak je definována výroková formule?**
+Za výrokovou formuli považujeme takovou posloupnost symbolů jazyka výrokové logiky pro kterou platí že: 
+	-Každý elementární výrok je výroková formule
+	-je-li a 
+
+
