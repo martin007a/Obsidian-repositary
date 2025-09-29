@@ -58,6 +58,12 @@
       ],
       "color": "orange"
     },
+    "Poznámky/ZOO": {
+      "icon": "remix-ZcoolFill",
+      "unsynced": [
+        "c3c19cf0d9cf888f"
+      ]
+    },
     "Poznámky/Úvod do ICT": {
       "icon": "lucide-folder-up",
       "color": "red",
