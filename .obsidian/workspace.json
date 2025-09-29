@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Úvod do ICT/Cviko 01.md",
+                "file": "Poznámky/Architektura Počítačů/Přednáška 02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cviko 01"
+              "title": "Přednáška 02"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Poznámky/Algoritmizace/Přednáška 02.md",
+                "file": "Poznámky/Architektura Počítačů/Přednáška 02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,30 +211,33 @@
   },
   "active": "2d388247132a2209",
   "lastOpenFiles": [
+    "Poznámky/Architektura Počítačů/Přednáška 01 1.md",
+    "Poznámky/Architektura Počítačů/Přednáška 01.md",
+    "Tasks/To Do.md",
+    "Poznámky/Architektura Počítačů/Přednáška 02.md",
+    "imgs/Pasted image 20250929095749.png",
+    "imgs/Pasted image 20250929095723.png",
+    "imgs/Pasted image 20250929093450.png",
+    "imgs/Pasted image 20250929090450.png",
+    "Poznámky/Architektura Počítačů/Untitled.md",
+    "Poznámky/Architektura Počítačů/Untitled",
     "Poznámky/Úvod do ICT/Cviko 01.md",
     "Poznámky/Úvod do ICT/Přednáška 01.md",
-    "Poznámky/Architektura Počítačů/Přednáška 01 1.md",
     "imgs/Pasted image 20250928162420.png",
     "imgs/Pasted image 20250928161226.png",
     "imgs/Pasted image 20250928155357.png",
     "imgs/Pasted image 20250928155306.png",
     "imgs/Pasted image 20250928155237.png",
     "imgs/Pasted image 20250928155144.png",
-    "Poznámky/Architektura Počítačů/Untitled.md",
     "Architektura Počítačů/Untitled 1.md",
-    "imgs/Pasted image 20250928145902.png",
-    "imgs/Pasted image 20250928145142.png",
     "Poznámky/Algoritmizace/Přednáška 01.md",
     "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
-    "Poznámky/Architektura Počítačů/Přednáška 01.md",
-    "Tasks/To Do.md",
     "Poznámky/Přednáška 01/Untitled",
     "Přednáška 01.pdf",
     "Poznámky/Architektura Počítačů",
     "Poznámky/Algoritmizace/Untitled",
     "Untitled",
-    "imgs/diagram_MIN-ABC.jpg",
     "Tasks/Done.md",
     "Tasks/Drawing 2025-09-26 14.57.30.excalidraw.md",
     "Tasks",
@@ -244,8 +247,6 @@
     "z_copilot/copilot-custom-prompts/Translate to Chinese.md",
     "Poznámky",
     "imgs",
-    "Algoritmizace/imgs",
-    "imgs/Pasted image 20250924205244.png",
     "Excalidraw/Drawing 2025-09-24 20.20.00.excalidraw.md",
     "z_copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "z_copilot/copilot-custom-prompts/Rewrite as tweet.md",
@@ -255,8 +256,6 @@
     "z_copilot/copilot-custom-prompts/Make shorter.md",
     "z_copilot/copilot-custom-prompts/Emojify.md",
     "z_copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "z_copilot/copilot-custom-prompts/Simplify.md",
-    "z_copilot/copilot-custom-prompts/Summarize.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas"
