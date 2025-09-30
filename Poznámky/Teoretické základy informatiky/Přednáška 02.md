@@ -18,4 +18,9 @@ Vyhodnocení Výrazu postfixu
 Příklad = 1;
 ## Normální formy výrokových formulí
 ![[Pasted image 20250930140522.png]]
-
+### Algoritmus převodu formule do DNF
+Pravdivostní tabulka
+![[IMG_20250930_141008.jpg]]
+#### Minimalizace výrokových formulí
+## Karnaughova mapa
+- na pořadí nezáleží

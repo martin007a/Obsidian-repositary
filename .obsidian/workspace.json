@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
+                "file": "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Přednáška 01"
+              "title": "Backlinks for Přednáška 02"
             }
           },
           {
@@ -186,8 +186,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -212,6 +211,9 @@
   },
   "active": "3fd36b1e2852f0a0",
   "lastOpenFiles": [
+    "imgs/Pasted image 20250930141431.png",
+    "imgs/IMG_20250930_141204.jpg",
+    "imgs/IMG_20250930_141008.jpg",
     "imgs/Pasted image 20250930140522.png",
     "imgs/Pasted image 20250930133439.png",
     "imgs/Pasted image 20250930133053.png",
@@ -225,9 +227,6 @@
     "Poznámky/ZOO",
     "imgs/Pasted image 20250929195006.png",
     "imgs/Pasted image 20250929193959.png",
-    "imgs/Pasted image 20250929193919.png",
-    "imgs/Pasted image 20250929193211.png",
-    "imgs/Pasted image 20250929192525.png",
     "Poznámky/Architektura Počítačů/Přednáška 02.md",
     "Poznámky/Teoretické základy informatiky",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
