@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
+                "file": "Tasks/To Do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 01"
+              "title": "To Do"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -208,11 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ad50edd6d8c4f8ad",
+  "active": "3fd36b1e2852f0a0",
   "lastOpenFiles": [
+    "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "Poznámky/ZOO/Pravidla programátora.md",
     "imgs/Pasted image 20250929204210.png",
-    "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "Poznámky/ZOO",
     "imgs/Pasted image 20250929195006.png",
     "imgs/Pasted image 20250929193959.png",
