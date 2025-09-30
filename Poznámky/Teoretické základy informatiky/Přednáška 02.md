@@ -12,4 +12,10 @@ Překladač jazyk si převádí do Postfixový zápis (PC)
 INFIX - Levý podstrom - Vrchol - Pravý pod strom
 PREFIX - VLP
 POSTFIX - LPV
-#### Algoritmus slepé(Kusé) koleje +2
+#### Algoritmus slepé(Kusé) koleje 
+Vyhodnocení Výrazu postfixu
+#### Pomocí Zásobníkového Automatu
+Příklad = 1;
+## Normální formy výrokových formulí
+![[Pasted image 20250930140522.png]]
+
