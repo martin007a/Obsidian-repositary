@@ -185,12 +185,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,7 +208,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fd36b1e2852f0a0",
+  "active": "03d2ada012397080",
   "lastOpenFiles": [
     "imgs/Pasted image 20250930210933.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
