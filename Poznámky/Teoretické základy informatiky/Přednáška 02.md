@@ -24,3 +24,4 @@ Pravdivostní tabulka
 #### Minimalizace výrokových formulí
 ## Karnaughova mapa
 - na pořadí nezáleží
+K-mapa - postup minimalizace
