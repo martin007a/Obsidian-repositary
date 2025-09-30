@@ -1,3 +1,7 @@
+# Formy zápisu výrokových formulí
+## Úplný systém logických spojek
+Množina logických spojek L tvoří **úplný systém logických spojek**, jestliže ke každé formuli existuje formule, která je s ní logicky evivalentní a která obsahuje pouze spojky z L.
+- Úplný systém logick
 ![[Pasted image 20250930132845.png]]
 ## Spojky které tvoří vlastní systém
 #### Shefferova spojka (NAND)
