@@ -61,7 +61,6 @@ __Proměnná
 - Hodnota proměnné
 __Konstanta
  - **Literál** = **pevně zapsaná hodnota v programu**
-
 **C++**
 - Generativní překladač - g++
 - zápis textu (editor)
