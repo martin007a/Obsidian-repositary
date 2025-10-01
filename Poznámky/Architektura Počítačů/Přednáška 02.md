@@ -7,8 +7,10 @@ Procesor se skládá ze dvou částí
 	- na základě dekódovacích instrukcí ovládá ostatní části včetně aritmetické jednotky
 ### Zpracování informací v PC
 Veškeré informace jsou zakódovány pomocí 0 a 1 (bool hodnoty).
-**Analogové počítače** nepoužívají 0 a 1 ale třena na základě napětí el. proudu 
+**Analogové počítače** nepoužívají 0 a 1 ale třena na základě napětí el. proudu
 ### Zobrazení informací v PC
+- **Zobrazení znaků** – v určené kódové soustavě
+- **Zobrazení čísel** - ve dvojkové soustavě, v pevné nebo pohyblivé řádové čárce, v přímém, doplňkovém, inverzním kódu
 Instrukce pokyny data
 Program - soubor instrukcí pro nějaký úkol.
 Zobrazení instrukcí
