@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/ZOO/Přednáška 02.md",
+                "file": "Tasks/To Do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 02"
+              "title": "To Do"
             }
           },
           {
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Poznámky/ZOO/Přednáška 02.md",
+                "file": "Tasks/To Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Přednáška 02"
+              "title": "Backlinks for To Do"
             }
           },
           {
@@ -185,8 +185,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,8 +207,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "03d2ada012397080",
+  "active": "3fd36b1e2852f0a0",
   "lastOpenFiles": [
+    "Poznámky/ZOO/Přednáška 02.md",
     "imgs/Pasted image 20250930210933.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "imgs/Pasted image 20250930194529.png",
@@ -217,14 +217,12 @@
     "imgs/Pasted image 20250930192905.png",
     "imgs/Pasted image 20250930192843.png",
     "imgs/Pasted image 20250930192658.png",
-    "Poznámky/ZOO/Přednáška 02.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
     "Tasks/To Do.md",
     "imgs/Pasted image 20250930141431.png",
     "imgs/IMG_20250930_141204.jpg",
     "imgs/IMG_20250930_141008.jpg",
     "imgs/Pasted image 20250930140522.png",
-    "imgs/Pasted image 20250930133439.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "Poznámky/ZOO/Pravidla programátora.md",
     "Poznámky/ZOO",
