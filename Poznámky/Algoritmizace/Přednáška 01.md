@@ -7,12 +7,23 @@ Bonusy -
 - Algoritmus je přepis úlohy; 
 ##### Vlastnosti
 - Konečnost 
+	- Každý algoritmus má jasně definovaný začátek a konec 
 - Opakovatelnost
 	- stejné vstupy = stejný výstup
 - Jednoznačnost 
 	-  Je jednoznačné jak bude probíhat
 - Hromadnost
 	-  Je určen pro řešení větší třídy úloh
+##### Vyjádření Algoritmu
+- Graficky
+- Matematicky
+- Přirozený jazyk
+- Programovací jazyk
+![[Pasted image 20251001200745.png]]
+### Algoritmizace / Programování
+- **Vytváření** (hledání, konstrukce) algoritmu = algoritmizace
+- **Vyjádření** algoritmu v programovacím jazyce = programování
+- **Tyto procesy jsou obvykle propojeny** – člověk vytváří algoritmus a přímo jej zapisuje v programovacím jazyce
 ### **Programovací paradigmata**
 **Procedurální, imperativní**
 - Tímto způsobem pracuje stroj
@@ -34,6 +45,8 @@ Bonusy -
 - **Generační** x Interpretační překladač - vezme náš zápis a převede na strojový kód - Pro běh rychle je lepší
 - **Dávkové** x interaktivní aplikace- vezme jeden příkaz a hned ho provede a pak přičte další příkaz
 ### Programování
+Vyjádření algoritmu pomocí programovacího jazyka
+
 **Zásadní Pojmy**
 **C++**
 - Generativní překladač - g++
