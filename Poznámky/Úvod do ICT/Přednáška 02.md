@@ -13,4 +13,28 @@
 #### Interpretace dat
 Datový typ
 - Je množinou povolených hodnot a množinou povolených operací
-- Implementace - přisouzením posloupnosti binárních 
+- Implementace - přisouzením posloupnosti binárních hodnot v paměti počítače
+**Modelujeme objektivní realitu**
+- hodnoty jsou zobrazeny pro vstup i výstup
+- Příklad: datové tipy v Excelu
+**Informace**
+- smysluplné interpretace dat a vztahů mezi nimi
+- snižují neznalost a vyvolávají změnu stavu čí chování příjemce
+- množství informace je vždy relativní vzhledem k příjemci a situaci
+**Znalosti**
+### Chápání
+**Kvalitativní hledisko**
+
+**Kavntitativní hledisko**
+
+## Pojem informace
+- Poslední v prezentaci je asi nejlepší "ph.D Haluza"
+### Základní pojmy
+**Systém** - Komplex prvků a vazeb ve vzájemné interakci
+
+**Informační systém**
+### Složky informačních systémů
+![[Pasted image 20251001153840.png]]
+#### Měření množství informace ve zprávě 
+Americký fyzik Claude Elwood Shannon 
+Shannonova definice: "Informace je míra množství neurčitosti ne nejistoty o nějakém náhodném ději odstraněná realizací tohoto děje"
