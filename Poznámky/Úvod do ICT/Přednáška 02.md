@@ -65,3 +65,14 @@ Každý může být výckrát
 #### Eutropie
 ![[Pasted image 20251001161109.png]]
 Prý jedinný vzoreček
+### Praktické použití entropie
+![[Pasted image 20251001161408.png]]
+![[Pasted image 20251001161512.png]]
+![[Pasted image 20251001161705.png]]
+![[Pasted image 20251001161838.png]]
+Soutěž
+![[Pasted image 20251001162100.png]]
+![[Pasted image 20251001162116.png]]
+![[Pasted image 20251001162152.png]]
+Důležité není jestli uhodl ale že se dozví co je správná odpověď
+
