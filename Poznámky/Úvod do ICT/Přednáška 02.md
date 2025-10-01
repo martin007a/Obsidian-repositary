@@ -75,4 +75,7 @@ Soutěž
 ![[Pasted image 20251001162116.png]]
 ![[Pasted image 20251001162152.png]]
 Důležité není jestli uhodl ale že se dozví co je správná odpověď
-
+#### Odvození nejmenší míry informace
+![[Pasted image 20251001162944.png]]
+![[Pasted image 20251001163048.png]]
+![[Pasted image 20251001163034.png]]
