@@ -3,6 +3,16 @@ Průběžné testy - v průběhu 30b / 2 (dva testy) 2 termíny bere se ten lep�
 Zkouškové testy - zkouškové 70 bodů Příklady(Algoritmy)
 **min 60 bodů**
 Bonusy - 
+## Pojem Algoritmus
+- Algoritmus je přepis úlohy; 
+##### Vlastnosti
+- Konečnost 
+- Opakovatelnost
+	- stejné vstupy = stejný výstup
+- Jednoznačnost 
+	-  Je jednoznačné jak bude probíhat
+- Hromadnost
+	-  Je určen pro řešení větší třídy úloh
 ### **Programovací paradigmata**
 **Procedurální, imperativní**
 - Tímto způsobem pracuje stroj
