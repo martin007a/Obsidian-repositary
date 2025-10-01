@@ -38,3 +38,23 @@ Datový typ
 #### Měření množství informace ve zprávě 
 Americký fyzik Claude Elwood Shannon 
 Shannonova definice: "Informace je míra množství neurčitosti ne nejistoty o nějakém náhodném ději odstraněná realizací tohoto děje"
+**Informační entropie**
+![[Pasted image 20251001154345.png]]
+Exkurze do kombinatoriky: variace
+#### **Variace**
+- Záleží na pořadí jednotlivých pravků
+Bez Opakování
+![[Pasted image 20251001154751.png]]
+Každý člověk lze vybrat jen jednou
+![[Pasted image 20251001154837.png]]
+Každý může být výckrát
+#### **Permutace**
+![[Pasted image 20251001154926.png]]
+#### Kombinace
+![[Pasted image 20251001154953.png]]
+### Požadované vlastnosti funkce pro výpočet množství informace
+![[Pasted image 20251001155330.png]]
+#### __Výpočet vlastní Informace
+![[Pasted image 20251001155350.png]]
+![[Pasted image 20251001155523.png]]
+- log menší než 1 vrací záporná čísla proto tam je -log
