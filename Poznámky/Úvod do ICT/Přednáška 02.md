@@ -56,5 +56,12 @@ Každý může být výckrát
 ![[Pasted image 20251001155330.png]]
 #### __Výpočet vlastní Informace
 ![[Pasted image 20251001155350.png]]
-![[Pasted image 20251001155523.png]]
+ě=
 - log menší než 1 vrací záporná čísla proto tam je -log
+**Aplikace Vlastní informace**
+![[Pasted image 20251001155932.png]]
+**Řešený příklad** 
+![[Pasted image 20251001160911.png]]
+#### Eutropie
+![[Pasted image 20251001161109.png]]
+Prý jedinný vzoreček
