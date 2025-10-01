@@ -46,8 +46,22 @@ Bonusy -
 - **Dávkové** x interaktivní aplikace- vezme jeden příkaz a hned ho provede a pak přičte další příkaz
 ### Programování
 Vyjádření algoritmu pomocí programovacího jazyka
+Výhoda: jednoznačnost zápisu
+### **Zásadní Pojmy**
+**Přístup k vývoji programů**
+- Algoritmy + Datové struktury = Programy
+- Původní účel: Počítač počítá, tj. pouze numerická data
+- Rozvoj technologii: více informací, využívá se úschovný prostor.
+**Datový** typ
+- Souhrn povolených hodnot a povolených operací
+- S hodnotami jsou obvykle svázány možnosti manipulace, tj. algoritmy
+__Proměnná
+- Je to nějaké místo v paměti
+- název proměnné = identifikátor
+- Hodnota proměnné
+__Konstanta
+ - **Literál** = **pevně zapsaná hodnota v programu**
 
-**Zásadní Pojmy**
 **C++**
 - Generativní překladač - g++
 - zápis textu (editor)
@@ -76,6 +90,6 @@ Vyjádření algoritmu pomocí programovacího jazyka
 - Přirozený jazyk
 - Programovací jazyk
 ###### Grafické vyjádření algoritmu:
-![[diagram_MIN-ABC.jpg]][^2]
+![[diagram_MIN-ABC.jpg]] [^2]
 
 - [ ] Procvičit si vývojové diagramy  📅 2025-09-30  🔁
