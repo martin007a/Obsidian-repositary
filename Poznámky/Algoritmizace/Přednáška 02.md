@@ -71,4 +71,5 @@ int main(){
 	}	
 	return 0;
 }`
-Konec stanartn9ho tipu 
+Konec stanartního tipu C^D
+cp ../../data/nahcisla_zap.txt
