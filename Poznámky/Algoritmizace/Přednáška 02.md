@@ -36,7 +36,7 @@ int main(){
 	cout << cin
 
 	return 0;
-}``
+}`
 C^KW
 Přelož přes g++
 **DATA**
@@ -54,5 +54,21 @@ přesměrujeme
 
 Nějak to vyklopil do souboru obal.cpp
 
-
-
+``#include <iostream>
+using namespace std;
+int main(){
+	
+	float cislo, min;
+	if (cin >> cislo) {
+		min = cislo
+		
+		min = cislo;
+		
+		while (cin >> cislo)
+			if (cislo<min) min = cislo;
+		
+		cout << min << endl
+	}	
+	return 0;
+}`
+Konec stanartn9ho tipu 
