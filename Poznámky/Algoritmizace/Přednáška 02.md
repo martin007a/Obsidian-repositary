@@ -23,8 +23,18 @@ using namespace std;
 
 int main(){
 	float cislo, min;
-	return ;
-}\`
+	cin >> cislo;
+	
+	min = cislo;
+	
+	cin >> cislo;
+	
+	if (cislo<min) min = cislo;
+	
+	if (cislo<min) min = cislo;
+	
+	return 0;
+}`
 C^KW
 Nějak to vyklopil do souboru obal.cpp
 
