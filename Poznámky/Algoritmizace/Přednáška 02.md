@@ -16,13 +16,14 @@ g++ - o $1 $1.cpp - script linux
 
 **3.Spuštění** 
 	echo $PATH
-pokus uložím spustitelný soubor do **bin** tak se spustí automaticky.
+.pokus uložím spustitelný soubor do **bin** tak se spustí automaticky.
 Kompletní cesta do aktivního adresáře: ./ název spustitelného souboru.
 `#include <iostream>
 using namespace std;
-
 int main(){
+	
 	float cislo, min;
+	
 	cin >> cislo;
 	
 	min = cislo;
@@ -30,12 +31,27 @@ int main(){
 	cin >> cislo;
 	
 	if (cislo<min) min = cislo;
-	
+	cin >> cislo
 	if (cislo<min) min = cislo;
-	
+	cout << cin
+
 	return 0;
-}`
+}``
 C^KW
+Přelož přes g++
+**DATA**
+musíme je nějak oddělit
+- mezera -libovolně počet
+- tab
+- k. řádku
+-3
++9.2  - čárka způsobí chybu 
+5.8e-5 = 5.8 * 10^-5
+
+Uložíme 
+přesměrujeme 
+./nejmenší < data.txt
+
 Nějak to vyklopil do souboru obal.cpp
 
 
