@@ -177,9 +177,11 @@ Asociativní vyhledávání
 ![[Pasted image 20251003175736.png]]
 #### Přímé adresování
 ![[Pasted image 20251003175914.png]]
-Nepřímé adresování
+#### Nepřímé adresování
 ![[Pasted image 20251003175931.png]]
-
+### Implicitní adresování a implicitní operand
+- Práce s operandy, které jsou vždy na stejném místě - mapř. přesun mezi registry
+- Implicitní operand, kdy operand je určen operačním kódem- např,. násobení konstantou 2, zaokrouhování.
 **Synchronizace periferii s procesorem**
 metoda přerušením. přeruší se úkon a zapíše se do čítače instrukcí zapíše co už je hotovo, pak se zase k práci vrátí tam kde skončil.
 DMA - procesor se odpojí(režim Hond), a řadič přenese data do paměti(Normálně do ní zapisuje procesor)
