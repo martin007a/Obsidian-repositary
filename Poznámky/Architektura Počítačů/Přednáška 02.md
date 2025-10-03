@@ -82,9 +82,19 @@ občas dojde k přetečení do znaménkového kódu proto se používá **Modifi
 zaporne (1), 0 značí že došlo k přetečení.
 **V prezentaci jsou příklady**
    - [ ] Na dělení bez návratu ke kladnému zbytku atd. Mám se na něj kouknout
+### Rotace bitů
+![[Pasted image 20251003125508.png]]
+### **Logický posun**
+![[Pasted image 20251003125540.png]]
+### **Aritmetický posun**
+![[Pasted image 20251003125612.png]]
 ### Třetí varianta: Kód BCD
 BCD zakóduje cifry do binárního Kód ne do dvojkové soustavy
 ![[Pasted image 20250929095723.png]]
+![[Pasted image 20251003125843.png]]
+### Aikenovy podmínky
+1. Každé místo v kódu má mít určitou váhu.
+2. Součet vah míst, v nichž je dvojková číslice kódu rovna 1, má dát 
 řešení pro Aikenovy podmínky +3
 ### Zabezpečení Kódu paritou
 ### Popis části počítače
