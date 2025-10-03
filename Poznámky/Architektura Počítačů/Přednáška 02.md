@@ -152,9 +152,34 @@ Asociativní vyhledávání
 - nehledám na určitém místě  ale hledám pomocí jaké vlastnosti 
 ### Řídící podsystém - řadič
 ![[Pasted image 20251003174214.png]]
+##### Registr instrukcí
 **Instrukce bývá rozdělena na:**
 1. **OK (operační kód)** – určuje druh operace.
 2. **Adresová část (operand, adresa, data)** – určuje, s čím nebo kde se má operace provést.
+**RAP = Registr adresové části instrukce** – slouží k uchování adresy/operandů aktuální instrukce, aby je procesor mohl použít při provádění operace.
+**RDP** drží **datovou část instrukce** – tedy buď přímo operand, nebo číslo registru, případně jiný údaj, se kterým se bude operace provádět.
+#### Základní instrukční cyklus
+![[Pasted image 20251003174633.png]]
+## Instrukční cyklus řadiče
+#### **Výběrová fáze**
+1. Počáteční nastavení čítače instrukcí
+2. Načtení instrukcí do RI
+	- ČI → adresa RAP
+	- Načtení instrukce do RDP
+	- RDP → RI
+#### Prováděcí fáze
+3. Dekódování operačního kódu instrukce
+4. Provedení operace
+5. ČI + 1 → ČI nebo adresa z instrukce → ČI
+6. Opakování od kroku 2
+![[Pasted image 20251003175640.png]]
+### Metody určování operandů
+![[Pasted image 20251003175736.png]]
+#### Přímé adresování
+![[Pasted image 20251003175914.png]]
+Nepřímé adresování
+![[Pasted image 20251003175931.png]]
+
 **Synchronizace periferii s procesorem**
 metoda přerušením. přeruší se úkon a zapíše se do čítače instrukcí zapíše co už je hotovo, pak se zase k práci vrátí tam kde skončil.
 DMA - procesor se odpojí(režim Hond), a řadič přenese data do paměti(Normálně do ní zapisuje procesor)
