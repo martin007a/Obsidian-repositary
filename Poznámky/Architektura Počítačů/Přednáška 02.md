@@ -94,7 +94,9 @@ BCD zakóduje cifry do binárního Kód ne do dvojkové soustavy
 ![[Pasted image 20251003125843.png]]
 ### Aikenovy podmínky
 1. Každé místo v kódu má mít určitou váhu.
-2. Součet vah míst, v nichž je dvojková číslice kódu rovna 1, má dát 
+2. Součet vah míst, v nichž je dvojková číslice kódu rovna 1, má dát hodnotu přiřazené desítkové číslice nebo alespoň, vetší desítkové číslici má odpovídat větší dvojkové číslo příslušného váhového kódu.
+3. Vztah mezi lichými a sudými kódy a přiřazenými desítkovými číslicemi může být sice libovolný, ale u zvoleného kódu má být neměnný.
+4. Desítkovým doplňkům desítkových číslic mají odpovídat doplňkové kódy, vzniklé inverzí jednotlivých bitů původního kódu
 řešení pro Aikenovy podmínky +3
 ### Zabezpečení Kódu paritou
 ### Popis části počítače
