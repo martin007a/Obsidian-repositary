@@ -69,16 +69,20 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 ### **Dělení**
 ![[Pasted image 20251003115825.png]]
 ### **Dělení s návratem ke kladnému zbytku**
-1. Odečteme: Dělenec - dělitel výsledek je v A-B < 0 False(0) True(1)
-2. Když je výsledek záporný dojde k návratu
-	1. Přičteme: B+A
-3. 1a2 potom opakuj pro všechny zbývající bity
+#### Princip algoritmu
+
+**Metoda funguje takto:**
+1. Porovnává se dělenec **A** a dělitel **B**.
+    
+2. Postupně se odčítá **B** od **A** (resp. jeho posunuté verze), a podle toho, zda je rozdíl kladný či záporný, se do výsledku **Q** zapisuje **1** nebo **0**.
+    
+3. Dělitel **B** se vždy posune doprava (děleno dvěma) → tím se testují jednotlivé bity podílu.
+    
+4. Když odčítání vyjde záporně, **dělitel se zase přičte zpět** (aby se „nepřehoupl“ výsledek do mínusu).
 ![[Pasted image 20251003151807.png]]
+### Dělení bez návratu ke kladnému zbytku
 
-
-
-
-
+![[Pasted image 20251003160936.png]]
 
 #### Obecné uspořádání čísla v pohybové řádové čárce
 Číslo se rozdělí na 3 části 
