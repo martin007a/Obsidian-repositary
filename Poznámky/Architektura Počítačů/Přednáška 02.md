@@ -68,6 +68,7 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 ![[Pasted image 20251003120011.png]]
 ### **Dělení**
 ![[Pasted image 20251003115825.png]]
+### **Dělení s návratem ke kladnému zbytku**
 
 #### Obecné uspořádání čísla v pohybové řádové čárce
 Číslo se rozdělí na 3 části 
