@@ -69,7 +69,16 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 ### **Dělení**
 ![[Pasted image 20251003115825.png]]
 ### **Dělení s návratem ke kladnému zbytku**
-1. Odečteme: Dělenec - dělitel výsledek je v A-B < 0 False(0) Q
+1. Odečteme: Dělenec - dělitel výsledek je v A-B < 0 False(0) True(1)
+2. Když je výsledek záporný dojde k návratu
+	1. Přičteme: B+A
+3. 1a2 potom opakuj pro všechny zbývající bity
+![[Pasted image 20251003151807.png]]
+
+
+
+
+
 
 #### Obecné uspořádání čísla v pohybové řádové čárce
 Číslo se rozdělí na 3 části 
