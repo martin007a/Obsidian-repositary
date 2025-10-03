@@ -90,10 +90,10 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 - **exponent** - říká kde má být desetinná čárka
 ![[Pasted image 20250929093450.png]]
 mantisa - číslo 1000 - mantisa je 1, 2000 - 2
+![[Pasted image 20251003172041.png]]
+![[Pasted image 20251003172100.png]]
+![[Pasted image 20251003172141.png]]
 **Avšak při operacích s pohyblivou řádovou čárkou dochází k malým chybám pro většinu výpočtů to není problém, ale třeba u financí už nastává problém Proto se pro ně zavedla třetí varianta BCD kód**
-
-občas dojde k přetečení do znaménkového kódu proto se používá **Modifikovaný doplňkový kód**
-zaporne (1), 0 značí že došlo k přetečení.
 **V prezentaci jsou příklady**
    - [ ] Na dělení bez návratu ke kladnému zbytku atd. Mám se na něj kouknout
 ### Rotace bitů
@@ -113,12 +113,16 @@ BCD zakóduje cifry do binárního Kód ne do dvojkové soustavy
 4. Desítkovým doplňkům desítkových číslic mají odpovídat doplňkové kódy, vzniklé inverzí jednotlivých bitů původního kódu
 řešení pro Aikenovy podmínky +3
 ### Zabezpečení Kódu paritou
+![[Pasted image 20251003172326.png]]
 ### Popis části počítače
-Paměť je v podstatě repositář paměťových buněk
-buňka - do ní se vleze je byte(8)
-	-Každá buňka má jednozančnou přidělenou adresu
-	-lze do ní zapsat novou informaci, s podmínkou, se zruší stará informace
-	-při získání údajů ctením se obsah neporusí
+#### Paměťový podsystém - operační paměť
+![[Pasted image 20251003172416.png]]
+#### Paměť je v podstatě repositář paměťových buněk
+### Předpoklady paměťové buňky
+**Buňka** - Obsahuje jedno **slovo** - **slabiku** - **byte**(8)
+	- Každá buňka má jednoznačnou přidělenou adresu
+	- Lze do ní zapsat novou informaci, s podmínkou, se zruší stará informace
+	- Při získání údajů čtením se obsah neporuší
 **Údajový a Adresový registr Paměti**
 adresový registr velikost u 32bit = 2<sup>32</sup>
 adresový registr řekne kam
