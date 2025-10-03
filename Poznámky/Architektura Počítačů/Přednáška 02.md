@@ -42,6 +42,7 @@ Obdobně tomu je i u osmičkové 3čísla dvojkové soustavy odpovídají hodnot
 **pevná řádová čárka** - 1bit = znamínko, hodnoty = 2 na 7 - 127do127
 	0 = kladné
 	1 = záporné
+**Přímí kód se nedá použít pro jednoduché sčítání** 
 ![[Pasted image 20250929164642.png]]
 Kdy by jsme zobrazovali v Pevné řadové čárce tak jsme schopni zobrazit jen 4 miliardy
 ![[Pasted image 20250929171955.png]]
@@ -55,15 +56,15 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 ![[Pasted image 20250929173041.png]]
 ![[Pasted image 20250929174156.png]]
 0,8128 a 8125 se na 4 bytech jeví stejné. gg
-Obecné uspořádání čísla v pohybové řádové čárce
+#### Obecné uspořádání čísla v pohybové řádové čárce
+Číslo se rozdělí na 3 části 
+- **znaménko** pak **mantisa (platné číslice)**
+- **exponent** - říká kde má být desetinná čárka
 ![[Pasted image 20250929093450.png]]
 mantisa - číslo 1000 - mantisa je 1, 2000 - 2
+**Avšak při oprací**
 
 Přímí kód se nedá použít pro jednoduché sčítání 
-
-Inverzní kód (prezentace)
-
-Doplňkový kód
 
 občas dojde k přetečení do znaménkového kódu proto se používá **Modifikovaný doplňkový kód**
 zaporne (1), 0 značí že došlo k přetečení.
