@@ -62,9 +62,7 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 - **exponent** - říká kde má být desetinná čárka
 ![[Pasted image 20250929093450.png]]
 mantisa - číslo 1000 - mantisa je 1, 2000 - 2
-**Avšak při oprací**
-
-Přímí kód se nedá použít pro jednoduché sčítání 
+**Avšak při operacích s pohyblivou řádovou čárkou dochází k malým chybám pro většinu výpočtů to není problém, ale třeba u financí už nastává problém Proto se pro ně zavedla třetí varianta BCD kód**
 
 občas dojde k přetečení do znaménkového kódu proto se používá **Modifikovaný doplňkový kód**
 zaporne (1), 0 značí že došlo k přetečení.
