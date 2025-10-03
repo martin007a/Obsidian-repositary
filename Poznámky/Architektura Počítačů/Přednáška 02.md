@@ -60,7 +60,10 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 #### Doplňkové sčítání
 - odečítáme-li číslo, provedeme to jako přičtení doplňku odečítaného čísla
 - Pokud při doplňkovém sčítání dojde k přenosu do vyššího řádu, je výsledek v normální formě.
-
+	- Pokud k přenosu do vyššího řádu nedojde je výsledek  v dopňkové formě a je třeba provést následující kroky.
+	1. Vytvořit doplněk k výsledku v doplňkové formě
+	2. Změnit znaménko výsledku.
+	
 
 #### Obecné uspořádání čísla v pohybové řádové čárce
 Číslo se rozdělí na 3 části 
