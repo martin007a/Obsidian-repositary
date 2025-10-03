@@ -184,12 +184,23 @@ Asociativní vyhledávání
 - Implicitní operand, kdy operand je určen operačním kódem- např,. násobení konstantou 2, zaokrouhlování.
 ### **Modifikace základní adresy**
 ![[Pasted image 20251003195127.png]]
-### Modifikace základní adresy
+### Modifikace ralativní adresy
+**Relativní adresa**: v instrukci je uloženo **posunutí (offset)** oproti aktuální hodnotě čítače instrukcí.
+- Procesor vezme hodnotu PC (adresu následující instrukce).
+- Přičte k ní offset (kladný nebo záporný).
+- Výsledek je cílová adresa.
 ![[Pasted image 20251003195252.png]]
-
-**Synchronizace periferii s procesorem**
-metoda přerušením. přeruší se úkon a zapíše se do čítače instrukcí zapíše co už je hotovo, pak se zase k práci vrátí tam kde skončil.
-DMA - procesor se odpojí(režim Hond), a řadič přenese data do paměti(Normálně do ní zapisuje procesor)
+## Adresování obsahem (asociativní)
+- Ukládání a výběr informace podle obsahu
+- Označuje se jako paralelní vyhledávání, tj. porovnání všech paměťovych míst
+![[Pasted image 20251003195932.png]]
+#### Komunikace V/V zařízení
+![[Pasted image 20251003200141.png]]
+### Způsoby komunikace procesoru s okolím
+- **Programovou smyčkou** - procesor aktivně kontroluje stav zařízení.
+- **Přerušením** - přeruší se úkon a zapíše se do čítače instrukcí zapíše co už je hotovo, pak se zase k práci vrátí tam kde skončil.
+![[Pasted image 20251003200713.png]]
+- **DMA** - procesor se odpojí(režim Hond), a řadič přenese data do paměti(Normálně do ní zapisuje procesor)
 
 ### Finnova Kategorizace 
 4 typy
