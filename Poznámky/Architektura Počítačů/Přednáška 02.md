@@ -117,29 +117,44 @@ BCD zakóduje cifry do binárního Kód ne do dvojkové soustavy
 ### Popis části počítače
 #### Paměťový podsystém - operační paměť
 ![[Pasted image 20251003172416.png]]
-#### Paměť je v podstatě repositář paměťových buněk
-### Předpoklady paměťové buňky
-**Buňka** - Obsahuje jedno **slovo** - **slabiku** - **byte**(8)
-	- Každá buňka má jednoznačnou přidělenou adresu
-	- Lze do ní zapsat novou informaci, s podmínkou, se zruší stará informace
-	- Při získání údajů čtením se obsah neporuší
-**Údajový a Adresový registr Paměti**
+##### **Údajový a Adresový registr Paměti**
 adresový registr velikost u 32bit = 2<sup>32</sup>
 adresový registr řekne kam
 údajový registr - řekne co
 řadič zapíše z údajového tam, kam řekne adresový
 cash paměti - na pomezí disku a RAM
+**Paměť je v podstatě repositář paměťových buněk**
+### Předpoklady paměťové buňky
+**Buňka** - Obsahuje jedno **slovo** - **slabiku** - **byte**(8)
+	- Každá buňka má jednoznačnou přidělenou adresu
+	- Lze do ní zapsat novou informaci, s podmínkou, se zruší stará informace
+	- Při získání údajů čtením se obsah neporuší
+#### Hierarchie paměťového podsystému
+![[Pasted image 20251003173345.png]]
+#### Typická hierarchie pamětí v počítači
+![[Pasted image 20251003173502.png]]
+
 ### Procesor
 **Aritmeticko logická jednotka** - sčítačka
 Řadič - 
--  Výběrová fáze - načtu instrukce
+- Výběrová fáze - načtu instrukce
 - Prováděcí fáze - Provedu instrukce
+Registry -
 
-
-
+![[Pasted image 20251003173633.png]]
+## Realizace operací v operační jednotce
+- Sečítání - v přímém kódu
+- Odčítání - v doplňkovém nebo inverzím kódu
+- Násobení - postupným sečítáním
+- Dělení - postupným odčítáním
+- Složitější operace - metodami numerické matematiky
 Asociativní vyhledávání
 - nehledám na určitém místě  ale hledám pomocí jaké vlastnosti 
-
+### Řídící podsystém - řadič
+![[Pasted image 20251003174214.png]]
+**Instrukce bývá rozdělena na:**
+1. **OK (operační kód)** – určuje druh operace.
+2. **Adresová část (operand, adresa, data)** – určuje, s čím nebo kde se má operace provést.
 **Synchronizace periferii s procesorem**
 metoda přerušením. přeruší se úkon a zapíše se do čítače instrukcí zapíše co už je hotovo, pak se zase k práci vrátí tam kde skončil.
 DMA - procesor se odpojí(režim Hond), a řadič přenese data do paměti(Normálně do ní zapisuje procesor)

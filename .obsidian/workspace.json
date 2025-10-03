@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,17 +198,17 @@
   },
   "active": "2d388247132a2209",
   "lastOpenFiles": [
+    "imgs/Pasted image 20251003174214.png",
+    "imgs/Pasted image 20251003173633.png",
+    "imgs/Pasted image 20251003173619.png",
+    "imgs/Pasted image 20251003173502.png",
+    "imgs/Pasted image 20251003173345.png",
+    "imgs/Pasted image 20251003173342.png",
+    "imgs/Pasted image 20251003173331.png",
     "imgs/Pasted image 20251003172416.png",
     "imgs/Pasted image 20251003172326.png",
     "imgs/Pasted image 20251003172141.png",
     "imgs/Pasted image 20251003172100.png",
-    "imgs/Pasted image 20251003172041.png",
-    "imgs/Pasted image 20251003160936.png",
-    "imgs/Pasted image 20251003151807.png",
-    "imgs/Pasted image 20251003125935.png",
-    "imgs/Pasted image 20251003125843.png",
-    "imgs/Pasted image 20251003125612.png",
-    "imgs/Pasted image 20251003125540.png",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
     "Tasks/To Do.md",
     "Poznámky/Algoritmizace/Přednáška 02.md",
