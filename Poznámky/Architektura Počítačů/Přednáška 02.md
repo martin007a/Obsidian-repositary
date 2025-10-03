@@ -63,7 +63,11 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 	- Pokud k přenosu do vyššího řádu nedojde je výsledek  v dopňkové formě a je třeba provést následující kroky.
 	1. Vytvořit doplněk k výsledku v doplňkové formě
 	2. Změnit znaménko výsledku.
-	
+	- [ ] Pojebal el. Proud musím takže idk
+### **Násobení**
+![[Pasted image 20251003120011.png]]
+### **Dělení**
+![[Pasted image 20251003115825.png]]
 
 #### Obecné uspořádání čísla v pohybové řádové čárce
 Číslo se rozdělí na 3 části 
