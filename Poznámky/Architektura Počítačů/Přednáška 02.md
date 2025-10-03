@@ -55,7 +55,13 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 ![[Pasted image 20250929172553.png]]
 ![[Pasted image 20250929173041.png]]
 ![[Pasted image 20250929174156.png]]
-0,8128 a 8125 se na 4 bytech jeví stejné. gg
+0,8128 a 8125 se na 4 bytech jeví stejné ale při delším rozvoji dojde k rozdílu.
+![[Pasted image 20251003110931.png]]
+#### Doplňkové sčítání
+- odečítáme-li číslo, provedeme to jako přičtení doplňku odečítaného čísla
+- Pokud při doplňkovém sčítání dojde k přenosu do vyššího řádu, je výsledek v normální formě.
+
+
 #### Obecné uspořádání čísla v pohybové řádové čárce
 Číslo se rozdělí na 3 části 
 - **znaménko** pak **mantisa (platné číslice)**
