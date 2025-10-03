@@ -200,10 +200,19 @@ Asociativní vyhledávání
 - **Programovou smyčkou** - procesor aktivně kontroluje stav zařízení.
 - **Přerušením** - přeruší se úkon a zapíše se do čítače instrukcí zapíše co už je hotovo, pak se zase k práci vrátí tam kde skončil.
 ![[Pasted image 20251003200713.png]]
-- **DMA** - procesor se odpojí(režim Hond), a řadič přenese data do paměti(Normálně do ní zapisuje procesor)
-
+- **DMA** - **procesor se odpojí od přímého přenosu dat**(režim Hond), a **DMA** řadič přenese data do paměti(Normálně do ní zapisuje procesor). Po dokončení přenosu DMA řadič **informuje procesor přerušením**, že operace skončila, a procesor pokračuje ve své práci.
+![[Pasted image 20251003200813.png]]
+### Vývojový diagram DMA
+![[Pasted image 20251003200848.png]]
+#### Odlišná schémata počítačů
+**Harvardské schéma počítače** - oddělená paměť pro program a pro data (některé jedno čipové počítače).
+![[Pasted image 20251003201718.png]]
+**Víceprocesorové počítače** - počítače s několika CPU. Dělí se podle toho, zda mají sdílenou paměť:
+- multiprocessors - mají sdílenou paměť 
+- Multicomputers - nemají sdílenou paměť, procesory komunikují například pomocí mechanismu zasílání zpráv.
 ### Finnova Kategorizace 
 4 typy
-	-sisd (Neuman)
-	-misd (Seriové, každý procesor provádí jinou operaci)
-	-simd (Všchny provádí jednu instrukci na stejnými datami)
+- SISD (Neuman) - běžné jednoprocesorové počítače
+-  SIMD - Jedna instrukce se provádí na větším množstvím dat, tzv. vektorové Počítače, některé superpočítače jsou SIMD.
+- MISD (Sériově, každý procesor provádí jinou operaci na stejných datech)
+- MIMD - Každý procesor v systému **může provádět svou vlastní instrukci** na svých vlastních datech **současně**.
