@@ -216,3 +216,13 @@ Asociativní vyhledávání
 -  SIMD - Jedna instrukce se provádí na větším množstvím dat, tzv. vektorové Počítače, některé superpočítače jsou SIMD.
 - MISD (Sériově, každý procesor provádí jinou operaci na stejných datech)
 - MIMD - Každý procesor v systému **může provádět svou vlastní instrukci** na svých vlastních datech **současně**.
+#### Sériový procesor s jedním tokem instrukcí a jedním tokem dat SISD
+![[Pasted image 20251003202409.png]]
+#### Řetězený procesor s jedním tokem dat a vícenásobným tokem instrukcí MISD
+![[Pasted image 20251003202437.png]]
+#### Maticový procesor s jedním tokem instrukcí a vícenásobným tokem dat SIMD
+![[Pasted image 20251003202508.png]]
+#### Multiprocesor s mnohonásobným tokem instrukcí a dat MIMD
+![[Pasted image 20251003202607.png]]
+### **Paralelní a distribuované systémy**
+![[Pasted image 20251003202650.png]]

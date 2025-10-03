@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -177,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,19 +194,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d388247132a2209",
+  "active": "ad50edd6d8c4f8ad",
   "lastOpenFiles": [
+    "imgs/Pasted image 20251003202650.png",
+    "imgs/Pasted image 20251003202607.png",
+    "imgs/Pasted image 20251003202508.png",
+    "imgs/Pasted image 20251003202437.png",
+    "imgs/Pasted image 20251003202409.png",
     "imgs/Pasted image 20251003201718.png",
     "imgs/Pasted image 20251003200848.png",
     "imgs/Pasted image 20251003200813.png",
     "imgs/Pasted image 20251003200713.png",
     "imgs/Pasted image 20251003200141.png",
     "imgs/Pasted image 20251003195932.png",
-    "imgs/Pasted image 20251003195252.png",
-    "imgs/Pasted image 20251003195127.png",
-    "imgs/Pasted image 20251003175931.png",
-    "imgs/Pasted image 20251003175914.png",
-    "imgs/Pasted image 20251003175736.png",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
     "Tasks/To Do.md",
     "Poznámky/Algoritmizace/Přednáška 02.md",
