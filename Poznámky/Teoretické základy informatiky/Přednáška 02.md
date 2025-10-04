@@ -94,7 +94,7 @@ Ke každé výrokové formuli lze nalézt ekvivalentní formuli v úplné DNF a 
 
 ### Algoritmus převodu formule do DNF
 Pravdivostní tabulka
-![[IMG_20250930_141008.jpg]]
+![[IMG_20250930_141405.jpg]]
 #### Minimalizace výrokových formulí
 ## Karnaughova mapa
 - na pořadí nezáleží
