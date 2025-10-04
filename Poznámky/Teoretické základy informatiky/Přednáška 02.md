@@ -110,4 +110,26 @@ Pravdivostní tabulka
 - Efektivní pro formule s nejvýše 4 proměnnými
 ###### Karnaughova mapa – příklad konstrukce
 ![[Pasted image 20251004204207.png]]
-#### K-mapa - postup minimalizace
+### K-mapa – postup minimalizace
+Vytváříme smyčky (podmapy) podle těchto pravidel: 
+ 1. můžeme spojovat pouze navzájem sousední políčka 
+ 2. můžeme spojovat pouze políčka se stejnými hodnotami 
+ 3. počet políček ve vytvořené smyčce musí být roven 2<sup>𝑛</sup>  
+ 4. smyčky vytváříme co možná největší (prosté implikanty)
+ 5. snažíme se vytvořit co nejméně smyček (implikantů) 
+ 6. smyčky se mohou v mapě libovolně překrývat 
+Každou smyčku poté vyjádříme jako součinový term nezávisle proměnných, jejichž hodnoty se v rámci dané smyčky nemění  
+Logickým součtem jednotlivých součinových termů získáme minimální DNF (analogicky minimální KNF) 
+Může existovat více rovnocenných řešení
+
+# Kontrolní otázky
+#### Co je to úplný systém logických spojek?
+**Úplný systém logických spojek** je **taková množina logických spojek**, pomocí které lze **vyjádřit libovolnou výrokovou formuli**
+#### Které spojky tvoří úplný systém logických spojek?
+- negace, konjunkce a disjunkce
+- negace a konjunkce
+- negace a disjunkce
+- negace a implikace
+- NOR  
+- NAND 
+#### Jak je definována Shefferova a Peirceova spojka?
