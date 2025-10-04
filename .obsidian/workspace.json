@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Architektura Počítačů/Přednáška 02.md",
+                "file": "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -198,6 +197,10 @@
   },
   "active": "2d388247132a2209",
   "lastOpenFiles": [
+    "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
+    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
+    "Tasks/To Do.md",
+    "Poznámky/Architektura Počítačů/Přednáška 02.md",
     "imgs/Pasted image 20251003202650.png",
     "imgs/Pasted image 20251003202607.png",
     "imgs/Pasted image 20251003202508.png",
@@ -208,9 +211,7 @@
     "imgs/Pasted image 20251003200813.png",
     "imgs/Pasted image 20251003200713.png",
     "imgs/Pasted image 20251003200141.png",
-    "imgs/Pasted image 20251003195932.png",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
-    "Tasks/To Do.md",
     "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Cviko 01.md",
     "Poznámky/Úvod do ICT/Přednáška 01.md",
@@ -218,10 +219,7 @@
     "Poznámky/ZOO/Pravidla programátora.md",
     "Poznámky/ZOO/Přednáška 02.md",
     "Poznámky/Algoritmizace/Přednáška 01.md",
-    "Poznámky/Architektura Počítačů/Přednáška 02.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "Poznámky/ZOO",
     "Poznámky/Teoretické základy informatiky",
     "Poznámky/Architektura Počítačů/Untitled.md",
