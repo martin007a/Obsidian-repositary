@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3cf01c0d6dd062c6",
+        "id": "45b663ac6e526a38",
         "type": "tabs",
         "children": [
           {
-            "id": "2d388247132a2209",
+            "id": "29fabb2c5b898430",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,12 +195,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d388247132a2209",
+  "active": "29fabb2c5b898430",
   "lastOpenFiles": [
-    "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
-    "Tasks/To Do.md",
     "Poznámky/Architektura Počítačů/Přednáška 02.md",
+    "Poznámky/Algoritmizace/Přednáška 01.md",
+    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
+    "imgs/Drawing 2025-10-04 09.39.04.excalidraw.md",
+    "imgs/Pasted image 20250930194529.png",
+    "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
+    "Tasks/To Do.md",
     "imgs/Pasted image 20251003202650.png",
     "imgs/Pasted image 20251003202607.png",
     "imgs/Pasted image 20251003202508.png",
@@ -210,7 +213,6 @@
     "imgs/Pasted image 20251003200848.png",
     "imgs/Pasted image 20251003200813.png",
     "imgs/Pasted image 20251003200713.png",
-    "imgs/Pasted image 20251003200141.png",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
     "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Cviko 01.md",
@@ -218,7 +220,6 @@
     "Poznámky/Úvod do ICT/Přednáška 02.md",
     "Poznámky/ZOO/Pravidla programátora.md",
     "Poznámky/ZOO/Přednáška 02.md",
-    "Poznámky/Algoritmizace/Přednáška 01.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
     "Poznámky/ZOO",
     "Poznámky/Teoretické základy informatiky",
