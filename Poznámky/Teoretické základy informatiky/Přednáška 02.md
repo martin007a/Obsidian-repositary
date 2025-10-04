@@ -61,10 +61,27 @@ Je užitečné stanovit nějaký normální tvar formule výběrem jedné či dv
 ![[Pasted image 20250930140522.png]]
 **Literál** je výroková proměnná nebo její negace.
 ### Disjunktivní normální forma
- Výroková formule je v disjunktivní normální formě (DNF), je-li disjunkcí formulí (klauzulí), pro které platí: 
+ Výroková formule je v **disjunktivní normální formě (DNF),** je-li disjunkcí formulí (klauzulí), pro které platí: 
  - Každá je konjunkcí literálů.
  - V žádné se nevyskytuje žádná atomická formule současně se svou negací.
- **DNF** je úplná, oik 
+ **DNF je úplná**, pokud jsou ve všech konjunkcích stejné atomické formule. 
+### Konjunktivní normální forma
+Výroková formule je **v konjunktivní normální formě (KNF),** jeli konjunkcí formulí (klauzulí), pro které platí:
+- Každá je disjunkcí literálů,
+- V žádné se nevyskytuje žádná atomická formule současně se svou negací.
+**KNF je úplná**, pokud jsou ve všech disjunkcích stejné atomické formule.
+### Nalezení DNF a KNF
+Ke každé výrokové formuli lze nalézt ekvivalentní formuli v úplné DNF a KNF
+- literál je sám o sobě v DNF i KNF
+Úplná DNF/KNF je určena vždy jednoznačně až na pořadí literálů a klauzulí.
+##### Jaký je algoritmus převodu do DNF/KNF? 
+- pomocí pravdivostní tabulky 
+- pomocí pravidel pro úpravy logických formulí
+#### Algoritmus převodu formule do DNF
+1. Vytvoříme pravdivostní tabulku
+2. Vyznačíme řádky v nichž je formule pravdivá
+3. Každý řádek bude odpovídat jedné klauzuli
+4. Napášeme jednotlivé klauzule DNF
 ### Algoritmus převodu formule do DNF
 Pravdivostní tabulka
 ![[IMG_20250930_141008.jpg]]
