@@ -79,9 +79,19 @@ Ke každé výrokové formuli lze nalézt ekvivalentní formuli v úplné DNF a 
 - pomocí pravidel pro úpravy logických formulí
 #### Algoritmus převodu formule do DNF
 1. Vytvoříme pravdivostní tabulku
-2. Vyznačíme řádky v nichž je formule pravdivá
+2. Vyznačíme řádky v nichž je formule __pravdivá
 3. Každý řádek bude odpovídat jedné klauzuli
 4. Napášeme jednotlivé klauzule DNF
+5. Je-li v daném řádku proměnná **pravdivá**, bude v klauzuli **bez negace**, je-li **nepravdivá**, bude v klauzuli **negována**
+ ![[Pasted image 20251004192902.png]]
+#### Algoritmus převodu formule do KNF
+1. Vytvoříme pravdivostní tabulku
+2. Vyznačíme řádky v nichž je formule **nepravdivá**
+3. Každý řádek bude odpovídat jedné klauzuli
+4. Napášeme jednotlivé klauzule KNF
+5. Je-li v daném řádku proměnná **pravdivá**, bude v klauzuli ** negována**, je-li **nepravdivá**, bude v klauzuli **bez negace**
+![[Pasted image 20251004193526.png]]
+
 ### Algoritmus převodu formule do DNF
 Pravdivostní tabulka
 ![[IMG_20250930_141008.jpg]]
