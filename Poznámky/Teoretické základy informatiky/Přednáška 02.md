@@ -31,7 +31,22 @@ INFIX - Levý podstrom - Vrchol - Pravý pod strom
 PREFIX - VLP $$∧⇒a∨b¬c⇔¬ab$$
 POSTFIX - LPV $$abc¬∨⇒a¬b⇔∧$$
 #### Algoritmus slepé(Kusé) koleje 
-Vyhodnocení Výrazu postfixu
+**Algoritmus slepé koleje** 
+- čteme výraz v infixu zleva doprava
+-  proměnná pokračuje na výstup 
+- operátor padá do zásobníku (slepé koleje) 
+- Avšak negace jako jediná se vysype ze zásobníku při následujícím načtení nečeká v zásobníku jako ostatní spojky na pravou závorku.
+- levá závorka padá do zásobníku (slepé koleje) 
+- pravá závorka vyráží ze zásobníku vše až po levou závorku (závorky na výstup nepíšeme) 
+- na konci vyprázdníme zásobník
+![[Pasted image 20251004105724.png]]
+##### Vyhodnocení Výrazu postfixu
+Pomocí **zásobníkového automatu** 
+- čteme výraz zleva doprava   
+- přečteme-li operand, uložíme jej na zásobník 
+- přečteme-li operátor, vybereme ze zásobníku tolik operandů, kolik je arita operátoru, aplikujeme na ně operátor a výsledek uložíme zpět do zásobníku 
+- po dočtení výrazu je v zásobníku pouze výsledek výrazu 
+- Stejným způsobem lze převádět z postfixu do infixu
 #### Pomocí Zásobníkového Automatu
 Příklad = 1;
 ## Normální formy výrokových formulí
