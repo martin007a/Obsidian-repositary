@@ -95,7 +95,9 @@ Ke každé výrokové formuli lze nalézt ekvivalentní formuli v úplné DNF a 
 ### Algoritmus převodu formule do DNF
 Pravdivostní tabulka
 ![[IMG_20250930_141405.jpg]]
-#### Minimalizace výrokových formulí
+### Minimalizace výrokových formulí
+Jak najít minimální tvar logické funkce?
+*co nejméně použitých součástek při konstrukci obvodu – co nejefektivnější vyhodnocování podmínky v algoritmu
 ## Karnaughova mapa
 - na pořadí nezáleží
 K-mapa - postup minimalizace
