@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "45b663ac6e526a38",
+        "id": "163e2c48c698c2c8",
         "type": "tabs",
         "children": [
           {
-            "id": "29fabb2c5b898430",
+            "id": "635724888f7b54a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,12 +195,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29fabb2c5b898430",
+  "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "imgs/Pasted image 20251004204207.png",
+    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "imgs/~MG_20250930_141405.tmp",
     "imgs/IMG_20250930_141405.jpg",
     "Poznámky/Úvod do ICT/Přednáška 02.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "imgs/Pasted image 20251004193526.png",
     "imgs/Pasted image 20251004192902.png",
     "imgs/Pasted image 20251004185030.png",
@@ -236,7 +237,6 @@
     "Tasks/Drawing 2025-09-26 14.57.30.excalidraw.md",
     "Tasks",
     "Untitled.md",
-    "imgs/Untitled",
     "z_copilot/copilot-custom-prompts/Make longer.md",
     "z_copilot/copilot-custom-prompts/Translate to Chinese.md",
     "Excalidraw/Drawing 2025-09-24 20.20.00.excalidraw.md",

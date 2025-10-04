@@ -96,8 +96,18 @@ Ke každé výrokové formuli lze nalézt ekvivalentní formuli v úplné DNF a 
 Pravdivostní tabulka
 ![[IMG_20250930_141405.jpg]]
 ### Minimalizace výrokových formulí
-Jak najít minimální tvar logické funkce?
-*co nejméně použitých součástek při konstrukci obvodu – co nejefektivnější vyhodnocování podmínky v algoritmu
+##### Jak najít minimální tvar logické funkce?
+- co nejméně použitých součástek při konstrukci obvodu 
+- co nejefektivnější vyhodnocování podmínky v algoritmu
 ## Karnaughova mapa
-- na pořadí nezáleží
-K-mapa - postup minimalizace
+- Zobrazení n-rozměrné tabulky do dvoj rozměrné mapy
+- Mapa pro n nezávislých proměnných obsahuje 2<sup>n</sup> políček
+- Každé políčko zastupuje jeden řádek pravdivostní tabulky 
+###### Pří konstrukci se využívá **Grayův kód**
+- dvě sousední políčka v mapě se liší o právě jeden bit
+- podrobněji v rámci kódování dat (Předmět UICT)
+###### Rychleji než matematická úprava úplné DNF/KNF
+- Efektivní pro formule s nejvýše 4 proměnnými
+###### Karnaughova mapa – příklad konstrukce
+![[Pasted image 20251004204207.png]]
+#### K-mapa - postup minimalizace
