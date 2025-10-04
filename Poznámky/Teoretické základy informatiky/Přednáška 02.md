@@ -137,3 +137,10 @@ Může existovat více rovnocenných řešení
 **Peirceova spojka** (nazývaná také **NOR**, anglicky _Not OR_) je negace disjunkce.
 #### Co je to infixový, prefixový a postfixový zápis?
 ![[Pasted image 20251004210741.png]]
+#### Jak vyhodnotit výraz v postfixu?
+#### Jak převést výraz z infixu do prefixu a do postfixu?
+#### Jak převést výraz z infixu do prefixu a do postfixu?
+#### Co je to disjunktivní a konjunktivní normální forma?
+#### K čemu se používá DNF a KNF?
+
+#### Jaký je algoritmus převodu do DNF/KNF?
