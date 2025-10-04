@@ -40,16 +40,19 @@ POSTFIX - LPV $$abc¬∨⇒a¬b⇔∧$$
 - pravá závorka vyráží ze zásobníku vše až po levou závorku (závorky na výstup nepíšeme) 
 - na konci vyprázdníme zásobník
 ![[Pasted image 20251004105724.png]]
-##### Vyhodnocení Výrazu postfixu
-Pomocí **zásobníkového automatu** 
+## Vyhodnocení Výrazu postfixu
+#### Pomocí Zásobníkového Automatu 
 - čteme výraz zleva doprava   
 - přečteme-li operand, uložíme jej na zásobník 
 - přečteme-li operátor, vybereme ze zásobníku tolik operandů, kolik je arita operátoru, aplikujeme na ně operátor a výsledek uložíme zpět do zásobníku 
 - po dočtení výrazu je v zásobníku pouze výsledek výrazu 
 - Stejným způsobem lze převádět z postfixu do infixu
-#### Pomocí Zásobníkového Automatu
-Příklad = 1;
+![[Pasted image 20251004185030.png]]
+![[Pasted image 20251004185003.png]]
 ## Normální formy výrokových formulí
+- Každé výrokové formuli přísluší právě jedna pravdivostní funkce - viz pravdivostní tabulka
+- Každé pravdivostní funkci odpovídá nekonečně mnoho formulí, které jsou vzájemně ekvivalentní
+Je 
 ![[Pasted image 20250930140522.png]]
 ### Algoritmus převodu formule do DNF
 Pravdivostní tabulka
