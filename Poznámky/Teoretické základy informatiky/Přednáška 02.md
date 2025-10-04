@@ -133,3 +133,7 @@ Může existovat více rovnocenných řešení
 - NOR  
 - NAND 
 #### Jak je definována Shefferova a Peirceova spojka?
+**Shefferova spojka** (nazývaná také **NAND**, anglicky _Not AND_) je negace konjunkce.
+**Peirceova spojka** (nazývaná také **NOR**, anglicky _Not OR_) je negace disjunkce.
+#### Co je to infixový, prefixový a postfixový zápis?
+![[Pasted image 20251004210741.png]]
