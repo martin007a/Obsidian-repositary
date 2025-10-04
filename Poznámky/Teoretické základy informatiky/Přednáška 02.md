@@ -28,8 +28,8 @@ Překladač jazyk si převádí do Postfixový zápis (PC)
 #### Pomocí stromového rozkladu +1
 INFIX - Levý podstrom - Vrchol - Pravý pod strom
 ![[Pasted image 20250930194529.png]]
-PREFIX - VLP
-POSTFIX - LPV
+PREFIX - VLP $$∧⇒a∨b¬c⇔¬ab$$
+POSTFIX - LPV $$abc$$
 #### Algoritmus slepé(Kusé) koleje 
 Vyhodnocení Výrazu postfixu
 #### Pomocí Zásobníkového Automatu
