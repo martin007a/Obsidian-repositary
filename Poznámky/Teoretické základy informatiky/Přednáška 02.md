@@ -142,5 +142,9 @@ Může existovat více rovnocenných řešení
 #### Jak převést výraz z infixu do prefixu a do postfixu?
 #### Co je to disjunktivní a konjunktivní normální forma?
 #### K čemu se používá DNF a KNF?
-
+Každou složitou logickou formuli lze přepsat do **jednotného tvaru**, tedy do DNF nebo KNF.
+– automatizované vyhodnocování pravdivosti 
+– dokazování vlastností formulí 
+– základ pro další teoretické zkoumání
 #### Jaký je algoritmus převodu do DNF/KNF?
+#### Na jakém principu funguje Karnaughova mapa?
