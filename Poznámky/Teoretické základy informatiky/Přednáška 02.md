@@ -52,8 +52,19 @@ POSTFIX - LPV $$abc¬∨⇒a¬b⇔∧$$
 ## Normální formy výrokových formulí
 - Každé výrokové formuli přísluší právě jedna pravdivostní funkce - viz pravdivostní tabulka
 - Každé pravdivostní funkci odpovídá nekonečně mnoho formulí, které jsou vzájemně ekvivalentní
-Je 
+Je užitečné stanovit nějaký normální tvar formule výběrem jedné či dvou z nekonečně mnoha ekvivalentních formulí.
+- Třída ekvivalentních formulí je pak reprezentována touto vybranou formulí v normálním tvaru
+##### Využití normálních forem
+- Automatické vyhodnocování pravdivosti
+- Dokazování vlastností formulí
+- Základ pro další teoretické zkoumání
 ![[Pasted image 20250930140522.png]]
+**Literál** je výroková proměnná nebo její negace.
+### Disjunktivní normální forma
+ Výroková formule je v disjunktivní normální formě (DNF), je-li disjunkcí formulí (klauzulí), pro které platí: 
+ - Každá je konjunkcí literálů.
+ - V žádné se nevyskytuje žádná atomická formule současně se svou negací.
+ **DNF** je úplná, oik 
 ### Algoritmus převodu formule do DNF
 Pravdivostní tabulka
 ![[IMG_20250930_141008.jpg]]
