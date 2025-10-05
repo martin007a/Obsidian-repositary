@@ -66,14 +66,31 @@ Význam proměnných
 - 𝑖 je **řád** (pozice) číslice, který určuje její váhu v čísle
 - 𝑛 je nejvyšší řád s nenulovou číslicí (𝑛∈ℕ<sub>0</sub>)
 - 𝑚 jenejnižší řád s nenulovou číslicí (𝑚∈ℕ<sub>0</sub>) 
+### Vyjádření čísel v 𝑧-adické soustavě
+![[Pasted image 20251005123125.png]]
+#### Číselné soustavy a záporná čísla
+Definice standardních polyadických soustav uvažují pouze nezáporná čísla
+- k čemu vlastně potřebujeme záporná čísla? 
+- v Evropě záporná čísla až od 15. století
+Pro vyjádření **záporného čísla** nutno použít nějaký předem dohodnutý způsob zápisu 
+- běžně používáme symbol (unární operátor) **minus**
+Počítač při práci se zápornými čísly používá některý z tzv. **číselných kódů** 
+- transformace z omezené množiny celých čísel do omezené množiny nezáporných čísel
 ##### Čtyři nejvýznamnějším soustavy 
 - **Desítková soustava 0-9**
 - **Dvojková soustava 0,1** 
 - **Osmičková soustava 0-7** 
 - **Šestnáctková - používa 16 symbolů 10 čísel 6 písmen** 
+#### Podoba čísel ve významných soustavách
+![[Pasted image 20251005124153.png]]
+**Morseova abeceda je 3 soustava** 
+## Proč binární soustava?
+Počítač je zařízení, které zpracovává jen číselné údaje 
+- Tyto číselné údaje jsou v počítači uloženy ve dvojkové soustavě, tj. vše pouze v podobě 0 a 1
+- Logické obvody počítačů pracují pouze se dvěma různými stavy – zapnuto (1), vypnuto (0), technicky není problém rozlišit (proud protéká × neprotéká) 
+- Nejmenší jednotkou paměti počítače je buňka, která dokáže uchovat právě takovou informaci (**1 bit**)
+### **Převody mezi soustavami** 
 
-Morseova abeceda je 3 soustava 
-**Převody mezi soustavami** 
 Převody jsou 3jího typu 
 Číslo je nutno před převodem 
 **Hornerovo schéma** - možnost jak si to ulehčit 
