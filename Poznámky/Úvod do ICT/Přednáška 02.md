@@ -84,7 +84,6 @@ Každý může být víckrát
 ![[Pasted image 20251001155330.png]]
 #### __Výpočet vlastní Informace
 ![[Pasted image 20251001155350.png]]
-ě=
 - log menší než 1 vrací záporná čísla proto tam je -log
 **Aplikace Vlastní informace**
 ![[Pasted image 20251001155932.png]]
