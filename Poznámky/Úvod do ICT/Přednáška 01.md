@@ -123,10 +123,13 @@ Pokud má číslo v cílové soustavě nekonečný nebo periodický rozvoj, mus�
 ## Převod z libovolné soustavy do desítkové
 #### Vyjádřením hodnoty čísla zapsaného polynomem
 ![[Pasted image 20251005130918.png]]
-Převody jsou 3jího typu 
-Číslo je nutno před převodem 
-**Hornerovo schéma** - možnost jak si to ulehčit 
-
+#### **Hornerovo schéma** - možnost jak si to ulehčit 
+- základ soustavy vždy v první mocnině 
+- zvlášť pro celou část 𝐶 a zlomkovou část Z
+![[Pasted image 20251005131859.png]]
+### Převody mezi příbuznými soustavami
+- Základem obou soustav je mocnina stejného čísla 
+- Jedna číslice v soustavě o základu 𝑧 𝑛 představuje
 Převod mezi soustavami o základu $2^n$
 
 
