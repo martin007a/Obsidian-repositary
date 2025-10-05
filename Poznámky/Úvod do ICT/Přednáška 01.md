@@ -152,4 +152,24 @@ Princip opět platný pro všechny polyadické soustavy
 - hodnotu 𝑏 ∈ ℕ zapíšeme jako rozdíl daného řádu 
 - hodnotu 𝑎 ∈ ℤ+ 0 (výpůjčku) vrátíme do vyššího řádu
 ![[Pasted image 20251005134525.png]]
-
+### **Násobení a dělení**
+Násobení na stejném principu pro všechny soustavy 
+- dílčí součty jsou ve stejné soustavě jako činitelé!
+Dělení lze provést také, ale prakticky se nepoužívá
+###### Jak realizuje výpočty počítač?
+- sčítání – dle uvedeného principu 
+- odčítání – přičítáním opačného čísla 
+- násobení – opakovaným sčítáním 
+- dělení – opakovaným „odčítáním“
+### Kontrolní otázky
+### Jaký je rozdíl mezi poziční a nepoziční soustavou?
+**Poziční soustava:**  
+Hodnota číslice závisí na její **pozici** (mocnině základu).  
+Př.: 25410=2⋅102+5⋅101+4⋅100254_{10} = 2·10^2 + 5·10^1 + 4·10^025410​=2⋅102+5⋅101+4⋅100.
+**Nepoziční soustava:**  
+Hodnota číslice **nezávisí na poloze**, každá značka má pevnou hodnotu.  
+Př.: římské číslice (X = 10, V = 5).
+#### Jak je u pozičních soustav určena hodnota číslice?
+Hodnota číslice je dána součinem:
+každá číslice má hodnotu podle své **pozice (exponentu základu)** v zápisu čísla
+Jakými způsoby lze vyjádřit číslo v poziční soustavě?
