@@ -73,3 +73,10 @@ int main(){
 }`
 Konec stanartního tipu C^D
 cp ../../data/nahcisla_zap.txt
+
+// Nastavení tabu
+nano ~/.nanorc
+set tabsize 3
+set tabstospaces
+^C
+^X
