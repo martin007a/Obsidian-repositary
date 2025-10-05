@@ -1,8 +1,7 @@
 ## **Číselné soustavy** 
 - Číslo je zapsáno pomocí elementárních symbolů zvaných číslice a jejich kombinací
-- Nekonečně mnoho soustav, ale vždy stejný princip
-Dnes téměř nepoužíváno, spíš historické 
-Neobsahají symbol pro nulu a záporná čísla 
+- Počet elementárních symbolů určuje základ soustavy, který není v soustavě nikdy obsažen
+- Nekonečně mnoho soustav, ale vždy stejný principS
 ### Dělení podle způsobu určení hodnoty čísla
 * nepoziční soustavy
 - poziční soustavy
@@ -19,29 +18,45 @@ Neobsahají symbol pro nulu a záporná čísla 
     Rosettská deska (Rozšífrovaání hieroglyfů) 
 - **Koptské číslice** 
 ##### **Řecké číslice**
+![[Pasted image 20251005122047.png]]
 ##### **Římské číslice** 
 ZÁKLAD tvoří 7 písmen latinské abecedy 
 - Vetší čísla předchází vetší - bylo porušeno třeba pro 4 a 9 
 - Hodnota je součtem 
 - 1999 MCMXCIX 
-##### **Poziční soustavy** 
-Nula ve významu nice byla vymyšlena mnohem později než poziční nula 
+### **Poziční soustavy** 
+**Hodnota každého symbolu** (číslice) je dána jeho umístěním v sekvenci symbolů (čísle)
+- – tím je dána váha pro výpočet celkové hodnoty čísla
+**Nezbytný předpoklad:** objevení symbolu pro nulu 1 poziční nula – vyplňuje prázdné místo v čísle 2 nula ve významu „žádné množství“ – později
 - **Babylónské číslice** 
 	Poziční soustava se základem 60 (hodinky, úhly) 
 - **Mayské** 
 	Ve třetím řádu používaly 360 místo 400 
 - **Čínské číslice**  
 	Poziční 
-- ** Indické číslice** 
+- **Indické číslice** 
 	Největší vliv na vývoj dnešních číslic 
 	Vznik speciálních symbolů pro čísla 1-9 
 - **Arabské číslice** 
 	Východoarabské číslice 
 	Západoarabské číslice - dnes používáme 
+### Jedničková soustava
+Číslo je vyjádřeno opakováním jediného symbolu 
+Speciální případ poziční soustavy  
+- „pozice“ symbolu může ulehčit počítání 
+- nelze řadit mezi nepoziční soustavy
+## Současné poziční soustavy
 #### **Polyadické soustavy** 
-
-Základem přirozené číslo >= 2
-###### MožnostI jak vyjádři číslo
+- poziční systém s jedním nebo více základy
+- Základem přirozené číslo >= 2
+- nejčastější 𝑧-**adické soustavy** o jednom základu **𝑧** 
+- počet dostupných symbolů pro číslice **je roven 𝑧**
+#### Základy používané v historii 
+- tucty (12), veletucty (144), kopy (60) 
+- hodiny (24), minuty (60), vteřiny (60)
+- úhlové stupně (360) 
+- staroanglická libra, šilink (20), pence (12), farthing (4)
+###### Možnosti jak vyjádři číslo
 - **Zápis poziční**
 	𝐴<sub>𝑧</sub>=(𝑎<sub>𝑛</sub>𝑎<sub>𝑛−1</sub>…𝑎<sub>1</sub>𝑎<sub>0</sub>,𝑎<sub>−1</sub>𝑎<sub>−2</sub>…𝑎<sub>−𝑚</sub>)<sub>z</sub> 
  - **Polynomem** 

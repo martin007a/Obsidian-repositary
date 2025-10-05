@@ -1,4 +1,4 @@
- - [ ] Poznámka 11 hej hej
+ - [x] Poznámka 11 hej hej ✅ 2025-10-05
  - [ ] Zjisti proč `Person person; a Person person = new person` Jaký tam je rozdíl
  - [ ] Zjisti Destruktor
  - [x] git propojení funguje ✅ 2025-09-28

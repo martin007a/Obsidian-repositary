@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
+                "file": "Poznámky/Úvod do ICT/Přednáška 01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 02"
+              "title": "Přednáška 01"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -176,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,6 +198,12 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "imgs/Pasted image 20251005122047.png",
+    "Poznámky/Úvod do ICT/Přednáška 02.md",
+    "Poznámky/Úvod do ICT/Přednáška 01.md",
+    "Poznámky/Úvod do ICT/Cviko 01.md",
+    "Tasks/To Do.md",
+    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "imgs/Pasted image 20251004222530.png",
     "imgs/Pasted image 20251004222504.png",
     "imgs/Pasted image 20251004221918.png",
@@ -203,22 +211,16 @@
     "imgs/Pasted image 20251004221313.png",
     "imgs/Pasted image 20251004210741.png",
     "imgs/Pasted image 20251004204207.png",
-    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "imgs/~MG_20250930_141405.tmp",
     "imgs/IMG_20250930_141405.jpg",
-    "Poznámky/Úvod do ICT/Přednáška 02.md",
     "imgs/Pasted image 20251004193526.png",
     "imgs/Pasted image 20251004192902.png",
-    "imgs/Pasted image 20251004185030.png",
-    "Poznámky/Úvod do ICT/Přednáška 01.md",
     "Poznámky/Architektura Počítačů/Přednáška 02.md",
     "Poznámky/Algoritmizace/Přednáška 01.md",
     "imgs/Drawing 2025-10-04 09.39.04.excalidraw.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
-    "Tasks/To Do.md",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
     "Poznámky/Algoritmizace/Přednáška 02.md",
-    "Poznámky/Úvod do ICT/Cviko 01.md",
     "Poznámky/ZOO/Pravidla programátora.md",
     "Poznámky/ZOO/Přednáška 02.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
