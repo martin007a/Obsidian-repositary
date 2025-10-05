@@ -56,7 +56,7 @@ Speciální případ poziční soustavy
 - hodiny (24), minuty (60), vteřiny (60)
 - úhlové stupně (360) 
 - staroanglická libra, šilink (20), pence (12), farthing (4)
-###### Možnosti jak vyjádři číslo
+#### Možnosti jak vyjádři číslo
 - **Zápis poziční**
 	𝐴<sub>𝑧</sub>=(𝑎<sub>𝑛</sub>𝑎<sub>𝑛−1</sub>…𝑎<sub>1</sub>𝑎<sub>0</sub>,𝑎<sub>−1</sub>𝑎<sub>−2</sub>…𝑎<sub>−𝑚</sub>)<sub>z</sub> 
  - **Polynomem** 
@@ -65,7 +65,7 @@ Význam proměnných
 - 𝑎<sub>𝑖</sub> je 𝑧-adická číslice na pozici 𝑖 (0≤𝑎<sub>𝑖</sub> <𝑧)
 - 𝑖 je **řád** (pozice) číslice, který určuje její váhu v čísle
 - 𝑛 je nejvyšší řád s nenulovou číslicí (𝑛∈ℕ<sub>0</sub>)
-- 𝑚 jenejnižší řád s nenulovou číslicí (𝑚∈ℕ<sub>0</sub>) 
+- 𝑚 je nejnižší řád s nenulovou číslicí (𝑚∈ℕ<sub>0</sub>) 
 ### Vyjádření čísel v 𝑧-adické soustavě
 ![[Pasted image 20251005123125.png]]
 #### Číselné soustavy a záporná čísla
