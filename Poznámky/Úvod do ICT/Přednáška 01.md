@@ -172,4 +172,27 @@ Př.: římské číslice (X = 10, V = 5).
 #### Jak je u pozičních soustav určena hodnota číslice?
 Hodnota číslice je dána součinem:
 každá číslice má hodnotu podle své **pozice (exponentu základu)** v zápisu čísla
-Jakými způsoby lze vyjádřit číslo v poziční soustavě?
+#### Jakými způsoby lze vyjádřit číslo v poziční soustavě?
+- pozičním zápisem
+  5689
+ - polynomem (hodnotou v desítkové soustavě)
+   ![[Pasted image 20251005140319.png]]
+#### Jaký je vztah mezi základem soustavy a počtem dostupných symbolů pro vyjádření čísla?
+ Počet dostupných symbolů (číslic) je **rovný základu soustavy**.  
+Např.:
+- základ 10 → číslice 0–9,
+- základ 2 → číslice 0, 1,
+- základ 16 → číslice 0–9, A–F.
+#### Jaké vlastnosti má binární číselná soustava?
+- Používá **dvě číslice**: 0 a 1.
+- Každá pozice představuje mocninu 2.
+- Jednoduchá pro **elektronické obvody** (dva stavy – zapnuto/vypnuto).
+- Je základem **digitální techniky a počítačů**.
+#### Které další soustavy jsou důležité pro informatiku?
+- **Oktalová (z=8)** – zjednodušený zápis binárních čísel.
+- **Hexadecimální (z=16)** – kompaktní zápis binárních hodnot (např. v programech, paměťových adresách).
+#### Jakým způsobem lze převést číslo mezi soustavami?
+- Vyjádřením hodnoty čísla zapsaného polynomem
+- Hornerovo schéma
+- Převod mezi soustavami o základu 2<sup>n</sup>
+#### Jaká jsou pravidla pro sčítání a odčítání?
