@@ -131,5 +131,25 @@ Pokud má číslo v cílové soustavě nekonečný nebo periodický rozvoj, mus�
 - Základem obou soustav je mocnina stejného čísla 
 - Jedna číslice v soustavě o základu 𝑧 𝑛 představuje
 Převod mezi soustavami o základu $2^n$
-
+![[Pasted image 20251005133238.png]]
+### Sčítání
+Pokud je při sčítání součet v některém řádu větší nebo roven základu, provedeme přenos do vyššího řádu 
+- pravidlo platí pro všechny polyadické soustavy 
+- kdo umí sčítat (pod sebe) v desítkové soustavě, umí sčítat v libovolné soustavě
+###### **Obecný princip sčítání v soustavě o základu 𝑧** 
+- postupujeme od nejnižšího řádu k nejvyššímu 
+- v každém řádu určíme hodnotu součtu 
+- tuto hodnotu vyjádříme jako 𝑎 ⋅ 𝑧 + 𝑏 
+- hodnotu 𝑏 ∈ ℕ zapíšeme jako součet daného řádu 
+- hodnotu 𝑎 ∈ ℤ+ 0 přeneseme do vyššího řádu 
+Součtem dvou čísel o 𝑛 číslicích dostaneme číslo o nejvýše 𝑛 + 1 číslicích
+### Odčítání
+Princip opět platný pro všechny polyadické soustavy 
+###### Obecný princip odčítání v soustavě o základu 𝑧 
+- postupujeme od nejnižšího řádu k nejvyššímu 
+- v každém řádu určíme hodnotu rozdílu 
+- tuto hodnotu vyjádříme jako −𝑎 ⋅ 𝑧 + 𝑏 
+- hodnotu 𝑏 ∈ ℕ zapíšeme jako rozdíl daného řádu 
+- hodnotu 𝑎 ∈ ℤ+ 0 (výpůjčku) vrátíme do vyššího řádu
+![[Pasted image 20251005134525.png]]
 
