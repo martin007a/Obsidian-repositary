@@ -45,28 +45,40 @@ Data v PC představují 1 a 0, Pro člověka musejí být vhodně zobrazeny.
 - zkoumá teorie informace
 ## Pojem informace
 - Poslední v prezentaci je asi nejlepší "ph.D Haluza"
+	- „Informace jsou údaje, čísla, znaky, povely, instrukce, příkazy, zprávy apod. Za informace považujeme také podněty a vjemy přijímané a vysílané živými organismy.“
 ### Základní pojmy
-**Systém** - Komplex prvků a vazeb ve vzájemné interakci
-
-**Informační systém**
+###### **Systém** - Komplex prvků a vazeb ve vzájemné interakci
+###### **Informační systém**
+- dynamický systém
+- vazby tvoří informace
+- prvky jsou místa transformace informací
+**Využití informačního systému**:
+- poskytování potřebných informace v požadovaném rozsahu, lhůtách, podrobnostech i formě
+- dílčí úlohy: sběr informací, přenos, redukce, archivace, zpracování, distribuce
 ### Složky informačních systémů
 ![[Pasted image 20251001153840.png]]
 #### Měření množství informace ve zprávě 
-Americký fyzik Claude Elwood Shannon 
-Shannonova definice: "Informace je míra množství neurčitosti ne nejistoty o nějakém náhodném ději odstraněná realizací tohoto děje"
+Americký fyzik **Claude Elwood Shannon** 
+ - položení základů teorie informace
+ - stanovení možností měření informačního množství
+**Shannonova definice:** "Informace je míra množství neurčitosti ne nejistoty o nějakém náhodném ději odstraněná realizací tohoto děje"
+- Množství informace ve zprávě lze měřit podle toho, o kolik se sníží neurčitost nebo nejistota, když zprávu přijmeme a pochopíme
 **Informační entropie**
+- míra neurčitosti, která se odstraňuje přijetím zprávy
+- vyjadřuje množství informace obsažené ve zprávě
 ![[Pasted image 20251001154345.png]]
-Exkurze do kombinatoriky: variace
+#### Exkurze do kombinatoriky
 #### **Variace**
+**Variace 𝑘-té třídy z 𝑛 prvků** je každá uspořádaná 𝑘-tice vytvořená z celkového počtu 𝑛 prvků, přičemž při výběru záleží na pořadí jednotlivých prvků.
 - Záleží na pořadí jednotlivých pravků
 Bez Opakování
 ![[Pasted image 20251001154751.png]]
 Každý člověk lze vybrat jen jednou
 ![[Pasted image 20251001154837.png]]
-Každý může být výckrát
+Každý může být víckrát
 #### **Permutace**
 ![[Pasted image 20251001154926.png]]
-#### Kombinace
+#### **Kombinace**
 ![[Pasted image 20251001154953.png]]
 ### Požadované vlastnosti funkce pro výpočet množství informace
 ![[Pasted image 20251001155330.png]]
