@@ -112,7 +112,17 @@ Z praktického hlediska jsou užitečné převody
 - výpočet končí, když je desetinná část 0 
 - ekvivalent zlomkové části v cílové soustavě pak představují **celočíselné výsledky dělení**
 ![[Pasted image 20251005125125.png]]
-
+#### Problémy při převodu zlomkové části
+- ve zdrojové soustavě je každé číslo **přesné** 
+- v cílové soustavě může být **neúplné**
+Neúplnost čísla se projeví při aritmetických operacích 
+- výsledek jakékoli operace je zatížen chybou
+Pokud má číslo v cílové soustavě nekonečný nebo periodický rozvoj, musíme zvolit **požadovanou přesnost** 
+- tedy počet platných číslic zlomkové části 
+- o „desetinných místech“ můžeme hovořit pouze v souvislosti s desítkovou soustavou!
+## Převod z libovolné soustavy do desítkové
+#### Vyjádřením hodnoty čísla zapsaného polynomem
+![[Pasted image 20251005130918.png]]
 Převody jsou 3jího typu 
 Číslo je nutno před převodem 
 **Hornerovo schéma** - možnost jak si to ulehčit 
