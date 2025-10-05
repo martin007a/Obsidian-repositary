@@ -196,3 +196,14 @@ Např.:
 - Hornerovo schéma
 - Převod mezi soustavami o základu 2<sup>n</sup>
 #### Jaká jsou pravidla pro sčítání a odčítání?
+**Sčítání:**
+- Sčítáš číslice po sloupcích.
+- Pokud je součet ≥ základ, přenášíš 1 do vyššího řádu.
+**Odčítání:*
+- Odčítáš číslice po sloupcích.
+- Pokud je menšitel větší než menšenec, **půjčíš 1** z vyššího řádu (tj. přičteš základ k číslici).
+#### Jakým způsobem realizuje aritmetické operace počítač?
+Sčítáním 1 a 0
+odčítání - přičtením záporného čísla
+násobení - opakovaně sčítá
+dělení - opakovaně odčítá
