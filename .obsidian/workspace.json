@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Úvod do ICT/Přednáška 02.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 02.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -198,6 +197,7 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "Poznámky/Úvod do ICT/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Přednáška 01.md",
     "imgs/Pasted image 20251005140319.png",
     "imgs/Pasted image 20251005134525.png",
@@ -209,7 +209,6 @@
     "imgs/Pasted image 20251005124153.png",
     "imgs/Pasted image 20251005123125.png",
     "imgs/Pasted image 20251005122047.png",
-    "Poznámky/Úvod do ICT/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Cviko 01.md",
     "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
