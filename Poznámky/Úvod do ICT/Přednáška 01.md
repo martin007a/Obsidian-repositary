@@ -1,7 +1,7 @@
 ## **Číselné soustavy** 
 - Číslo je zapsáno pomocí elementárních symbolů zvaných číslice a jejich kombinací
 - Počet elementárních symbolů určuje základ soustavy, který není v soustavě nikdy obsažen
-- Nekonečně mnoho soustav, ale vždy stejný principS
+- Nekonečně mnoho soustav, ale vždy stejný princip
 ### Dělení podle způsobu určení hodnoty čísla
 * nepoziční soustavy
 - poziční soustavy
