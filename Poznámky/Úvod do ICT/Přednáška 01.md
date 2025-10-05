@@ -90,6 +90,28 @@ Počítač je zařízení, které zpracovává jen číselné údaje
 - Logické obvody počítačů pracují pouze se dvěma různými stavy – zapnuto (1), vypnuto (0), technicky není problém rozlišit (proud protéká × neprotéká) 
 - Nejmenší jednotkou paměti počítače je buňka, která dokáže uchovat právě takovou informaci (**1 bit**)
 ### **Převody mezi soustavami** 
+Hledáme ekvivalentní zápis daného čísla v číselné soustavě o jiném základu
+Z praktického hlediska jsou užitečné převody 
+- ze soustavy o základu 10 do libovolné soustavy  
+- z libovolné soustavy do soustavy o základu 10 
+- mezi soustavami o mocninách stejného základu
+![[Pasted image 20251005124656.png]]
+Číslo je nutno před převodem **rozložit na**
+- celou část – koeficienty 𝑎<sub>i</sub>, kde 0 ≤ 𝑖 ≤ 𝑛 
+- zlomkovou část – koeficienty 𝑎𝑖, kde −𝑚 ≤ i <0
+- každá část se převádí odlišným způsobem
+### Převod z desítkové soustavy do libovolné
+##### Převod celé části 
+- postupně dělíme základem cílové soustavy  
+- zapisujeme zbytky po dělení (operace modulo) 
+- výpočet končí, když je celá část 0 
+- ekvivalent celé části v cílové soustavě pak představují **zbytky po dělení zapsané v opačném pořadí**
+##### Převod zlomkové části 
+- postupně násobíme základem cílové soustavy  
+- zapisujeme celočíselné výsledky 
+- výpočet končí, když je desetinná část 0 
+- ekvivalent zlomkové části v cílové soustavě pak představují **celočíselné výsledky dělení**
+![[Pasted image 20251005125125.png]]
 
 Převody jsou 3jího typu 
 Číslo je nutno před převodem 
