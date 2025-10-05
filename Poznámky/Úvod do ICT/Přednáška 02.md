@@ -1,4 +1,5 @@
 #### Teorie Informace
+- Nejvíce matematizovaná disciplína současné informatiky
 - Formáty Souborů - Ztrátová a bezztrátová komprese
 - Datové přenosy - kódování, kapacita kanálů
 - Počítačové sítě - Pokročilé modulace signálů
@@ -7,26 +8,41 @@
 - Fyzika - východisko k hledání teorie všeho
 - Jazykověda - strojové překlady, matematická lingvistika
 #### Údaje 
+hodnoty získané měřením, pozorováním nebo pouhým zaznamenáním reálné skutečnosti
+###### Příklad
+Na váhu v sýpce nasypeme dodávku obilovin a zjistíme, že ručička se zastavila na hodnotě 471.
 #### Data
 - kvalitativně nebo kvantitativně formalizované údaje
+- vyjádření skutečnosti schopné přenosu, uchování, interpretace či zpracování
 - sama o sobě data nehmotná, i když pro jejich uložení potřebujeme hmotné médium
+###### Příklad
+Údaj „471“ si zaznamenáme jako „0,471 t“, tím jsme získali data o krmivech, která můžeme dále zpracovávat.
 #### Interpretace dat
-Datový typ
+Data v PC představují 1 a 0, Pro člověka musejí být vhodně zobrazeny.
+- zobrazení stejné posloupnosti jedniček a nul může být provedeno nekonečně mnoha způsoby
+- přisouzením významu zobrazeným údajům data interpretujeme
+##### Datový typ
 - Je množinou povolených hodnot a množinou povolených operací
-- Implementace - přisouzením posloupnosti binárních hodnot v paměti počítače
+- **Implementace** - přisouzením posloupnosti binárních hodnot v paměti počítače
 **Modelujeme objektivní realitu**
 - hodnoty jsou zobrazeny pro vstup i výstup
 - Příklad: datové tipy v Excelu
-**Informace**
+##### **Informace**
 - smysluplné interpretace dat a vztahů mezi nimi
 - snižují neznalost a vyvolávají změnu stavu čí chování příjemce
-- množství informace je vždy relativní vzhledem k příjemci a situaci
-**Znalosti**
+- množství informace je vždy relativní vzhledem k k určitému příjemci a určité situaci
+##### **Znalosti**
+- ucelený komplex informací o nějaké objektivní realitě
+- výsledek poznávacího procesu, předpoklad uvědomělé činnosti, umožňují porozumět skutečnosti
 ### Chápání
 **Kvalitativní hledisko**
-
-**Kavntitativní hledisko**
-
+- získávání, uchovávání, zpracování a přenos informací
+- zkoumá informatika
+**Kavantitativní hledisko**
+- množství informace ve zprávě a jeho měření
+- kódování a dekódování zpráv
+- přenos zpráv
+- zkoumá teorie informace
 ## Pojem informace
 - Poslední v prezentaci je asi nejlepší "ph.D Haluza"
 ### Základní pojmy
