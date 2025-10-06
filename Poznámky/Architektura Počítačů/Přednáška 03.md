@@ -67,8 +67,24 @@ Dvojitá negace:
 ![[Pasted image 20251006093732.png]]![[Pasted image 20251006093748.png]]
 ![[Pasted image 20251006093806.png]]
 ### K čemu je logický obvod?
-!!!
+![[Pasted image 20251006094221.png]]
 ### Logické úrovně
 ![[Pasted image 20251006093909.png]]
 ### Napěťové úrovně
-- Doposud jsme rozlišovali "nižší" a "vi"
+- Doposud jsme rozlišovali "nižší" a "višší" napěťové úrovně.
+- záleží na použité technologii
+![[Pasted image 20251006094146.png]]
+# Třístavový Výstup (tri-state output)
+![[Pasted image 20251006094409.png]]
+## Stavy Logického obvodu
+
+![[Pasted image 20251006094532.png]]
+## Kombinační obvody
+![[Pasted image 20251006094631.png]]
+### Hradla
+![[Pasted image 20251006094708.png]]
+### Technické provedení
+![[Pasted image 20251006094949.png]]
+### Standardy schematického značení
+![[Pasted image 20251006095423.png]]
+![[Pasted image 20251006095444.png]]
