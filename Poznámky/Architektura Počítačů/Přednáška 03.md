@@ -102,5 +102,14 @@ Dvojitá negace:
 Protože se dá použít jen na sečtení 1bitu , to je málo potřebovaly bychom zaznamenat Carry do víššího řádu.
 ## **Úplná sčítačka (full-adder)**
 ![[Pasted image 20251006100824.png]]
-
-
+![[Pasted image 20251006101043.png]]
+dokáže přijmout carry out na rozdíl od half-adder
+### Multiplexer
+![[Pasted image 20251006101512.png]]
+### Příklad: DM74LS157
+![[Pasted image 20251006101955.png]]
+### Demultiplexer
+Demultiplexer (DEMUX) je kombinační logický obvod, který z jednoho vstupu (byť vícebitového) posílá data na jeden z výstupů vybraný z několika (např. 2, 4, 8…).
+- Který výstup bude zvolen, určují řídicí (adresové) vstupy
+- Též se jim říká **dekodér**, protože dekóduje adresu na 1 z n výstupů, kde n = 2a (a = počet adresových bitů)
+- 
