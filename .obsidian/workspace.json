@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Architektura Počítačů/Přednáška 03.md",
+                "file": "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 03"
+              "title": "Přednáška 02"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -198,6 +197,8 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "Poznámky/Úvod do ICT/Přednáška 02.md",
+    "Poznámky/Architektura Počítačů/Přednáška 03.md",
     "imgs/Pasted image 20251006103631.png",
     "imgs/Pasted image 20251006103339.png",
     "imgs/Pasted image 20251006103319.png",
@@ -208,11 +209,8 @@
     "imgs/Pasted image 20251006102642.png",
     "imgs/Pasted image 20251006101955.png",
     "imgs/Pasted image 20251006101512.png",
-    "imgs/Pasted image 20251006101043.png",
     "imgs/Pasted image 20251006095444.png.~tmp",
     "Tasks/To Do.md",
-    "Poznámky/Architektura Počítačů/Přednáška 03.md",
-    "Poznámky/Úvod do ICT/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Přednáška 01.md",
     "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Cviko 01.md",
