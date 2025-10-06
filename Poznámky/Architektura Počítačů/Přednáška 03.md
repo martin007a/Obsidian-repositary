@@ -26,4 +26,49 @@ Nejsou-li použity závorky, obvykle bereme, že konjunkce (AND) má přednost p
 ![[Pasted image 20251006091855.png]]
 ![[Pasted image 20251006092112.png]]
 ## Vyhodnocení výrazu
-Pro konkrétní přiřazení hodnot do vstupů X1 , X2 , X3 spočteme postupně YPříklady booleovských výrazů
+Pro konkrétní přiřazení hodnot do vstupů X1 , X2 , X3 spočteme postupně Y
+![[Pasted image 20251006092547.png]]
+#### Příklady booleovských výrazů
+![[Pasted image 20251006092623.png]]
+### Ekvivalence výrazů
+- Z logického hlediska jsou výrazy Z a Y ekvivaletní
+- Z = X1 OR X2 je jednodušší, kratší, vyhodnotitelný v jednom kroku; obvodově realizovatelný jediným hradlem OR.
+- Je již minimalizovaný na nejmenší počet logických operací.
+- Existuje obecný postup minimalizace výrazu.
+## Zákony: Identitní, Nulový, Dvojitá negace
+Neutrální prvek:
+- A AND 1 = A: jednička nemění výsledek konjunkce 
+- A OR 0 = A: nula nemění výsledek disjunkce
+Absorpce (pohlcení):  
+- A AND 0 = 0: nula určuje výsledek konjunkce 
+- A OR 1 = 1: jednička určuje výsledek disjunkce
+Dvojitá negace:
+- ¬(¬(A)) = A: negace negace dá původní hodnotu
+### Zákony: Komplementární, Komutativní, Asociativní
+**A OR ¬A = 1** 
+- vždy platí A nebo negace A (pravidlo vyloučeného třetího)
+**A AND ¬A = 0**
+- ale nikdy obě současně
+**A OR B = B OR A a A AND B = B AND A**
+- operace disjunkce a konjunkce jsou komunitativní, lze prohodit pořadí 
+**A OR (B OR C) = (A OR B) OR C**
+- asociativita = u stejných operací nezáleží na závorkování; obdobně A AND (B AND C) = (A AND B) AND C
+## Zákony: Distributivní, Absorpční, De Morganův
+**A AND (B OR C) = (A AND B) OR (A AND C), rovněž A OR (B AND C) = (A OR B) AND (A OR C)**
+- "roznásobení" závorky, funguje pro obě operace AND i OR!
+**A OR (A AND B) = A a také A AND (A OR B) = A**
+- A rozhoduje o výsledku, tj. "pohltí" B
+¬(A OR B) = ¬A AND ¬B, ¬(A AND B) = ¬A OR ¬B
+- de Morganovy zákony (negace operace je totéž jako "opačná" operace nad negovanými vstupy)
+**Další pravidla už jsou aplikací předchozích, so go ahead and use 'em :)**
+## Zjednodušování booleovských výrazů
+![[Pasted image 20251006093655.png]]
+## Příklad zjednodušení výrazu
+![[Pasted image 20251006093732.png]]![[Pasted image 20251006093748.png]]
+![[Pasted image 20251006093806.png]]
+### K čemu je logický obvod?
+!!!
+### Logické úrovně
+![[Pasted image 20251006093909.png]]
+### Napěťové úrovně
+- Doposud jsme rozlišovali "nižší" a "vi"
