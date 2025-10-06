@@ -110,6 +110,32 @@ dokáže přijmout carry out na rozdíl od half-adder
 ![[Pasted image 20251006101955.png]]
 ### Demultiplexer
 Demultiplexer (DEMUX) je kombinační logický obvod, který z jednoho vstupu (byť vícebitového) posílá data na jeden z výstupů vybraný z několika (např. 2, 4, 8…).
-- Který výstup bude zvolen, určují řídicí (adresové) vstupy
+- Který výstup bude zvolen, určují řídicí (adresové) vstupy-
 - Též se jim říká **dekodér**, protože dekóduje adresu na 1 z n výstupů, kde n = 2a (a = počet adresových bitů)
-- 
+- Základní označení: 1:n MUX znamená, že má 1 vstup a n datových výstupů.
+- Počet adresových vstupů je log2 (n)
+- Demultiplexer je "protikus" multiplexoru
+### Systém: Multiplexer a demultiplexer
+![[Pasted image 20251006102642.png]]
+![[Pasted image 20251006102917.png]]![[Pasted image 20251006102945.png]]
+## Užití MUX/DEMU
+![[Pasted image 20251006103043.png]]
+### Shefferova algebra
+- NA vše se používají hradla NAND
+### Peirceova algebra
+* používá se na všechno jen hradla NOR
+![[Pasted image 20251006103308.png]]
+![[Pasted image 20251006103319.png]]
+![[Pasted image 20251006103339.png]]
+### Technologie CMOS
+- CMOS není technologií jednoho tranzistoru.
+- CMOS je kombinací obou polarit MOSFET, tzn. PMOS a NMOS na jednom čipu.
+- Dnes standardem pro výrobu logických čipů.
+- Mají nízkou spotřebu energie díky tomu, že v klidovém stavu nevyžadují průtok proudu.
+- Spotřeba nastává prakticky jen při přepínání, tedy než se stav obvodu ustálí.
+## Invertor s technologií CMOS
+![[Pasted image 20251006103631.png]]
+### Stupně integrace
+- V zásadě vyjadřuje, kolik jednotlivých prvků (typicky tranzistorů) se na jeden kus křemíku (čip) vejde.
+- Čím vyšší stupeň integrace, tím více prvků a tím větší výkon/schopnosti daného čipu
+- Většinou také roste spotřeba proudu a tím generování tepla, ale musí se konstruovat tak, aby spotřeba rostla pomaleji, než roste výkon
