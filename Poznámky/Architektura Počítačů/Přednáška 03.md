@@ -88,3 +88,19 @@ Dvojitá negace:
 ### Standardy schematického značení
 ![[Pasted image 20251006095423.png]]
 ![[Pasted image 20251006095444.png]]
+
+9.4 až 9.7 na zkoušce nebude. jaj 
+# Sčítačka
+- Sčítačka (adder) je typickým příkladem (stále ještě) jednoduchého kombinačního obvodu. 
+- Úkolem je sečíst v nejjednodušším případě dva bity (tzn. dvě jednobitová čísla) a dostat jeden bit jako výsledek.
+## Reálně používané sčítačky
+![[Pasted image 20251006100407.png]]
+## Výlučné OR (exclusive-or)
+![[Pasted image 20251006100501.png]]![[Pasted image 20251006100544.png]]
+## Polosčítačka (half-adder)
+![[Pasted image 20251006100654.png]]
+Protože se dá použít jen na sečtení 1bitu , to je málo potřebovaly bychom zaznamenat Carry do víššího řádu.
+## **Úplná sčítačka (full-adder)**
+![[Pasted image 20251006100824.png]]
+
+
