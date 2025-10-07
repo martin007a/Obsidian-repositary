@@ -28,4 +28,10 @@
 - Důkaz sporem
 #### Příklad
 ![[Pasted image 20251007141055.png]]
+- tady není 
+## Příklad
+Další vlastnosti úsudku
+![[Pasted image 20251007142421.png]]
 
+
+-Není nemocný jen přeplý
