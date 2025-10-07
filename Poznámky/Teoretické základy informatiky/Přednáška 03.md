@@ -25,4 +25,7 @@
 ![[Pasted image 20251007135207.png]]
 ### Rezoluční metoda ve výrokové logice
 ![[Pasted image 20251007140018.png]]
+- Důkaz sporem
+#### Příklad
+![[Pasted image 20251007141055.png]]
 
