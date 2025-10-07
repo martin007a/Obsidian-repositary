@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/ZOO/Přednáška 02.md",
+                "file": "Poznámky/ZOO/Př.3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 02"
+              "title": "Př.3"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -195,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85fcad50cd6f7d48",
+  "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "Poznámky/ZOO/Přednáška 02.md",
+    "Poznámky/ZOO/Př.3.md",
     "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "imgs/Pasted image 20251007142421.png",
@@ -223,7 +226,6 @@
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
     "Poznámky/ZOO/Pravidla programátora.md",
-    "Poznámky/ZOO/Přednáška 02.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
     "Poznámky/ZOO",
     "Poznámky/Teoretické základy informatiky",
