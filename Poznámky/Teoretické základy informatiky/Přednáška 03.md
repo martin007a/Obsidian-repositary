@@ -18,5 +18,11 @@
 ### Odvození formulí
 **Příklad- dokažte, že platí: (𝑎 ∨ 𝑏), (𝑎 ⇒ 𝑐), (𝑏 ⇒ 𝑑) ⊢ (𝑐 ∨ 𝑑)**
 ![[Pasted image 20251007134800.png]]
-
+// Tohle po vás chtít nebudeme Ph.D Haluza
+#### Splnitelnost množiny formulí
+![[Pasted image 20251007135322.png]]
+#### Klauzule, rezolventa
+![[Pasted image 20251007135207.png]]
+### Rezoluční metoda ve výrokové logice
+![[Pasted image 20251007140018.png]]
 
