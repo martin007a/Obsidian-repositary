@@ -39,4 +39,31 @@ Prakticky všechny operace na moderních počítačích založeny na reprezentac
 Pro člověka jediná čitelná forma rozlišování mezi kladnými a zápornými čísly
 - Hardware by byl ale pomalý a zbytečně složitý
 **Princip**: použití nejvyššího řádu mřížky pro reprezentaci znaménka (tzv. znaménkový bit)
-- 0
+- 0 reprezentuje kladné číslo
+- 1 reprezentuje záporné číslo
+![[Pasted image 20251008153641.png]]
+![[Pasted image 20251008153654.png]]
+problémy 0 != -0
+### Inverzní kód
+Z historického hlediska velmi důležitý kód
+Dnes neexistuje stroj pracující v tomto kódu  
+- ale potřebujeme jej při zobrazení v doplňkovém kódu
+#### Princip
+- kladná čísla reprezentujeme beze změny 
+- u záporných čísel najdeme doplněk všech řádů do jedničky (**doplňkem** 0 je 1, doplňkem 1 je 0)
+![[Pasted image 20251008153949.png]]
+### Doplňkový kód
+Varianta inverzního kódu bez dvojí reprezentace nuly – hardware proto může pracovat rychleji
+#### Princip
+- kladná čísla reprezentujeme beze změny 
+- u záporných čísel nalezneme jedničkový doplněk a k výsledku přičteme 1
+![[Pasted image 20251008154101.png]]
+### Aritmetické operace v doplňkovém kódu
+![[Pasted image 20251008154424.png]]
+![[Pasted image 20251008154434.png]]
+-26 = 230
+		256 - 26
+			2<sup>8</sup>
+-128 __ 127
+### Aditivní kód
+![[Pasted image 20251008155057.png]]
