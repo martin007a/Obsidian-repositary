@@ -67,3 +67,44 @@ Varianta inverzního kódu bez dvojí reprezentace nuly – hardware proto můž
 -128 __ 127
 ### Aditivní kód
 ![[Pasted image 20251008155057.png]]
+![[Pasted image 20251008155109.png]]
+![[Pasted image 20251008155304.png]]
+### Rozšíření řádové mřížky
+![[Pasted image 20251008155507.png]]
+![[Pasted image 20251008155520.png]]
+#### Kód BCD (Binary Coded Decimal)
+Pro zařízení pracující v tzv. dvojkově desítkové soustavě
+- kalkulačky, digitální měřicí přístroje apod.
+**Princip**
+- číslice 0 až 9 jsou uloženy v půlslabice (4 bity) 
+- nesmí se vyskytovat kombinace 10 až 15
+**Dvě možnosti řešení**
+![[Pasted image 20251008155727.png]]
+### Znaménková čísla – shrnutí
+![[Pasted image 20251008155810.png]]
+Co mo řekne jak ten štrůdl 1 a 0 mám chápat?
+- **Datový typ**
+![[Pasted image 20251008155819.png]]
+V podstatě to samý!!
+
+O významu reprezentace čísla rozhoduje datový typ
+![[Pasted image 20251008160003.png]]
+### Celá čísla příklady
+![[Pasted image 20251008160048.png]]
+### Prefixy čísel v počítači
+Některé programy a překladače programovacích jazyků podporují čísla v nedesítkových soustavách
+- vědecká kalkulačka 
+- překladač programovacího jazyka Pascal
+/ Pokud ale zadáváme nedesítkové číslo tam, kde se očekává desítkové, musíme explicitně uvést soustavu
+/ Před číslo uvedeme jednoznačný prefix soustavy
+![[Pasted image 20251008160216.png]]
+### Racionální čísla
+![[Pasted image 20251008160306.png]]
+![[Pasted image 20251008160424.png]]
+### Zobrazení s pevnou řádovou čárkou
+### Princip
+- řádová čárka je v mřížce umístěna na pevné pozici 
+- první bit je znaménkový 
+- 𝑛 bitů pro celou část, 𝑚 pro desetinnou
+![[Pasted image 20251008160530.png]]
+![[Pasted image 20251008160550.png]]
