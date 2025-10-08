@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,6 +199,8 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "imgs/Pasted image 20251008152055.png",
+    "imgs/Pasted image 20251008151825.png",
     "Poznámky/Úvod do ICT/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Přednáška03.md",
     "Tasks/To Do.md",
@@ -213,7 +216,6 @@
     "imgs/Pasted image 20251007134800.png",
     "imgs/Pasted image 20251007134718.png",
     "imgs/Pasted image 20251007134636.png",
-    "imgs/Pasted image 20251007134201.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "Poznámky/Architektura Počítačů/Přednáška 03.md",
     "imgs/Pasted image 20251006095444.png.~tmp",
@@ -243,7 +245,6 @@
     "z_copilot/copilot-custom-prompts/Make longer.md",
     "z_copilot/copilot-custom-prompts/Translate to Chinese.md",
     "Excalidraw/Drawing 2025-09-24 20.20.00.excalidraw.md",
-    "z_copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas"
