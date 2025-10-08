@@ -63,12 +63,14 @@ Data v PC představují 1 a 0, Pro člověka musejí být vhodně zobrazeny.
 Americký fyzik **Claude Elwood Shannon** 
  - položení základů teorie informace
  - stanovení možností měření informačního množství
-**Shannonova definice:** "Informace je míra množství neurčitosti ne nejistoty o nějakém náhodném ději odstraněná realizací tohoto děje"
+**Shannonova definice:** "Informace je míra množství neurčitosti nebo nejistoty o nějakém náhodném ději odstraněná realizací tohoto děje"
 - Množství informace ve zprávě lze měřit podle toho, o kolik se sníží neurčitost nebo nejistota, když zprávu přijmeme a pochopíme
 **Informační entropie**
+**Entropie** - míra neurčitosti
 - míra neurčitosti, která se odstraňuje přijetím zprávy
 - vyjadřuje množství informace obsažené ve zprávě
 ![[Pasted image 20251001154345.png]]
+
 #### Exkurze do kombinatoriky
 #### **Variace**
 **Variace 𝑘-té třídy z 𝑛 prvků** je každá uspořádaná 𝑘-tice vytvořená z celkového počtu 𝑛 prvků, přičemž při výběru záleží na pořadí jednotlivých prvků.
