@@ -1,16 +1,16 @@
-| Akce                                           | Klávesová zkratka            | Popis                                              |
-| ---------------------------------------------- | ---------------------------- | -------------------------------------------------- |
-| **Uložit**                                     | `Ctrl + O`                   | Zapíše změny do souboru („Write Out“)              |
-| **Odejde z editoru**                           | `Ctrl + X`                   | Ukončí Nano (zeptá se, jestli uložit změny)        |
-| **Vyhledat text**                              | `Ctrl + W`                   | Spustí hledání                                     |
-| **Najít další výskyt**                         | `Alt + W`                    | Pokračuje v hledání                                |
-| **Vyjmout řádek (cut)**                        | `Ctrl + K`                   | Odstraní aktuální řádek a uloží ho do „clipboardu“ |
-| **Vložit (paste)**                             | `Ctrl + U`                   | Vloží dříve vyjmutý text                           |
-| **Zpět (undo)**                                | `Alt + U`                    | Vrátí poslední akci                                |
-| **Znovu (redo)**                               | `Alt + E`                    | Zopakuje vrácenou akci                             |
-| **Přesun kurzoru na začátek souboru**          | `Ctrl + Home` nebo `Alt + \` | Rychlý skok nahoru                                 |
-| **Přesun na konec souboru**                    | `Ctrl + End` nebo `Alt + /`  | Skok dolů                                          |
-| Ctrl + T : Umožňuje nám zkontrolovat pravopis. |                              |                                                    |
+| Akce                                  | Klávesová zkratka            | Popis                                              |
+| ------------------------------------- | ---------------------------- | -------------------------------------------------- |
+| **Uložit**                            | `Ctrl + O`                   | Zapíše změny do souboru („Write Out“)              |
+| **Odejde z editoru**                  | `Ctrl + X`                   | Ukončí Nano (zeptá se, jestli uložit změny)        |
+| **Vyhledat text**                     | `Ctrl + W`                   | Spustí hledání                                     |
+| **Najít další výskyt**                | `Alt + W`                    | Pokračuje v hledání                                |
+| **Vyjmout řádek (cut)**               | `Ctrl + K`                   | Odstraní aktuální řádek a uloží ho do „clipboardu“ |
+| **Vložit (paste)**                    | `Ctrl + U`                   | Vloží dříve vyjmutý text                           |
+| **Zpět (undo)**                       | `Alt + U`                    | Vrátí poslední akci                                |
+| **Znovu (redo)**                      | `Alt + E`                    | Zopakuje vrácenou akci                             |
+| **Přesun kurzoru na začátek souboru** | `Ctrl + Home` nebo `Alt + \` | Rychlý skok nahoru                                 |
+| **Přesun na konec souboru**           | `Ctrl + End` nebo `Alt + /`  | Skok dolů                                          |
+| Umožňuje nám zkontrolovat pravopis.   | `Ctrl + T`                   |                                                    |
 ### Užitečné přepínače při spuštění
 | Přepínač  | Popis                                             |
 | --------- | ------------------------------------------------- |
@@ -26,3 +26,9 @@
 | **Vyjmout (cut)**                | `Ctrl + K`                                       | Odstraní označený text a uloží ho do interní schránky |
 | **Vložit (paste)**               | `Ctrl + U`                                       | Vloží text na aktuální pozici kurzoru                 |
 | **Zkopírovat bez mazání (copy)** | `Alt + 6`                                        | Zkopíruje označený text (neodstraní ho)               |
+### Controla Pravopisu
+| Nástroj    | Popis                                   | Jak ho nainstalovat         |
+| ---------- | --------------------------------------- | --------------------------- |
+| `aspell`   | moderní kontrola pravopisu (doporučeno) | `sudo apt install aspell`   |
+| `hunspell` | používá se třeba v LibreOffice          | `sudo apt install hunspell` |
+| `spell`    | starší jednoduchá kontrola              | `sudo apt install spell`    |
