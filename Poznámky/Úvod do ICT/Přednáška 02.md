@@ -14,6 +14,7 @@ Na váhu v sýpce nasypeme dodávku obilovin a zjistíme, že ručička se zasta
 #### Data
 - kvalitativně nebo kvantitativně formalizované údaje
 - vyjádření skutečnosti schopné přenosu, uchování, interpretace či zpracování
+	když si údaje z displeje váhy dohodnutým způsobem poznačíme, stávají se z nich data,
 - sama o sobě data nehmotná, i když pro jejich uložení potřebujeme hmotné médium
 ###### Příklad
 Údaj „471“ si zaznamenáme jako „0,471 t“, tím jsme získali data o krmivech, která můžeme dále zpracovávat.
@@ -24,6 +25,7 @@ Data v PC představují 1 a 0, Pro člověka musejí být vhodně zobrazeny.
 ##### Datový typ
 - Je množinou povolených hodnot a množinou povolených operací
 - **Implementace** - přisouzením posloupnosti binárních hodnot v paměti počítače
+- Přidělením datového typu určujeme velikost prostoru v paměti, na kterém budou data uložena v binárním kódu,
 **Modelujeme objektivní realitu**
 - hodnoty jsou zobrazeny pro vstup i výstup
 - Příklad: datové tipy v Excelu
