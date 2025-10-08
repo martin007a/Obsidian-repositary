@@ -133,3 +133,25 @@ Využití tří pomocných bitů uchovaných hardwarem navíc nad rámec těch, 
 ### Reprezentace podle IEEE – single precision
 ![[Pasted image 20251008161710.png]]
 ![[Pasted image 20251008161948.png]]
+![[Pasted image 20251008162222.png]]
+### Racionální čísla – příklady
+![[Pasted image 20251008162439.png]]
+## Denormalizovaná (subnormální) čísla
+![[Pasted image 20251008162530.png]]
+### Příklad
+![[Pasted image 20251008162605.png]]
+obr. Ukázka jak to vypadá
+### Interpretace hodnot
+![[Pasted image 20251008162742.png]]
+### Problémy při práci s racionálními čísly
+![[Pasted image 20251008163032.png]]
+### Aritmetické operace s pohyblivou čárkou
+![[Pasted image 20251008163138.png]]
+m- mantisa
+z - základ
+ex - exponent
+![[Pasted image 20251008163227.png]]!
+![[Pasted image 20251008163244.png]]
+![[Pasted image 20251008163332.png]]
+![[Pasted image 20251008163504.png]]
+pkračování v prezentaci .xd
