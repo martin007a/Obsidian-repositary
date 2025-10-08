@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Úvod do ICT/Přednáška03.md",
+                "file": "Poznámky/Nano/Nano takák.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška03"
+              "title": "Nano takák"
             }
           }
         ]
@@ -74,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -178,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,6 +197,9 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "Poznámky/Nano/Nano takák.md",
+    "Poznámky/Úvod do ICT/Přednáška03.md",
+    "Poznámky/Nano",
     "imgs/Pasted image 20251008163504.png",
     "imgs/Pasted image 20251008163332.png",
     "imgs/Pasted image 20251008163244.png",
@@ -208,9 +210,7 @@
     "imgs/Pasted image 20251008162605.png",
     "imgs/Pasted image 20251008162530.png",
     "imgs/Pasted image 20251008162439.png",
-    "imgs/Pasted image 20251008162222.png",
     "Poznámky/Úvod do ICT/Přednáška 02.md",
-    "Poznámky/Úvod do ICT/Přednáška03.md",
     "Tasks/To Do.md",
     "Poznámky/ZOO/Př.3.md",
     "Poznámky/ZOO/Přednáška 02.md",
@@ -237,7 +237,6 @@
     "Přednáška 01.pdf",
     "Poznámky/Architektura Počítačů",
     "Poznámky/Algoritmizace/Untitled",
-    "Untitled",
     "Tasks/Done.md",
     "Tasks/Drawing 2025-09-26 14.57.30.excalidraw.md",
     "Untitled.md",
