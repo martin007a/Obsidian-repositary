@@ -154,4 +154,4 @@ ex - exponent
 ![[Pasted image 20251008163244.png]]
 ![[Pasted image 20251008163332.png]]
 ![[Pasted image 20251008163504.png]]
-pkračování v prezentaci .xd
+pkračování v prezentaci .xd slid 55
