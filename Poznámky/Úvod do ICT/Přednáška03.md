@@ -108,3 +108,28 @@ Některé programy a překladače programovacích jazyků podporují čísla v n
 - 𝑛 bitů pro celou část, 𝑚 pro desetinnou
 ![[Pasted image 20251008160530.png]]
 ![[Pasted image 20251008160550.png]]
+### Pohyblivá desetinná čárka
+
+### Vědecká notace obecně
+![[Pasted image 20251008160927.png]]
+### Zobrazení s pohyblivou řádovou čárkou
+![[Pasted image 20251008161000.png]]
+### Vědecká notace binárních čísel
+![[Pasted image 20251008161039.png]]
+- mantisa = příklad
+#### Standardizované formáty čísel
+**Nějčastější:**
+- **Single precision (binary32, od r. 1985)**  
+	- 1 bit znaménko, 8 bitů exponent, 23 bitů mantisa
+- **Double precision (binary64, od r. 1985)**
+	 - 1 bit znaménko, 11 bitů exponent, 52 bitů mantisa
+### Zaokrouhlování dle standardu IEEE 754
+Využití tří pomocných bitů uchovaných hardwarem navíc nad rámec těch, které se vlezly do mantisy.
+- guard – chrání před ztrátou významného bitu při přenosu 
+- round – umožňuje zaokrouhlení výsledku po normalizaci 
+- sticky – logický součet všech zbývajících bitů
+## Význam GRS bitů při zaokrouhlování
+![[Pasted image 20251008161436.png]]
+### Reprezentace podle IEEE – single precision
+![[Pasted image 20251008161710.png]]
+![[Pasted image 20251008161948.png]]
