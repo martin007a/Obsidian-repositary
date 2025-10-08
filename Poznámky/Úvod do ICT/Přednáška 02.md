@@ -95,20 +95,21 @@ Každý může být víckrát
 - 1 Sh = 1 bit = 0,693 nat = 0,301 Hart
 Vlastní informace (částečná informace) o realizaci 𝑥:
 $𝐼 (𝑥) = − log_2$  $𝑝(𝑥)$
+log menší než 1 vrací záporná čísla proto tam je -log
 ###### Pravidla po počítání s logaritmy
 Převod z log<sub>10</sub> na log<sub>n</sub>
 ![[Pasted image 20251008215126.png]]
+při dosazení požadovaných základů pak dostáváme
 ![[Pasted image 20251008215149.png]]
-
-
-
-
-- log menší než 1 vrací záporná čísla proto tam je -log
 **Aplikace Vlastní informace**
 ![[Pasted image 20251001155932.png]]
 **Řešený příklad** 
 ![[Pasted image 20251001160911.png]]
+**reálné číslo 𝐼 (𝑥),** které nazveme vlastní informací.
+- číslo 𝐼 (𝑥) vyjadřuje množství informace obsažené ve výsledku jedné realizace náhodného jevu.
 #### Eutropie
+Entropii 𝐻 (𝑋 ) můžeme považovat za informaci o náhodné veličině 𝑋 obsaženou v této náhodné veličině, popřípadě za maximální informaci, jakou lze o veličině 𝑋 vůbec získat. Proto entropii někdy
+- Proto entropii někdy nazýváme úplnou informací o náhodné veličině 𝑋.
 ![[Pasted image 20251001161109.png]]
 Prý jedinný vzoreček
 ### Praktické použití entropie
