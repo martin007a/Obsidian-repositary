@@ -88,6 +88,21 @@ Každý může být víckrát
 ![[Pasted image 20251001155330.png]]
 #### __Výpočet vlastní Informace
 ![[Pasted image 20251001155350.png]]
+#### Základ logaritmu principiálně není podstatný 
+- **desítkový logaritmus** – jednotka hartley (Hart) 
+- **přirozený logaritmus** – jednotka nat (nat) 
+- **dvojkový logaritmus** – jednotka shannon (Sh) 
+- 1 Sh = 1 bit = 0,693 nat = 0,301 Hart
+Vlastní informace (částečná informace) o realizaci 𝑥:
+$𝐼 (𝑥) = − log_2$  $𝑝(𝑥)$
+###### Pravidla po počítání s logaritmy
+Převod z log<sub>10</sub> na log<sub>n</sub>
+![[Pasted image 20251008215126.png]]
+![[Pasted image 20251008215149.png]]
+
+
+
+
 - log menší než 1 vrací záporná čísla proto tam je -log
 **Aplikace Vlastní informace**
 ![[Pasted image 20251001155932.png]]
