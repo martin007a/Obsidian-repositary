@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Úvod do ICT/Přednáška 02.md",
+                "file": "Poznámky/Úvod do ICT/Cviko 01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 02"
+              "title": "Cviko 01"
             }
           }
         ]
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,14 +197,20 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "Poznámky/Úvod do ICT/Přednáška 01.md",
+    "Poznámky/Úvod do ICT/Cviko 01.md",
+    "Poznámky/Úvod do ICT/Přednáška 02.md",
+    "Poznámky/Úvod do ICT/Přednáška03.md",
+    "Poznámky/Nepřiřaditelné poznámky.md",
+    "Poznámky/ZOO/Přednáška 02.md",
+    "Poznámky/ZOO/Př.3.md",
+    "Poznámky/Algoritmizace/Přednáška 01.md",
+    "Poznámky/Algoritmizace/Přednáška 02.md",
+    "Tasks/To Do.md",
     "imgs/Pasted image 20251008215149.png",
     "imgs/Pasted image 20251008215126.png",
     "imgs/Pasted image 20251008214915.png",
-    "Poznámky/Úvod do ICT/Přednáška 02.md",
-    "Poznámky/Úvod do ICT/Přednáška 01.md",
-    "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Nano/Nano takák.md",
-    "Poznámky/Úvod do ICT/Přednáška03.md",
     "Poznámky/Nano",
     "imgs/Pasted image 20251008163504.png",
     "imgs/Pasted image 20251008163332.png",
@@ -212,23 +219,16 @@
     "imgs/Pasted image 20251008163138.png",
     "imgs/Pasted image 20251008163032.png",
     "imgs/Pasted image 20251008162742.png",
-    "imgs/Pasted image 20251008162605.png",
-    "Tasks/To Do.md",
-    "Poznámky/ZOO/Př.3.md",
-    "Poznámky/ZOO/Přednáška 02.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "Poznámky/Architektura Počítačů/Přednáška 03.md",
     "imgs/Pasted image 20251006095444.png.~tmp",
-    "Poznámky/Úvod do ICT/Cviko 01.md",
     "imgs/~MG_20250930_141405.tmp",
     "Poznámky/Architektura Počítačů/Přednáška 02.md",
-    "Poznámky/Algoritmizace/Přednáška 01.md",
     "imgs/Drawing 2025-10-04 09.39.04.excalidraw.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
     "Poznámky/ZOO/Pravidla programátora.md",
-    "Poznámky/Nepřiřaditelné poznámky.md",
     "Poznámky/ZOO",
     "Poznámky/Teoretické základy informatiky",
     "Poznámky/Architektura Počítačů/Untitled",
