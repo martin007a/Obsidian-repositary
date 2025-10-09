@@ -26,6 +26,17 @@
 | **Vyjmout (cut)**                | `Ctrl + K`                                       | Odstraní označený text a uloží ho do interní schránky |
 | **Vložit (paste)**               | `Ctrl + U`                                       | Vloží text na aktuální pozici kurzoru                 |
 | **Zkopírovat bez mazání (copy)** | `Alt + 6`                                        | Zkopíruje označený text (neodstraní ho)               |
+### Rychlejší pohyb
+| Akce                                | Zkratka                                                 |
+| ----------------------------------- | ------------------------------------------------------- |
+| ⏫ **Na začátek souboru**            | `Ctrl` + `_` → zadej `1` → Enter _(nebo)_ `Ctrl` + Home |
+| ⏬ **Na konec souboru**              | `Alt` + `/` _(nebo)_ `Ctrl` + End                       |
+| ⏮️ **Na začátek řádku**             | `Ctrl` + `A`                                            |
+| ⏭️ **Na konec řádku**               | `Ctrl` + `E`                                            |
+| ⏩ **O stránku dolů**                | `Ctrl` + `V`                                            |
+| ⏪ **O stránku nahoru**              | `Ctrl` + `Y`                                            |
+| 📍 **Na konkrétní řádek/sloupec**   | `Ctrl` + `_` → zadej číslo řádku (např. `42`) a Enter   |
+| 🔍 **Najít text (a skočit na něj)** | `Ctrl` + `W` a napiš hledaný text                       |
 
 ### Controla Pravopisu
 | Nástroj    | Popis                                   | Jak ho nainstalovat         |
