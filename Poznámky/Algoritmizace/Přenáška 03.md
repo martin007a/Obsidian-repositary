@@ -12,4 +12,16 @@ Datový typ => povolené hodnoty, povolené operace
 - int - 4B
 - long int - 4B
 - long long int - 8B
-unsigned - možnost zakázat 
+**unsigned** - možnost zakázat záporná čísla
+### Znakový tip
+char jako chameleon někdy znakový někdy celo číselný
+![[Pasted image 20251009115308.png]]
+**Kiwi je nastaven na kódování UTF8**
+Pro **char** = 'ahoj';
+### Řídicí znaky: nemají svůj obraz, musí se zapsat náhradním způsobem:
+- \n - nový řádek
+- \r - první polovina konce řádku
+- \t - tabulátor
+Zápis čísel soustav:
+- 017 - osmičková - 15
+- x1a - hexa - 26
