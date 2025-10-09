@@ -26,10 +26,11 @@
 | **Vyjmout (cut)**                | `Ctrl + K`                                       | Odstraní označený text a uloží ho do interní schránky |
 | **Vložit (paste)**               | `Ctrl + U`                                       | Vloží text na aktuální pozici kurzoru                 |
 | **Zkopírovat bez mazání (copy)** | `Alt + 6`                                        | Zkopíruje označený text (neodstraní ho)               |
+
 ### Controla Pravopisu
 | Nástroj    | Popis                                   | Jak ho nainstalovat         |
 | ---------- | --------------------------------------- | --------------------------- |
 | `aspell`   | moderní kontrola pravopisu (doporučeno) | `sudo apt install aspell`   |
 | `hunspell` | používá se třeba v LibreOffice          | `sudo apt install hunspell` |
 | `spell`    | starší jednoduchá kontrola              | `sudo apt install spell`    |
-~}
+|            |                                         |                             |
