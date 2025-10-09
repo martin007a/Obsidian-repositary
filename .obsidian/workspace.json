@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Algoritmizace/Přenáška 03.md",
+                "file": "Poznámky/Algoritmizace/Programové cykly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přenáška 03"
+              "title": "Programové cykly"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -198,10 +197,11 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "Poznámky/Algoritmizace/Přenáška 03.md",
+    "Poznámky/Algoritmizace/Programové cykly.md",
     "imgs/Pasted image 20251009121627.png",
     "imgs/Pasted image 20251009115308.png",
     "Poznámky/Algoritmizace/Přednáška 02.md",
-    "Poznámky/Algoritmizace/Přenáška 03.md",
     "Poznámky/Úvod do ICT/Cviko 01.md",
     "Poznámky/Algoritmizace/Přednáška 01.md",
     "Poznámky/Úvod do ICT/Přednáška 01.md",
@@ -221,7 +221,6 @@
     "imgs/Pasted image 20251008163244.png",
     "imgs/Pasted image 20251008163227.png",
     "imgs/Pasted image 20251008163138.png",
-    "imgs/Pasted image 20251008163032.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "Poznámky/Architektura Počítačů/Přednáška 03.md",
