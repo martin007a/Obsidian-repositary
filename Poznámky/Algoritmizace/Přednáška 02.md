@@ -12,7 +12,7 @@
  make - x.cpp
  g++ -o x x.cpp
 g++ - o $1 $1.cpp - script linux  
-- [ ] Zkus ten script provést
+- [x] Zkus ten script provést ✅ 2025-10-09
 
 **3.Spuštění** 
 	echo $PATH

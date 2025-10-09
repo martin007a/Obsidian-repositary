@@ -95,7 +95,7 @@ mantisa - číslo 1000 - mantisa je 1, 2000 - 2
 ![[Pasted image 20251003172141.png]]
 **Avšak při operacích s pohyblivou řádovou čárkou dochází k malým chybám pro většinu výpočtů to není problém, ale třeba u financí už nastává problém Proto se pro ně zavedla třetí varianta BCD kód**
 **V prezentaci jsou příklady**
-   - [ ] Na dělení bez návratu ke kladnému zbytku atd. Mám se na něj kouknout
+   - [x] Na dělení bez návratu ke kladnému zbytku atd. Mám se na něj kouknout ✅ 2025-10-09
 ### Rotace bitů
 ![[Pasted image 20251003125508.png]]
 ### **Logický posun**
