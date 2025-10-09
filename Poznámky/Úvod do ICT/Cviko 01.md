@@ -22,11 +22,11 @@ Práce se soubory 
 
 Síťové příkazy (pro připojení na server) 
 
-|   |   |   |
-|---|---|---|
-|Příkaz|Popis|Příklad|
-|ssh|připojení na vzdálený server|ssh [xslavice@kiwi.mendelu.cz](mailto:xslavice@kiwi.mendelu.cz)|
-|scp|kopírování souborů mezi PC a serverem|scp soubor.txt [xslavice@kiwi.mendelu.cz:~/](mailto:xslavice@kiwi.mendelu.cz:~/) (pošle soubor na server do domovského adresáře)|
+|        |                                       |                                                                                                                                  |
+| ------ | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Příkaz | Popis                                 | Příklad                                                                                                                          |
+| ssh    | připojení na vzdálený server          | ssh [xslavice@kiwi.mendelu.cz](mailto:xslavice@kiwi.mendelu.cz)                                                                  |
+| scp    | kopírování souborů mezi PC a serverem | scp soubor.txt [xslavice@kiwi.mendelu.cz:~/](mailto:xslavice@kiwi.mendelu.cz:~/) (pošle soubor na server do domovského adresáře) |
 
 Připojení disku na virtuální PC (asi) 
 
