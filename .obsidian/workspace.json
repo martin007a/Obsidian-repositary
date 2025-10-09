@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/To Do.md",
+                "file": "Poznámky/Nano/Nano takák.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do"
+              "title": "Nano takák"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -197,6 +198,7 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "Tasks/To Do.md",
     "Poznámky/Algoritmizace/Programové cykly.md",
     "Poznámky/Algoritmizace/Přenáška 03.md",
     "imgs/Pasted image 20251009121627.png",
@@ -210,7 +212,6 @@
     "Poznámky/Nepřiřaditelné poznámky.md",
     "Poznámky/ZOO/Přednáška 02.md",
     "Poznámky/ZOO/Př.3.md",
-    "Tasks/To Do.md",
     "imgs/Pasted image 20251008215149.png",
     "imgs/Pasted image 20251008215126.png",
     "imgs/Pasted image 20251008214915.png",

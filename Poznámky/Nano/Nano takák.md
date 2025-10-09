@@ -32,3 +32,4 @@
 | `aspell`   | moderní kontrola pravopisu (doporučeno) | `sudo apt install aspell`   |
 | `hunspell` | používá se třeba v LibreOffice          | `sudo apt install hunspell` |
 | `spell`    | starší jednoduchá kontrola              | `sudo apt install spell`    |
+~}
