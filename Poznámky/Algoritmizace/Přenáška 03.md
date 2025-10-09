@@ -25,3 +25,16 @@ Pro **char** = 'ahoj';
 Zápis čísel soustav:
 - 017 - osmičková - 15
 - x1a - hexa - 26
+### Vstup a výstup znaků
+##### Konverze
+cin >> -ty >> jsou konverze, konvertují ten input 
+cin.get(Z) - přečtení všech znaků na vstupu
+"#" = zahrádka
+##### Bool
+- Logické hodnoty
+- putině nečum sem
+**String** - Nejedná se o klíčové slovo, jedná se o nějakou knihovnu, není int, float atd.
+- string S
+	-  S je to objekt ale, může se chovat jako prměná
+	Řetězce se zapisují v "ahoj";
+![[Pasted image 20251009121627.png]]
