@@ -75,10 +75,10 @@ Dnes neexistuje stroj pracující v tomto kódu
 - u záporných čísel najdeme doplněk všech řádů do jedničky (**doplňkem** 0 je 1, doplňkem 1 je 0)
 ![[Pasted image 20251008153949.png]]
 ### Doplňkový kód
-Varianta inverzního kódu bez dvojí reprezentace nuly – hardware proto může pracovat rychleji
+Varianta inverzního kódu bez dvojí reprezentace nuly – hardware proto může pracovat rychleji,
 #### Princip
 - kladná čísla reprezentujeme beze změny 
-- u záporných čísel nalezneme jedničkový doplněk a k výsledku přičteme 1
+- u záporných čísel nalezneme jedničkový doplněk a k výsledku přičteme 1(binární)
 ![[Pasted image 20251008154101.png]]
 ### Aritmetické operace v doplňkovém kódu
 ![[Pasted image 20251008154424.png]]
