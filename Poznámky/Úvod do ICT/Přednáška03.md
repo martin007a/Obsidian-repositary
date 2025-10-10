@@ -152,6 +152,8 @@ Některé programy a překladače programovacích jazyků podporují čísla v n
 	- 1 bit znaménko, 8 bitů exponent, 23 bitů mantisa
 - **Double precision (binary64, od r. 1985)**
 	 - 1 bit znaménko, 11 bitů exponent, 52 bitů mantisa
+- Quadruple precision (binary128, od r. 2008)
+	- 1 bit znaménko, 15 bitů exponent, 112 bitů mantisa
 ### Zaokrouhlování dle standardu IEEE 754
 Využití tří pomocných bitů uchovaných hardwarem navíc nad rámec těch, které se vlezly do mantisy.
 - guard – chrání před ztrátou významného bitu při přenosu 
