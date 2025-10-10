@@ -23,12 +23,20 @@ Pokud je délka mřížky menší než počet cifer čísla 𝐴, číslo nebude
 - do mřížky nebude možné uložit všechny číslice čísla 𝐴 
 - řády, které se nevejdou, budou ignorovány
 Dojde k **přetečení** a následné ztrátě přesnosti v reprezentaci čísla
-![[Pasted image 20251008152500.png]]
+- číslo bude uloženo s chybou
+- číslo bude zaokrouhleno
+- číslo bude zaměněno za číslo s opačným znaménkem
+![[Pasted image 20251010100851.png]]
+Opakem přetečení je **Podtečení**
+- číslo A se blíží nule a je zobrazeno jako 0
+- problém u racionálních čísel
+![[Pasted image 20251010100927.png]]
 ### Ztráta přesnosti v praxi
 ![[Pasted image 20251008152638.png]]
 ###   Terminologie
 ![[Pasted image 20251008152713.png]]
 ## Celá čísla
+Celá čísla jsou v počítači reprezentována s pevnou řádovou čárkou, což znamená, že řádová čárka v mřížce je umístěna vždy na pevné pozici vpravo za nejnižším bitem.
 - Operační paměť počítače je rozdělena do adresovatelných jednotek velikosti slabiky (bajtu)
 2 Ve dvojkové soustavě = 10.
 Pozor v pc potřebuji vědět na kolika Bitech je zobrazeno
