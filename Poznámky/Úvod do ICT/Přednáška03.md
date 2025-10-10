@@ -10,11 +10,14 @@ Formát zobrazitelných čísel jednoznačně definuje binární řádová mří
 - **Délka (l)** - počet rozlišitelných hodnot (řádků)
 - **Jednotka ()** - nejmenší kladné zobrazitelné číslo
 - **Modul** - (M) - nejmenší číslo které již zobrazitelné není.
-### Binární řádová mřížka
-![[Pasted image 20251008151825.png]]
-- **jednotka** jde zobrazit
-- **modul** nejde zobrazit
+U binárních čísel mají nejnižší a nejvyšší řád označení
+- **LSB** = Least Significant Bit
+- MSB = Most Significant Bit
+Operační paměť počítače je rozdělena do **adresovatelných buněk o velikosti 1 bajtu, kterým říkáme slabiky.**
 ![[Pasted image 20251008152055.png]]
+- délka mřížky je dána počtem řádů nalevo a napravo od řádové čárky, tj. 𝑙 = 𝑚 + 𝑛 + 1;
+- jednotka je číslo, které má jedničku pouze v nejnižším řádu, tj. 𝜖 = 𝑧<sup>−𝑚</sup>;
+- modul je číslo, které má jedničku v řádu, který již není v mřížce obsažen, tj. 𝑀 = 𝑧<sup>𝑛+1</sup> .
 ### Přetečení a podtečení
 Pokud je délka mřížky menší než počet cifer čísla 𝐴, číslo nebude zobrazitelné.
 - do mřížky nebude možné uložit všechny číslice čísla 𝐴 
