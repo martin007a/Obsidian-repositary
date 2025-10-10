@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Nano/Nano takák.md",
+                "file": "Poznámky/Úvod do ICT/Přednáška03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nano takák"
+              "title": "Přednáška03"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -177,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,6 +198,7 @@
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
     "Tasks/To Do.md",
+    "Poznámky/Nano/Nano takák.md",
     "Poznámky/Algoritmizace/Programové cykly.md",
     "Poznámky/Algoritmizace/Přenáška 03.md",
     "imgs/Pasted image 20251009121627.png",
@@ -214,7 +215,6 @@
     "imgs/Pasted image 20251008215149.png",
     "imgs/Pasted image 20251008215126.png",
     "imgs/Pasted image 20251008214915.png",
-    "Poznámky/Nano/Nano takák.md",
     "Poznámky/Nano",
     "imgs/Pasted image 20251008163504.png",
     "imgs/Pasted image 20251008163332.png",

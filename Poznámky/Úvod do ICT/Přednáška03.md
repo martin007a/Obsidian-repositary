@@ -1,4 +1,5 @@
-# Vnitřní reprezentace dat I
+# Vnitřní reprezentace dat
+Zobrazeni čísel v pameti počítače je limt
 ### Binární řádová mřížka
 ![[Pasted image 20251008151825.png]]
 - **jednotka** jde zobrazit
