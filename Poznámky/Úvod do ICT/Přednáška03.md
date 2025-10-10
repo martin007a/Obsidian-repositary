@@ -1,5 +1,15 @@
 # Vnitřní reprezentace dat
-Zobrazeni čísel v pameti počítače je limt
+Zobrazeni čísel v paměti počítače je limitováno, velikost prostoru úzce souvisí s datovým tipem.
+- máme-li k dispozici 1 bajt paměti, můžeme zde ukládat čísla nevýše osmiciferné binární posloupnosti.
+### Binární řádová mřížka
+Formát zobrazitelných čísel jednoznačně definuje binární řádová mřížka
+- definuje nejnižší řád m a nejvyšší rád n
+- V závislosti na umístění řádové čárky 
+![[Pasted image 20251010093751.png]]
+##### **Základní vlastnosti řádové mřížky**
+- **Délka (l)** - počet rozlišitelných hodnot (řádků)
+- **Jednotka ()** - nejmenší kladné zobrazitelné číslo
+- **Modul** - (M) - nejmenší číslo které již zobrazitelné není.
 ### Binární řádová mřížka
 ![[Pasted image 20251008151825.png]]
 - **jednotka** jde zobrazit
@@ -13,7 +23,7 @@ Dojde k **přetečení** a následné ztrátě přesnosti v reprezentaci čísla
 ![[Pasted image 20251008152500.png]]
 ### Ztráta přesnosti v praxi
 ![[Pasted image 20251008152638.png]]
-### Terminologie
+###   Terminologie
 ![[Pasted image 20251008152713.png]]
 ## Celá čísla
 - Operační paměť počítače je rozdělena do adresovatelných jednotek velikosti slabiky (bajtu)
