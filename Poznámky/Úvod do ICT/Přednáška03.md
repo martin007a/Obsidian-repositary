@@ -82,7 +82,14 @@ Varianta inverzního kódu bez dvojí reprezentace nuly – hardware proto můž
 ![[Pasted image 20251008154101.png]]
 ### Aritmetické operace v doplňkovém kódu
 ![[Pasted image 20251008154424.png]]
-![[Pasted image 20251008154434.png]]
+**Přenos z nejvyššího bitu je ignorován**
+- je totiž mimo řádovou mřížku (Důvod proč už nemáme -0)
+- číslo je automaticky ořezáno na daný počet bitů
+**Je-li součet mimo interval zobrazitelných hodnot, dochází k přetečení**
+- binární reprezentace čísla pak odpovídá jinému číslu.
+- číslo -X má stejnou reprezentaci jako 2<sup>n</sup> - X
+- proto je číslo 2<sup>n</sup> - X hledaným doplňkem čísla X
+![[Pasted image 20251010105424.png]]
 -26 = 230
 		256 - 26
 			2<sup>8</sup>
