@@ -30,6 +30,16 @@
 ![[Pasted image 20251007140018.png]]
 - ψ⊂ψ′ tedy znamená, že všechny formule z ψ\psiψ jsou také ve ψ′\psi'ψ′, ale ψ′\psi'ψ′ obsahuje **nějaké další** navíc.
 - Důkaz sporem
+### Základní pravidla redukce klauzulí
+| Název pravidla                                 | Popis                                                                                                           | Příklad                                                                                     |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **1. Odstranění tautologií**                   | Každá klauzule, která je **vždy pravdivá**, se může odstranit.                                                  | `{p, ¬p, q}` → tato klauzule je tautologie (protože obsahuje `p` i `¬p`), lze ji odstranit. |
+| **2. Odstranění duplikátů literálů**           | V rámci jedné klauzule odstraníme opakující se literály.                                                        | `{p, p, ¬q}` → `{p, ¬q}`                                                                    |
+| **3. Odstranění duplikátů klauzulí**           | Pokud je tatáž klauzule v množině vícekrát, ponecháme ji jen jednou.                                            | `{{p}, {p}, {¬q}}` → `{{p}, {¬q}}`                                                          |
+| **4. Pravidlo subsumpce**                      | Pokud jedna klauzule je **podmnožinou** jiné, odstraníme tu větší.                                              | `{p}` a `{p, q}` → `{p}` subsumuje `{p, q}` → `{p, q}` odstraníme.                          |
+| **5. Jednotková propagace (unit propagation)** | Pokud máme klauzuli s jediným literálem, můžeme ji použít k odstranění jejích komplementů z ostatních klauzulí. | `{p}`, `{¬p, q}` → z druhé klauzule odstraníme `¬p`, dostaneme `{q}`.                       |
+| **6. Částečná evaluace(nepovinné)**            | Pokud je v klauzuli literál, který je již pravdivý podle nějaké jednotkové klauzule, klauzuli můžeme odstranit. | `{p}`, `{p ∨ q}` → druhá je pravdivá, odstraníme ji.                                        |
+
 #### Příklad
 ![[Pasted image 20251007141055.png]]
 - tady není 
