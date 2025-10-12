@@ -69,7 +69,11 @@ Nechť 𝑋 a 𝑌 jsou formule. Potom platí 𝑋 ⇒ 𝑌 , 𝑋 ⊢ 𝑌 .
 ### Co říká odvozovací pravidlo „modus tollens“?
 Nechť 𝑋 a 𝑌 jsou formule. Potom platí 𝑋 ⇒ 𝑌 , ¬𝑌 ⊢ ¬𝑋. Tomuto pravidlu říkáme modus tollens.
 ### Co je to substituční pravidlo a která substituční pravidla známe?
+Když dvě formule znamenají totéž (jsou ekvivalentní),  
+můžeme v libovolném logickém výrazu jednu nahradit druhou,  
+aniž by se změnila pravdivost celé formule.
 #### Substituční pravidlo pro proměnnou
 Buď 𝑋 formule a 𝑞 její proměnná. Jestliže do 𝑋 za 𝑞 dosadíme formuli 𝐴, pak formuli vzniklou touto substitucí označíme 𝑆(𝐴/𝑞, 𝑋 ). Pak platí 𝑋 , (𝐴 ⇔ 𝑞) ⊢ 𝑆(𝐴/𝑞, 𝑋 ). Je-li formule 𝑋 tautologie, pak platí ⊢ 𝑆(𝐴/𝑞, 𝑋 ).
 #### Substituční pravidlo pro formuli
 Buď 𝑋 formule a 𝐵 její podformule. Jestliže do 𝑋 za 𝐵 dosadíme formuli 𝐴, pak formuli vzniklou touto substitucí označíme 𝑆(𝐴/𝐵, 𝑋 ). Pak platí 𝑋 , (𝐴 ⇔ 𝐵) ⊢ 𝑆(𝐴/𝐵, 𝑋 ).
+### Jak vypadá odvození formule?
