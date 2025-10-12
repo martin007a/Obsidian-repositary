@@ -17,6 +17,7 @@
 ![[Pasted image 20251007134201.png]]
 #### Substituční pravidla
 ![[Pasted image 20251007134636.png]]
+**S** - to, co píšeš, **S(A/q,X)S(A/q, X)S(A/q,X)**, je **substituce v logice**. Symbol **S** značí právě **operaci nahrazení**.
 ### Odvození formulí
 **Příklad- dokažte, že platí: (𝑎 ∨ 𝑏), (𝑎 ⇒ 𝑐), (𝑏 ⇒ 𝑑) ⊢ (𝑐 ∨ 𝑑)**
 ![[Pasted image 20251007134800.png]]
