@@ -49,3 +49,12 @@ Další vlastnosti úsudku
 
 
 -Není nemocný jen přeplý
+### Co je to úsudek a jak zní jeho formální definice?
+**Úsudek** je **myšlenkový proces**, při kterém **z jedné nebo více vět (premis)** odvozujeme **novou větu (závěr)**.
+Příklad:
+> Premisa 1: Všichni lidé jsou smrtelní.  
+> Premisa 2: Sokrates je člověk.  
+> ————————————————  
+  Závěr: Sokrates je smrtelný.
+ To je **úsudek** — z daných výroků jsme logicky odvodili nový.
+![[Pasted image 20251012175950.png]]
