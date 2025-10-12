@@ -25,8 +25,10 @@
 ![[Pasted image 20251007135322.png]]
 #### Klauzule, rezolventa
 ![[Pasted image 20251007135207.png]]
+![[Pasted image 20251012162022.png]]
 ### Rezoluční metoda ve výrokové logice
 ![[Pasted image 20251007140018.png]]
+- ψ⊂ψ′ tedy znamená, že všechny formule z ψ\psiψ jsou také ve ψ′\psi'ψ′, ale ψ′\psi'ψ′ obsahuje **nějaké další** navíc.
 - Důkaz sporem
 #### Příklad
 ![[Pasted image 20251007141055.png]]
