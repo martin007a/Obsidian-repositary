@@ -77,3 +77,7 @@ Buď 𝑋 formule a 𝑞 její proměnná. Jestliže do 𝑋 za 𝑞 dosadíme f
 #### Substituční pravidlo pro formuli
 Buď 𝑋 formule a 𝐵 její podformule. Jestliže do 𝑋 za 𝐵 dosadíme formuli 𝐴, pak formuli vzniklou touto substitucí označíme 𝑆(𝐴/𝐵, 𝑋 ). Pak platí 𝑋 , (𝐴 ⇔ 𝐵) ⊢ 𝑆(𝐴/𝐵, 𝑋 ).
 ### Jak vypadá odvození formule?
+![[Pasted image 20251012184002.png]]
+#### K čemu je rezoluční metoda a jaký je její princip?
+**Rezoluční metoda** je **mechanický způsob dokazování** logické odvoditelnosti — tedy určuje, jestli z daných **premis** logicky **plyne** nějaký **závěr**.
+![[Pasted image 20251012184338.png]]
