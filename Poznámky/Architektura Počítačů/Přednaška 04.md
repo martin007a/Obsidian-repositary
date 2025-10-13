@@ -35,5 +35,14 @@ Dva typy posuvných registrů:
 - **parallel-in → serial-out** - nakrmí se najednou a postupně umí bity vydávat ven
 ### Západky (Latches)
 Západka je otevřená tak, vstup kopíruje výstup - rozdíl oproti registru?
+### ČITAČE 
+jsou to obvody co v sobě drží více bitů
+- dělají se většinou 4 bitové
+- sekvenční obvod pamatuje si to stav
+### Synchronní čítače
+- Čítání se obvykle  děje s příchodem hodinového impulsu, tj. se jeho náběžnou nebo sestupnou hranou dle dokumentace
+- D/U (Směr čítánní)
+- tlačítko před sepnutí zakmitá
+- 
 
 
