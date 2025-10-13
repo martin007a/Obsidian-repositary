@@ -33,3 +33,7 @@ musím zajistit aby se aktivoval jen jeden. ??
 Dva typy posuvných registrů: 
 - **serial-in → parallel-out** - krmí se postupně bity a najednou lze přečíst obsah 
 - **parallel-in → serial-out** - nakrmí se najednou a postupně umí bity vydávat ven
+### Západky (Latches)
+Západka je otevřená tak, vstup kopíruje výstup - rozdíl oproti registru?
+
+
