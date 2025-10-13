@@ -15,3 +15,14 @@ Základní sekvenční obvody: **klopné obvody, čítače, registry, posuvné r
 ### Kombinované - Klopný obvod D se vstupy R-S
 ![[Pasted image 20251013093637.png]]
 - hobby projekty problém s napájení
+### Klopný obvod J-K
+Poměrně univerzální klopný obvod, jenž může nahradit R-S, D klopné obvody
+- Myšlenka nepotřebuji tolik vstupů
+	- lépe se využívají kombinace na vstupech(menší spotřeba  a zpoždění)
+![[Pasted image 20251013094158.png]]
+-koukni na PFD
+### Paralelní Registry ??????
+- Klopný obvod RS se dal označit za1bitový registr, pamatuje si 1 bit, viz Klopné obvody 
+- 1 bit je ale málo, většinou potřebujeme registr na 4, 8, 32 … bitů — tedy **paralelní registr.**
+- Registry často mívají třístavové výstupy (tri-state output).
+8 ktrát D klopný obvod. (?)
