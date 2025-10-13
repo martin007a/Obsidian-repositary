@@ -26,3 +26,10 @@ Poměrně univerzální klopný obvod, jenž může nahradit R-S, D klopné obvo
 - 1 bit je ale málo, většinou potřebujeme registr na 4, 8, 32 … bitů — tedy **paralelní registr.**
 - Registry často mívají třístavové výstupy (tri-state output).
 8 ktrát D klopný obvod. (?)
+**OE** - (output enabled), může být 0/1 na výstupu, když není OE, vstup není (vysoká impedance)
+
+musím zajistit aby se aktivoval jen jeden. ??
+### Posuvné (sériové) registry
+Dva typy posuvných registrů: 
+- **serial-in → parallel-out** - krmí se postupně bity a najednou lze přečíst obsah 
+- **parallel-in → serial-out** - nakrmí se najednou a postupně umí bity vydávat ven
