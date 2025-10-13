@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -198,10 +197,10 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
-    "imgs/Pasted image 20251013094158.png",
-    "imgs/Pasted image 20251013093637.png",
     "Tasks/To Do.md",
     "Poznámky/Architektura Počítačů/Přednaška 04.md",
+    "imgs/Pasted image 20251013094158.png",
+    "imgs/Pasted image 20251013093637.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "imgs/Pasted image 20251012184338.png",
     "imgs/Pasted image 20251012184002.png",
@@ -216,7 +215,6 @@
     "Poznámky/Nano/Nano takák.md",
     "Poznámky/Algoritmizace/Programové cykly.md",
     "Poznámky/Algoritmizace/Přenáška 03.md",
-    "imgs/Pasted image 20251009121627.png",
     "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Cviko 01.md",
     "Poznámky/Algoritmizace/Přednáška 01.md",

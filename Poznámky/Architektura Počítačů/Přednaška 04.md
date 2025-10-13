@@ -1,13 +1,15 @@
 #### Sekvenční logika
 Základní sekvenční obvody: **klopné obvody, čítače, registry, posuvné registry**
 **Sekvenční logické obvody si vždy něco pamatují** (obsah paměti, stav klopného obvodu, registru, hodnotu čítače), mají svůj vnitřní stav — stav na výstupech pak odpovídá jak momentálnímu stavu na vstupech, ale i vnitřnímu stavu.
+
+**Klopné obvody si pamatují stav** a mají vstupy, kterými se stav dá změnit, přehodit ("flip-flow")
 ### Klopný obvod R-S (Reset-Set))
 - Slouží jako 1 bitová paměť
-- Má jeden vstup pro nulování (R), jeden pro nastavení do 1 (S).
+- Má jeden vstup pro nulování (R-reset), jeden pro nastavení do 1 (S-set).
 - Je **asynchronní**; na rozdíl od dalšího klopného obvodu D nemá hodinový vstup, a jeho výstup se mění okamžitě, když se změní vstup R či S do aktivní úrovně.
-- Je asynchronní; na rozdíl od dalšího klopného obvodu D nemá hodinový vstup, a jeho výstup se mění okamžitě, když se změní vstup R či S do aktivní úrovně
+- Kromě výstupu obvykle značeného Q mohou mít invertovaný výstup Q nesoucí opačnou hodnotu než Q.
 ### Klopný obvod D (Data)
-- souží nám k zapamatování nějšího vstupu - Fakticky jde o jednobitový registr, pamatuje si 1 bit.
+- souží nám k zapamatování vnějšího vstupu - Fakticky jde o jednobitový registr, pamatuje si 1 bit.
 - Je synchronní; mění se při příchodu hodinového pulsu = při změně signálu CLK.
 - Zápis může být **iniciován** náběžnou ↑ (0 → 1) nebo sestupnou ↓ (1 → 0) hranou CLK
 	- to je definováno v dokumentaci k obvodu
