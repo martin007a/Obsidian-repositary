@@ -67,3 +67,17 @@ succ(0) -> 1
 ### Tautologie a negace v predikátové logice
 ![[Pasted image 20251014135911.png]]
 ### Negace predikátových formulí
+![[Pasted image 20251014140748.png]]
+### Negace predikátových formulí
+
+### Omezení počtu spojek a kvantifikátorů
+Vezmeme spojku která tvoří uplný systém spojek a přidáme kvantifikátor
+![[Pasted image 20251014141328.png]]
+### Úlohy predikátové logiky
+### Splnitelná množina formulí
+![[Pasted image 20251014141734.png]]
+![[Pasted image 20251014141746.png]]
+Našli jsme model kdy to je pravdivé,
+jelikož význam tech predikátu není jedno proto to není tautologie
+![[Pasted image 20251014142054.png]]
+# dělat to nebudeme
