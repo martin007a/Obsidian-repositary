@@ -45,3 +45,16 @@ Výsledkem je logická hodnota (pravda/nepravda)
 ![[Pasted image 20251014133529.png]]
 succ - susceader - následník 
 succ(0) -> 1
+(∃𝑥)(∀𝑦)(¬ succ(𝑦) = 𝑥) -> popisuje prvek 0
+### Přirozený jazyk → jazyk predikátové logiky
+(∀𝑥) = všichni, každý, kdo …, žádný
+(∃𝑥) = existuje, někdo, něco, nějaký
+![[Pasted image 20251014134624.png]]
+#### Volný a vázaný výskyt proměnné
+![[Pasted image 20251014134944.png]]
+### Sémantika predikátové logiky
+![[Pasted image 20251014135121.png]]
+#### Ohodnocení proměnných
+![[Pasted image 20251014135151.png]]
+#### Hodnota termu
+![[Pasted image 20251014135221.png]]
