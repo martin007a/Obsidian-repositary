@@ -58,3 +58,12 @@ succ(0) -> 1
 ![[Pasted image 20251014135151.png]]
 #### Hodnota termu
 ![[Pasted image 20251014135221.png]]
+### Pravdivost atomické formule
+### Pravdivost formule
+![[Pasted image 20251014135442.png]]
+(∀𝑥) - všichni
+(∃𝑥) - alespoň jeden
+![[Pasted image 20251014135659.png]]
+### Tautologie a negace v predikátové logice
+![[Pasted image 20251014135911.png]]
+### Negace predikátových formulí
