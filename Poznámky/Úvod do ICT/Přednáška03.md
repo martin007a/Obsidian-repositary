@@ -192,4 +192,14 @@ V paměti počítače je proměnná **reprezentována binárně**, tedy jako pos
 ### Jak je v paměti počítače reprezentována proměnná v celočíselném datovém typu se znaménkem?
 V paměti je číslo opět reprezentováno jako **posloupnost bitů (0 a 1)**, ale na rozdíl od typu _unsigned_ se **jeden bit používá pro znaménko**.  
 Tento systém se dnes téměř vždy realizuje pomocí **dvojkového doplňku (two’s complement)**.
-### 
+### Na jakém principu pracuje aditivní kód (kód s posunutou nulou) a k čemu se používá?
+**Aditivní kód** (také **offset binary** nebo **biased code**) je způsob,  
+jak **reprezentovat kladná i záporná čísla** **bez použití znaménkového bitu**.
+
+Místo toho se do čísla **přidá určitá konstanta (posun, bias)**, takže **nulová hodnota se “posune” doprostřed číselného rozsahu**.
+**Použití**
+**– použití pro reprezentaci exponentu racionálních čísel**
+### Jak je v paměti počítače reprezentována proměnná v racionálním datovém typu podle standardu IEEE?
+![[Pasted image 20251014211129.png]]
+![[Pasted image 20251014211245.png]]
+![[Pasted image 20251014211307.png]]
