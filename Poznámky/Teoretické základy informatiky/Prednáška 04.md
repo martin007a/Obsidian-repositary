@@ -18,3 +18,30 @@ pokud je něco dokazatelné tak to je tautologie
 - existuje právě jeden, jediný, … 
 - ∃!𝑥 ∈ ℕ ∶ (𝑥 − 1) ∉ ℕ 
 - „existuje jediné přirozené číslo 𝑥, pro které platí …“
+### Formální jazyk predikátové logiky
+- **Individuální jména (konstanty)          𝑎, 𝑏, 𝑐, …** 
+	- označují konkrétní objekt 
+- **Individuální proměnné   𝑥, 𝑦, 𝑧, …** 
+	- neoznačují konkrétní objekt, mají svůj definiční obor 
+- **Funkční symboly  𝑓 , 𝑔, ℎ, …** 
+	- přiřazují prvkům definičního oboru jiné prvky 
+- **Predikátové symboly    𝑃, 𝑄, 𝑅, …** 
+	- označují vlastnosti a vztahy 
+- **Logické spojky    ¬, ∧, ∨,⇒,⇔** 
+- **Kvantifikátory   ∀, ∃** 
+- **Závorky**  
+### Term
+• Označuje prvek definičního oboru
+1. Každá konstanta je term 
+2. Každá individuální proměnná je term 
+3. Je-li 𝑓 funkční symbol arity 𝑛 a 𝑡1 , 𝑡2 , … , 𝑡𝑛 jsou termy, pak 𝑓 (𝑡1 , 𝑡2 , … , 𝑡𝑛 ) je rovněž term 
+4. Nic jiného není term
+### Predikátová Formule
+Výsledkem je logická hodnota (pravda/nepravda)
+![[Pasted image 20251014132732.png]]
+### Jazyk predikátové logiky
+![[Pasted image 20251014133044.png]]
+![[Pasted image 20251014133127.png]]
+![[Pasted image 20251014133529.png]]
+succ - susceader - následník 
+succ(0) -> 1
