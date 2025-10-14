@@ -203,3 +203,30 @@ Místo toho se do čísla **přidá určitá konstanta (posun, bias)**, takže *
 ![[Pasted image 20251014211129.png]]
 ![[Pasted image 20251014211245.png]]
 ![[Pasted image 20251014211307.png]]
+### Co je přetečení a podtečení a co je způsobuje?
+#### **PŘETEČENÍ (overflow)**
+
+**Nastane, když je výsledek příliš velký**, aby se vešel do zadaného datového typu.
+- číslo bude uloženo s chybou 
+- číslo bude zaokrouhleno 
+- číslo bude zaměněno za číslo s opačným znaménkem
+#### **PODTEČENÍ (underflow)**
+
+**Nastane, když je výsledek příliš malý (záporný nebo blízko nuly)**, aby ho daný typ dokázal vyjádřit.
+- problém u racionálních čísel
+### Jaká jsou pravidla pro zaokrouhlování racionálních čísel?
+Využití tří pomocných bitů uchovaných hardwarem navíc nad rámec těch, které se vlezly do mantisy 
+- guard – chrání před ztrátou významného bitu při přenosu 
+- round – umožňuje zaokrouhlení výsledku po normalizaci 
+- sticky – logický součet všech zbývajících bitů
+![[Pasted image 20251014212437.png]]
+### Které speciální hodnoty mohou být výsledkem operace nad racionálními čísly?
+![[Pasted image 20251014212738.png]]
+### Co jsou denormalizovaná čísla a kdy se používají?
+**Denormalizovaná čísla** jsou ta úplně nejmenší kladná/záporná čísla,  
+která se používají k tomu, aby počítač při velmi malých výsledcích  
+**neskočil rovnou na nulu**, ale **plynule se k ní blížil**.
+![[Pasted image 20251014213118.png]]
+- Libovolná nenulová mantisa, nulový exponent 
+- Mantisa uložena s pevnou řádovou čárkou umístěnou za nejvyšším bitem
+![[Pasted image 20251014213211.png]]
