@@ -81,3 +81,10 @@ Našli jsme model kdy to je pravdivé,
 jelikož význam tech predikátu není jedno proto to není tautologie
 ![[Pasted image 20251014142054.png]]
 # dělat to nebudeme
+## Odvozovací pravidla predikátové logiky
+![[Pasted image 20251014142407.png]]
+**Zákony distribuce kvantifikátorů**
+![[Pasted image 20251014142458.png]]
+Pravidlo specializace to dokazuje
+![[Pasted image 20251014142714.png]]
+
