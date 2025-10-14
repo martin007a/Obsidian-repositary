@@ -186,3 +186,10 @@ ex - exponent
 ![[Pasted image 20251008163332.png]]
 ![[Pasted image 20251008163504.png]]
 pkračování v prezentaci .xd slid 55
+### Jak je v paměti počítače reprezentována proměnná v celočíselném datovém typu bez znaménka?
+
+V paměti počítače je proměnná **reprezentována binárně**, tedy jako posloupnost **bitů (0 a 1)**.
+### Jak je v paměti počítače reprezentována proměnná v celočíselném datovém typu se znaménkem?
+V paměti je číslo opět reprezentováno jako **posloupnost bitů (0 a 1)**, ale na rozdíl od typu _unsigned_ se **jeden bit používá pro znaménko**.  
+Tento systém se dnes téměř vždy realizuje pomocí **dvojkového doplňku (two’s complement)**.
+### 
