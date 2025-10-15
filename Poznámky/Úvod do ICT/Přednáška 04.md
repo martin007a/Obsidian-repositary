@@ -21,3 +21,38 @@ Každému znaku je přiřazeno jedno číslo
 - **řídicí znaky** – #0 až #31, #127 
 - **zobrazitelné znaky** – #32 až #126, #128 až #255
 ![[Pasted image 20251015152725.png]]
+![[Pasted image 20251015152942.png]]
+### ASCII – rozšířená část
+- národní znaky
+![[Pasted image 20251015153245.png]]
+## Varianty kódování českých nár. znaků
+### Kód bratrů Kamenických
+- jiné označení: MJK, KEYBCS2, CP895 
+- pro osobní počítače s operačním systémem MS-DOS 
+- využití sady CP437 z IBM PC 
+- náhrada pozic #128 až #171 českými a slovenskými národními znaky
+#### PC Latin 2
+- jiné označení: IBM Latin 2, CP852 
+- pro osobní počítače s operačním systémem MS-DOS 
+- podpora středoevropských jazyků používajících latinku (albánština, čeština, slovenština, polština, rumunština, maďarština, srbochorvatština aj.)
+#### KOI-8 ČS2
+- Код Обмена Информацией, 8 бит 
+- vyvinut v SSSR v rámci RVHP, ČSN 36 9103
+### ISO Latin 2
+- jiné označení: ISO 8859-2 
+- podpora středoevropských a východoevropských jazyků psaných latinkou nebo latinskou transkripcí 
+- použitelné i pro němčinu a finštinu
+- Standart pro Unixové servery (historicky)
+Windows-1250
+- jiné označení: CP1250 
+- pro operační systém Windows 
+- podpora středoevropských jazyků a němčiny 
+- velmi podobné kódu ISO 8859-2
+ ![[Pasted image 20251015153827.png]]
+### Když ASCII přestává stačit
+Ke konci 80. let 20. století přichází první potíže - 256 nestačí
+### Hledání nových možností
+- Standard **USC** (ISO 10646)
+	- 31 bitů
+	- většina používaných znaků je umístěna na prvních 65 536 pozicích (16 bitů) – Basic Multilingual Plane
+- Standard **Unicode**
