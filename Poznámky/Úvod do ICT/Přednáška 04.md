@@ -113,4 +113,34 @@ specifická zařízení: řezací plotr, tablet
 - **inkoustová tiskárna** – kapka nebo shluk kapek barvy 
 - **laserová tiskárna** – několik zrnek toneru
 **Logický pixel** 
-- 0matematický bod, který nemá rozměr – jeho souřadnice specifikuje polohu v obraze – při tisku se logické pixely převádí na fyzické
+- matematický bod, který nemá rozměr 
+- jeho souřadnice specifikuje polohu v obraze 
+- při tisku se logické pixely převádí na fyzické
+### Hustota obrazu
+**Dána počtem pixelů na jednotku délky** 
+**Jednotka dpi (dots per inch)**
+- tedy počet bodů na jeden palec 
+- 1 in = 2,54 cm
+**Typické hodnoty hustoty**
+- **monitor** – cca 100 dpi 
+- **tiskárna** – 300, 600, 1 200 dpi 
+- **osvitová jednotka** – 5 000 dpi
+**Při vykreslování obrazu na rastrových zařízeních dochází ke změně hustoty**
+- obraz (300 dpi) zobrazený na monitoru (100 dpi) - bude 3 krát vetší 
+- obraz (300 dpi) vytištěný na tiskárně (600 dpi) 
+- efektivní hustota při zobrazení šedých obrazů
+### Barevný rastrový obraz v paměti
+- Rastrový obraz je uložen po jednotlivých bodech
+- Pro každý bod ukládáme intenzitu barvy každé složky
+Model **RGB** vychází ze tří složek, v paměti proto informace o barvě každého bodu zabere 3 B 
+- celkem možno rozlišit 2563 = 16 777 216 barev 
+- tedy mnohem více, než dokáže rozlišit lidské oko
+Model **RGBA** používá ještě bajt pro uložení informace o intenzitě průhlednosti pixelu (tzv. alfa kanál)
+Model **CMYK** vychází ze čtyř složek, v paměti proto informace o barvě každého bodu zabere 4 B
+#### Bitová hloubka
+![[Pasted image 20251015162235.png]]
+### Jak spočítat paměťovou náročnost?
+Ovlivňuje 
+- počet bodů
+- počet bitů nutných k uložení
+Souvyslost s hustotou 
