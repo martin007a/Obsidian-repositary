@@ -143,4 +143,24 @@ Model **CMYK** vychází ze čtyř složek, v paměti proto informace o barvě k
 Ovlivňuje 
 - počet bodů
 - počet bitů nutných k uložení
-Souvyslost s hustotou 
+Souvislost s hustotou obrazu
+	počet pixelů v skouvisloti na skutečných rozměrech
+![[Pasted image 20251015162853.png]]
+### Ukládání do paměti
+![[Pasted image 20251015163301.png]]
+Uložení vektorových obrazů
+![[Pasted image 20251015163416.png]]
+### Reprezentace zvukových dat
+![[Pasted image 20251015163524.png]]
+### Uložení zvuku – přímý záznam
+![[Pasted image 20251015163556.png]]
+### Pulsně kódová modulace (PCM)
+![[Pasted image 20251015163635.png]]
+### Pulsně kódová modulace (PCM)
+![[Pasted image 20251015163901.png]]
+### Paměťová náročnost zvuku
+![[Pasted image 20251015163926.png]]
+### Uložení zvuku – MIDI sekvence
+![[Pasted image 20251015164146.png]]
+### MIDI sekvence-
+![[Pasted image 20251015164204.png]]
