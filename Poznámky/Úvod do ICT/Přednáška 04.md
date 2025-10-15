@@ -76,4 +76,41 @@ U+0000 až U+00FF ∼ ISO 8859-1
 ![[Pasted image 20251015155316.png]]
 - u UTF-8 je nepovinná
 ![[Pasted image 20251015155340.png]]
-
+### Znaky v praxi – jednobajtová kódování
+### Barvy a jejich reprezentace
+##### Elektromagnetické záření na určité frekvenci – 
+- frekvenční pásmo 3,9 ⋅ 108 až 7,9 ⋅ 108 MHz 
+- nižší frekvence – infračervené záření (teplo) 
+- vyšší frekvence – ultrafialové záření (opalování) 
+**Lidské oko rozlišuje až 4 ⋅ 105 různých odstínů barev**
+### Aditivní barevný model
+- přídávám bílou
+- RGB
+### Subtraktivní barevný model
+- odebírá bílou
+- CMY(K)
+	- K - Key - klíčovací barva
+### Míchání barev v modelech RGB a CMY
+![[Pasted image 20251015160715.png]]
+## Grafika v počítači
+### Rastrová grafika
+- obraz je tvořen maticí bodů (pixelů) 
+- značně rozšířené díky technologiím 
+- prakticky vždy se zobrazuje rastrově 
+- běžná zařízení: monitor, tiskárna, fotoaparát, skener
+### Vektorová grafika 
+obraz je tvořen množinou objektů 
+velmi důležité pro možnosti úprav 
+schopnost efektivního uchování grafické informace 
+specifická zařízení: řezací plotr, tablet
+### Grafický bod a jeho reprezentace
+**Grafický bod = pixel** -
+- picture element 
+- každý bod má barvu
+**Fyzický pixel**
+- zobrazení na výstupním zařízení 
+- **obrazovka** – tři prvky vysvítí jeden pixel 
+- **inkoustová tiskárna** – kapka nebo shluk kapek barvy 
+- **laserová tiskárna** – několik zrnek toneru
+**Logický pixel** 
+- 0matematický bod, který nemá rozměr – jeho souřadnice specifikuje polohu v obraze – při tisku se logické pixely převádí na fyzické
