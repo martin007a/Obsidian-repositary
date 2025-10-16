@@ -63,7 +63,7 @@ Potom k této inverzi musíme přičíst k nejméně významnému bitu jeden bit
 	- Pokud k přenosu do vyššího řádu nedojde je výsledek  v dopňkové formě a je třeba provést následující kroky.
 	1. Vytvořit doplněk k výsledku v doplňkové formě
 	2. Změnit znaménko výsledku.
-	- [ ] Pojebal el. Proud musím takže idk
+	- [x] Pojebal el. Proud musím takže idk ✅ 2025-10-16
 ### **Násobení**
 ![[Pasted image 20251003120011.png]]
 ### **Dělení**

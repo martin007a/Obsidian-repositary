@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Algoritmizace/Prednáška 04.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prednáška 04"
+              "title": "Přednáška 04"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -197,10 +198,12 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
-    "Poznámky/Algoritmizace/Programové cykly.md",
-    "Poznámky/Algoritmizace/Prednáška 04.md",
-    "Poznámky/Algoritmizace/Přenáška 03.md",
+    "Poznámky/Algoritmizace/Přednáška 03.md",
+    "Poznámky/Algoritmizace/Přednáška 04.md",
+    "Poznámky/Nepřiřaditelné poznámky.md",
+    "Tasks/Done.md",
     "Tasks/To Do.md",
+    "Poznámky/Algoritmizace/Programové cykly.md",
     "Poznámky/Úvod do ICT/Přednáška 04.md",
     "imgs/Pasted image 20251015164204.png",
     "imgs/Pasted image 20251015164146.png",
@@ -224,7 +227,6 @@
     "Poznámky/Algoritmizace/Přednáška 01.md",
     "Poznámky/Úvod do ICT/Přednáška 01.md",
     "Poznámky/Úvod do ICT/Přednáška 02.md",
-    "Poznámky/Nepřiřaditelné poznámky.md",
     "Poznámky/ZOO/Přednáška 02.md",
     "Poznámky/ZOO/Př.3.md",
     "Poznámky/Nano",
@@ -239,7 +241,6 @@
     "Poznámky/ZOO",
     "Poznámky/Teoretické základy informatiky",
     "Poznámky/Architektura Počítačů/Untitled",
-    "Architektura Počítačů/Untitled 1.md",
     "Poznámky/Přednáška 01/Untitled",
     "Přednáška 01.pdf",
     "Poznámky/Architektura Počítačů",
