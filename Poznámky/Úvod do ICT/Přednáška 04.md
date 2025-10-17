@@ -81,18 +81,29 @@ Ke konci 80. let 20. století přichází první potíže - 256 nestačí
 - Komputerizace **,,exotických " jazyků** s velkým počtem národních znaků
 ### Hledání nových možností
 - Standard **USC** (ISO 10646)
-	- 31 bitů
-	- většina používaných znaků je umístěna na prvních 65 536 pozicích (16 bitů) – Basic Mulltilingual Plane
 - Standard **Unicode**
 Počátkem 90. let 20. stol. se projekty spojily což vedlo k vytvoření **jednotné tabulky.**
-- 
+- Oba projekty existují a publikují standardy samostatně
+- tabulky jsou kompatibilní, rozšiřování je koordinováno
+## Universal Character Set (UCS)
+- znaky pro reprezentaci všech známých znaků 
+- grafické, typografické, matematické a vědecké symboly
+Kódovací prostor 31 **bitů** (přes 2 miliardy znaků)
+- většina používaných znaků je na prvních 65 536 pozicích (16 bitů) - **Basic Multilingual Plane**
+###### Záměr a doporučení **používat max. 21 bitů**
+###### Každému znaku přiřazen číselný kód a oficiální jméno
+- např. ’A’ ∼ U+0041 ∼ „Latin capital letter A“
 ### Kompatibilita
 U+0000 až U+007F ∼ základní kód ASCII 
 U+0000 až U+00FF ∼ ISO 8859-1
-![[Pasted image 20251015154452.png]]
-## UTF
+### Basic Multilingual Plane
+![[Pasted image 20251017131030.png]]
+## UTF-
 - 32 bit
 	-  každý znak reprezentován 32bitovým číslem
+	- teoretický rozsah U+00000000 až U+7FFFFFFF
+	- prakticky stačí U+000000 až U+10FFFF (21 bitů)
+	- výhodou stejná délka reprezentace všech znaků (4 B)
 	- nevýhoda velká neuspornost
 * 16bit
 	* v C
