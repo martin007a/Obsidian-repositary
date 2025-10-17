@@ -1,5 +1,6 @@
 ### Vnitřní reprezentace dat II
-Data jsou reprezentována  podobě binárních sekvencí
+Data jsou reprezentována podobě binárních sekvencí
+**Znaky jsou v paměti počítače reprezentovány přirozenými čísly. Soubor kódů se nazývá znaková sada**
 #### Znaky v Pc 
 Každému znaku je přiřazeno jedno číslo
 
@@ -137,7 +138,6 @@ UTF signatura
 - označení pořadí bajtů v souboru
 - pro UTF-8 není nutná, ale usnadňuje identifikaci
 ![[Pasted image 20251017145728.png]]
-- u UTF-8 je nepovinná
 ![[Pasted image 20251015155340.png]]
 ### Znaky v praxi – jednobajtová kódování
 ### Barvy a jejich reprezentace
