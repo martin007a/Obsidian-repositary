@@ -76,12 +76,16 @@ Pro různé skupiny jazyků vznikly různé znakové sady.
  ![[Pasted image 20251015153827.png]]
 ### Když ASCII přestává stačit
 Ke konci 80. let 20. století přichází první potíže - 256 nestačí
-
+- Potřeba sjednotit různé kódové tabulky pro národní abecedy (pro Čj minimálně 5.)
+- Značné problémy pří **spolupráci aplikací a přenosech dat** mezi platformami
+- Komputerizace **,,exotických " jazyků** s velkým počtem národních znaků
 ### Hledání nových možností
 - Standard **USC** (ISO 10646)
 	- 31 bitů
-	- většina používaných znaků je umístěna na prvních 65 536 pozicích (16 bitů) – Basic Multilingual Plane
+	- většina používaných znaků je umístěna na prvních 65 536 pozicích (16 bitů) – Basic Mulltilingual Plane
 - Standard **Unicode**
+Počátkem 90. let 20. stol. se projekty spojily což vedlo k vytvoření **jednotné tabulky.**
+- 
 ### Kompatibilita
 U+0000 až U+007F ∼ základní kód ASCII 
 U+0000 až U+00FF ∼ ISO 8859-1
