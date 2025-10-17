@@ -76,6 +76,7 @@ Pro různé skupiny jazyků vznikly různé znakové sady.
  ![[Pasted image 20251015153827.png]]
 ### Když ASCII přestává stačit
 Ke konci 80. let 20. století přichází první potíže - 256 nestačí
+
 ### Hledání nových možností
 - Standard **USC** (ISO 10646)
 	- 31 bitů
