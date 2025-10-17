@@ -1,9 +1,19 @@
 ### Vnitřní reprezentace dat II
+Data jsou reprezentována  podobě binárních sekvencí
 #### Znaky v Pc 
 Každému znaku je přiřazeno jedno číslo
 
 **Znakům je nutné přidělit číselné kódy podle tabulek** 
-- **jednobajtové** – EBCDIC, ASCII 
+### **jednobajtové** – 
+#### EBCDIC 
+- Prehistorický kód navržený IBM v 60. letech 20. století
+- Vychází z kódu používaného pro děrné štítky a BCD kódu využívaného v periferiích IBM
+- Kódovací prostor 8 bitů – lze rozlišit 256 znaků – každý znak je uložen na 8 bitech – v některých asijských zemích rozšířený 16bitový kód
+- **Rozložení kódu** 
+	- **řídicí znaky** – #0 až #63, #255 
+	- **zobrazitelné znaky** – #64 až #254
+- **Nevýhoda:** znaky anglické abecedy netvoří spojitou posloupnost, nelze použít regulární výraz
+#### ASCII 
 - **vícebajtové** – UCS, Unicode, UTF
 **Zobrazitelné znaky** 
 - slouží pro zápis textové informace 
