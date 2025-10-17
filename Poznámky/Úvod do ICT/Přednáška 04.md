@@ -140,6 +140,7 @@ UTF signatura
 ![[Pasted image 20251017145728.png]]
 ![[Pasted image 20251015155340.png]]
 ### Znaky v praxi – jednobajtová kódování
+# Reprezentace grafických dat
 ### Barvy a jejich reprezentace
 ##### Elektromagnetické záření na určité frekvenci – 
 - frekvenční pásmo 3,9 ⋅ 108 až 7,9 ⋅ 108 MHz 
