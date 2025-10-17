@@ -298,13 +298,20 @@ Naměřená hodnota (vzorek) se zaokrouhlí na nejbližší celé číslo a ulo�
 - Klavíry, laděné bicí, varhany, kytary, basy, smyčce, zvuky souboru, žestě, plátkové nástroje, píšťaly, elektronické sólové zvuky, elektronické doprovodné zvuky, elektronické zvukové efekty, etnické zvuky, perkusní zvuky a další zvukové efekty (např. výstřel)
 ![[Pasted image 20251017171419.png]]
 ### Jak jsou v paměti počítače reprezentovány znaky?
+Znaky jsou v paměti počítače reprezentovány přirozenými čísly. Soubor kódů se nazývá znaková sada.
 ### Jaký je rozdíl mezi řídicím a zobrazitelným znakem?
+Zobrazitelný znak slouží pro zápis textové informace v podobě písmen, číslic, interpunkční znamének a dalších textově vyjádřitelných symbolů. Řídicí znak slouží k ovládání periferních zařízení a programů, jsou to povely, které mohou být v každém systému implementovány odlišným způsobem.
 ### Ze kterých částí se skládá tabulka ASCII?
+Tabulka ASCII je složena ze základní části (33 řídicích a 95 zobrazitelných znaků) a rozšířené části (128 národních znaků), která má různé podoby.
 ### Jaké existují varianty kódování českých znaků?
+- ISO 8859-2, 
+ - Windows-1250, 
+ z historických kódů je použitelný 
+ - kód bratrů Kamenických 
+ - PC Latin 2.
 ### Jaké výhody a nevýhody přináší vícebajtové kódování?
 ##### Výhody vícebajtového kódování
 - Umožňuje **použití jednotné tabulky pro všechny existující jazyky**
-- **Umožňuje **použití jednotné tabulky pro všechny existující jazyky****
 - **Podpora exotických jazyků** (zejména z jihovýchodní Asie)
 - **Optimální kódování (u UTF-8):** Varianta **UTF-8** je obecně považována za **optimální kód** a dosahuje velmi podobných kvalit jako úsporné jednobajtové kódy
 ##### Nevýhody vícebajtového kódování
