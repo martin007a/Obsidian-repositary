@@ -302,7 +302,16 @@ Naměřená hodnota (vzorek) se zaokrouhlí na nejbližší celé číslo a ulo�
 ### Ze kterých částí se skládá tabulka ASCII?
 ### Jaké existují varianty kódování českých znaků?
 ### Jaké výhody a nevýhody přináší vícebajtové kódování?
+##### Výhody vícebajtového kódování
+- Umožňuje **použití jednotné tabulky pro všechny existující jazyky**
+- **Umožňuje **použití jednotné tabulky pro všechny existující jazyky****
+- **Podpora exotických jazyků** (zejména z jihovýchodní Asie)
+- **Optimální kódování (u UTF-8):** Varianta **UTF-8** je obecně považována za **optimální kód** a dosahuje velmi podobných kvalit jako úsporné jednobajtové kódy
+##### Nevýhody vícebajtového kódování
+- **Neúspornost u pevných délek (UTF-16**) - zaznamenávají každý znak na **4 bajtech**
+- . **Problémy s endianitou:** Některé vícebajtové kódy (jako UTF-16 a UTF-32) se mohou objevit ve dvou variantách (**Little Endian** a **Big Endian**
 ### Které kódování je v současnosti nejpoužívanější?
+UTF-8
 ### Jaký je rozdíl mezi rastrovou a vektorovou grafikou?
 Rastrový obraz se skládá z elementárních obrazových bodů (pixelů) určité barvy. Vektorový obraz se skládá z obrazových objektů (vektorů) reprezentovaných geometrickými útvary a jejich atributy.
 ### Čím se liší barevné modely RGB a CMYK?
@@ -326,4 +335,21 @@ Nevýhody
 - Pořízení kvalitního obrazu je **zpravidla obtížnější**
 - U složitějších obrazů jsou spojeny **vyšší nároky na paměť a procesor**
 ### Na jakém principu funguje pulsně kódová modulace?
+**Pulsně kódová modulace** funguje na principu **digitalizace analogového signálu**, Proces digitalizace (převodu spojitého signálu na diskrétní reprezentaci) zahrnuje **odečítání hodnoty signálu a její záznam v binární podobě**
+**Vzorkování (Sampling):** Z analogového signálu jsou odebírány vzorky v **přesně definovaných pravidelných časových intervalech**.
+
+Tento proces se řídí **Nyquistovou-Shannonovou vzorkovací větou**, která stanovuje, že vzorkovací frekvence musí být alespoň **dvojnásobná** oproti mezní frekvenci zaznamenaného signálu. Pokud je frekvence nižší, dochází k deformaci signálu, tzv. _aliasingu_.
+
+Tímto výběrem hodnot jen v určitých okamžicích získáme **diskrétní (digitální) signál**.
+
+**Kvantování (Quantization):** Naměřenou hodnotu signálu je nutné **kvantovat**, což znamená **zaokrouhlit na nejbližší celé číslo**.
+
+Čím více paměti je k dispozici pro uložení vzorku (např. 8 nebo 16 bitů), tím jemnější může být rozlišení jednotlivých hodnot a tím menší kvantizační šum vzniká.
+
+**Kódování (Encoding):** Kvantované (zaokrouhlené) hodnoty jsou **vyjádřeny binární posloupností**. Tím se získá digitální signál, který lze přenášet jako posloupnost čísel, typicky nul a jedniček
 ### Jaké výhody a nevýhody mají sekvence MIDI?
+##### Výhody sekvencí MIDI
+- **Minimální paměťová náročnost:** Sekvence MIDI obsahují pouze **stručný digitální popis** hudebního signálu
+###### Nevýhody sekvencí MIDI
+- Sekvence MIDI nereprezentují samotný zvuk, ale pouze pokyny pro jeho vytvoření (digitální popis výšky jednotlivých tónů, jejich intenzity, délky a doprovodných efektů). Z tohoto důvodu **nelze zaznamenat** například **lidský hlas** ani **hudební nástroj**, který by syntetizátor nedokázal „zahrát“
+- **Náročnost převodu:** Převod zvuku do sekvence MIDI je **poměrně náročný**
