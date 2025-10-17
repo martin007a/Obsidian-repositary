@@ -244,7 +244,13 @@ Souvislost s hustotou obrazu
 Vektorový obraz je tvořen **geometrickými objekty**
 - body, přímky, křivky,...
 - využití pro tvorbu ilustrací, diagramů, schémat apod.
-V paměti je vektorový obraz reprezentován **posloupností zakódo**
+V paměti je vektorový obraz reprezentován **posloupností zakódovaných příkazů**
+- například **{\put(1,15){\line(1,0){50}}}**
+- různé možnosti řešení
+##### Výhody
+- libovolná úprava velikosti obrázků bez ztráty kvality
+- práce s každým objektem v obrázku odděleně
+- obvykle menší paměťová náročnost než u rastrů
 ![[Pasted image 20251015163416.png]]
 ### Reprezentace zvukových dat
 ![[Pasted image 20251015163524.png]]
