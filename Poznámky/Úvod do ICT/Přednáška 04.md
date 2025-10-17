@@ -98,21 +98,28 @@ U+0000 až U+007F ∼ základní kód ASCII
 U+0000 až U+00FF ∼ ISO 8859-1
 ### Basic Multilingual Plane
 ![[Pasted image 20251017131030.png]]
-## UTF-
-- 32 bit
-	-  každý znak reprezentován 32bitovým číslem
-	- teoretický rozsah U+00000000 až U+7FFFFFFF
-	- prakticky stačí U+000000 až U+10FFFF (21 bitů)
-	- výhodou stejná délka reprezentace všech znaků (4 B)
-	- nevýhoda velká neuspornost
-* 16bit
-	* v C
-- 8bit
-	- velikost proměnlivá, znak zabere tolik kolik potřebuje
-	- každý znak zabere 2B, slováci - 3B jen kvůli euru 
-	- Odstraňuje nevýhody kódu Unicode 
-	- zpětná kompatibilita s ASCII 
-	- nejsou problémy s endianitou
+
+### UTF-32 (bit)
+-  každý znak reprezentován 32bitovým číslem
+- teoretický rozsah U+00000000 až U+7FFFFFFF
+- prakticky stačí U+000000 až U+10FFFF (21 bitů)
+- výhodou stejná délka reprezentace všech znaků (4 B)
+- nevýhoda velká neuspornost
+### UTF-16 (bit)
+* v C
+Oba kódy se mohou objevit ve dvou variantách 
+- **Little Endian** – nejdříve LSB, poté zbytek až po MSB 
+- **Big Endian** – nejdříve MSB, poté zbytek až po LSB
+### UTF-8 (bit)
+Odstraňuje nevýhody kódu Unicode
+- zpětná kompatibilita s ASCII
+- - nejsou problémy s endianitou
+V současnosti **nejpoužívanější forma** USVC kódování 
+- podpora ve všech internetový protokolech
+- doporučeno pro tvůrce poštovních klientů
+- standardní kódování v operačních systémech, programovacích jazycích a mnoha SW aplikací
+- velikost proměnlivá, znak zabere tolik kolik potřebuje
+- každý znak zabere 2B, slováci - 3B jen kvůli euru 
 **BOM – Byte Order Mark**
 ![[Pasted image 20251015155316.png]]
 - u UTF-8 je nepovinná
