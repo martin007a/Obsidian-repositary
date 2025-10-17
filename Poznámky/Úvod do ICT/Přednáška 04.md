@@ -42,8 +42,14 @@ Každému znaku je přiřazeno jedno číslo
 ![[Pasted image 20251015152942.png]]
 ### ASCII – rozšířená část
 **Národní znaky** (Jiné než anglické)
-- Žádný znakový k
-
+- Žádný znakový kód nebyl původně navržen pro zobrazování národních znaků
+Základní kód ASCII neposkytoval dostatečný prostor pro uložení všech národních znaků.
+- lze ale využít 8bit a získat dalších 128 pozic.
+Pro různé skupiny jazyků vznikly různé znakové sady.
+###### Varianty použité pro češtinu
+- kód bratrů Kamenických, KOI-8 ČS2
+- PC Latin 2, ISO Latin 2
+- Windows-1250, MacCE
 ## Varianty kódování českých nár. znaků
 ### Kód bratrů Kamenických
 - jiné označení: MJK, KEYBCS2, CP895 
@@ -62,11 +68,11 @@ Každému znaku je přiřazeno jedno číslo
 - podpora středoevropských a východoevropských jazyků psaných latinkou nebo latinskou transkripcí 
 - použitelné i pro němčinu a finštinu
 - Standart pro Unixové servery (historicky)
-Windows-1250
+#### Windows-1250
 - jiné označení: CP1250 
 - pro operační systém Windows 
 - podpora středoevropských jazyků a němčiny 
-- velmi podobné kódu ISO 8859-2
+- velmi podobné kódu ISO Latin 2(ISO 8859-2)
  ![[Pasted image 20251015153827.png]]
 ### Když ASCII přestává stačit
 Ke konci 80. let 20. století přichází první potíže - 256 nestačí
