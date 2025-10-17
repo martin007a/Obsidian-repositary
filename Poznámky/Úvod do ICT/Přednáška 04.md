@@ -4,7 +4,15 @@ Data jsou reprezentována  podobě binárních sekvencí
 Každému znaku je přiřazeno jedno číslo
 
 **Znakům je nutné přidělit číselné kódy podle tabulek** 
-### **jednobajtové** – 
+- **jednobajtové** -ASCII, EBCDIC 
+- **vícebajtové** – UCS, Unicode, UTF
+**Zobrazitelné znaky** 
+- slouží pro zápis textové informace 
+- písmena, číslice, interpunkční znaménka, matematické symboly a další znaky vyjádřené textově
+**Řídicí znaky** 
+- netisknutelné znaky (enter. atd.)
+- slouží k ovládání přídavných zařízení nebo programu 
+- přechod na nový řádek, tabulátor apod.
 #### EBCDIC 
 - Prehistorický kód navržený IBM v 60. letech 20. století
 - Vychází z kódu používaného pro děrné štítky a BCD kódu využívaného v periferiích IBM
@@ -14,15 +22,6 @@ Každému znaku je přiřazeno jedno číslo
 	- **zobrazitelné znaky** – #64 až #254
 - **Nevýhoda:** znaky anglické abecedy netvoří spojitou posloupnost, nelze použít regulární výraz
 ![[Pasted image 20251017115411.png]]
-#### ASCII 
-- **vícebajtové** – UCS, Unicode, UTF
-**Zobrazitelné znaky** 
-- slouží pro zápis textové informace 
-- písmena, číslice, interpunkční znaménka, matematické symboly a další znaky vyjádřené textově
-**Řídicí znaky** 
-- netisknutelné znaky (enter. atd.)
-- slouží k ovládání přídavných zařízení nebo programu 
-- přechod na nový řádek, tabulátor apod.
 ### ASCII
 **American Standard Code for Information Interchange (1968)**
 - Kódovací prostor 8 bitů – lze rozlišit 256 znaků
@@ -31,11 +30,20 @@ Každému znaku je přiřazeno jedno číslo
 **Rozložení Kódu**
 - **řídicí znaky** – #0 až #31, #127 
 - **zobrazitelné znaky** – #32 až #126, #128 až #255
-![[Pasted image 20251015152725.png]]
+**Kód má dvě části **
+- **Základní část** - "#0 až  #32, #127" (původních 7 bitů)
+- **Rozšířená část** - "#32 až #126, #128 až #255" (přidání 8. bitů)
+#### Základní Část
+ - je společná  pro všechny jazyky
+#### Rozšířená Část 
+- liší se podle národního prostředí 
+	-Problémy se zobrazováním znaků národních abeced.
+
 ![[Pasted image 20251015152942.png]]
 ### ASCII – rozšířená část
-- národní znaky
-![[Pasted image 20251015153245.png]]
+**Národní znaky** (Jiné než anglické)
+- Žádný znakový k
+
 ## Varianty kódování českých nár. znaků
 ### Kód bratrů Kamenických
 - jiné označení: MJK, KEYBCS2, CP895 
