@@ -102,8 +102,12 @@ U+0000 až U+00FF ∼ ISO 8859-1
 ![[Pasted image 20251017131030.png]]
 ### Kód UCS-2
 představuje původní způsob **zápisu znaků z projektu Unicode.** Nabízí kódovací prostor 16 bitů, na kterém lze zobrazit všechny znaky z BMP,
+### Kód UCS-4 
+zaznamenává každý znak na 4 bajtech, což umožňuje podporu všech znaků UCS-4, UTF-32 z UCS-2 včetně těch mimo BMP.
+- UCS-2 zobrazují se bezezměn ale na dvojnásobném prostoru
+- Ekvivalentní s UTF-32 (bit)
 ### UTF-32 (bit)
--  každý znak reprezentován 32bitovým číslem
+- každý znak reprezentován 32bitovým číslem
 - teoretický rozsah U+00000000 až U+7FFFFFFF
 - prakticky stačí U+000000 až U+10FFFF (21 bitů)
 - výhodou stejná délka reprezentace všech znaků (4 B)
@@ -116,9 +120,6 @@ představuje původní způsob **zápisu znaků z projektu Unicode.** Nabízí k
 Oba kódy se mohou objevit ve dvou variantách 
 - **Little Endian** – nejdříve LSB, poté zbytek až po MSB 
 - **Big Endian** – nejdříve MSB, poté zbytek až po LSB
-### Kód UCS-4 
-zaznamenává každý znak na 4 bajtech, což umožňuje podporu všech znaků UCS-4, UTF-32 z UCS-2 včetně těch mimo BMP.
-- UCS-2 zobrazují se bezezměn ale na dvojnásobném prostoru
 ### UTF-8 (bit)
 Odstraňuje nevýhody kódu Unicode
 - zpětná kompatibilita s ASCII
