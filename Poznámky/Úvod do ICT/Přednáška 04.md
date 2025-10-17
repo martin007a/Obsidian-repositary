@@ -240,7 +240,7 @@ Souvislost s hustotou obrazu
 ![[Pasted image 20251017155452.png]]
 ### Ukládání do paměti
 ![[Pasted image 20251015163301.png]]
-#### Uložení vektorových obrazů
+### Uložení vektorových obrazů
 Vektorový obraz je tvořen **geometrickými objekty**
 - body, přímky, křivky,...
 - využití pro tvorbu ilustrací, diagramů, schémat apod.
@@ -252,15 +252,25 @@ V paměti je vektorový obraz reprezentován **posloupností zakódovaných př�
 - práce s každým objektem v obrázku odděleně
 - obvykle menší paměťová náročnost než u rastrů
 ### Nevýhody
-Zpravidla složitější
-![[Pasted image 20251015163416.png]]
+- Zpravidla složitější pořízení obrázku
+- u složitých obrazů rostou nároky na RAM a procesor
 ### Reprezentace zvukových dat
+**Zvuk je** mechanické vlnění v látkovém prostředí, které je schopno vyvolat sluchový vjem
+- člověk slyší frekvence od 16 Hz do 20 kHz
+- nižší frekvence - infrazvuk (sloni)
+- vyšší frekvence - ultrazvuk (psi, delfíni, netopýři)
+##### Digitalizace zvuku
+- nalezení diskrétní reprezentace spojitého signálu
+- snadná užitelnost, přenos a vyhledávání
+- přidání metadat, komprese a zpracování bez zkreslení
+### Možnost reprezentace zvuku v PC
+- **Pulsné**
 ![[Pasted image 20251015163524.png]]
 ### Uložení zvuku – přímý záznam
 ![[Pasted image 20251015163556.png]]
 ### Pulsně kódová modulace (PCM)
 ![[Pasted image 20251015163635.png]]
-### Pulsně kódová modulace (PCM)
+###  Pulsně kódová modulace (PCM)
 ![[Pasted image 20251015163901.png]]
 ### Paměťová náročnost zvuku
 ![[Pasted image 20251015163926.png]]
