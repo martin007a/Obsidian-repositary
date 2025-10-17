@@ -122,16 +122,21 @@ Oba kódy se mohou objevit ve dvou variantách
 - **Big Endian** – nejdříve MSB, poté zbytek až po LSB
 ### UTF-8 (bit)
 Odstraňuje nevýhody kódu Unicode
+- Usporný
 - zpětná kompatibilita s ASCII
-- - nejsou problémy s endianitou
+- nejsou problémy s endianitou
 V současnosti **nejpoužívanější forma** USVC kódování 
 - podpora ve všech internetový protokolech
 - doporučeno pro tvůrce poštovních klientů
 - standardní kódování v operačních systémech, programovacích jazycích a mnoha SW aplikací
-- velikost proměnlivá, znak zabere tolik kolik potřebuje
+- velikost proměnlivá, znak zabere tolik kolik potřebuje, délka reprezentace znaků se pohybuje od 1 do 6 bajtů
 - každý znak zabere 2B, slováci - 3B jen kvůli euru 
-**BOM – Byte Order Mark**
-![[Pasted image 20251015155316.png]]
+### **BOM – Byte Order Mark**
+UTF signatura
+- specialní značky místěné na začátku souboru
+- označení pořadí bajtů v souboru
+- pro UTF-8 není nutná, ale usnadňuje identifikaci
+![[Pasted image 20251017145728.png]]
 - u UTF-8 je nepovinná
 ![[Pasted image 20251015155340.png]]
 ### Znaky v praxi – jednobajtová kódování
