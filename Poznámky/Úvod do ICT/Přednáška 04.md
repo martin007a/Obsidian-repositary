@@ -251,6 +251,8 @@ V paměti je vektorový obraz reprezentován **posloupností zakódovaných př�
 - libovolná úprava velikosti obrázků bez ztráty kvality
 - práce s každým objektem v obrázku odděleně
 - obvykle menší paměťová náročnost než u rastrů
+### Nevýhody
+Zpravidla složitější
 ![[Pasted image 20251015163416.png]]
 ### Reprezentace zvukových dat
 ![[Pasted image 20251015163524.png]]
