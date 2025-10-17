@@ -218,7 +218,7 @@ Množství informace o barvě každého pixelu v bitech
 ##### Obraz s barevnou paletou (indexed color)
 - barva každého pixelu je vybrána z různě široké škaly
 - informace zabírá 2, 4, 8 nebo 16 bitů
-##### Obraz s odstíny šedé 
+##### Obraz s odstíny šedé (gray scale)
 ![[Pasted image 20251015162235.png]]
 ### Jak spočítat paměťovou náročnost?
 Ovlivňuje 
