@@ -143,17 +143,24 @@ UTF signatura
 # Reprezentace grafických dat
 ### Barvy a jejich reprezentace
 ##### Elektromagnetické záření na určité frekvenci – 
-- frekvenční pásmo 3,9 ⋅ 108 až 7,9 ⋅ 108 MHz 
+- frekvenční pásmo 3,9 ⋅ 10<sup>8</sup> až 7,9 ⋅ 10<sup>8</sup> MHz 
 - nižší frekvence – infračervené záření (teplo) 
 - vyšší frekvence – ultrafialové záření (opalování) 
-**Lidské oko rozlišuje až 4 ⋅ 105 různých odstínů barev**
+**Lidské oko rozlišuje až 4 ⋅ 10<sup>5</sup> různých odstínů barev**
+###### Barevné modely 
+- definice základních barev 
+- stanovení poměru jednotlivých základních barev 
+- stanovení způsobu míchání základních barev
 ### Aditivní barevný model
-- přídávám bílou
 - RGB
+- Základní barvy jsou **přidávány do černé** 
+- čím více přidáme, tím více se blížíme bílé 
+- nepotřebujeme vnější světlo
 ### Subtraktivní barevný model
 - odebírá bílou
 - CMY(K)
 	- K - Key - klíčovací barva
+- Základní barvy jsou odečítány od bílé – čím více odebereme, tím více se blížíme černé – potřebujeme vnější zdroj světla
 ### Míchání barev v modelech RGB a CMY
 ![[Pasted image 20251015160715.png]]
 ## Grafika v počítači
@@ -163,10 +170,10 @@ UTF signatura
 - prakticky vždy se zobrazuje rastrově 
 - běžná zařízení: monitor, tiskárna, fotoaparát, skener
 ### Vektorová grafika 
-obraz je tvořen množinou objektů 
-velmi důležité pro možnosti úprav 
-schopnost efektivního uchování grafické informace 
-specifická zařízení: řezací plotr, tablet
+- obraz je tvořen množinou objektů 
+- velmi důležité pro možnosti úprav 
+- schopnost efektivního uchování grafické informace 
+- specifická zařízení: řezací plotr, tablet
 ### Grafický bod a jeho reprezentace
 **Grafický bod = pixel** -
 - picture element 
@@ -180,6 +187,7 @@ specifická zařízení: řezací plotr, tablet
 - matematický bod, který nemá rozměr 
 - jeho souřadnice specifikuje polohu v obraze 
 - při tisku se logické pixely převádí na fyzické
+![[Pasted image 20251017153510.png]]
 ### Hustota obrazu
 **Dána počtem pixelů na jednotku délky** 
 **Jednotka dpi (dots per inch)**
@@ -196,12 +204,21 @@ specifická zařízení: řezací plotr, tablet
 ### Barevný rastrový obraz v paměti
 - Rastrový obraz je uložen po jednotlivých bodech
 - Pro každý bod ukládáme intenzitu barvy každé složky
+	- tedy 256 možností v intervalu 0 až 255
 Model **RGB** vychází ze tří složek, v paměti proto informace o barvě každého bodu zabere 3 B 
-- celkem možno rozlišit 2563 = 16 777 216 barev 
+- celkem možno rozlišit 256<sup>3</sup> = 16 777 216 barev 
 - tedy mnohem více, než dokáže rozlišit lidské oko
-Model **RGBA** používá ještě bajt pro uložení informace o intenzitě průhlednosti pixelu (tzv. alfa kanál)
+ Model **RGBA** používá ještě bajt pro uložení informace o intenzitě průhlednosti pixelu (tzv. alfa kanál)
 Model **CMYK** vychází ze čtyř složek, v paměti proto informace o barvě každého bodu zabere 4 B
 #### Bitová hloubka
+Množství informace o barvě každého pixelu v bitech
+##### Monochromatický obraz (monochrome)
+- Každý pixel buď barvu má nebo nemá
+- informace zabírá 1bit
+##### Obraz s barevnou paletou (indexed color)
+- barva každého pixelu je vybrána z různě široké škaly
+- informace zabírá 2, 4, 8 nebo 16 bitů
+##### Obraz s odstíny šedé 
 ![[Pasted image 20251015162235.png]]
 ### Jak spočítat paměťovou náročnost?
 Ovlivňuje 
