@@ -214,22 +214,37 @@ Model **CMYK** vychází ze čtyř složek, v paměti proto informace o barvě k
 Množství informace o barvě každého pixelu v bitech
 ##### Monochromatický obraz (monochrome)
 - Každý pixel buď barvu má nebo nemá
-- informace zabírá 1bit
+- informace zabírá **1bit**
 ##### Obraz s barevnou paletou (indexed color)
 - barva každého pixelu je vybrána z různě široké škaly
-- informace zabírá 2, 4, 8 nebo 16 bitů
+- informace zabírá **2, 4, 8 nebo 16 bitů**
 ##### Obraz s odstíny šedé (gray scale)
-![[Pasted image 20251015162235.png]]
+ - barva každého pixelu je šedá (s různou intezitou)
+ - informace zabírá **8 bitů**
+ Obraz s pravými barvami (true color)
+ - barva každého pixelu je složena ze základních barev
+ - odpovídá modelu RGB
+ - informace zabírá **24 bitů**
+#### Barevná monochromatická separace
+![[Pasted image 20251017154805.png]]
+![[Pasted image 20251017154820.png]]
+#### Tisk monochromatického obrazu
+![[Pasted image 20251017154907.png]]
 ### Jak spočítat paměťovou náročnost?
-Ovlivňuje 
+**Ovlivňuje** 
 - počet bodů
-- počet bitů nutných k uložení
+- počet bitů nutných k uložení každé barvy
 Souvislost s hustotou obrazu
-	počet pixelů v skouvisloti na skutečných rozměrech
+	počet pixelů v souvislosti na skutečných rozměrech
 ![[Pasted image 20251015162853.png]]
+![[Pasted image 20251017155452.png]]
 ### Ukládání do paměti
 ![[Pasted image 20251015163301.png]]
-Uložení vektorových obrazů
+#### Uložení vektorových obrazů
+Vektorový obraz je tvořen **geometrickými objekty**
+- body, přímky, křivky,...
+- využití pro tvorbu ilustrací, diagramů, schémat apod.
+V paměti je vektorový obraz reprezentován **posloupností zakódo**
 ![[Pasted image 20251015163416.png]]
 ### Reprezentace zvukových dat
 ![[Pasted image 20251015163524.png]]
