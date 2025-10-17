@@ -304,7 +304,9 @@ Naměřená hodnota (vzorek) se zaokrouhlí na nejbližší celé číslo a ulo�
 ### Jaké výhody a nevýhody přináší vícebajtové kódování?
 ### Které kódování je v současnosti nejpoužívanější?
 ### Jaký je rozdíl mezi rastrovou a vektorovou grafikou?
+Rastrový obraz se skládá z elementárních obrazových bodů (pixelů) určité barvy. Vektorový obraz se skládá z obrazových objektů (vektorů) reprezentovaných geometrickými útvary a jejich atributy.
 ### Čím se liší barevné modely RGB a CMYK?
+Takže RGB je Aditivní 
 ### Jak je v paměti počítače reprezentován rastrový obraz?
 ### Jaké výhody a nevýhody mají vektorové obrazy?
 ### Na jakém principu funguje pulsně kódová modulace?
