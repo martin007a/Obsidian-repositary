@@ -292,6 +292,20 @@ Naměřená hodnota (vzorek) se zaokrouhlí na nejbližší celé číslo a ulo�
 ### Paměťová náročnost zvuku
 ![[Pasted image 20251015163926.png]]
 ### Uložení zvuku – MIDI sekvence
-![[Pasted image 20251015164146.png]]
+![[Pasted image 20251017171337.png]]
 ### MIDI sekvence-
-![[Pasted image 20251015164204.png]]
+- Celkem 128 sekvencí v 16 skupinách po 8 zvucích
+- Klavíry, laděné bicí, varhany, kytary, basy, smyčce, zvuky souboru, žestě, plátkové nástroje, píšťaly, elektronické sólové zvuky, elektronické doprovodné zvuky, elektronické zvukové efekty, etnické zvuky, perkusní zvuky a další zvukové efekty (např. výstřel)
+![[Pasted image 20251017171419.png]]
+### Jak jsou v paměti počítače reprezentovány znaky?
+### Jaký je rozdíl mezi řídicím a zobrazitelným znakem?
+### Ze kterých částí se skládá tabulka ASCII?
+### Jaké existují varianty kódování českých znaků?
+### Jaké výhody a nevýhody přináší vícebajtové kódování?
+### Které kódování je v současnosti nejpoužívanější?
+### Jaký je rozdíl mezi rastrovou a vektorovou grafikou?
+### Čím se liší barevné modely RGB a CMYK?
+### Jak je v paměti počítače reprezentován rastrový obraz?
+### Jaké výhody a nevýhody mají vektorové obrazy?
+### Na jakém principu funguje pulsně kódová modulace?
+### Jaké výhody a nevýhody mají sekvence MIDI?
