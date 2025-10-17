@@ -13,6 +13,7 @@ Každému znaku je přiřazeno jedno číslo
 	- **řídicí znaky** – #0 až #63, #255 
 	- **zobrazitelné znaky** – #64 až #254
 - **Nevýhoda:** znaky anglické abecedy netvoří spojitou posloupnost, nelze použít regulární výraz
+![[Pasted image 20251017115411.png]]
 #### ASCII 
 - **vícebajtové** – UCS, Unicode, UTF
 **Zobrazitelné znaky** 
