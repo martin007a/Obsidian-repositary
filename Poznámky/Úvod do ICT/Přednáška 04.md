@@ -306,8 +306,24 @@ Naměřená hodnota (vzorek) se zaokrouhlí na nejbližší celé číslo a ulo�
 ### Jaký je rozdíl mezi rastrovou a vektorovou grafikou?
 Rastrový obraz se skládá z elementárních obrazových bodů (pixelů) určité barvy. Vektorový obraz se skládá z obrazových objektů (vektorů) reprezentovaných geometrickými útvary a jejich atributy.
 ### Čím se liší barevné modely RGB a CMYK?
-Takže RGB je Aditivní 
+Takže RGB
+- je Aditivní
+- monitory
+- Základní barvy jsou **přidávány do černé** 
+CMYK 
+- tiskárny
+- je Subtraktivní, 
+- Základní barvy jsou odečítány od bílé
 ### Jak je v paměti počítače reprezentován rastrový obraz?
+V paměti počítače je rastrový obrázek uložen jako **sekvence čísel**, která představují barvy jednotlivých pixelů.
 ### Jaké výhody a nevýhody mají vektorové obrazy?
+- **Úprava bez ztráty kvality:** Existuje **možnost libovolné úpravy obrazu bez ztráty kvality**
+- Malá velikost souboru(**Paměťová náročnost**)
+- **Oddělená práce s objekty**
+- **Vhodnost použití:** Vlastnosti vektorových obrazů je předurčují k použití pro **tvorbu ilustrací, diagramů, schémat, grafů apod.**
+Nevýhody
+- Nevhodné pro fotografie - Vektorová grafika **není vhodná pro práci s velkým množstvím barevných ploch**
+- Pořízení kvalitního obrazu je **zpravidla obtížnější**
+- U složitějších obrazů jsou spojeny **vyšší nároky na paměť a procesor**
 ### Na jakém principu funguje pulsně kódová modulace?
 ### Jaké výhody a nevýhody mají sekvence MIDI?
