@@ -89,10 +89,12 @@ Počátkem 90. let 20. stol. se projekty spojily což vedlo k vytvoření **jedn
 - znaky pro reprezentaci všech známých znaků 
 - grafické, typografické, matematické a vědecké symboly
 Kódovací prostor 31 **bitů** (přes 2 miliardy znaků)
+- ty jsou rozděleny do 128 skupin po 24 bitech, každá skupina je rozdělena na 256 rovin po 16 bitech a každá rovina na 256 řad s 256 sloupci.
 - většina používaných znaků je na prvních 65 536 pozicích (16 bitů) - **Basic Multilingual Plane**
 ###### Záměr a doporučení **používat max. 21 bitů**
 ###### Každému znaku přiřazen číselný kód a oficiální jméno
 - např. ’A’ ∼ U+0041 ∼ „Latin capital letter A“
+**Původní návrh Unicode** počítal pouze s BMP, ale postupem času se ukázalo, že pro pokrytí všech používaných abeced to nemůže stačit.
 ### Kompatibilita
 U+0000 až U+007F ∼ základní kód ASCII 
 U+0000 až U+00FF ∼ ISO 8859-1
