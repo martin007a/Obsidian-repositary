@@ -112,7 +112,10 @@ jelikož význam tech predikátu není jedno proto to není tautologie
 # dělat to nebudeme
 ## Odvozovací pravidla predikátové logiky
 ![[Pasted image 20251014142407.png]]
-**Zákony distribuce kvantifikátorů**
+### Syntaxe predikátové logiky
+![[Pasted image 20251018171802.png]]
+### **Zákony distribuce kvantifikátorů**
+![[Pasted image 20251018171821.png]]
 ![[Pasted image 20251014142458.png]]
 Pravidlo specializace to dokazuje
 ![[Pasted image 20251014142714.png]]
