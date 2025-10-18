@@ -40,12 +40,15 @@ Podle **počtu operandů** rozlišujeme operátory na
 - ternární
 ##### Binární operátory
 - jejich arita je 2, mají 2 operandy
--  
+- +, −, ×, /, ∧, ∨, ⇒, ⇔
+##### Unární operátory
+- jejich arita je 1, mají 1 operand
+- √ , ¬
 ### Term
 • Označuje prvek definičního oboru
 1. Každá konstanta je term 
 2. Každá individuální proměnná je term 
-3. Je-li 𝑓 funkční symbol arity 𝑛 a 𝑡1 , 𝑡2 , … , 𝑡𝑛 jsou termy, pak 𝑓 (𝑡1 , 𝑡2 , … , 𝑡𝑛 ) je rovněž term 
+3. Je-li 𝑓 funkční symbol arity 𝑛 a 𝑡<sub>1</sub> , 𝑡<sub>2</sub> , … , 𝑡𝑛 jsou termy, pak 𝑓 (𝑡1 , 𝑡2 , … , 𝑡<sub>𝑛</sub> ) je rovněž term 
 4. Nic jiného není term
 ### Predikátová Formule
 Výsledkem je logická hodnota (pravda/nepravda)
