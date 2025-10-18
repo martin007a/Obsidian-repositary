@@ -173,12 +173,23 @@ Pomocí Stromu:
 - PREFIX - VLP 
 - POSTFIX - LPV 
 #### Co je to disjunktivní a konjunktivní normální forma?
+### Disjunktivní normální forma
+ Výroková formule je v **disjunktivní normální formě (DNF),** je-li disjunkcí formulí (klauzulí), pro které platí: 
+ - Každá je konjunkcí literálů.
+ - V žádné se nevyskytuje žádná atomická formule současně se svou negací.
+ **DNF je úplná**, pokud jsou ve všech konjunkcích stejné atomické formule. 
+### Konjunktivní normální forma
+Výroková formule je **v konjunktivní normální formě (KNF),** jeli konjunkcí formulí (klauzulí), pro které platí:
+- Každá je disjunkcí literálů,
+- V žádné se nevyskytuje žádná atomická formule současně se svou negací.
+**KNF je úplná**, pokud jsou ve všech disjunkcích stejné atomické formule.
 #### K čemu se používá DNF a KNF?
 Každou složitou logickou formuli lze přepsat do **jednotného tvaru**, tedy do DNF nebo KNF.
 – automatizované vyhodnocování pravdivosti 
 – dokazování vlastností formulí 
 – základ pro další teoretické zkoumání
 #### Jaký je algoritmus převodu do DNF/KNF?
+![[IMG_20250930_141405.jpg]]
 #### Na jakém principu funguje Karnaughova mapa?
 Výraz: $$(a⇒(b∨¬c))∧(¬a⇔b).$$
 **Pravdivostní tabulka**
