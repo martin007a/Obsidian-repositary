@@ -35,7 +35,8 @@
               "title": "Přednáška 04"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "635724888f7b54a6",
+  "active": "0dbcbc3adcfcda0f",
   "lastOpenFiles": [
-    "Poznámky/Teoretické základy informatiky/Přednáška 04.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
+    "Poznámky/Teoretické základy informatiky/Přednáška 04.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "imgs/Pasted image 20251018171821.png",
