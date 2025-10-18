@@ -67,12 +67,28 @@ succ(0) -> 1
 #### Volný a vázaný výskyt proměnné
 ![[Pasted image 20251014134944.png]]
 ### Sémantika predikátové logiky
-![[Pasted image 20251014135121.png]]
+- Též hovoříme o **realizaci predikátové logiky**
+- Dosud definované objekty (termy, formule aj.) popisovali pouze syntaxi
+- Sémantika svazuje jazyk s objekty reálného světa
+- Definuje **univerzum**, tedy množinu objektů, jejichž vlastnosti zkoumáme
+- Funkční symboly odpovídají zobrazením na univerzu
+- Predikátové symboly popisují vlastnosti a vztahy prvků univerza
 #### Ohodnocení proměnných
 ![[Pasted image 20251014135151.png]]
 #### Hodnota termu
+Když říkáme, že něco platí **induktivně**, myslíme tím, že to **platí pro všechny přirozené čísla**, protože:
+1. **Platí to pro první prvek (základ)** — obvykle pro 0 nebo 1.
+2. **A pokud to platí pro nějaké číslo n, pak to musí platit i pro jeho následníka (n + 1)**.
 ![[Pasted image 20251014135221.png]]
 ### Pravdivost atomické formule
+Atomická predikátová formule vzniká aplikací n-árního predikátového symbolu na n termů
+#### Určeni pravdivostní hodnoty
+- záleží na konkrétní realizaci predikátové logiky
+- predikáty odpovídají výrokům ve výrokové logice
+**Unární predikát je pravdivý právě tehdy**, když prvek, jenž je hodnotou termu, který je argumentem daného predikátového symbolu, má požadovanou vlastnost.
+
+Predikát 
+
 ### Pravdivost formule
 ![[Pasted image 20251014135442.png]]
 (∀𝑥) - všichni
