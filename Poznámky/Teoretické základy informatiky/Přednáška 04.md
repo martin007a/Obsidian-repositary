@@ -242,5 +242,9 @@ Proměnná xxx je **vázaná** (bound variable) ve formuli,
 **pokud se nachází v dosahu kvantifikátoru**, který ji váže —  
 tedy uvnitř formule typu:
 ![[Pasted image 20251018195139.png]]
+### **Volná proměnná**
 
+Proměnná xxx je **volná** (free variable) ve formuli,  
+pokud **není vázána žádným kvantifikátorem**.
+![[Pasted image 20251018195204.png]]
 ![[Pasted image 20251018195055.png]]
