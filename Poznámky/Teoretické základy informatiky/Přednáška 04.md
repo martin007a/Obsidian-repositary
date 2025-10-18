@@ -200,3 +200,47 @@ DNF
 ![[Pasted image 20251004221918.png]]
 KNF
 ![[Pasted image 20251004222530.png]]
+### Jak je definován jazyk predikátové logiky?
+Pokud potřebujeme zkoumat nějakou vlastnost nějaké množiny začneme používat predikátovou logiku
+#### **Konstrukce termů**
+Jazyk se dále definuje induktivním způsobem konstrukce výrazů, počínaje **termy**, které označují prvek definičního oboru:
+1. Každá **konstanta** je term.
+2. Každá **individuální proměnná** je term.
+3. Pokud je f funkční symbol arity n a t1​,t2​,…,tn​ jsou termy, pak f(t1​,t2​,…,tn​) je rovněž term.
+4. Nic jiného není term
+#### Konstrukce predikátových formulí
+Výsledkem predikátové formule je logická hodnota (pravda/nepravda). **Predikátová formule** je definována následovně:
+1. Je-li P predikátový symbol arity m a t1​,t2​,…,tm​ jsou termy, pak P(t1​,t2​,…,tm​) je **atomická predikátová formule**.
+2. Jsou-li α,β predikátové formule, pak i (¬α), (α∧β), (α∨β), (α⇒β), (α⇔β) jsou predikátové formule (analogicky jako ve výrokové logice).
+3. Je-li α predikátová formule a x individuální proměnná, pak i (∀x)α a (∃x)α jsou predikátové formule.
+4. Nic jiného není predikátová formule
+### Které symboly obsahuje jazyk predikátové logiky?
+##### Jazyk predikátové logiky zahrnuje následující základní symboly:
+• **Individuální jména (konstanty)**, značí se a,b,c,… 
+- ty označují **konkrétní objekt**.
+• **Individuální proměnné**, značí se x,y,z,… 
+- ty **neoznačují konkrétní objekt**, ale mají svůj definiční obor.
+• **Funkční symboly**, značí se f,g,h,… 
+- ty přiřazují prvkům definičního oboru jiné prvky.
+• **Predikátové symboly**, značí se P,Q,R,… 
+- ty označují **vlastnosti a vztahy**.
+• **Logické spojky** ¬,∧,∨,⇒,⇔.
+• **Kvantifikátory** 
+- ∀ (univerzální) 
+- ∃ (existenční). 
+- Existuje také zesílený existenční kvantifikátor ∃! (existuje právě jeden).
+• **Závorky**.
+### Které kvantifikátory jsou využívány ve formulích jazyka predikátové logiky?
+ **Kvantifikátory** 
+- ∀ (univerzální) 
+- ∃ (existenční). 
+### Jak je definována volná a vázaná proměnná ve formuli jazyka predikátové logiky?
+![[Pasted image 20251018194842.png]]
+### **Vázaná proměnná**
+
+Proměnná xxx je **vázaná** (bound variable) ve formuli,  
+**pokud se nachází v dosahu kvantifikátoru**, který ji váže —  
+tedy uvnitř formule typu:
+![[Pasted image 20251018195139.png]]
+
+![[Pasted image 20251018195055.png]]

@@ -35,7 +35,8 @@
               "title": "Přednáška 04"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,10 +210,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "635724888f7b54a6",
+  "active": "0dbcbc3adcfcda0f",
   "lastOpenFiles": [
-    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
+    "imgs/Pasted image 20251018195139.png",
+    "imgs/Pasted image 20251018195055.png",
+    "imgs/Pasted image 20251018194842.png",
+    "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 04.md",
+    "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "imgs/Pasted image 20251018171821.png",
@@ -225,8 +230,6 @@
     "imgs/Pasted image 20251017171145.png",
     "imgs/Pasted image 20251017155452.png",
     "imgs/Pasted image 20251017154907.png",
-    "imgs/Pasted image 20251017154820.png",
-    "imgs/Pasted image 20251017154805.png",
     "Poznámky/Algoritmizace/Přednáška 04.md",
     "Poznámky/Algoritmizace/Přednáška 03.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
@@ -235,7 +238,6 @@
     "Poznámky/Úvod do ICT/Přednáška 03.md",
     "imgs/Pasted image 20251014212738.png.~tmp",
     "Poznámky/Architektura Počítačů/Přednaška 04.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "Poznámky/Nano/Nano takák.md",
     "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Cviko 01.md",
@@ -250,7 +252,6 @@
     "imgs/~MG_20250930_141405.tmp",
     "Poznámky/Architektura Počítačů/Přednáška 02.md",
     "imgs/Drawing 2025-10-04 09.39.04.excalidraw.md",
-    "Poznámky/Architektura Počítačů/Přednáška 01.md",
     "Poznámky/ZOO",
     "Poznámky/Teoretické základy informatiky",
     "Poznámky/Architektura Počítačů/Untitled",
