@@ -147,6 +147,7 @@ Každou složitou logickou formuli lze přepsat do **jednotného tvaru**, tedy d
 – dokazování vlastností formulí 
 – základ pro další teoretické zkoumání
 #### Jaký je algoritmus převodu do DNF/KNF?
+![[IMG_20250930_141405.jpg]]
 #### Na jakém principu funguje Karnaughova mapa?
 Výraz: $$(a⇒(b∨¬c))∧(¬a⇔b).$$
 **Pravdivostní tabulka**

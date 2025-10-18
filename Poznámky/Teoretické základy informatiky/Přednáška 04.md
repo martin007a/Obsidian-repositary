@@ -120,3 +120,72 @@ jelikož význam tech predikátu není jedno proto to není tautologie
 Pravidlo specializace to dokazuje
 ![[Pasted image 20251014142714.png]]
 
+#### Kontrolní otázky
+###### **Co to je výrok?**
+Výrok je tvrzení o němž jde smysluplné prohlásit,
+zda je pravdivé nebo nepravdivé.
+###### **Jak je definována výroková formule?**
+Za výrokovou formuli považujeme takovou posloupnost symbolů jazyka výrokové logiky pro kterou platí že: 
+	-Každý elementární výrok je výroková formule
+	-je-li a výrokový formule, pak také ¬a je výroková formule
+	 -![[Pasted image 20250929191848.png]]
+	 - nic jiného není výroková formule
+###### **Co je to pravdivostní hodnota výroku?**
+Pravdivostní hodnota výroku je hodnota která nabývá dvou hodnot a to TRUE/FALSE
+###### **Jak vypadá pravdivostní tabulka negace, konjunkce, disjunkce, implikace a ekvivalence**
+![[Pasted image 20250929192525.png]]
+###### **Co to je tautologie a Kontradikce? Uveď příklady**
+- **Tautologie** - Výrokovou formuli nazveme tautologie, pokud je vždy pravdivá bez ohledu na pravdivostní hodnotu výrokových proměnných, které obsahuje.
+-
+- **Kontradikce** - Výrokovou formuli nazveme Kontradikce, pokud je vždy nepravdivá bez ohledu na pravdivostní hodnotu výrokových proměnných, které obsahuje.
+![[Pasted image 20250929193211.png]]
+###### **Jaký je rozdíl mezi obměnou a obrácením Implikace**
+![[Pasted image 20250929193919.png]]
+![[Pasted image 20250929193959.png]]
+###### **Které z logických spojek jsou Komutativní a asociativní?**
+- Konjunkce
+- Disjunkce
+- Ekvivalence
+###### **Co znamená že dva výroky jsou logicky ekvivalentní?**
+Výroky jsou logicky ekvivalentní pokud mají stejnou pravdivostní hodnotu.
+###### **Jak se negují složené výroky?**
+![[Pasted image 20250929195006.png]]
+# Kontrolní otázky
+#### Co je to úplný systém logických spojek?
+**Úplný systém logických spojek** je **taková množina logických spojek**, pomocí které lze **vyjádřit libovolnou výrokovou formuli**
+#### Které spojky tvoří úplný systém logických spojek?
+- negace, konjunkce a disjunkce
+- negace a konjunkce
+- negace a disjunkce
+- negace a implikace
+- NOR  
+- NAND 
+#### Jak je definována Shefferova a Peirceova spojka?
+**Shefferova spojka** (nazývaná také **NAND**, anglicky _Not AND_) je negace konjunkce.
+**Peirceova spojka** (nazývaná také **NOR**, anglicky _Not OR_) je negace disjunkce.
+#### Co je to infixový, prefixový a postfixový zápis?
+![[Pasted image 20251004210741.png]]
+#### Jak vyhodnotit výraz v postfixu?
+Algoritmus Kusé koleje
+#### Jak převést výraz z infixu do prefixu a do postfixu?
+Pomocí Stromu: 
+- INFIX - Levý podstrom - Vrchol - Pravý pod strom
+- PREFIX - VLP 
+- POSTFIX - LPV 
+#### Co je to disjunktivní a konjunktivní normální forma?
+#### K čemu se používá DNF a KNF?
+Každou složitou logickou formuli lze přepsat do **jednotného tvaru**, tedy do DNF nebo KNF.
+– automatizované vyhodnocování pravdivosti 
+– dokazování vlastností formulí 
+– základ pro další teoretické zkoumání
+#### Jaký je algoritmus převodu do DNF/KNF?
+#### Na jakém principu funguje Karnaughova mapa?
+Výraz: $$(a⇒(b∨¬c))∧(¬a⇔b).$$
+**Pravdivostní tabulka**
+![[IMG_20250930_141008 1.jpg]]
+K-Mapa
+![[Pasted image 20251004221313.png]]
+DNF
+![[Pasted image 20251004221918.png]]
+KNF
+![[Pasted image 20251004222530.png]]
