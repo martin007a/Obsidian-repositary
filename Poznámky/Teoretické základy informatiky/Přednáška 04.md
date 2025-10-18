@@ -5,6 +5,7 @@ pokud je něco dokazatelné tak to je tautologie
 3
 # Predikátová logika
 - Pokud potřebujeme zkoumat nějakou vlastnost nějaké množiny začneme používat predikátovou logiku
+![[Pasted image 20251018144313.png]]
 ## Kvantifikátory
 ### Kvantifikátor univerzální  **∀**
 - každý všechny
@@ -30,6 +31,16 @@ pokud je něco dokazatelné tak to je tautologie
 - **Logické spojky    ¬, ∧, ∨,⇒,⇔** 
 - **Kvantifikátory   ∀, ∃** 
 - **Závorky**  
+### Arita operátoru
+Počet operandů, parametrů, argumentů
+Podle **počtu operandů** rozlišujeme operátory na 
+- nulární
+- unární
+- binární
+- ternární
+##### Binární operátory
+- jejich arita je 2, mají 2 operandy
+-  
 ### Term
 • Označuje prvek definičního oboru
 1. Každá konstanta je term 
