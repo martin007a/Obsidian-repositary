@@ -87,8 +87,7 @@ Atomická predikátová formule vzniká aplikací n-árního predikátového sym
 - predikáty odpovídají výrokům ve výrokové logice
 **Unární predikát je pravdivý právě tehdy**, když prvek, jenž je hodnotou termu, který je argumentem daného predikátového symbolu, má požadovanou vlastnost.
 
-Predikát 
-
+Predikát vyšší arity je pak pravdivý právě tehdy, když hodnoty vstupních termů splňují vlastnosti (vztahy) požadované při definici významu predikátu.
 ### Pravdivost formule
 ![[Pasted image 20251014135442.png]]
 (∀𝑥) - všichni
