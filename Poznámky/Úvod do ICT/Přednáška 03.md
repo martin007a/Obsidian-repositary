@@ -108,6 +108,9 @@ Pro zařízení pracující v tzv. dvojkově desítkové soustavě
 - číslice 0 až 9 jsou uloženy v půlslabice (4 bity) 
 - nesmí se vyskytovat kombinace 10 až 15
 **Dvě možnosti řešení**
+Dvě možnosti řešení 
+- zhuštěný tvar – v jedné slabice jsou dvě BCD číslice 
+- nezhuštěný tvar – v jedné slabice je jedna BCD číslice
 ![[Pasted image 20251008155727.png]]
 ### Znaménková čísla – shrnutí
 ![[Pasted image 20251008155810.png]]
