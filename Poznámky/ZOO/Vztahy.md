@@ -33,3 +33,16 @@ Kompozice umožňuje, aby se objekt skládal z více různých částí (objekt�
 - Dalším typem vztahu je kompozice – složení.
 - Objekty jsou spolu svázány po celou dobu své existence.
 - Význam: Zpřehlednění stavby objektů pomocí jejich rozdělení do logických částí.
+!!! - Je nezbytné, aby v případě vzniku celku (auta), vznikly i jeho součásti (motor). Také při zániku celku je nutné, aby zanikly i jeho části.
+ - Kompozice, stejně jako agregace, je založena na udržování odkazu na jiný objekt (celek udržuje odkazy na části).
+ - To dosáhneme vytvořením součástí v konstruktoru a jejich smazáním v destruktoru
+## Vnořená třída
+Instance vnořené třídy pak mohou vytvářet jen metody třídy do níž je vnořena.
+- Třídu lze definovat (ne ve všech jazycích) uvnitř jiné třídy.
+- Tuto relaci označujeme „je součástí“.
+- **Pozor:** Vnoření nenahrazuje asociaci, agregaci nebo kompozici. Je doplňkem těchto vazeb (v našich případech nejčastěji kompozice)
+## Kolekce
+##### Množiny hodnot
+Často je nezbytné udržovat ukazatele na více, než jednu instanci nebo obecně množinu hodnot. K tomu využíváme tvz. kolekce.
+- Seznam hodnot může mít konstantní velikost, pak využíváme v C++ třídu array
+- Pokud potřebujeme proměnnou velikost pole, použijeme nejčastěji třídu vector.
