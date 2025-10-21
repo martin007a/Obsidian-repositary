@@ -93,3 +93,17 @@ Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴
 - ℂ – komplexní čísla
 ### Přirozená čísla (ℕ, z lat. naturalis)
 ![[Pasted image 20251021141912.png]]
+### Přirozená čísla a nula
+![[Pasted image 20251021142606.png]]
+## Přirozená čísla jako množiny
+![[Pasted image 20251021142723.png]]
+### Celá čísla (ℤ, z něm. Zahlen)
+![[Pasted image 20251021142814.png]]
+### Racionální čísla (ℚ, z ital. quoziente)
+![[Pasted image 20251021142856.png]]
+### Reálná čísla (ℝ, z lat. realis)
+![[Pasted image 20251021143127.png]]
+### Komplexní čísla (ℂ, z lat. complexus)
+![[Pasted image 20251021143206.png]]
+
+
