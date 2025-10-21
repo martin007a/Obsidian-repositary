@@ -78,3 +78,18 @@ Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴
 - (𝐴 ∩ 𝐵)′<sub>M</sub> = 𝐴′<sub>M</sub> ∪ 𝐵′<sub>M</sub>
 - (𝐴 ∪ 𝐵)′<sub>M</sub> = 𝐴′<sub>M</sub> ∩ 𝐵′<sub>M</sub>
 ` doplněk 
+### Teorie čísel
+###### Část matematiky zabývající se čísly 
+- definice číselných množin 
+- definice operací na číselných množinách 
+- vlastnosti (zejména dělitelnost) 
+- souvislost s algebrou
+##### Číselné množiny 
+- ℕ – přirozená čísla 
+- ℤ – celá čísla 
+- ℚ – racionální čísla 
+- 𝕀 – iracionální čísla 
+- ℝ – reálná čísla 
+- ℂ – komplexní čísla
+### Přirozená čísla (ℕ, z lat. naturalis)
+![[Pasted image 20251021141912.png]]
