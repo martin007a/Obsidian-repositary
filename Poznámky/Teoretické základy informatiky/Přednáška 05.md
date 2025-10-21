@@ -1,7 +1,31 @@
 ## Teorie Množin
+V matematice je všechno množina 
+- i čísla jsou definována pomocí množin 
+- podrobnosti v navazujícím studiu
+###### Informatika stojí na matematice 
+###### Znalosti teorie množin využijeme
+- v databázových systémech
+- v informačních systémech
+- při navrhovaní algoritmů apod.
+### Pojem množina
+**Cantorova naivní teorie množin** 
+- množina je dobře definovaný soubor objektů 
+- paradoxy naivní teorie množin
+**Axiomatická teorie množin**
+- množina je primitivní pojem
+- množiny vedoucí ke sporu není možné konstruovat
+##### Určení množiny
+	- výčtem prvků: 𝑀 = {1, 2, 3}
+	- vlastností: 𝑀 = {𝑛 ∈ ℕ | 𝑛 < 4}
+### Příslušnost do množiny**
+Intuitivně se držíme označení množina pro souhrn objektů
+****Definice:** 
+- Skutečnost, že 𝑎 je prvkem množiny 𝐴, značíme 𝑎 ∈ 𝐴.
+**Definice:**
+- Skutečnost, že a není prvkem množiny A, značíme 𝑎 ∉  A.
 ### Počet prvků množiny
 - kolik prrvků má prázdná množina (U zkoušky se bude smát)
-Též označovaný pojmem mohutnost nebo kardinalita
+Též označovaný pojmem **mohutnost** nebo **kardinalita**
 ![[Pasted image 20251021132241.png]]
 ## Rovnost množin
 ![[Pasted image 20251021132326.png]]
