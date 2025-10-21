@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
+                "file": "Poznámky/ZOO/Vztahy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 05"
+              "title": "Vztahy"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -191,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,8 +213,9 @@
   },
   "active": "0dbcbc3adcfcda0f",
   "lastOpenFiles": [
-    "imgs/Pasted image 20251021150628.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
+    "Poznámky/ZOO/Vztahy.md",
+    "imgs/Pasted image 20251021150628.png",
     "imgs/Pasted image 20251021143206.png",
     "imgs/Pasted image 20251021143127.png",
     "imgs/Pasted image 20251021142856.png",
@@ -222,7 +225,6 @@
     "imgs/Pasted image 20251021141912.png",
     "imgs/Pasted image 20251021135616.png",
     "imgs/Pasted image 20251021135434.png",
-    "imgs/Pasted image 20251021135406.png",
     "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 04.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 03.md",

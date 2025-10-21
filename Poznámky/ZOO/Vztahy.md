@@ -1,0 +1,1 @@
+Základní myšlenka vztahů Stejně jako mezi objekty reálného světa, také mezi objekty v programech existují určité vztahy. Vztahy jsou různých typů. Z programátorského hlediska se jedná o interakci mezi objekty (obsažení, přístup, ...).
