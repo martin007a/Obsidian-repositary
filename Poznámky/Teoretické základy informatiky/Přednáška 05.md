@@ -24,11 +24,27 @@ Intuitivně se držíme označení množina pro souhrn objektů
 **Definice:**
 - Skutečnost, že a není prvkem množiny A, značíme 𝑎 ∉  A.
 ### Počet prvků množiny
-- kolik prrvků má prázdná množina (U zkoušky se bude smát)
+- kolik prvků má prázdná množina (U zkoušky se bude smát)
 Též označovaný pojmem **mohutnost** nebo **kardinalita**
-![[Pasted image 20251021132241.png]]
+**Značíme |M|**
+- např. pro M = {1,2} je |M| = 2
+##### Konečné množiny
+- mají konečný počet prvků
+- tedy |𝑀| ∈ ℕ
+##### Nekonečné množiny
+- mají nekonečný počet prvků
+- tedy |𝑀| ∉ ℕ
+##### Prázdná množina
+- **nemá žádný prvek**
+- značení ∅ nebo {}, nikoli {∅}
+- platí tedy, že |∅| = 0
 ## Rovnost množin
-![[Pasted image 20251021132326.png]]
+**Definice: **
+ - Dvě množiny jsou si rovny, jestliže mají stejné prvky.
+##### Formálně: 
+ $$𝐴 = 𝐵 ⇔ ((∀𝑥)((𝑥 ∈ 𝐴) ⇒ (𝑥 ∈ 𝐵))∧(∀𝑥)((𝑥 ∈ 𝐵) ⇒ (𝑥 ∈ 𝐴)))$$
+##### **Platí zřejmá implikace: **
+$$(𝐴 = 𝐵) ⇒ (|𝐴| = |𝐵|)$$
 Jsou si množiny rovné 
 ### Podmnožina
 Řekneme, že množina 𝐴 je podmnožinou množiny 𝐵 (značíme 𝐴 ⊆ 𝐵) právě tehdy, když každý prvek množiny 𝐴 je zároveň prvkem množiny B
