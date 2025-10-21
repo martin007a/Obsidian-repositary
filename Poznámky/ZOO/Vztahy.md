@@ -44,5 +44,6 @@ Instance vnořené třídy pak mohou vytvářet jen metody třídy do níž je v
 ## Kolekce
 ##### Množiny hodnot
 Často je nezbytné udržovat ukazatele na více, než jednu instanci nebo obecně množinu hodnot. K tomu využíváme tvz. kolekce.
-- Seznam hodnot může mít konstantní velikost, pak využíváme v C++ třídu array
-- Pokud potřebujeme proměnnou velikost pole, použijeme nejčastěji třídu vector.
+- Seznam hodnot může mít konstantní velikost, pak využíváme v C++ třídu **<span style="color:rgb(0, 176, 240)">array</span>**
+- Pokud potřebujeme proměnnou velikost pole, použijeme nejčastěji třídu **<span style="color:rgb(0, 176, 240)">vector</span>**.
+- 
