@@ -22,3 +22,44 @@ Množina A je vlastní podmnožinou množiny B (značíme 𝐴 ⊂ 𝐵 nebo tak
 Množinu všech podmnožin množiny 𝐴 nazveme potenční množinou množiny 𝐴 a značíme 𝒫 (𝐴).
 ![[Pasted image 20251021133458.png]]
 P(n) = 2<sup>n</sup> jiný zápis potoční množiny
+**Žádná potenční množina nikdy není prázdná**
+## Sjednocení množin
+**Sjednocení množin** (značíme 𝐴 ∪ 𝐵) je množina prvků, které patří alespoň do jedné ze sjednocovaných množin.
+- Formálně: 𝐴 ∪ 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∨ (𝑥 ∈ 𝐵)}
+##### Vlastnosti sjednocení 
+* 𝐴 ⊆ (𝐴 ∪ 𝐵) pro libovolné množiny 𝐴, 𝐵 ??????????? 
+* (𝐴 ∪ 𝐵) = (𝐵 ∪ 𝐴)
+* – (𝐴 ∪ ∅) = A
+### Průnik množin
+**Průnik množin** (značíme 𝐴 ∩ 𝐵) je množina prvků, které patří do obou množin současně.
+- • Formálně: 𝐴 ∩ 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∧ (𝑥 ∈ 𝐵)}
+###### Vlastnosti průniku 
+- (𝐴 ∩ 𝐵) ⊆ 𝐴 pro libovolné množiny 𝐴, 𝐵 
+- (𝐴 ∩ 𝐵) = (𝐵 ∩ 𝐴) 
+- (𝐴 ∩ ∅) = ∅
+Množiny se nazývají disjunktní, jestliže mají prázdný průnik (tj. nemají žádný společný prvek)
+## Rozdíl množin
+Rozdíl množin (značíme 𝐴 − 𝐵 nebo 𝐴 ∖ 𝐵) je množina prvků, které patří do množiny 𝐴 a nepatří do množiny 𝐵.
+- **Formálně: 𝐴 − 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∧ (𝑥 ∉ 𝐵)}**
+##### Vlastnosti rozdílu 
+- (𝐴 − 𝐵) ⊆ 𝐴 pro libovolné množiny 𝐴, 𝐵  
+- (𝐴 − 𝐵) = (𝐵 − 𝐴) ⇒ (𝐴 = 𝐵) 
+- (𝐴 − ∅) = A
+- (∅ − A) = ∅
+#### Vlastnosti množinových operací
+### Sjednocení a průnik jsou komutativní a asociativní 
+- 𝐴 ∪ 𝐵 = 𝐵 ∪ 𝐴 
+- 𝐴 ∩ 𝐵 = 𝐵 ∩ 𝐴 
+- 𝐴 ∪ (𝐵 ∪ 𝐶) = (𝐴 ∪ 𝐵) ∪ 𝐶
+- 𝐴 ∩ (𝐵 ∩ 𝐶) = (𝐴 ∩ 𝐵) ∩ 𝐶
+**Rozdíl** není ani komutativní, ani asociativní
+
+Platí zákony idempotence
+- 𝐴 ∪ 𝐴 = 𝐴 
+- 𝐴 ∩ 𝐴 = AS
+![[Pasted image 20251021135406.png]]
+### Příklady k domácímu procvičení
+![[Pasted image 20251021135434.png]]
+Doděláš kdyžtak sám ☺
+### Doplněk množiny v množině
+Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴 v množině 𝑀 (značíme 𝐴 ′𝑀 ) nazveme množin
