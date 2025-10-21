@@ -62,4 +62,19 @@ Platí zákony idempotence
 ![[Pasted image 20251021135434.png]]
 Doděláš kdyžtak sám ☺
 ### Doplněk množiny v množině
-Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴 v množině 𝑀 (značíme 𝐴 ′𝑀 ) nazveme množin
+Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴 v množině 𝑀 (značíme 𝐴 ′𝑀 ) nazveme množinu všech prvků množiny 𝑀, které nejsou prvky množiny 𝐴.
+![[Pasted image 20251021135616.png]]
+## Vlastnosti doplňku za předpokladu 𝐴 ⊆ 𝑀
+**Zákony jednotky**  
+- 𝐴 ∪ 𝑀 = 𝑀 
+- 𝐴 ∩ 𝑀 = 𝐴 
+- 𝐴 ∪ ∅ = 𝐴 
+- 𝐴 ∩ ∅ = ∅ 
+**Zákony negace** 
+- 𝐴 ∪ 𝐴′𝑀 = 𝑀 
+- 𝐴 ∩ 𝐴′𝑀 = ∅ 
+- 𝑀′𝑀 = ∅ – ∅ ′𝑀 = 𝑀 
+**De Morganovy zákony**  
+- (𝐴 ∩ 𝐵)′<sub>M</sub> = 𝐴′<sub>M</sub> ∪ 𝐵′<sub>M</sub>
+- (𝐴 ∪ 𝐵)′<sub>M</sub> = 𝐴′<sub>M</sub> ∩ 𝐵′<sub>M</sub>
+` doplněk 
