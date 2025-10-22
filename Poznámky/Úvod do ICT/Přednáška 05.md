@@ -24,3 +24,27 @@ Informační vazba - vzniká mezi dvěma systémy tvorbou, přenosem a výměnou
 - 𝐻 – skutečná entropie kódu – 
 - 𝐻max – maximální entropie při použití téže abecedy 
 Redundance evropských jazyků je větší než 0,5 (0,75?)
+## Důležité souvislosti
+##### Entropie zdroje zpráv
+- uvažujeme pravděpodobnosti výskytu znaků ve zprávě
+Entropie kódu
+- uvažujeme pravděpodobnosti nul a jedniček v kódu 
+- v ideálním případě je entropie binárního kódu rovna 1
+Střední délka kódového slova
+- průměrný počet bitů nesených jedním znakem 
+- v nejlepším případě je rovna entropii zdroje zpráv 
+- nejdůležitější kritérium pro srovnání kvality kódu
+## Způsoby kódování
+##### Rovnoměrné (blokové) kódování
+- **Baudotovo kódování**
+- každému znaku je přiřazen stejně dlouhý kód
+- délku kódového slova zjistíme výpočtem entropie
+- obvykle je jednodušší a rychlejší na zpracování
+- méně hospodárné
+##### Nerovnoměrné (prefixové) kódování
+- každému znaku je přiřazen jinak dlouhý kód 
+- žádný symbol kódové abecedy není prefixem jiného 
+- pro konstrukci a zpracování je obtížnější 
+- může však být maximálně hospodárné 
+- příklady: Shannonovo-Fanovo kódování, Huffmanovo kódování
+## Nerovnoměrné kódování
