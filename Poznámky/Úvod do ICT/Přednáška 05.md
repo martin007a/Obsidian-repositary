@@ -48,3 +48,16 @@ Střední délka kódového slova
 - může však být maximálně hospodárné 
 - příklady: Shannonovo-Fanovo kódování, Huffmanovo kódování
 ## Nerovnoměrné kódování
+![[Pasted image 20251022155617.png]]
+**Kód 3 je prefixový** - budeme s ním dále pracovat
+### Konstrukce prefixového kódu
+Binární prefixový kód pro 𝑛 kódových znaků s délkami kódových slov 𝑑<sub>1</sub> , 𝑑<sub>2</sub> , … , 𝑑<sub>𝑛</sub> existuje právě tehdy, pokud platí **Kraftova nerovnost**:
+![[Pasted image 20251022160106.png]]
+### Shannonův-Fanův algoritmus pro nalezení optimálního kódu
+![[Pasted image 20251022160332.png]]
+![[Pasted image 20251022160715.png]]
+Průměrný počet znaků na znak?
+## Huffmanův algoritmus
+![[Pasted image 20251022160652.png]]
+![[Pasted image 20251022160754.png]]
+## Souvislosti a spolehlivá metoda srovnání
