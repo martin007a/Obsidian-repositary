@@ -61,3 +61,10 @@ Průměrný počet znaků na znak?
 ![[Pasted image 20251022160652.png]]
 ![[Pasted image 20251022160754.png]]
 ## Souvislosti a spolehlivá metoda srovnání
+• Kritéria pro hledání optimálního kódu: 
+- minimální délka kódub - pro účely přenosu 
+- maximální entropie kódu – pro účely komprese
+![[Pasted image 20251022161137.png]]
+Neexistuje žádný bezztrátový algoritmus který by byl schopen to uložit na menším prostoru než 2.24.
+#### Efektivita kódu v praxi
+
