@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/To Do.md",
+                "file": "Poznámky/Projekt/Projekt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do"
+              "title": "Projekt"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -213,6 +212,9 @@
   },
   "active": "0dbcbc3adcfcda0f",
   "lastOpenFiles": [
+    "Tasks/To Do.md",
+    "Poznámky/Projekt/Projekt.md",
+    "Poznámky/Projekt",
     "Poznámky/Úvod do ICT/Přednáška 05.md",
     "imgs/Pasted image 20251022161137.png",
     "imgs/Pasted image 20251022160754.png",
@@ -224,7 +226,6 @@
     "imgs/Pasted image 20251022153351.png",
     "imgs/Pasted image 20251022153020.png",
     "imgs/Pasted image 20251022152816.png",
-    "Tasks/To Do.md",
     "Poznámky/ZOO/Vztahy.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 04.md",
@@ -257,7 +258,6 @@
     "Poznámky/Architektura Počítačů/Untitled",
     "Poznámky/Přednáška 01/Untitled",
     "Přednáška 01.pdf",
-    "Poznámky/Architektura Počítačů",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas"
