@@ -25,13 +25,19 @@ Theaf
 - Max HP - 70
 ## Invetář
 - Dělá to Mára
+## Items 
+- Class
+	- Wepon ()
+	- Heal ()
+	- Spell ()
+	- Armor ()
 ## Enemy
 - Class 
 	- Skeleton ()
 	- Negromant (Ztratíš všechno)
 	- Witch (DMG - 20, HP 20 (-2 DMG))
 	- Goblin (HP - 10, DMG - 5, (Clear Inventory))
-	- Dragon ()
+	- Dragon (HP - 50, DMG- 40)
 - HP - 15
 - DMG - 10
 
