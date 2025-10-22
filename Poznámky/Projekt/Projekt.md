@@ -26,5 +26,13 @@ Theaf
 ## Invetář
 - Dělá to Mára
 ## Enemy
+- Class 
+	- Skeleton ()
+	- Negromant (Ztratíš všechno)
+	- Witch (DMG - 20, HP 20 (-2 DMG))
+	- Goblin (HP - 10, DMG - 5, (Clear Inventory))
+	- Dragon ()
+- HP - 15
+- DMG - 10
 
 
