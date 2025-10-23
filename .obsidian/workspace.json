@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Poznámky/Architektura Počítačů/Přednáška 02.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Přednáška 02"
+              "title": "Backlinks for Přednáška 05"
             }
           },
           {
@@ -172,8 +172,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,6 +197,7 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "imgs/Pasted image 20251023114237.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "imgs/Drawing 2025-10-04 09.39.04.excalidraw.md",
     "Poznámky/Algoritmizace/Přednáška 05.md",
@@ -235,7 +235,6 @@
     "Poznámky/Úvod do ICT/Cviko 01.md",
     "Poznámky/Algoritmizace/Přednáška 01.md",
     "Poznámky/Úvod do ICT/Přednáška 01.md",
-    "Poznámky/Úvod do ICT/Přednáška 02.md",
     "Poznámky/Nano",
     "imgs/Pasted image 20251006095444.png.~tmp",
     "imgs/~MG_20250930_141405.tmp",
