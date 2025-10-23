@@ -120,13 +120,16 @@ Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴
 - 𝐴 ∪ ∅ = 𝐴 
 - 𝐴 ∩ ∅ = ∅ 
 **Zákony negace** 
-- 𝐴 ∪ 𝐴′𝑀 = 𝑀 
-- 𝐴 ∩ 𝐴′𝑀 = ∅ 
-- 𝑀′𝑀 = ∅ – ∅ ′𝑀 = 𝑀 
+- 𝐴 ∪ 𝐴′<sub>𝑀</sub> = 𝑀 
+- 𝐴 ∩ 𝐴′<sub>𝑀</sub> = ∅ 
+- 𝑀′<sub>𝑀</sub> = ∅
+- ∅ ′<sub>𝑀</sub> = 𝑀 
 **De Morganovy zákony**  
 - (𝐴 ∩ 𝐵)′<sub>M</sub> = 𝐴′<sub>M</sub> ∪ 𝐵′<sub>M</sub>
 - (𝐴 ∪ 𝐵)′<sub>M</sub> = 𝐴′<sub>M</sub> ∩ 𝐵′<sub>M</sub>
 ` doplněk 
+![[Pasted image 20251023172847.png]]
+
 ### Teorie čísel
 ###### Část matematiky zabývající se čísly 
 - definice číselných množin 
@@ -141,11 +144,19 @@ Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴
 - ℝ – reálná čísla 
 - ℂ – komplexní čísla
 ### Přirozená čísla (ℕ, z lat. naturalis)
+- Množina spolu se zobrazením **následovníka** S(x)
+	- z definice ordinální datový typ
 ![[Pasted image 20251021141912.png]]
+
 ### Přirozená čísla a nula
-![[Pasted image 20251021142606.png]]
+- Axiomatická definice vyžaduje, aby 0 ∈ ℕ
+- **Všeobecně** platí, že 0 ∉ ℕ
+	-  zejména z historických důvodů
+- Nadále nulu **nebudeme** považovat za přirozené číslo
+	-  rozlišujeme tedy množiny ℕ a ℕ0
+- Pouze pro potřeby **axiomatické výstavby** nulu do množiny ℕ zahrneme
 ## Přirozená čísla jako množiny
-![[Pasted image 20251021142723.png]]
+Ka
 ### Celá čísla (ℤ, z něm. Zahlen)
 ![[Pasted image 20251021142814.png]]
 ### Racionální čísla (ℚ, z ital. quoziente)
