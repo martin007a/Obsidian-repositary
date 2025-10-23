@@ -160,11 +160,20 @@ Každé číslo 𝑛 ∈ ℕ<sub>0</sub> intuitivně vyjadřuje **mohutnost mno�
 Čísla 𝑛 ∈ ℕ0 jsou definována iterativně jako **množiny** 
 - každé číslo je množinou čísel menších než ono samo
 ![[Pasted image 20251023174357.png]]
-### Celá čísla (ℤ, z něm. Zahlen)
+## Celá čísla (ℤ, z něm. Zahlen)
 K množině ℕ „připojíme" všechny **rozdíly přirozených čísel**, které v ní dosud nejsou
 Na množině ℕ × ℕ zavedeme ekvivalenci ≈
 $$(𝑎, 𝑏) ≈ (𝑐, 𝑑) ⟺ 𝑎 + 𝑑 = 𝑏 + 𝑐$$
-### Racionální čísla (ℚ, z ital. quoziente)
+
+Množinu celých čísel definujeme jako **rozklad** příslušný této ekvivalenci: 
+ℤ = ℕ × ℕ/≈
+1 = [(1, 0)] = [(2, 1)] = … = [(𝑘 + 1, 𝑘)]
+-1 = [(1, 0)] = [(2, 1)] = … = [(𝑘 + 1, 𝑘)]
+Operace jsou definovány takto:
+[(𝑎, 𝑏)] + [(𝑐, 𝑑)] = [(𝑎 + 𝑐, 𝑏 + 𝑑)]
+[(𝑎, 𝑏)] ⋅ [(𝑐, 𝑑)] = [(𝑎𝑐 + 𝑏𝑑, 𝑎𝑑 + 𝑏𝑐)]
+Teprve nyní lze zavést **operaci rozdílu!**
+## Racionální čísla (ℚ, z ital. quoziente)
 ![[Pasted image 20251021142856.png]]
 ### Reálná čísla (ℝ, z lat. realis)
 ![[Pasted image 20251021143127.png]]
