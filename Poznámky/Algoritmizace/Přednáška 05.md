@@ -13,5 +13,5 @@ Kubická - Fuj
 Exponenciální - Fibo
 Faktoriální - nezná kdo by to používal
 ## Takže u algoritmu nás nejvíc zajímá čas.
- %%
+ 
 ### Analytické stanovení

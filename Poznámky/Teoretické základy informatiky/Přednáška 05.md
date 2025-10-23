@@ -7,7 +7,7 @@ V matematice je všechno množina
 - v databázových systémech
 - v informačních systémech
 - při navrhovaní algoritmů apod.
-### Pojem množina
+## Pojem množina
 **Cantorova naivní teorie množin** 
 - množina je dobře definovaný soubor objektů 
 - paradoxy naivní teorie množin
@@ -24,7 +24,7 @@ Intuitivně se držíme označení množina pro souhrn objektů
 **Definice:**
 - Skutečnost, že a není prvkem množiny A, značíme 𝑎 ∉  A.
 ### Počet prvků množiny
-- kolik prvků má prázdná množina (U zkoušky se bude smát)
+kolik prvků má prázdná množina? (U zkoušky se bude smát ) "Haluza" 
 Též označovaný pojmem **mohutnost** nebo **kardinalita**
 **Značíme |M|**
 - např. pro M = {1,2} je |M| = 2
