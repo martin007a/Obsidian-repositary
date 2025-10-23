@@ -156,9 +156,14 @@ Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴
 	-  rozlišujeme tedy množiny ℕ a ℕ0
 - Pouze pro potřeby **axiomatické výstavby** nulu do množiny ℕ zahrneme
 ## Přirozená čísla jako množiny
-Ka
+Každé číslo 𝑛 ∈ ℕ<sub>0</sub> intuitivně vyjadřuje **mohutnost množiny** o právě n prvcích
+Čísla 𝑛 ∈ ℕ0 jsou definována iterativně jako **množiny** 
+- každé číslo je množinou čísel menších než ono samo
+![[Pasted image 20251023174357.png]]
 ### Celá čísla (ℤ, z něm. Zahlen)
-![[Pasted image 20251021142814.png]]
+K množině ℕ „připojíme" všechny **rozdíly přirozených čísel**, které v ní dosud nejsou
+Na množině ℕ × ℕ zavedeme ekvivalenci ≈
+$$(𝑎, 𝑏) ≈ (𝑐, 𝑑) ⟺ 𝑎 + 𝑑 = 𝑏 + 𝑐$$
 ### Racionální čísla (ℚ, z ital. quoziente)
 ![[Pasted image 20251021142856.png]]
 ### Reálná čísla (ℝ, z lat. realis)
