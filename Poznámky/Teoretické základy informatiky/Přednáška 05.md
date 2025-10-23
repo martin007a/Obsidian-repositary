@@ -46,7 +46,8 @@ Též označovaný pojmem **mohutnost** nebo **kardinalita**
 ##### **Platí zřejmá implikace: **
 $$(𝐴 = 𝐵) ⇒ (|𝐴| = |𝐵|)$$
 Jsou si množiny rovné 
-### Podmnožina
+## Podmnožina
+Symbol **⊆** znamená **„je podmnožinou“** nebo také **„je (možná rovná) podmnožina“**.
 Řekneme, že množina 𝐴 je podmnožinou množiny 𝐵 (značíme 𝐴 ⊆ 𝐵) právě tehdy, když každý prvek množiny 𝐴 je zároveň prvkem množiny B
 - Platí tedy 𝐴 ⊆ 𝐵 ⇔ (∀𝑥)((𝑥 ∈ 𝐴) ⇒ (𝑥 ∈ 𝐵))
 - Pojem podmnožina připouští i rovnost množin
@@ -56,23 +57,27 @@ Jsou si množiny rovné
 	- ∅ ⊆ 𝐴 pro libovolnou množinu 𝐴, tedy i ∅ ⊆ ∅
 ![[Pasted image 20251021132924.png]]
 ## Vlastní podmnožina
+Symbol **⊂** znamená **„je vlastní podmnožinou“**.
 Množina A je vlastní podmnožinou množiny B (značíme 𝐴 ⊂ 𝐵 nebo také 𝐴 ⊊ B) právě tehdy když je její podmnožinou, ale A  ≠ 𝐵.
-![[Pasted image 20251021133238.png]]
+- V množině B tedy existují prvky, které nejsou prvky množiny A
+- Platí (A )
 ### Potenční množina
-Množinu všech podmnožin množiny 𝐴 nazveme potenční množinou množiny 𝐴 a značíme 𝒫 (𝐴).
+Množinu všech podmnožin množiny 𝐴 nazveme **potenční množinou** množiny 𝐴 a značíme 𝒫 (𝐴).
 ![[Pasted image 20251021133458.png]]
+![[Pasted image 20251023142803.png]]
 P(n) = 2<sup>n</sup> jiný zápis potoční množiny
 **Žádná potenční množina nikdy není prázdná**
 ## Sjednocení množin
 **Sjednocení množin** (značíme 𝐴 ∪ 𝐵) je množina prvků, které patří alespoň do jedné ze sjednocovaných množin.
-- Formálně: 𝐴 ∪ 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∨ (𝑥 ∈ 𝐵)}
+- Formálně: $$𝐴 ∪ 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∨ (𝑥 ∈ 𝐵)}$$
+![[Pasted image 20251023143017.png]]
 ##### Vlastnosti sjednocení 
 * 𝐴 ⊆ (𝐴 ∪ 𝐵) pro libovolné množiny 𝐴, 𝐵 ??????????? 
 * (𝐴 ∪ 𝐵) = (𝐵 ∪ 𝐴)
 * – (𝐴 ∪ ∅) = A
 ### Průnik množin
 **Průnik množin** (značíme 𝐴 ∩ 𝐵) je množina prvků, které patří do obou množin současně.
-- • Formálně: 𝐴 ∩ 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∧ (𝑥 ∈ 𝐵)}
+- • Formálně: $$𝐴 ∩ 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∧ (𝑥 ∈ 𝐵)}$$
 ###### Vlastnosti průniku 
 - (𝐴 ∩ 𝐵) ⊆ 𝐴 pro libovolné množiny 𝐴, 𝐵 
 - (𝐴 ∩ 𝐵) = (𝐵 ∩ 𝐴) 
