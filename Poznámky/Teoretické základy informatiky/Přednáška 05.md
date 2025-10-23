@@ -86,30 +86,34 @@ Množiny se nazývají disjunktní, jestliže mají prázdný průnik (tj. nemaj
 ## Rozdíl množin
 Rozdíl množin (značíme 𝐴 − 𝐵 nebo 𝐴 ∖ 𝐵) je množina prvků, které patří do množiny 𝐴 a nepatří do množiny 𝐵.
 - **Formálně: 𝐴 − 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∧ (𝑥 ∉ 𝐵)}**
+![[Pasted image 20251023171321.png]]
 ##### Vlastnosti rozdílu 
 - (𝐴 − 𝐵) ⊆ 𝐴 pro libovolné množiny 𝐴, 𝐵  
 - (𝐴 − 𝐵) = (𝐵 − 𝐴) ⇒ (𝐴 = 𝐵) 
 - (𝐴 − ∅) = A
 - (∅ − A) = ∅
-#### Vlastnosti množinových operací
-### Sjednocení a průnik jsou komutativní a asociativní 
+## Vlastnosti množinových operací
+##### Sjednocení a průnik jsou komutativní a asociativní 
 - 𝐴 ∪ 𝐵 = 𝐵 ∪ 𝐴 
 - 𝐴 ∩ 𝐵 = 𝐵 ∩ 𝐴 
 - 𝐴 ∪ (𝐵 ∪ 𝐶) = (𝐴 ∪ 𝐵) ∪ 𝐶
 - 𝐴 ∩ (𝐵 ∩ 𝐶) = (𝐴 ∩ 𝐵) ∩ 𝐶
-**Rozdíl** není ani komutativní, ani asociativní
-
-Platí zákony idempotence
+-- **Rozdíl** není ani komutativní, ani asociativní
+Platí **zákony idempotence**
 - 𝐴 ∪ 𝐴 = 𝐴 
-- 𝐴 ∩ 𝐴 = AS
-![[Pasted image 20251021135406.png]]
+- 𝐴 ∩ 𝐴 = A
+Platí **distribuční zákony**
+- 𝐴 ∪ (𝐵 ∩ 𝐶) = (𝐴 ∪ 𝐵) ∩ (𝐴 ∪ 𝐶) 
+- 𝐴 ∩ (𝐵 ∪ 𝐶) = (𝐴 ∩ 𝐵) ∪ (𝐴 ∩ 𝐶)
 ### Příklady k domácímu procvičení
 ![[Pasted image 20251021135434.png]]
 Doděláš kdyžtak sám ☺
 ### Doplněk množiny v množině
 Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴 v množině 𝑀 (značíme 𝐴 ′𝑀 ) nazveme množinu všech prvků množiny 𝑀, které nejsou prvky množiny 𝐴.
-![[Pasted image 20251021135616.png]]
-## Vlastnosti doplňku za předpokladu 𝐴 ⊆ 𝑀
+- Platí 𝐴 ′𝑀 = 𝑀 − A
+- O Doplňku hovoříme tehdy, je-li množina A podmnožinou nějakého univerza M
+	-  jinak hovoříme o rozdílu
+## Vlastnosti doplňku za předpokladu 𝐴 ⊆ 𝑀-
 **Zákony jednotky**  
 - 𝐴 ∪ 𝑀 = 𝑀 
 - 𝐴 ∩ 𝑀 = 𝐴 

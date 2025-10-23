@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,6 +198,8 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "imgs/Pasted image 20251023171631.png",
+    "imgs/Pasted image 20251023171321.png",
     "imgs/Pasted image 20251023143017.png",
     "imgs/Pasted image 20251023142803.png",
     "Poznámky/Algoritmizace/Přednáška 05.md",
@@ -214,8 +217,6 @@
     "imgs/Pasted image 20251022160715.png",
     "imgs/Pasted image 20251022160652.png",
     "imgs/Pasted image 20251022160332.png",
-    "imgs/Pasted image 20251022160106.png",
-    "imgs/Pasted image 20251022155617.png",
     "Poznámky/ZOO/Vztahy.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 04.md",
