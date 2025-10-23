@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 03"
-            }
-          },
-          {
-            "id": "0dbcbc3adcfcda0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tasks/To Do.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "To Do"
+              "title": "Přednáška 05"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -210,10 +196,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dbcbc3adcfcda0f",
+  "active": "635724888f7b54a6",
   "lastOpenFiles": [
-    "Poznámky/Projekt/Projekt.md",
+    "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
+    "imgs/Drawing 2025-10-04 09.39.04.excalidraw.md",
+    "Poznámky/Algoritmizace/Přednáška 05.md",
+    "Poznámky/Algoritmizace/Přednáška 04.md",
     "Tasks/To Do.md",
+    "Poznámky/Projekt/Projekt.md",
     "Poznámky/Projekt",
     "Poznámky/Úvod do ICT/Přednáška 05.md",
     "imgs/Pasted image 20251022161137.png",
@@ -229,13 +219,11 @@
     "Poznámky/ZOO/Vztahy.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 04.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "Poznámky/Architektura Počítačů/Přednáška 05.md",
     "Poznámky/Úvod do ICT/Přednáška 04.md",
     "Poznámky/Úvod do ICT/Přednáška 03.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
-    "Poznámky/Algoritmizace/Přednáška 04.md",
     "Poznámky/Algoritmizace/Přednáška 03.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
     "Tasks/Done.md",
@@ -248,8 +236,6 @@
     "Poznámky/Algoritmizace/Přednáška 01.md",
     "Poznámky/Úvod do ICT/Přednáška 01.md",
     "Poznámky/Úvod do ICT/Přednáška 02.md",
-    "Poznámky/ZOO/Přednáška 02.md",
-    "Poznámky/ZOO/Př.3.md",
     "Poznámky/Nano",
     "imgs/Pasted image 20251006095444.png.~tmp",
     "imgs/~MG_20250930_141405.tmp",
