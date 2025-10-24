@@ -182,10 +182,21 @@ $$(𝑎, 𝑏) ≈ (𝑐, 𝑑) ⟺ 𝑎 ⋅ 𝑑 = b ⋅ c$$
 Množinu racionálních čísel definujeme jako **rozklad** příslušný této ekvivalenci:
 $$ℚ = ℤ × (ℤ − {0})/≈$$
 operace jsou definovány takto:
-a/b + c/d = (#đĐ[[Đ]ł€|\\|||€€€€Ł@{})
-### Reálná čísla (ℝ, z lat. realis)
-![[Pasted image 20251021143127.png]]
-### Komplexní čísla (ℂ, z lat. complexus)
+$$a/b + c/d = (𝑎 ⋅ 𝑑 + 𝑐 ⋅ 𝑏)/(𝑏 ⋅ 𝑑)$$
+$$𝑎/𝑏 ⋅ 𝑐/𝑑 = (𝑎 ⋅ 𝑐)/(𝑏 ⋅ 𝑑)$$
+## Reálná čísla (ℝ, z lat. realis)
+Na množině ℚ definujeme **řez**, značíme (A/B), jako dvojici množin A,B ⊆ ℚ, 𝐴 ∪ 𝐵 = ℚ, které jsou neprázdné, disjunktivní a platí (∀𝑎 ∈ 𝐴)(∀𝑏 ∈ 𝐵)(𝑎 < 𝑏)
+- tzv. **Dedekindův řez** ---------- RICHARD DEDEKIND (* 1831, † 1916)
+Nastávají **tři možnosti:**
+- 𝐴 obsahuje největší číslo, 𝐵 neobsahuje nejmenší číslo např. 
+  ({𝑥 ∈ ℚ | 𝑥 ≤ 5}/{𝑥 ∈ ℚ | 𝑥 > 5})
+- 𝐴 neobsahuje největší číslo, 𝐵 obsahuje nejmenší číslo např. 
+  ({𝑥 ∈ ℚ | 𝑥 < 5}/{𝑥 ∈ ℚ | 𝑥 ≥ 5})
+- 𝐴 neobsahuje největší číslo, 𝐵 neobsahuje nejmenší číslo např. 
+  ({𝑥 ∈ ℚ | 𝑥<sup>2</sup> ≤ 2}/{𝑥 ∈ ℚ | 𝑥<sup>2</sup> > 2})
+Množinu reálných čísel definuje jako **množinu všech řezů** na a ℚ: 
+	ℝ = {(𝐴/𝐵)}
+## Komplexní čísla (ℂ, z lat. complexus)
 ![[Pasted image 20251021143206.png]]
 
 
