@@ -234,17 +234,34 @@ Dvě množiny jsou si rovny, jestliže mají stejné prvky.
 - Prázdná množina je podmnožinou každé množiny
 ## 7. Co je to vlastní podmnožina? 
 Řekneme, že množina 𝐴 je vlastní podmnožinou množiny 𝐵 (značíme 𝐴 ⊂ 𝐵 nebo také 𝐴 ⊊ 𝐵) právě tehdy, když je její podmnožinou, ale 𝐴 ≠ 𝐵.
-- V množině B tedy existují prck
+- V množině B tedy existují prvky, které nejsou prvky množiny A  
 - Platí (𝐴 ⊂ 𝐵) ⇒ (𝐴 ⊆ 𝐵), ale ne naopak!
 ## 8. Co je to potenční množina? 
+Množinu všech podmnožin množiny 𝐴 nazveme potenční množinou množiny 𝐴 a značíme 𝒫 (A)
 ## 9. Kolik podmnožin má 𝑛-prvková množina? 
+Potenční množina má 2<sup>n</sup> prvků
 ## 10. Kolik podmnožin má prázdná množina?
+jednu a to prázdnou množinu 
 ## 11. Co je to sjednocení množin? 
+Sjednocení množin (značíme 𝐴 ∪ 𝐵) je množina prvků, které patří alespoň do jedné ze sjednocovaných množin.
+![[Pasted image 20251024200344.png]]
 ## 12. Co je to průnik množin? 
-## 13. Co je to rozdíl množin? 
+Průnik množin (značíme 𝐴 ∩ 𝐵) je množina prvků, které patří do obou množin současně.
+![[Pasted image 20251024200416.png]]
+## 13. Co je to rozdíl množin?
+Rozdíl množin (značíme 𝐴 − 𝐵 nebo 𝐴 ∖ 𝐵) je množina prvků, které patří do množiny 𝐴 a nepatří do množiny B
+![[Pasted image 20251024200502.png]]
 ## 14. Co to znamená, že jsou množiny disjunktní? 
+nemají žádný společný prvek
 ## 15. Jak zní idempotentní zákony? 
+𝐴 ∪ 𝐴 = 𝐴
+𝐴 ∩ 𝐴 = A
 ## 16. Jak zní distributivní zákony? 
+![[Pasted image 20251024200741.png]]
 ## 17. Co je to doplněk množiny? 
+Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴 v množině 𝑀 (značíme 𝐴 ′𝑀 ) nazveme množinu všech prvků množiny 𝑀, které nejsou prvky množiny 𝐴.
+• Platí 𝐴 ′𝑀 = 𝑀 − A
 ## 18. Jak zní de Morganovy zákony? 
+###### (𝐴 ∩ 𝐵)′𝑀 = 𝐴′𝑀 ∪ 𝐵′<sub>M</sub>
+###### (𝐴 ∪ 𝐵)′𝑀 = 𝐴′<sub>𝑀</sub> ∩ 𝐵′<sub>M</sub>
 ## 19. Jak jsou definovány číselné množiny a jak se značí?
