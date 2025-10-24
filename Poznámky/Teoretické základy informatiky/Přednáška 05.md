@@ -56,6 +56,8 @@ Symbol **⊆** znamená **„je podmnožinou“** nebo také **„je (možná ro
 - Prázdná množina je podmnožinou každé množiny
 	- ∅ ⊆ 𝐴 pro libovolnou množinu 𝐴, tedy i ∅ ⊆ ∅
 ![[Pasted image 20251021132924.png]]
+Kolik prvků má potenční množina 𝑛-prvkové množiny?
+Počet prvků potenční množiny je 2<sup>n</sup> 
 ## Vlastní podmnožina
 Symbol **⊂** znamená **„je vlastní podmnožinou“**.
 Množina A je vlastní podmnožinou množiny B (značíme 𝐴 ⊂ 𝐵 nebo také 𝐴 ⊊ B) právě tehdy když je její podmnožinou, ale A  ≠ 𝐵.
