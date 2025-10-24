@@ -265,3 +265,11 @@ Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴
 ###### (𝐴 ∩ 𝐵)′𝑀 = 𝐴′𝑀 ∪ 𝐵′<sub>M</sub>
 ###### (𝐴 ∪ 𝐵)′𝑀 = 𝐴′<sub>𝑀</sub> ∩ 𝐵′<sub>M</sub>
 ## 19. Jak jsou definovány číselné množiny a jak se značí?
+| Název                 |    Značení     | Slovní popis                                                                                       | Příklady                                           |
+| :-------------------- | :------------: | :------------------------------------------------------------------------------------------------- | :------------------------------------------------- |
+| **Přirozená čísla**   |       N        | „počítací čísla“ – používají se k počítání                                                         | ( {1,2,3,4,\dots} ) nebo někdy ( {0,1,2,3,\dots} ) |
+| **Celá čísla**        | ( \mathbb{Z} ) | přirozená čísla, jejich záporné protějšky a nula                                                   | ( {\dots,-3,-2,-1,0,1,2,3,\dots} )                 |
+| **Racionální čísla**  | ( \mathbb{Q} ) | všechna čísla, která lze vyjádřit jako zlomek ( \frac{a}{b} ), kde ( a,b \in \mathbb{Z}, b \ne 0 ) | ( \frac{1}{2}, -3, 0, 2.75 = \frac{11}{4} )        |
+| **Iracionální čísla** |       —        | čísla, která **nelze** vyjádřit jako zlomek dvou celých čísel                                      | ( \sqrt{2}, \pi, e )                               |
+| **Reálná čísla**      | ( \mathbb{R} ) | všechna čísla, která lze znázornit na číselné ose (racionální + iracionální)                       | ( -5, 0, 3.5, \pi, \sqrt{2} )                      |
+| **Komplexní čísla**   | ( \mathbb{C} ) | všechna čísla tvaru ( a + bi ), kde ( i^2 = -1 ), ( a,b \in \mathbb{R} )                           | ( 2 + 3i, ; -1 - 4i )                              |
