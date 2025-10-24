@@ -167,14 +167,14 @@ $$(𝑎, 𝑏) ≈ (𝑐, 𝑑) ⟺ 𝑎 + 𝑑 = 𝑏 + 𝑐$$
 
 Množinu celých čísel definujeme jako **rozklad** příslušný této ekvivalenci: 
 ℤ = ℕ × ℕ/≈
-1 = [(1, 0)] = [(2, 1)] = … = [(𝑘 + 1, 𝑘)]
--1 = [(1, 0)] = [(2, 1)] = … = [(𝑘 + 1, 𝑘)]
+`1 = [(1, 0)] = [(2, 1)] = … = [(𝑘 + 1, 𝑘)]
+`-1 = [(1, 0)] = [(2, 1)] = … = [(𝑘 + 1, 𝑘)]
 Operace jsou definovány takto:
-[(𝑎, 𝑏)] + [(𝑐, 𝑑)] = [(𝑎 + 𝑐, 𝑏 + 𝑑)]
-[(𝑎, 𝑏)] ⋅ [(𝑐, 𝑑)] = [(𝑎𝑐 + 𝑏𝑑, 𝑎𝑑 + 𝑏𝑐)]
+`[(𝑎, 𝑏)] + [(𝑐, 𝑑)] = [(𝑎 + 𝑐, 𝑏 + 𝑑)]
+`[(𝑎, 𝑏)] ⋅ [(𝑐, 𝑑)] = [(𝑎𝑐 + 𝑏𝑑, 𝑎𝑑 + 𝑏𝑐)]
 Teprve nyní lze zavést **operaci rozdílu!**
 ## Racionální čísla (ℚ, z ital. quoziente)
-![[Pasted image 20251021142856.png]]
+Racionální čísla lze vyjádřit 
 ### Reálná čísla (ℝ, z lat. realis)
 ![[Pasted image 20251021143127.png]]
 ### Komplexní čísla (ℂ, z lat. complexus)
