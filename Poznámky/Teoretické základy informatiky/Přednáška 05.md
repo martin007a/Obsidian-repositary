@@ -161,6 +161,7 @@ Každé číslo 𝑛 ∈ ℕ<sub>0</sub> intuitivně vyjadřuje **mohutnost mno�
 - každé číslo je množinou čísel menších než ono samo
 ![[Pasted image 20251023174357.png]]
 ## Celá čísla (ℤ, z něm. Zahlen)
+**Symbol ≈** - znamená **„přibližně rovno“** nebo **„zhruba rovno“**.
 K množině ℕ „připojíme" všechny **rozdíly přirozených čísel**, které v ní dosud nejsou
 Na množině ℕ × ℕ zavedeme ekvivalenci ≈
 $$(𝑎, 𝑏) ≈ (𝑐, 𝑑) ⟺ 𝑎 + 𝑑 = 𝑏 + 𝑐$$
@@ -174,7 +175,14 @@ Operace jsou definovány takto:
 `[(𝑎, 𝑏)] ⋅ [(𝑐, 𝑑)] = [(𝑎𝑐 + 𝑏𝑑, 𝑎𝑑 + 𝑏𝑐)]
 Teprve nyní lze zavést **operaci rozdílu!**
 ## Racionální čísla (ℚ, z ital. quoziente)
-Racionální čísla lze vyjádřit 
+Racionální čísla lze vyjádřit jako podíl dvou celých čísel
+- na přirozených ani celých číslech podíl nelze definovat
+Na množině ℤ × (ℤ − {0}) zavedeme ekvivalenci ≈ 
+$$(𝑎, 𝑏) ≈ (𝑐, 𝑑) ⟺ 𝑎 ⋅ 𝑑 = b ⋅ c$$
+Množinu racionálních čísel definujeme jako **rozklad** příslušný této ekvivalenci:
+$$ℚ = ℤ × (ℤ − {0})/≈$$
+operace jsou definovány takto:
+a/b + c/d = (#đĐ[[Đ]ł€|\\|||€€€€Ł@{})
 ### Reálná čísla (ℝ, z lat. realis)
 ![[Pasted image 20251021143127.png]]
 ### Komplexní čísla (ℂ, z lat. complexus)
