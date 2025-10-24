@@ -197,6 +197,13 @@ Nastávají **tři možnosti:**
 Množinu reálných čísel definuje jako **množinu všech řezů** na a ℚ: 
 	ℝ = {(𝐴/𝐵)}
 ## Komplexní čísla (ℂ, z lat. complexus)
-![[Pasted image 20251021143206.png]]
-
-
+**Motivace:** řešení problémů s výpočtem odmocnin ze záporných čísel
+Množina komplexních čísel definujeme jako množinu 
+**uspořádaných dvojic reálných čísel:**
+$$a ℚ: ℝ = {(𝐴/𝐵)}$$
+- místo (a,b) píšeme a + bi
+Operace jsou definovány takto:
+$$(𝑎 + 𝑏i) + (𝑐 + 𝑑i) = (𝑎 + 𝑐) + (𝑏 + 𝑑)i$$
+$$(𝑎 + 𝑏i) ⋅ (𝑐 + 𝑑i) = (𝑎𝑐 − 𝑏𝑑) + (𝑎𝑑 + 𝑏𝑐)i$$
+**Imaginární jednotka** i
+$$(0 + 1i) ⋅ (0 + 1i) = −1 + 0i$$
