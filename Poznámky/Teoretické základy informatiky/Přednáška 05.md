@@ -209,3 +209,42 @@ $$(𝑎 + 𝑏i) + (𝑐 + 𝑑i) = (𝑎 + 𝑐) + (𝑏 + 𝑑)i$$
 $$(𝑎 + 𝑏i) ⋅ (𝑐 + 𝑑i) = (𝑎𝑐 − 𝑏𝑑) + (𝑎𝑑 + 𝑏𝑐)i$$
 **Imaginární jednotka** i
 $$(0 + 1i) ⋅ (0 + 1i) = −1 + 0i$$
+
+# Kontrolní otázky
+## 1. Co je to množina? 
+**Axiomatická teorie množin:**
+    ◦ Množina je v tomto přístupu považována za **primitivní pojem**.
+    ◦ Cílem axiomatické teorie je znemožnit konstrukci množin vedoucích ke sporu
+ V matematice je **všechno množina**. Dokonce i čísla jsou definována pomocí množin
+## 2. Jak lze určit množinu? 
+- výčtem prvků: 𝑀 = {1, 2, 3} 
+- vlastností: 𝑀 = {𝑛 ∈ ℕ | 𝑛 < 4}
+## 3. Co je to mohutnost a jak se značí? 
+mohutnost - počet prvků množiny
+Značíme |𝑀|
+## 4. Kolik prvků má prázdná množina? 
+**nemá žádný prvek**
+značení ∅ nebo {}, nikoliv {∅}
+## 5. Kdy jsou si dvě množiny rovny?
+Dvě množiny jsou si rovny, jestliže mají stejné prvky.
+(𝐴 = 𝐵) ⇒ (|𝐴| = |𝐵|)
+## 6. Co je to podmnožina? 
+Řekneme, že množina 𝐴 je podmnožinou množiny 𝐵 (značíme 𝐴 ⊆ 𝐵) právě tehdy, když každý prvek množiny 𝐴 je zároveň prvkem množiny 𝐵.
+- každá podmnožina je podmnožinou sebe sama
+- Prázdná množina je podmnožinou každé množiny
+## 7. Co je to vlastní podmnožina? 
+Řekneme, že množina 𝐴 je vlastní podmnožinou množiny 𝐵 (značíme 𝐴 ⊂ 𝐵 nebo také 𝐴 ⊊ 𝐵) právě tehdy, když je její podmnožinou, ale 𝐴 ≠ 𝐵.
+- V množině B tedy existují prck
+- Platí (𝐴 ⊂ 𝐵) ⇒ (𝐴 ⊆ 𝐵), ale ne naopak!
+## 8. Co je to potenční množina? 
+## 9. Kolik podmnožin má 𝑛-prvková množina? 
+## 10. Kolik podmnožin má prázdná množina?
+## 11. Co je to sjednocení množin? 
+## 12. Co je to průnik množin? 
+## 13. Co je to rozdíl množin? 
+## 14. Co to znamená, že jsou množiny disjunktní? 
+## 15. Jak zní idempotentní zákony? 
+## 16. Jak zní distributivní zákony? 
+## 17. Co je to doplněk množiny? 
+## 18. Jak zní de Morganovy zákony? 
+## 19. Jak jsou definovány číselné množiny a jak se značí?
