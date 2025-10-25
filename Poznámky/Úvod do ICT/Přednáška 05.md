@@ -95,10 +95,16 @@ Spojitý (analogový) signál je dán spojitou (nebo po částech spojitou) funk
 ### 2 Proč je možné diskrétní signál přenášet bez zkreslení? 
 Protože přenášíme pouze dvě hodnoty (0 a 1), které lze při přenosu spolehlivě rozlišit i v případě výskytu rušení.
 ### 3 Jaký je princip kódování informací? 
+Přiřazení znaků jedné abecedy znakům jiné abecedy se nazývá kódování, inverzní postup pak dekódování
 ### 4 Co vyjadřuje redundance kódu a jak ji můžeme spočítat? 
+Redundance vyjadřuje hospodárnost kódu. Počítáme ji podle vztahu 𝑅 = 1 − 𝐻 𝐻max , kde 𝐻 je skutečná entropie a 𝐻max je teoretická maximální entropie při použití stejné abecedy.
 ### 5 Jaký je rozdíl mezi blokovým a prefixovým kódováním? 
+Prefixový kód je prosté kódování, u kterého žádné kódové slovo není prefixem jiného kódového slova. Blokový kód je prosté kódování, u kterého mají všechna kódová slova stejnou délku. Protože blokový kód musí být prostým zobrazením, je nutně také prefixovým kódem
 ### 6 Jak u blokového kódování zjistíme délku znaků kódu?  
+Počet bitů potřebných pro zakódování jednotlivých znaků zjistíme výpočtem informační entropie jevu, který je zdrojem informace.
 ### 7 Jak ověříme, zda lze sestrojit prefixový kód s požadovanými vlastnostmi? 
+Zjistíme platnost Kraftovy nerovnosti. Pokud existuje binární prefixový kód s 𝑛 kódovými znaky a délkami kódových slov 𝑑1 , 𝑑2 , … , 𝑑𝑛 , pak platí 2 −𝑑1 + 2−𝑑2 + … + 2−𝑑𝑛 ≤ 1
 ### 8 Kdy je blokový kód hospodárnější než prefixový? 
+Pokud je výskyt všech znaků stejný
 ### 9 Jakou redundanci a entropii by měl mít optimální kód? 
 ### 10 Jakým způsobem lze najít optimální kód?
