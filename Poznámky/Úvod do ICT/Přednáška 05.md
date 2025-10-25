@@ -72,6 +72,9 @@ Střední délka kódového slova
 ### Konstrukce prefixového kódu
 Binární prefixový kód pro 𝑛 kódových znaků s délkami kódových slov 𝑑<sub>1</sub> , 𝑑<sub>2</sub> , … , 𝑑<sub>𝑛</sub> existuje právě tehdy, pokud platí **Kraftova nerovnost**:
 ![[Pasted image 20251022160106.png]]
+### McMillanova věta
+**Každý jednoznačně dekódovatelný binární kód splňuje Kraftovu nerovnost.** 
+(Je buď prefixový, nebo existuje jiný kód nad stejnou kódovou abecedou se stejnými délkami kódových slov, který prefixový je.)
 ### Shannonův-Fanův algoritmus pro nalezení optimálního kódu
 ![[Pasted image 20251022160332.png]]
 ![[Pasted image 20251022160715.png]]
