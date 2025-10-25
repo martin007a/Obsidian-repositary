@@ -41,6 +41,8 @@ Je vždy získáván **ze vstupu**
 - 𝐻 – skutečná entropie kódu – 
 - 𝐻max – maximální entropie při použití téže abecedy 
 Redundance evropských jazyků je větší než 0,5 (0,75?)
+### Příklady kódů
+![[Pasted image 20251025125244.png]]
 ## Důležité souvislosti
 ##### Entropie zdroje zpráv
 - uvažujeme pravděpodobnosti výskytu znaků ve zprávě
