@@ -34,6 +34,16 @@
               "icon": "lucide-file",
               "title": "Přednáška 02"
             }
+          },
+          {
+            "id": "7c3d885d7d54a6f4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ]
       }
@@ -211,8 +221,8 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
-    "Poznámky/Úvod do ICT/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Přednáška 05.md",
+    "Poznámky/Úvod do ICT/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Přednáška 03.md",
     "imgs/Pasted image 20251025125244.png",
     "imgs/Pasted image 20251025111458.png",

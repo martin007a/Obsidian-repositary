@@ -89,4 +89,16 @@ Průměrný počet znaků na znak?
 ![[Pasted image 20251022161137.png]]
 Neexistuje žádný bezztrátový algoritmus který by byl schopen to uložit na menším prostoru než 2.24.
 #### Efektivita kódu v praxi
-
+### Kontrolní otázky
+### 1, Jaký je rozdíl mezi spojitým a diskrétním signálem? 
+Spojitý (analogový) signál je dán spojitou (nebo po částech spojitou) funkcí spojitého času. Tím se liší od signálu diskrétního (digitálního), který je dán funkcí definovanou pouze v diskrétních časových okamžicích a tvoří tak posloupnosti funkčních hodnot.
+### 2 Proč je možné diskrétní signál přenášet bez zkreslení? 
+Protože přenášíme pouze dvě hodnoty (0 a 1), které lze při přenosu spolehlivě rozlišit i v případě výskytu rušení.
+### 3 Jaký je princip kódování informací? 
+### 4 Co vyjadřuje redundance kódu a jak ji můžeme spočítat? 
+### 5 Jaký je rozdíl mezi blokovým a prefixovým kódováním? 
+### 6 Jak u blokového kódování zjistíme délku znaků kódu?  
+### 7 Jak ověříme, zda lze sestrojit prefixový kód s požadovanými vlastnostmi? 
+### 8 Kdy je blokový kód hospodárnější než prefixový? 
+### 9 Jakou redundanci a entropii by měl mít optimální kód? 
+### 10 Jakým způsobem lze najít optimální kód?
