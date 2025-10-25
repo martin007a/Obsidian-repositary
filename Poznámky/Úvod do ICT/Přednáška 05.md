@@ -1,5 +1,6 @@
 ## Signál
-![[Pasted image 20251022152540.png]]
+- Základní podmínkou využívání informací je jejich výměna mezi příjemci a odesílateli
+- 
 ## Dělení signálů dle časového parametru t
 ![[Pasted image 20251022152619.png]]
 ## Spojitý (analogový) signál
