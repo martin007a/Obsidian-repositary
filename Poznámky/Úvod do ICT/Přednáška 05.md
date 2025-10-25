@@ -1,8 +1,23 @@
 ## Signál
 - Základní podmínkou využívání informací je jejich výměna mezi příjemci a odesílateli
-- 
+- Informace má nehmotnou povahu, přenos musí být proveden nějakým nehmotným procesem
+- Nositelem informace nazýváme **signál**
+- Fyzikální veličinu lze matematicky modelovat funkcí prostoru a času
+$$𝑠 = 𝑓 (𝑥, 𝑦, 𝑧, 𝑡),$$
+	kde **s** je libovolný signál vyjádřený nezávislými souřadnicemi místa **(x,y,z)** a časovaným parametrem **t** 
 ## Dělení signálů dle časového parametru t
-![[Pasted image 20251022152619.png]]
+**Spojité** 
+- každý časový okamžik signálu nese určitou informaci
+- telefonní rozhovory
+**Diskrétní**
+- signál nese informaci jen v některých okamžicích 
+- telegrafní zprávy
+**Statické**
+- hodnota **t** nemá vliv na hodnotu signálu
+- kniha, mapa
+**Dynamické**
+- hodnota signálu závisí na hodnotě **t**
+- televizní přenos
 ## Spojitý (analogový) signál
 Je vždy získáván **ze vstupu**
 - mikrofon, kamera, snímač teploty, …
@@ -10,9 +25,9 @@ Je vždy získáván **ze vstupu**
 ### Diskrétní (digitální) signál
 ![[Pasted image 20251022152816.png]]
 ## Přenosový řetězec
-Informační vazba - vzniká mezi dvěma systémy tvorbou, přenosem a výměnou informace.
+**Informační vazba** - vzniká mezi dvěma systémy tvorbou, přenosem a výměnou informace.
 - Informační vazba umožnuje tzv. **Komunikaci**
-![[Pasted image 20251022153020.png]]
+![[Pasted image 20251025111458.png]]
 # Kódování dat
 - Nahrazení znaků abecedy jinou abecedou
 - Základní podmínkou komunikace je vytvoření signálního komunikačního kanálu
