@@ -105,6 +105,20 @@ Počet bitů potřebných pro zakódování jednotlivých znaků zjistíme výpo
 ### 7 Jak ověříme, zda lze sestrojit prefixový kód s požadovanými vlastnostmi? 
 Zjistíme platnost Kraftovy nerovnosti. Pokud existuje binární prefixový kód s 𝑛 kódovými znaky a délkami kódových slov 𝑑1 , 𝑑2 , … , 𝑑𝑛 , pak platí 2 −𝑑1 + 2−𝑑2 + … + 2−𝑑𝑛 ≤ 1
 ### 8 Kdy je blokový kód hospodárnější než prefixový? 
-Pokud je výskyt všech znaků stejný
+Všechny symboly mají stejnou pravděpodobnost výskytu.
 ### 9 Jakou redundanci a entropii by měl mít optimální kód? 
+Optimální (nejkratší) kód by měl mít minimální redundanci a maximální entropii.
 ### 10 Jakým způsobem lze najít optimální kód?
+Využijeme algirimů
+#### Shannonův-Fanův algoritmus
+Postup pro nalezení optimálního kódu pomocí **Shannonova-Fanova algoritmu** je následující:
+1. Znaky uspořádáme sestupně podle **pravděpodobnosti jejich výskytu** ve zprávě.
+2. Vypočteme **kumulativní pravděpodobnosti** jednotlivých znaků.
+3. Rozdělíme znaky do **dvou skupin** tak, aby jejich součtové pravděpodobnosti byly co nejblíže hodnotě **0,5**.
+4. Předchozí krok se opakuje tak dlouho, dokud existují vícečlenné skupiny znaků.
+#### Huffmanův algoritmus
+Postup pro nalezení optimálního kódu pomocí **Huffmanova algoritmu** je následující:
+1. Znaky uspořádáme sestupně podle **pravděpodobnosti jejich výskytu** ve zprávě.
+2. Vezmeme **dva znaky s nejmenší pravděpodobností**, přiřadíme jim nulu a jedničku, sečteme jejich pravděpodobnosti a výsledek zařadíme podle velikosti mezi ostatní.
+3. Předchozí krok opakujeme tak dlouho, až dojdeme u dvou nejmenších hodnot pravděpodobnosti k součtu **1**.
+4. Hodnoty kódových znaků získáme **zpětným postupem** a „sbíráním“ nul a jedniček.
