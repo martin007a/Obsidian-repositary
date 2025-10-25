@@ -112,7 +112,7 @@ Platí **distribuční zákony**
 Doděláš kdyžtak sám ☺
 ### Doplněk množiny v množině
 Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴 v množině 𝑀 (značíme 𝐴 ′𝑀 ) nazveme množinu všech prvků množiny 𝑀, které nejsou prvky množiny 𝐴.
-- Platí 𝐴 ′𝑀 = 𝑀 − A
+- Platí 𝐴 ′<sub><sup>𝑀</sup></sub> = 𝑀 − A
 - O Doplňku hovoříme tehdy, je-li množina A podmnožinou nějakého univerza M
 	-  jinak hovoříme o rozdílu
 ## Vlastnosti doplňku za předpokladu 𝐴 ⊆ 𝑀-
