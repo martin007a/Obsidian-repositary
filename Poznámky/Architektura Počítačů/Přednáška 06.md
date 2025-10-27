@@ -38,6 +38,7 @@ Výslede k ukládám do implicitního registru
 V registru provedu operace jako `B*R`
 Pak uložím do P1
 Podstatné je že instrukce je zásadně kratší 
+Ukládá do akumulátoru
 ## Programátorský model
 - abstrakce, která popisuje, jak programátor „vidí“ a může ovládat procesor při psaní nízkoúrovňového kódu – například v assembleru nebo při vývoji operačních systémů.
 ### Obecný programátorský model 8 bitového procesoru
