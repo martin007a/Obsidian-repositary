@@ -22,8 +22,30 @@ Jelikož O a 1 jsou nepřehledné - vývoj mnemotechnický jazyk -
 - Tříadresové
 	- sečti a + b, výsledek c
 ![[Pasted image 20251027091759.png]]
-Aby se zkrátila delka instruc
 - Dvouadresové
 ![[Pasted image 20251027091819.png]]
 - Jednoadresové
 ![[Pasted image 20251027091842.png]]
+Aby se ušetřila délka instrukcí tak používáme Jedno a dvou adresové
+![[Pasted image 20251027092024.png]]
+Implicitní adresování - procesor ho dá na domluvené místo : tady registr **R**
+- Výhodnější než to **ukládat do paměti** dá se to do **registru páč je rychlejší**
+celí program na 5 instrukcí
+![[Pasted image 20251027092418.png]]
+Výslede k ukládám do implicitního registru
+- přídá se instrukce zapiš
+![[Pasted image 20251027092608.png]]
+V registru provedu operace jako `B*R`
+Pak uložím do P1
+Podstatné je že instrukce je zásadně kratší 
+## Programátorský model
+- abstrakce, která popisuje, jak programátor „vidí“ a může ovládat procesor při psaní nízkoúrovňového kódu – například v assembleru nebo při vývoji operačních systémů.
+### Obecný programátorský model 8 bitového procesoru
+![[Pasted image 20251027093109.png]]
+- PC - čítač instrukcí
+- R0 - 
+- ACC - acumulátor
+- Můžu vytváře shluky 16 bit registrů
+- Zpracovává 8bitů na jednou - Adresuje 16 registrů
+![[Pasted image 20251027093319.png]]
+Aby mohl střádat 16 bit paměti musí 
