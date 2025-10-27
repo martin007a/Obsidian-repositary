@@ -118,12 +118,15 @@ Instrukce obecně nemusí podporovat kombinace libovolných typů (druhů) opera
 		- **ds** pro **bx, si ,di**
 		- **ss** pro **bp**
 ![[Pasted image 20251027204412.png]]
+**Segment** je **větší blok paměti**, který procesor používá jako **základní oblast** pro práci s daty, kódem nebo zásobníkem.
 ![[Pasted image 20251027204435.png]]
 5. **bázovaná (bázová) adresa**
 	- pracuje se s paměťovým místem určeným danou adresou
 	- podobně jako nepřímá
 	- offset adresy je v některém z registrů **bx, bp**
 	- offset se získá jako **součet** obsahu registru a **posunutí** (je-li posunutí 0, nemusí se uvádět – pak jde o **nepřímou adresu**)
+- **Báze (base)** = výchozí bod
+- **Offset** = posun od báze
 ![[Pasted image 20251027204815.png]]
 6.  indexovaná (indexová) adresa
 	- pracuje se s paměťovým místem určeným danou adresou
