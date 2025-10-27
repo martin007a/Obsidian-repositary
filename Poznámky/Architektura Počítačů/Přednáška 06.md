@@ -87,6 +87,25 @@ Pomocí dekódéru - adresujeme buňky v paměti
 ![[Pasted image 20251027094304.png]]
 ### FORMÁT  INSTRUKCE
 ![[Pasted image 20251027094643.png]]
+## Typy Operandů
+Instrukce obecně nemusí podporovat kombinace libovolných typů (druhů) operandů!
+1. Registr
+	- operandem je obsah registru
+![[Pasted image 20251027202835.png]]
+2. Konstanta (přímí operand)
+	-  pouze jako zdrojový operand
+	- celočíselná konstanta (desítková, šestnáctková apod.)
+	- textová konstanta ( jednoznakový nebo dvouznakový řetězec), v tomto případě je operandem ASCII kód
+	- Symbolické jméno konstanty
+	- jméno počítadla adres($)
+	- konstantní výraz
+![[Pasted image 20251027202853.png]]
+3. Přímá adresa
+	- pracuje se s paměťovým místem určením danou adresou 
+	- adresa se udává ve tvaru: **segment:offset**
+	- 
+
+
 ![[Pasted image 20251027095625.png]]- To jsou v piči je to v prezentaci. GG
 ### Zásobník
 - Ukazatel zásobníku SP obsahuje adresu vrcholu zásobníku.
