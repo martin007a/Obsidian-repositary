@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Úvod do ICT/Přednáška 05.md",
+                "file": "Poznámky/Architektura Počítačů/Přednáška 06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 05"
+              "title": "Přednáška 06"
             }
           },
           {
@@ -122,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -241,13 +242,14 @@
   },
   "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "Tasks/To Do.md",
+    "Poznámky/Architektura Počítačů/Přednáška 06.md",
     "Poznámky/Úvod do ICT/Přednáška 05.md",
     "Poznámky/Úvod do ICT/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Přednáška 03.md",
     "imgs/Pasted image 20251025125244.png",
     "imgs/Pasted image 20251025111458.png",
     "imgs/Pasted image 20251022152540.png",
-    "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
     "imgs/Pasted image 20251024200741.png",
     "imgs/Pasted image 20251024200502.png",
@@ -279,7 +281,6 @@
     "Poznámky/Algoritmizace/Přednáška 02.md",
     "Poznámky/Úvod do ICT/Cviko 01.md",
     "Poznámky/Algoritmizace/Přednáška 01.md",
-    "Poznámky/Úvod do ICT/Přednáška 01.md",
     "Poznámky/Nano",
     "imgs/Pasted image 20251006095444.png.~tmp",
     "imgs/~MG_20250930_141405.tmp",
