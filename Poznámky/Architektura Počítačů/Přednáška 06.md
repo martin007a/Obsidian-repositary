@@ -48,4 +48,34 @@ Podstatné je že instrukce je zásadně kratší
 - Můžu vytváře shluky 16 bit registrů
 - Zpracovává 8bitů na jednou - Adresuje 16 registrů
 ![[Pasted image 20251027093319.png]]
-Aby mohl střádat 16 bit paměti musí 
+**obr. Programátorsky model**
+Aby mohl střádat 16 bit paměti musí mí 16 bit sčítač
+ukazatel zásobníku stack Pointer
+8080 měl je jednu sčítačku takže mohl pracovat **jen v pevné čárce**
+##### Systémový řadič
+- procesor se nesmí moc zatěžovat
+Pomocí dekódéru - adresujeme buňky v paměti
+## Základní registry Procesoru
+- A (Accumulator) - střádač - 8 bitový,
+- PC (Program Counter) - čítač instrukcí - 16 bitový,
+- sadu univerzálních registrů B, C, D, E, H, L – 8 bitových,
+- příznakové bity
+	–Z (Zero) - = 1 při nulovém výsledku operace, =0 při nenulovém
+	–S (Sign) - Kopie znaménkového bitu výsledku operace
+	–CY (Carry) - Kopie bitu přenášeného z nejvyššího řádu výsledku operace
+	–AC (Auxilary Carry) - přenos mezi bitem 3 a 4 výsledku
+		-potože BCD zakódujeme do 4 kvůli přetečení
+	–P (Parity) = 1 při sudé paritě výsledku, =0 při liché paritě výsledku
+
+- Dále interní registry (programátorovi neviditelné):
+	- IR - instrukční registr (8bitový); je napojen na dekodér instrukcí (řadič),
+	- DR - datový registr (8 bitový); registr pro čtení/zápis dat z/do  paměti,
+	- AR - adresový registr (16 bitový); adresa pro čtení/zápis z/do  paměti,
+	- TA - Temporary Address register (skládá se z TAH (TA High - 8 bitů), TAL (TA Low - 8bitů)).
+		- registr ve kterém jsou mezi výsledky
+#### Instrukce procesoru
+![[Pasted image 20251027094212.png]]
+### Zápis instrukce MOV
+![[Pasted image 20251027094304.png]]
+### FORMÁT  INSTRUKCE
+![[Pasted image 20251027094643.png]]
