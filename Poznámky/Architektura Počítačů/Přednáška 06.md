@@ -8,7 +8,7 @@
 - Umožňuje přímou kontrolu nad součástmi stroje.
 - Je extrémně rychlý a efektivní.
 - Je specifický pro konkrétní typ procesoru nebo architektury.
-- Vyžaduje hluboké znalosti hardwaru a je obtížnější číst a zapisovat než jazyky na vysoké úrovni.
+- Vyžaduje hluboké znalosti hardwaru a je obtí-žnější číst a zapisovat než jazyky na vysoké úrovni.
 ![[Pasted image 20251027091546.png]]
 Jelikož O a 1 jsou nepřehledné - vývoj mnemotechnický jazyk - 
 #### **assembler**
@@ -79,3 +79,4 @@ Pomocí dekódéru - adresujeme buňky v paměti
 ![[Pasted image 20251027094304.png]]
 ### FORMÁT  INSTRUKCE
 ![[Pasted image 20251027094643.png]]
+![[Pasted image 20251027095625.png]]- To jsou v piči je to v prezentaci. GG

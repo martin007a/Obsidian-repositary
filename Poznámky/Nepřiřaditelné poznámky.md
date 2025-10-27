@@ -3,4 +3,5 @@
  - [x] Zjisti Destruktor ✅ 2025-10-16
  - [x] git propojení funguje ✅ 2025-09-28
  - [ ] Na prvním testu z Algoritmizace bude trasovací tabulka
+ - [ ] V ARCH dostaněš jednoduchý prográmek v assembleru
  
