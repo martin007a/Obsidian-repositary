@@ -41,20 +41,23 @@ Podstatné je že instrukce je zásadně kratší
 Ukládá do akumulátoru
 ## Programátorský model
 - abstrakce, která popisuje, jak programátor „vidí“ a může ovládat procesor při psaní nízkoúrovňového kódu – například v assembleru nebo při vývoji operačních systémů.
+- Je to zjednodušený pohled pro programátora, jsou zde prvky se kterými může programátor přímo pracovat.
+	- Hlavně se jedná o Registry
+	- Příznaky jednotlivé bity které si procesor nastavuje pří výpočtu
 ### Obecný programátorský model 8 bitového procesoru
 ![[Pasted image 20251027093109.png]]
-- PC - čítač instrukcí
+- PC - čítač instrukcí - 16 bitový ukazuje další adresu v paměti kde je další instrukce ke spuštění
 - R0 - 
 - ACC - acumulátor
 - Můžu vytváře shluky 16 bit registrů
 - Zpracovává 8bitů na jednou - Adresuje 16 registrů
 ![[Pasted image 20251027093319.png]]
 **obr. Programátorsky model*
-- **Čítač instrukcí** - Udržuje **adresu další instrukce**, kterou má procesor načíst z paměti.
+- **Čítač instrukcí** - 16 bitový ukazuje další adresu v paměti kde je další instrukce ke spuštění
 - **Střádač** -  je **speciální registr procesoru**, který se používá **pro ukládání mezivýsledků výpočtů** – hlavně při aritmetických a logických operacích.
-- **Univerzální registry (B-L)** - 
 Aby mohl střádat 16 bit paměti musí mí 16 bit sčítač
-ukazatel zásobníku stack Pointer
+**ukazatel zásobníku stack Pointer(SP)**
+- 16 bitoví ukazuje na speciální oblast v paměti které se říká zásobník
 8080 měl je jednu sčítačku takže mohl pracovat **jen v pevné čárce**
 ##### Systémový řadič
 - procesor se nesmí moc zatěžovat
@@ -63,6 +66,7 @@ Pomocí dekódéru - adresujeme buňky v paměti
 - A (Accumulator) - střádač - 8 bitový,
 - PC (Program Counter) - čítač instrukcí - 16 bitový,
 - sadu univerzálních registrů B, C, D, E, H, L – 8 bitových,
+	- dají se používat v párech jako 16 bitové což se hodí pro práci s adresami
 - příznakové bity
 	–Z (Zero) - = 1 při nulovém výsledku operace, =0 při nenulovém
 	–S (Sign) - Kopie znaménkového bitu výsledku operace
