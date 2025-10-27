@@ -48,7 +48,10 @@ Podstatné je že instrukce je zásadně kratší
 - Můžu vytváře shluky 16 bit registrů
 - Zpracovává 8bitů na jednou - Adresuje 16 registrů
 ![[Pasted image 20251027093319.png]]
-**obr. Programátorsky model**
+**obr. Programátorsky model*
+- **Čítač instrukcí** - Udržuje **adresu další instrukce**, kterou má procesor načíst z paměti.
+- **Střádač** -  je **speciální registr procesoru**, který se používá **pro ukládání mezivýsledků výpočtů** – hlavně při aritmetických a logických operacích.
+- **Univerzální registry (B-L)** - 
 Aby mohl střádat 16 bit paměti musí mí 16 bit sčítač
 ukazatel zásobníku stack Pointer
 8080 měl je jednu sčítačku takže mohl pracovat **jen v pevné čárce**
