@@ -92,7 +92,7 @@ Instrukce obecně nemusí podporovat kombinace libovolných typů (druhů) opera
 1. Registr
 	- operandem je obsah registru
 ![[Pasted image 20251027202835.png]]
-2. Konstanta (přímí operand)
+2. **Konstanta (přímí operand)**
 	-  pouze jako zdrojový operand
 	- celočíselná konstanta (desítková, šestnáctková apod.)
 	- textová konstanta ( jednoznakový nebo dvouznakový řetězec), v tomto případě je operandem ASCII kód
@@ -100,10 +100,32 @@ Instrukce obecně nemusí podporovat kombinace libovolných typů (druhů) opera
 	- jméno počítadla adres($)
 	- konstantní výraz
 ![[Pasted image 20251027202853.png]]
-3. Přímá adresa
+3. **Přímá adresa**
 	- pracuje se s paměťovým místem určením danou adresou 
 	- adresa se udává ve tvaru: **segment:offset**
-	- 
+![[Pasted image 20251027203434.png]]
+	- offset je uveden pomocí knostanty
+	- segment je uveden pomocí jména segmentového registru (nebo jména segmentu nebo jména skupiny segmentů – vyjasní se později)
+	- segment i offset mohou být označeny symbolicky – např. návěští (později)
+	- default segmentový registr je pro tento mód registr ds
+	- překladače (některé) vyžadují, aby se implicitně specifikoval typ operandu  (8-mibitový, 16-tibitový, ...)
+	- překladače (některé) vyžadují, aby se vždy explicitně zdůrazňoval fakt, že není uveden operand, ale jeho adresa (tzn. že operand je ukazatel – pointer)
+![[Pasted image 20251027203922.png]]
+4. **Nepřímá adresa**
+	-  pracuje se s paměťovým místem určeným danou adresou
+	- offset adresy je v některém z registrů: **bx, bp, di, si** 
+	- default segmentové registry:
+		- **ds** pro **bx, si ,di**
+		- **ss** pro **bp**
+![[Pasted image 20251027204412.png]]
+![[Pasted image 20251027204435.png]]
+5. **bázovaná (bázová) adresa**
+	- pracuje se s paměťovým místem určeným danou adresou
+	- podobně jako nepřímá
+	- offset adresy je v některém z registrů **bx, bp**
+	- offset se získá jako **součet** obsahu registru a **posunutí** (je-li posunutí 0, nemusí se uvádět – pak jde o **nepřímou adresu**)
+![[Pasted image 20251027204815.png]]
+6. 
 
 
 ![[Pasted image 20251027095625.png]]- To jsou v piči je to v prezentaci. GG
