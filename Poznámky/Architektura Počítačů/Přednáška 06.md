@@ -104,7 +104,7 @@ Instrukce obecně nemusí podporovat kombinace libovolných typů (druhů) opera
 	- pracuje se s paměťovým místem určením danou adresou 
 	- adresa se udává ve tvaru: **segment:offset**
 ![[Pasted image 20251027203434.png]]
-	- offset je uveden pomocí knostanty
+	- offset je uveden pomocí knostanty - **Offset** = vzdálenost (v bajtech) od určitého výchozího bodu (base address)
 	- segment je uveden pomocí jména segmentového registru (nebo jména segmentu nebo jména skupiny segmentů – vyjasní se později)
 	- segment i offset mohou být označeny symbolicky – např. návěští (později)
 	- default segmentový registr je pro tento mód registr ds
