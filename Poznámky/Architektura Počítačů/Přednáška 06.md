@@ -80,3 +80,7 @@ Pomocí dekódéru - adresujeme buňky v paměti
 ### FORMÁT  INSTRUKCE
 ![[Pasted image 20251027094643.png]]
 ![[Pasted image 20251027095625.png]]- To jsou v piči je to v prezentaci. GG
+### Zásobník
+- Ukazatel zásobníku SP obsahuje adresu vrcholu zásobníku.
+- Zásobník slouží na uložení návratové adresy při volání podprogramu a dočasné odložení údajů v registrových párech.
+- •Zásobník "roste" k nižším adresám, co znamená, že při vložení údaje do zásobníku se adresa zásobníku sníží o 2 a při vybrání údaje se zvýší o 2.
