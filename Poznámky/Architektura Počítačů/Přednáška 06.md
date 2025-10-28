@@ -173,20 +173,26 @@ Procesor vždy vykonává nějakou instrukci. Zapnutý procesor nezná jinou či
 ## Přehled instrukcí
 ### Přesun dat (Data Transfer Instructions)
 Slouží k přesunu dat mezi registry, pamětí a akumulátorem.
-- MOV dest, src – přesun dat mezi registry
-- MVI reg, data – vložení konstanty do registru
-- LXI rp, data16 – načtení 16bitové konstanty do páru registrů
-- LDA addr / STA addr – načtení/uložení akumulátoru z/do paměti
-- LHLD addr / SHLD addr – načtení/uložení páru HL z/do paměti
-- XCHG – výměna HL a DE
+- **MOV** dest, src – přesun dat mezi registry
+- **MVI** reg, data – vložení konstanty do registru
+- **LXI** rp, data16 – načtení 16bitové konstanty do páru registrů
+- **LDA** addr / **STA** addr – načtení/uložení akumulátoru z/do paměti
+- **LHLD** addr / **SHLD** addr – načtení/uložení páru HL z/do paměti
+- **XCHG** – výměna **HL** a **DE**
 ### Aritmetické instrukce
 Provádějí sčítání, odčítání a další operace.
-- **ADD** reg / ADI data – sčítání s akumulátorem
-- **SUB** reg / SUI data – odčítání od akumulátoru
-- **INR** reg / DCR reg – inkrementace/dekrementace
-- **DAD** rp – sčítání páru registrů s HL
-* **DAA** – úprava akumulátoru pro BCD
-
+- **ADD** reg / **ADI** data – sčítání s akumulátorem
+- **SUB** reg / **SUI** data – odčítání od akumulátoru
+- **INR** reg / **DCR** reg – inkrementace/dekrementace
+- **DAD** rp – sčítání páru registrů s **HL**
+* **DAA** – úprava akumulátoru pro **BCD**
+### Logické instrukce
+Provádějí logické operace jako AND, OR, XOR.
+- **ANA** reg / **ANI** data – AND s akumulátorem
+- **ORA** reg / ORI **data** – OR s akumulátorem
+- **XRA** reg / XRI **data** – XOR s akumulátorem
+- **CMP** reg / **CPI** data – porovnání s akumulátorem
+- **RLC**, **RRC**, **RAL**, **RAR** – rotace bitů v akumulátoru
 ### Zásobník
 - Ukazatel zásobníku SP obsahuje adresu vrcholu zásobníku.
 - Zásobník slouží na uložení návratové adresy při volání podprogramu a dočasné odložení údajů v registrových párech.
