@@ -144,6 +144,7 @@ Instrukce obecně nemusí podporovat kombinace libovolných typů (druhů) opera
 	- offset adresy je v některém z registrů **si, di**
 	- offset se získá jako součet obsahu registru a posunutí (je-li posunutí 0, nemusí se uvádět – pak jde o nepřímou adresu)
 ![[Pasted image 20251027205100.png]]
+![[Pasted image 20251028121328.png]]
 7. bázově indexová adresa
 	- pracuje se s paměťovým místem určeným danou adresou
 	- kombinace předcházejících
@@ -153,6 +154,11 @@ Instrukce obecně nemusí podporovat kombinace libovolných typů (druhů) opera
 		- **ss**  pro **reg1** = **bp**, jinak **ds**
 ![[Snímek obrazovky 2025-10-27 205433.png]]
 ![[Pasted image 20251027205527.png]]
+## Zápis instrukce LDA
+Načtení operandu do registru A
+![[Pasted image 20251028122457.png]]
+
+
 ![[Pasted image 20251027095625.png]]- To jsou v piči je to v prezentaci. GG
 ### Zásobník
 - Ukazatel zásobníku SP obsahuje adresu vrcholu zásobníku.
