@@ -274,3 +274,24 @@ INR A - Přičte 1 k A
 	- Inkrementuj podíl.
 - Zbytek je to, co zůstane z čitatele.
 ![[Pasted image 20251028150843.png]]
+![[Pasted image 20251028171814.png]]
+### Programátorský model 64bitového procesoru Intel
+##### 64bitové registry:
+- 16 obecných registrů (např. RAX, RBX, RCX, RDX, RSI, RDI, RSP, RBP, R8–R15)
+- Každý registr má přístup k různým částem: 64bit (např. RAX), 32bit (EAX), 16bit (AX), 8bit (AL, AH)
+##### Instrukční sada x84-64 
+- Rozšířená o nové instrukce pro práci s 64bitovými daty
+- Podpora SIMD instrukcí (např. SSE, AVX)
+##### Paměťový model:
+- Virtuální adresace s 64bitovými adresami (prakticky omezeno na 48bit)
+- Podpora segmentace (i když v 64bit režimu je většina segmentů ignorována)
+##### Režim běhu
+- Legacy mode (pro 16/32bit aplikace)
+- Compatibility mode (pro 32bit aplikace v 64bit OS)
+- •64bit mode (plná 64bit funkcionalita)
+##### Stavy procesoru:
+- Stavové příznaky v registru FLAGS (např. Zero, Carry, Overflow)
+- Řídicí registry jako CR0–CR4, EFER (Extended Feature Enable Register)
+##### Floating-point jednotka (FPU)
+- Podpora x87, SSE, AVX pro výpočty s plovoucí desetinnou čárkou
+## Obecné registry
