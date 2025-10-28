@@ -157,9 +157,14 @@ Instrukce obecně nemusí podporovat kombinace libovolných typů (druhů) opera
 ## Zápis instrukce LDA
 Načtení operandu do registru A
 ![[Pasted image 20251028122457.png]]
+Zápis v symbolickém jazyku
+- LDA adresa
+- LDA 100b, LDA 8h
 
-
-![[Pasted image 20251027095625.png]]- To jsou v piči je to v prezentaci. GG
+![[Pasted image 20251027095625.png]]- 
+**To jsu v piči je to v prezentaci. GG**
+## **Vykonávání instrukcí, programu**
+Vykonání každé instrukce trvá určitou dobu. Délka této doby je obecně závislá na složitosti instrukce. Některé instrukce mají i několik různých dob provádění (podle podmínek, za kterých jsou vykonávány). U reálných procesorů je doba vykonávání instrukcí v řádech ns až ms.
 ### Zásobník
 - Ukazatel zásobníku SP obsahuje adresu vrcholu zásobníku.
 - Zásobník slouží na uložení návratové adresy při volání podprogramu a dočasné odložení údajů v registrových párech.
