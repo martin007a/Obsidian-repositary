@@ -165,6 +165,28 @@ Zápis v symbolickém jazyku
 **To jsu v piči je to v prezentaci. GG**
 ## **Vykonávání instrukcí, programu**
 Vykonání každé instrukce trvá určitou dobu. Délka této doby je obecně závislá na složitosti instrukce. Některé instrukce mají i několik různých dob provádění (podle podmínek, za kterých jsou vykonávány). U reálných procesorů je doba vykonávání instrukcí v řádech ns až ms.
+
+Instrukce jsou vykonávány po sobě, v pořadí, v jakém jsou zapsány v programu. Jen po některých instrukcích může být vykonávána jiná instrukce než je ta, která je v programu bezprostředně následující.<span style="color:rgb(255, 0, 0)"> K<span style="color:rgb(255, 0, 0)">teré to jsou instrukce?</span><br></span>
+Jedná se o instrukce <span style="color:rgb(255, 0, 0)">skoku </span>(podmíněného, nepodmíněného), volání podprogramu,..
+
+Procesor vždy vykonává nějakou instrukci. Zapnutý procesor nezná jinou činnost než vykonávat instrukce. Po zapnutí procesor přečte z dohodnuté adresy, obvykle 0000H, jeden byte a interpretuje ho jako operační kód své první instrukce, provede ji a pokračuje dále.
+## Přehled instrukcí
+### Přesun dat (Data Transfer Instructions)
+Slouží k přesunu dat mezi registry, pamětí a akumulátorem.
+- MOV dest, src – přesun dat mezi registry
+- MVI reg, data – vložení konstanty do registru
+- LXI rp, data16 – načtení 16bitové konstanty do páru registrů
+- LDA addr / STA addr – načtení/uložení akumulátoru z/do paměti
+- LHLD addr / SHLD addr – načtení/uložení páru HL z/do paměti
+- XCHG – výměna HL a DE
+### Aritmetické instrukce
+Provádějí sčítání, odčítání a další operace.
+- **ADD** reg / ADI data – sčítání s akumulátorem
+- **SUB** reg / SUI data – odčítání od akumulátoru
+- **INR** reg / DCR reg – inkrementace/dekrementace
+- **DAD** rp – sčítání páru registrů s HL
+* **DAA** – úprava akumulátoru pro BCD
+
 ### Zásobník
 - Ukazatel zásobníku SP obsahuje adresu vrcholu zásobníku.
 - Zásobník slouží na uložení návratové adresy při volání podprogramu a dočasné odložení údajů v registrových párech.

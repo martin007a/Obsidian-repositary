@@ -16,5 +16,13 @@
       ],
       "key": "U"
     }
+  ],
+  "colored-text:change-colored-text-mode": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
   ]
 }
