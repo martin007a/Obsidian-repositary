@@ -193,6 +193,14 @@ Provádějí logické operace jako AND, OR, XOR.
 - **XRA** reg / XRI **data** – XOR s akumulátorem
 - **CMP** reg / **CPI** data – porovnání s akumulátorem
 - **RLC**, **RRC**, **RAL**, **RAR** – rotace bitů v akumulátoru
+### Řídicí instrukce
+Slouží k řízení toku programu.
+- **JMP** addr – skok na adresu
+-  **JC**, **JNC**, **JZ**, **JNZ**, **JP**, **JM** – podmíněné skoky
+- **CALL** addr / **RET** – volání a návrat z podprogramu
+- **CPI**, **CPE**, **CPO**, **CP**, **CM** – podmíněné volání/návrat
+![[Pasted image 20251028133323.png]]
+> `addr` = adresa, kam procesor skočí, pokud je podmínka splněna.
 ### Zásobník
 - Ukazatel zásobníku SP obsahuje adresu vrcholu zásobníku.
 - Zásobník slouží na uložení návratové adresy při volání podprogramu a dočasné odložení údajů v registrových párech.
