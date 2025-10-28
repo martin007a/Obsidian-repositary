@@ -193,6 +193,7 @@ Provádějí logické operace jako AND, OR, XOR.
 - **XRA** reg / XRI **data** – XOR s akumulátorem
 - **CMP** reg / **CPI** data – porovnání s akumulátorem
 - **RLC**, **RRC**, **RAL**, **RAR** – rotace bitů v akumulátoru
+![[Pasted image 20251028141432.png]]
 ### Řídicí instrukce
 Slouží k řízení toku programu.
 - **JMP** addr – skok na adresu
@@ -229,4 +230,20 @@ Slouží k řízení toku programu.
 - DI / EI – zakázání/povolení přerušení
 ### Příklady
 ![[Pasted image 20251028140959.png]]
-CMA - Inverutuje
+CMA - Invertuje bity v A
+INR A - Přičte 1 k A
+- Převod do doplňkového kódu
+### ZDROJOVÝ TEXT PROGRAMU V ASSEMBLERU
+- program složený z řádků
+- zápis jedné akce nesmí přesahovat hranice řádků
+- na jednom řádku nelze soustředit zápis dvou akcí
+![[Pasted image 20251028142305.png]]
+#### direktivy:
+- povely pro překladač
+- negenerují žádný kód
+- řídí využívání paměti, segmentaci, umožňují definici dat, řízení podmíněného překladu, nastavení voleb překladače, 
+### makra:
+- symbolicky označená část zdrojového textu, kterou v případě jejího výskytu není nutné opakovaně opisovat, ale pouze uvést název
+- lze parametrizovat
+- tzv. nepravý podprogram
+- podobné jako makra v C
