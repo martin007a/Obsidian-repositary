@@ -105,6 +105,14 @@ Instrukce obecně nemusí podporovat kombinace libovolných typů (druhů) opera
 3. **Přímá adresa**
 	- pracuje se s paměťovým místem určením danou adresou 
 	- adresa se udává ve tvaru: **segment:offset**
+	- **Registr SS (Stack Segment)** určuje **začátek (bázi)** paměťové oblasti,  kde je uložen **zásobník (stack)**.
+|Registr|Název|Účel|Kombinuje se s|K čemu se používá
+
+| Registr | Název           | Účel                                                          | Kombinuje se s                                        | K čemu se používá                                                         |
+| ------- | --------------- | ------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------- |
+| **CS**  | _Code Segment_  | určuje, kde v paměti je uložen **programový kód (instrukce)** | **IP** (_Instruction Pointer_)                        | procesor z této oblasti **čte instrukce**, které vykonává                 |
+| **SS**  | _Stack Segment_ | určuje, kde v paměti je uložen **zásobník (stack)**           | **SP** (_Stack Pointer_) nebo **BP** (_Base Pointer_) | používá se při **PUSH**, **POP**, volání podprogramů, návratu z nich atd. |
+
 ![[Pasted image 20251027203434.png]]
 	- offset je uveden pomocí knostanty - **Offset** = vzdálenost (v bajtech) od určitého výchozího bodu (base address)
 	- segment je uveden pomocí jména segmentového registru (nebo jména segmentu nebo jména skupiny segmentů – vyjasní se později)
