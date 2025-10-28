@@ -288,10 +288,42 @@ INR A - Přičte 1 k A
 ##### Režim běhu
 - Legacy mode (pro 16/32bit aplikace)
 - Compatibility mode (pro 32bit aplikace v 64bit OS)
-- •64bit mode (plná 64bit funkcionalita)
+- 64bit mode (plná 64bit funkcionalita)
 ##### Stavy procesoru:
 - Stavové příznaky v registru FLAGS (např. Zero, Carry, Overflow)
 - Řídicí registry jako CR0–CR4, EFER (Extended Feature Enable Register)
 ##### Floating-point jednotka (FPU)
 - Podpora x87, SSE, AVX pro výpočty s plovoucí desetinnou čárkou
 ## Obecné registry
+Používají se pro výpočty, uchovávání dat, adres a dočasných hodnot:
+- RAX – akumulátor, často pro návratové hodnoty funkcí
+- RBX – bázový registr, někdy pro adresování
+- RCX – čítač, např. pro smyčky
+- RDX – datový registr, často pro parametry funkcí
+- RSI – zdrojový index, při kopírování dat
+- RDI – cílový index, při kopírování dat
+- RSP – ukazatel zásobníku (Stack Pointer)
+- RBP – základní ukazatel (Base Pointer), pro rámec funkce
+- R8–R15 – dodatečné registry pro parametry a lokální proměnné
+Každý z těchto registrů má i přístup k menším částem:
+- Např. RAX → EAX (32bit), AX (16bit), AL/AH (8bit)
+### Speciální registry
+- **RIP** – Instruction Pointer, ukazuje na aktuální instrukci
+- **FLAGS** – registr příznaků, obsahuje bity jako:
+	- ZF (Zero Flag) – výsledek operace je nula
+	- CF (Carry Flag) – přenos při aritmetice
+	- SF (Sign Flag) – znaménko výsledku
+	- OF (Overflow Flag) – přetečení
+**Vektorové a plovoucí registry**
+- **XMM0–XMM15** – 128bitové registry pro SIMD operace (SSE)
+- **YMM0–YMM15** – 256bitové (AVX)
+- **ZMM0–ZMM31** – 512bitové (AVX-512)
+- **ST(0)–ST(7)** – zásobníkové registry pro výpočty s reálnými čísly (x87)
+**Řídicí registry (CR0–CR4, EFER)**
+- Používají se pro správu režimů procesoru, stránkování, virtualizaci – důležité pro operační systém.
+## Nástroje a prostředí pro nízkoúrovňové programování
+- **NASM (Netwide Assembler):** Populární assembler pro x86 a x86-64.
+- **MASM (Microsoft Macro Assembler):** Standardní assembler společnosti Microsoft pro Windows.
+- **GAS (GNU Assembler):** Část sady nástrojů GNU, široce používaná na systémech podobných Unixu.
+- **IDA Pro:** Pokročilý disassembler a debugger, užitečný pro reverzní inženýrství.
+- **OllyDbg:** 32bitový debugger pro Windows, oblíbený mezi analytiky malwaru.
