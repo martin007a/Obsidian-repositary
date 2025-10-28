@@ -212,8 +212,21 @@ Slouží k řízení toku programu.
 - **AC - Auxilliary Carry flag** - Příznak přenosu ze 3. bitu do 4.
 - **P - Parity flag** - Příznak parity - má hodnotu **1 pro sudou paritu (sudý počet jedniček)**
 - **CY - Carry flag** - Příznak pretečení - má hodnotu **1**, když doško k přetečení.
-
-### Zásobník
+### **Instrukce zásobníku a I/O**
+- PUSH rp - sníží adresu SP a uloží rp do zásobníku
+- POP rp – vybere ze zásobníku rp a zvýší adresu SP
+- IN port / OUT port – vstup/výstup z/do I/O portu
+- SPHL – nastavení SP podle HL
+- XTHL – výměna HL s vrcholem zásobníku
+### Zásobník 
 - Ukazatel zásobníku SP obsahuje adresu vrcholu zásobníku.
 - Zásobník slouží na uložení návratové adresy při volání podprogramu a dočasné odložení údajů v registrových párech.
-- •Zásobník "roste" k nižším adresám, co znamená, že při vložení údaje do zásobníku se adresa zásobníku sníží o 2 a při vybrání údaje se zvýší o 2.
+- Zásobník "roste" k nižším adresám, co znamená, že při vložení údaje do zásobníku se adresa zásobníku sníží o 2 a při vybrání údaje se zvýší o 2.
+![[Pasted image 20251028140530.png]]
+### Řídicí instrukce
+- NOP – žádná operace
+- HLT – zastavení procesoru
+- DI / EI – zakázání/povolení přerušení
+### Příklady
+![[Pasted image 20251028140959.png]]
+CMA - Inverutuje
