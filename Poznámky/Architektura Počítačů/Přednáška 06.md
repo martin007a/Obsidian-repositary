@@ -247,3 +247,18 @@ INR A - Přičte 1 k A
 - lze parametrizovat
 - tzv. nepravý podprogram
 - podobné jako makra v C
+### FORMÁLNÍ ÚPRAVA PROGRAMU
+- kromě členění na řádky nestanovena
+- parametry (operandy) se od předchozího pole oddělují alespoň jedním znakem mezera, tabulátor nebo čárka
+- nadbytečné oddělovače nevadí
+- všechna pole jsou nepovinná (prázdný řádek je formálně správný)
+- doporučuje se psát program tak, aby odpovídající pole byla pod sebou
+- doporučuje se, aby každý řádek měl komentář
+![[Pasted image 20251028143030.png]]
+### Násobení (8bit × 8bit)
+- Inicializuj výsledek na 0.
+- Opakuj B-krát:
+	+ Přičti A k výsledku.
+- **Použij registr jako čítač smyčky.**
+- Výsledek je 16bitový, protože 8bit × 8bit může dát až 65535.
+![[Pasted image 20251028143300.png]]
