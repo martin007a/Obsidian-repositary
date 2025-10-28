@@ -198,9 +198,21 @@ Slouží k řízení toku programu.
 - **JMP** addr – skok na adresu
 -  **JC**, **JNC**, **JZ**, **JNZ**, **JP**, **JM** – podmíněné skoky
 - **CALL** addr / **RET** – volání a návrat z podprogramu
+- RET - - Návrat z podprogramu
+    Co se děje:  
+    1. Procesor **načte adresu z vrcholu zásobníku**
+    2. Skáče zpět na místo, odkud byl volán podprogram
 - **CPI**, **CPE**, **CPO**, **CP**, **CM** – podmíněné volání/návrat
 ![[Pasted image 20251028133323.png]]
 > `addr` = adresa, kam procesor skočí, pokud je podmínka splněna.
+![[Pasted image 20251028134427.png]]
+### Příznaky
+- **S - Sign flag** (znaménko) - Příznak záporného výsledku. Čísla větší jak **127** jsou chápané jako záporné.  **0 = plus,** **1 = mínus.**
+- **Z - Zero flag** - Příznak nulového výsledku - má hodnotu **1, nebo** hodnotu **0** pro nenulový výsledek.
+- **AC - Auxilliary Carry flag** - Příznak přenosu ze 3. bitu do 4.
+- **P - Parity flag** - Příznak parity - má hodnotu **1 pro sudou paritu (sudý počet jedniček)**
+- **CY - Carry flag** - Příznak pretečení - má hodnotu **1**, když doško k přetečení.
+
 ### Zásobník
 - Ukazatel zásobníku SP obsahuje adresu vrcholu zásobníku.
 - Zásobník slouží na uložení návratové adresy při volání podprogramu a dočasné odložení údajů v registrových párech.
