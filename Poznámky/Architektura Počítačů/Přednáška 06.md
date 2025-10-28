@@ -262,3 +262,15 @@ INR A - Přičte 1 k A
 - **Použij registr jako čítač smyčky.**
 - Výsledek je 16bitový, protože 8bit × 8bit může dát až 65535.
 ![[Pasted image 20251028143300.png]]
+### Dělení
+- **Dělení A / B (výsledek: podíl v C, zbytek v A)**
+- Výsledek je:
+	C = podíl (kolikrát se B vejde do A)
+	A = zbytek (co zůstane po dělení)
+### Algoritmus dělení pomocí odčítání
+- **Inicializuj podíl na 0.**
+- Dokud je čitatel větší nebo roven jmenovateli:
+	- Odečti jmenovatel od čitatele.
+	- Inkrementuj podíl.
+- Zbytek je to, co zůstane z čitatele.
+![[Pasted image 20251028150843.png]]
