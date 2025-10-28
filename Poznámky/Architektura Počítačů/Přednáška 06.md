@@ -85,6 +85,8 @@ Pomocí dekódéru - adresujeme buňky v paměti
 ![[Pasted image 20251027094212.png]]
 ### Zápis instrukce MOV
 ![[Pasted image 20251027094304.png]]
+- Instrukce s konstantou **vždy zabírá víc než 1 bajt**, protože musí mít zvlášť místo pro tu konstantní hodnotu.
+
 ### FORMÁT  INSTRUKCE
 ![[Pasted image 20251027094643.png]]
 ## Typy Operandů
