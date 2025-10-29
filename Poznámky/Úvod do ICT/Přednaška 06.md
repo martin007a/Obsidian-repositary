@@ -71,3 +71,34 @@ Každý soubor na disku má **CRC** - když se soubor změní tak se změní i C
 ![[Pasted image 20251029152939.png]]
 ![[Pasted image 20251029153015.png]]
 ![[Pasted image 20251029153441.png]]
+![[Pasted image 20251029153656.png]]
+## Detekce a oprava chyby
+**Definice:**
+- **Hammingova váha** ‖𝑢‖𝐻 kódového slova 𝑢 je rovna počtu symbolů ve slově 𝑢, které se liší od 0.
+**Definice:**
+- Počet změn (z nuly na jedničku nebo opačně), které musí být provedeny, abychom ze slova 𝑢 dostali slovo 𝑣, vyjadřuje **Hammingova vzdálenost** 𝑑𝐻 (𝑢, 𝑣) = ‖𝑢 ⊕ 𝑣‖𝐻 .
+![[Pasted image 20251029153911.png]]
+![[Pasted image 20251029154011.png]]
+Zakázaná kombinace - je kombinace když udělám jednu změnu v povolené
+## Detekce a oprava chyby
+**Syndrom slova**
+- speciální kontrolní posloupnost vypočtená příjemcem 
+- binární interpretace pozice chybného bitu ve slově 
+- princip výpočtu shodný jako u paritních bitů 
+- tvořen posloupností bitů 𝑠 = 𝑠<sub>𝑚</sub>𝑠<sub>𝑚−1</sub> … 𝑠<sub>2</sub> 𝑠<sub>1</sub>
+![[Pasted image 20251029154209.png]]
+Na straně příjemce se zase spočítá XOR, to co vyjde přečtu jako binární číslo - 6. opravím 6 bit z leva. 
+![[Pasted image 20251029154416.png]]
+## Zkrácené Hammingovy kódy
+- Nepotřebujeme využít všechny dostupné datové bity 
+- Odvodíme nutný minimální počet paritních bitů 
+- Stačí najít takové 𝑐, pro které platí 2 <sup>𝑐</sup> ≥ 𝑘 + 𝑐 + 1
+![[Pasted image 20251029154625.png]]
+### Rozšířené Hammingovy kódy
+- Přidáme paritní bit zabezpečující slovo sudou paritou - zabezpečí všech 8 bitů
+- Minimální Hammingova vzdálenost bude 𝑑𝐻 = 4
+- Oprava jednoduchých chyb a detekce dvojitých chyb nebo pouze detekce trojitých chyb
+![[Pasted image 20251029154757.png]]
+![[Pasted image 20251029154817.png]]
+## Rozšířené Hammingovy kódy
+![[Pasted image 20251029154904.png]]
