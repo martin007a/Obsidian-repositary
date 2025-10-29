@@ -97,7 +97,7 @@ Protože přenášíme pouze dvě hodnoty (0 a 1), které lze při přenosu spol
 ### 3 Jaký je princip kódování informací? 
 Přiřazení znaků jedné abecedy znakům jiné abecedy se nazývá kódování, inverzní postup pak dekódování
 ### 4 Co vyjadřuje redundance kódu a jak ji můžeme spočítat? 
-Redundance vyjadřuje hospodárnost kódu. Počítáme ji podle vztahu 𝑅 = 1 − 𝐻 𝐻max , kde 𝐻 je skutečná entropie a 𝐻max je teoretická maximální entropie při použití stejné abecedy.
+Redundance vyjadřuje hospodárnost kódu. Počítáme ji podle vztahu 𝑅 = 1 − 𝐻 / 𝐻max , kde 𝐻 je skutečná entropie a 𝐻max je teoretická maximální entropie při použití stejné abecedy.
 ### 5 Jaký je rozdíl mezi blokovým a prefixovým kódováním? 
 Prefixový kód je prosté kódování, u kterého žádné kódové slovo není prefixem jiného kódového slova. Blokový kód je prosté kódování, u kterého mají všechna kódová slova stejnou délku. Protože blokový kód musí být prostým zobrazením, je nutně také prefixovým kódem
 ### 6 Jak u blokového kódování zjistíme délku znaků kódu?  
