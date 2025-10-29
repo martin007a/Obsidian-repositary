@@ -1,0 +1,1 @@
+# Zabezpečení dat při přenosu

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Úvod do ICT/Untitled.md",
+                "file": "Poznámky/Úvod do ICT/Přednaška 06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Přednaška 06"
             }
           },
           {
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -243,7 +244,7 @@
   "active": "64ec3c5beb477278",
   "lastOpenFiles": [
     "Poznámky/Úvod do ICT/Přednáška 05.md",
-    "Poznámky/Úvod do ICT/Untitled.md",
+    "Poznámky/Úvod do ICT/Přednaška 06.md",
     "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "Poznámky/Architektura Počítačů/Přednáška 06.md",
