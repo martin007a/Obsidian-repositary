@@ -102,3 +102,35 @@ Na straně příjemce se zase spočítá XOR, to co vyjde přečtu jako binárn�
 ![[Pasted image 20251029154817.png]]
 ## Rozšířené Hammingovy kódy
 ![[Pasted image 20251029154904.png]]
+## Rozšířené Hammingovy kódy – shrnutí
+![[Pasted image 20251029155231.png]]
+## Grayův kód
+- Též **kód konstantní změny**
+- Robustní zrcadlový binární kód
+- Každé dvě po sobě jdoucí kódové hodnoty se liší změnou pouze jedné bitové pozice
+- **Oprava chyb v digitální komunikaci**
+	- původně zabránění rušivého výstupu z elektromagnetických relé
+	- pozemní a kabelové televize odpovídače sekundárního radaru v letadlech 
+	- inkrementální snímače teploty nebo polohy 
+	- CNC stroje, počítačové myši
+## Minimalizace logických funkcí
+- Karnaughovy mapy
+![[Pasted image 20251029155524.png]]
+# Zabezpečení proti neoprávněnému čtení
+- **Šifrování** – nahrazení (kódování) původních znaků (slov) novými, aby výsledek byl zdánlivě nesmyslný
+- **Kryptologie** – věda zabývající se šifrováním 
+	- **kryptografie** – úkrývání obsahu zpráv, tvorba šifer a jejich aplikace, dešifrování se znalostí postupu 
+	- **kryptoanalýza**(Hackeří) – dešifrování zpráv bez znalosti klíče (prolamování šifer), analýza síly šifrovacích metod
+**Steganografie** – podobor kryptografie, který se zabývá ukrýváním existence zpráv, nikoli jejich obsahu
+## Kryptografie (šifrování)
+- Původ z řečtiny (κρυπτός = tajný, γράφειν = psát)
+- **Transpoziční šifry|**
+	- uspořádání písmen zprávy jiným způsobem 
+	- Skytale
+- **Substituční šifry**
+- nahrazení písmen zprávy jinými znaky 
+- je zachována pozice písmen 
+- Caesarova šifra 
+- Morseova abeceda 
+- Vigenèrova šifra
+### Obecný šifrovací postup
