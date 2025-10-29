@@ -134,3 +134,50 @@ Na straně příjemce se zase spočítá XOR, to co vyjde přečtu jako binárn�
 - Morseova abeceda 
 - Vigenèrova šifra
 ### Obecný šifrovací postup
+![[Pasted image 20251029160808.png]]
+### Šifrování v počítačové podobě
+- **Změna frekvenčního spektra**
+	- četnosti kódových znaků nesouvisejí s četnostmi původních znaků
+- **Šifrovací klíč**
+	- u primitivních způsobů je to kódová tabulka náhrad 
+	- u jiných způsobů je to binární posloupnost sloužící k šifrování nebo dešifrování
+- **Symetrický klíč**
+	- pro šifrování i dešifrování je stejný a stejně se aplikuje
+	- heslo
+- **Asymetrický klíč**
+	- klíč má dvě části
+	- pro šifrování a dešifrování slouží různé části klíče
+## Asymetrické šifrování
+- **Klíč má dvě části**
+	- veřejná část (veřejný klíč) 
+	- soukromá část (soukromý klíč)
+- **Použití 1**
+	- pro šifrování veřejný klíč příjemce 
+	- pro dešifrování soukromý klíč příjemce 
+	- zprávu přečte jen oprávněný příjemce
+- **Použití 2**
+	- pro šifrování soukromý klíč odesílatele 
+	- pro dešifrování veřejný klíč odesílatele 
+	- **příjemce dokazuje identitu odesílatele**
+## Distribuce klíčů
+- Certifikační autorita
+	- „notář“, který osvědčuje, že určitý soukromý klíč vlastní určitá osoba 
+	- umožňuje dokázat totožnost odesílatele 
+	- seznam akreditovaných certifikačních autorit zveřejňuje Ministerstvo vnitra
+- Hlavní funkce certifikační autority
+	- generování klíčů 
+	- přidělování, evidence a obnovování klíčů 
+	- osvědčování vlastnictví určitého klíče
+- **Kvalifikovaní poskytovatelé certifikačních služeb**
+- První certifikační autorita, a. s. 
+- Česká pošta, s. p. 
+- eIdentity, a. s
+## Vlastnosti šifrovacích způsobů
+![[Pasted image 20251029161636.png]]
+## Zabezpečení proti neoprávněné modifikaci
+- **Otisk zprávy**
+![[Pasted image 20251029161724.png]]
+## Princip odeslání a přijetí bezpečné a podepsané zprávy
+![[Pasted image 20251029161744.png]]
+## Šifra RSA (Rivest, Shamir, Adleman)
+![[Pasted image 20251029161810.png]]
