@@ -65,7 +65,8 @@
               "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,10 +241,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "635724888f7b54a6",
+  "active": "64ec3c5beb477278",
   "lastOpenFiles": [
-    "Poznámky/Nepřiřaditelné poznámky.md",
     "Poznámky/Algoritmizace/Přednáška 07.md",
+    "Poznámky/Nepřiřaditelné poznámky.md",
     "Tasks/To Do.md",
     "Poznámky/Úvod do ICT/Přednaška 06.md",
     "imgs/Pasted image 20251029161810.png",
