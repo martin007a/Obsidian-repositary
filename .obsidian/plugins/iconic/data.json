@@ -38,8 +38,8 @@
       "color": "orange"
     },
     "Poznámky/Algoritmizace": {
-      "icon": "line-horizontal",
-      "color": "yellow",
+      "icon": "lucide-fish",
+      "color": "purple",
       "unsynced": [
         "af06dfe3002651ea",
         "c3c19cf0d9cf888f"

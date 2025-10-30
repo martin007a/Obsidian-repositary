@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Nepřiřaditelné poznámky.md",
+                "file": "Poznámky/Algoritmizace/Přednáška 07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nepřiřaditelné poznámky"
+              "title": "Přednáška 07"
             }
           },
           {
@@ -65,8 +65,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,8 +240,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "64ec3c5beb477278",
+  "active": "635724888f7b54a6",
   "lastOpenFiles": [
+    "Poznámky/Nepřiřaditelné poznámky.md",
+    "Poznámky/Algoritmizace/Přednáška 07.md",
+    "Tasks/To Do.md",
     "Poznámky/Úvod do ICT/Přednaška 06.md",
     "imgs/Pasted image 20251029161810.png",
     "imgs/Pasted image 20251029161744.png",
@@ -255,7 +257,6 @@
     "imgs/Pasted image 20251029154817.png",
     "imgs/Pasted image 20251029154757.png",
     "Poznámky/Úvod do ICT/Přednáška 05.md",
-    "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "Poznámky/Architektura Počítačů/Přednáška 06.md",
     "Poznámky/Architektura Počítačů/Přednáška 02.md",
@@ -263,7 +264,6 @@
     "Poznámky/Architektura Počítačů/Přednáška 03.md",
     "Poznámky/Architektura Počítačů/Přednáška 01.md",
     "Poznámky/Úvod do ICT/Přednáška 02.md",
-    "Poznámky/Nepřiřaditelné poznámky.md",
     "Poznámky/Úvod do ICT/Přednáška 03.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
     "Tasks/Done.md",
