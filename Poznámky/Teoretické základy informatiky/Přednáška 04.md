@@ -271,7 +271,7 @@ Výsledkem predikátové formule je logická hodnota (pravda/nepravda). **Predik
 ![[Pasted image 20251018194842.png]]
 ### **Vázaná proměnná**
 
-Proměnná xxx je **vázaná** (bound variable) ve formuli,  
+Proměnná x je **vázaná** (bound variable) ve formuli,  
 **pokud se nachází v dosahu kvantifikátoru**, který ji váže —  
 tedy uvnitř formule typu:
 ![[Pasted image 20251018195139.png]]
