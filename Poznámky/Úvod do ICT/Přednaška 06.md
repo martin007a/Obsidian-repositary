@@ -3,7 +3,7 @@
 - Přenosu uložených dat do místa jejich zpracování se nikdy nelze vyhnout
 	- přenos z disku počítače do operační paměti 
 	- přenosy dat prostřednictvím počítačové sítě
-- V průběhu přenosu se může objevit různé rušení
+- V průběhu přenosu se může objevit různé **rušení**
 	-  data nesoucí informaci nemusí být doručena ve stejné podobě, ve které byla odeslána
 - **Nezáměrné rušení**
 	- plyne z **technické nedokonalosti** přenosového kanálu
@@ -13,7 +13,17 @@
 	- snaha **získat** nebo **modifikovat** přenášenou informaci
 ### Zabezpečení dat proti technickým nedokonalostem přenosu
 **Chyba** – změna 0 → 1 nebo 1 → 0
-![[Pasted image 20251029151002.png]]
+- Oprava chyby je velmi jednoduchá
+	-  stačí inverze příslušného bitu
+	- jak ale zjistit, **kde** chyba nastala?
+- **Četnost chyb -** za jak dlouho chyba nastala
+	- například 0,001/s nebo 0,00003/s
+	- velmi relativní, záleží na zařízení
+- **Násobnost chyby** počet chyb v určitém bloku dat
+	- jednoduchá, dvojitá, trojitá chyba
+	- chyby s lichou a sudou násobností 
+	- s násobností obvykle prudce klesá četnost chyb
+	- vícenásobné chyby se nevyplatí zabezpečovat
 ## Detekční kódy
 **Detekce chyby**
 - zjištění, že v přeneseném úseku nastala chyba 
@@ -25,7 +35,8 @@
 - detekce chyb s lichou násobností 
 - jednoduchá realizace 
 - široké použití
-![[Pasted image 20251029151156.png]]
+Ve složitější případech detekce nestačí
+- nutnost lokalizace a **oprava** chyby
 ## Jednoduchá parita
 - Široce používaná metoda detekce jednoduchých chyb
 - Doplnění vyslaných dat **jedním paritním bitem** tak, aby celkový počet jedniček v určitém úseku dat byl 
