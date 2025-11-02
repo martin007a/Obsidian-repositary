@@ -55,7 +55,7 @@ obr: prej se zabezpečuje **or**
 - Chyba se při zabezpečení kombinací podélné a příčné parity projeví na několika místech
 - Místo výskytu chyby v datech lze spolehlivě zjistit podle hodnoty paritních bitů
 ![[Pasted image 20251029151935.png]]
-- Chyby s vyšší násobností nelze opravit, ale lze je alespoň detekovat
+##### Chyby s vyšší násobností nelze opravit, ale lze je alespoň detekovat
 ![[Pasted image 20251029152011.png]]
 ### Kontrolní součet
 - Komplikovanější způsob zabezpečení dat s vyšší schopností detekce chyb
