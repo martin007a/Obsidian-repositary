@@ -35,7 +35,8 @@
               "title": "To je jen na Blbosti"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,12 +210,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7643719ff42b20cc",
+  "active": "a44ad7ab47d54caa",
   "lastOpenFiles": [
+    "Poznámky/Úvod do ICT/Přednaška 06.md",
     "Poznámky/Architektura Počítačů/Přednáška 07.md",
     "imgs/Pasted image 20251103100211.png",
     "Poznámky/Architektura Počítačů/Přednáška 06.md",
-    "Poznámky/Úvod do ICT/Přednaška 06.md",
     "Tasks/To Do.md",
     "To je jen na Blbosti.md",
     "Poznámky/Algoritmizace/Přednáška 07.md",

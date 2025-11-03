@@ -1,5 +1,6 @@
 ### 1 Na jakém principu fungují detekční kódy? 
 
+
 ## 2 K čemu slouží jednoduchá a kombinovaná parita? 
 ## 3 Jaký je princip kontrolního součtu? 
 ## 4 Jaký je princip kontrolní číslice a jak se získává? 
