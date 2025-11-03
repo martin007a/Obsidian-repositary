@@ -6,3 +6,4 @@ Paměti dle technologické realizace
 - **Optické**
 - **Polovodičové**
 - **Magnetooptické**
+## Procesorové cache
