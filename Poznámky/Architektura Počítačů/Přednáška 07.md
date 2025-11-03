@@ -7,3 +7,5 @@ Paměti dle technologické realizace
 - **Polovodičové**
 - **Magnetooptické**
 ## Procesorové cache
+![[Pasted image 20251103100211.png]]
+Na capacitoru se drží náboj.
