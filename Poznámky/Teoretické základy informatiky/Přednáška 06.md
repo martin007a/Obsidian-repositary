@@ -41,4 +41,33 @@ Platí-li |𝐴| = 𝑚, |𝐵| = 𝑛, pak |𝐴 × 𝐵| = 𝑚 ⋅ 𝑛
 - Relace je **množina**, můžeme na ni tedy aplikovat množinové operace 
 - **Speciální případy** 
 	- **prázdná relace:** ∅ ⊆ 𝐴 × 𝐵 
-	- **plná relace:** ℛ = 𝐴 × 𝐵
+	- **plná relace:** ℛ = 𝐴 × 𝐵 - Všechny uspořádané prvky- celý kartézský součin
+### 𝑁-ární relace
+• **Připomenutí:** arita = počet operandů
+![[Pasted image 20251104133737.png]]
+- Jde tedy o podmnožinu kartézského součinu 𝑛 množin
+- **Speciální případ** 
+	- unární relace: ℛ ⊆ A
+## Určení relace
+**Výčtem prvků**
+- 𝐴 = {0, 1, 2}, 𝐵 = {𝑎, 𝑏} 
+- ℛ = {(0, 𝑎), (0, 𝑏), (1, 𝑏), (2, 𝑎)}
+**Požadovanou vlastností (vztahem prvků)**
+- 𝐴 = 𝐵 = ℤ 
+- ℛ = {(𝑎, 𝑏) ∈ 𝐴 × 𝐵 | 𝑎 ≤ 𝑏}
+![[Pasted image 20251104134031.png]] 
+
+### Skládání Relací
+![[Pasted image 20251104134328.png]]
+![[Pasted image 20251104134336.png]]
+### Inverzní relace
+![[Pasted image 20251104134548.png]]
+![[Pasted image 20251104134557.png]]
+**Prostě vynásobíme tu množinu obrácené**
+### Relace na množině
+![[Pasted image 20251104134742.png]]
+relace na množině - násobím množinu samu se sebou
+Relace  a identita - relace, která obsahuje 
+### Reflexivní relace
+![[Pasted image 20251104134911.png]]
+Reflexivní relace je když je každý prvek podmnožinou sám se sebou.
