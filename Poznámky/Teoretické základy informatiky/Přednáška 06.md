@@ -117,4 +117,4 @@ relace Identita na diagonále jsou 1 jinde 0
 ## Uzávěr relace
 ![[Pasted image 20251104141835.png]]
 ### Výpočet tranzitivního uzávěru relace
-![[Pasted image 20251104142334.png]]
++
