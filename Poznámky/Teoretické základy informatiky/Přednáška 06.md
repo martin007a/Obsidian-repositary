@@ -71,3 +71,33 @@ Relace  a identita - relace, která obsahuje
 ### Reflexivní relace
 ![[Pasted image 20251104134911.png]]
 Reflexivní relace je když je každý prvek podmnožinou sám se sebou.
+- Každý má sejné jméno jako on sám
+### Symetrická relace
+![[Pasted image 20251104135128.png]]
+Ke každé relaci existuje i relace opačná
+jeli (a,b) tak musí být i (b,a)
+- Anička je sourozenec Pepíčka a naopak
+### Antisymetrická relace
+![[Pasted image 20251104135305.png]]
+Prostě někde najdem dvě stejné relace současně, jinak nesmí být
+## Asymetrická relace
+![[Pasted image 20251104135602.png]]
+Zakazuje i to že jsou relace stejné
+- průnik relace a její inverze musí být null
+**Tranzitivní relace**
+![[Pasted image 20251104135703.png]]
+**a** je v relaci s **b** a s **c** tak a má také **s**
+i když má množina Jeden prvek tak je taky tranzitivní
+### Relace úplná
+![[Pasted image 20251104135901.png]]
+Obsahuje alespoň jednu dvojici pro dva prvky
+Nemůže tam být dvojice která je neporovnatelná
+### Relace ekvivalence
+![[Pasted image 20251104140030.png]]
+pokud splní 3 vlastnosti, je ekvivalentní
+## Relace uspořádání
+![[Pasted image 20251104140120.png]]
+zase pokud splní ty 3, tak je uspořádání, pokud úplná tak je Úplná uspořádání.
+![[Pasted image 20251104140401.png]]
+je symetrická, tranzititvní refexivní, -> ekvivalence,
+##### Být v relaci dává stejný zbytek po dělení 7 jako 0
