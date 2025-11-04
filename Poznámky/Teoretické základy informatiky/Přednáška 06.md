@@ -101,3 +101,18 @@ zase pokud splní ty 3, tak je uspořádání, pokud úplná tak je Úplná uspo
 ![[Pasted image 20251104140401.png]]
 je symetrická, tranzititvní refexivní, -> ekvivalence,
 ##### Být v relaci dává stejný zbytek po dělení 7 jako 0
+Tabuka 
+reflexivita = 1 na diaginále
+Symetrie = Dvakrát c
+
+##### Vlastnosti se na vzájem nevilučují a stejně nemusí mít žásnou 
+### Mocnina relace
+![[Pasted image 20251104141149.png]]
+Vezmu relaci a aplikuji ji ještě jednou. ?
+relace Identita na diagonále jsou 1 jinde 0
+## Mocnina relace
+![[Pasted image 20251104141351.png]]
+### Uzávěr relace
+![[Pasted image 20251104141718.png]]
+## Uzávěr relace
+![[Pasted image 20251104141835.png]]
