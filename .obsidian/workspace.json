@@ -49,7 +49,8 @@
               "title": "Přednáška 07"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,10 +224,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7643719ff42b20cc",
+  "active": "14dea56204c7177c",
   "lastOpenFiles": [
-    "Poznámky/Úvod do ICT/Přednáška 05.md",
+    "imgs/Pasted image 20251105152438.png",
+    "imgs/Pasted image 20251105152029.png",
     "Poznámky/Úvod do ICT/Přednaška 06.md",
+    "Poznámky/Úvod do ICT/Přednáška 05.md",
     "Poznámky/Úvod do ICT/Přednáška 07.md",
     "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
@@ -240,7 +243,6 @@
     "imgs/Pasted image 20251104140120.png",
     "imgs/Pasted image 20251104140030.png",
     "imgs/Pasted image 20251104135901.png",
-    "imgs/Pasted image 20251104135731.png",
     "To je jen na Blbosti.md",
     "Poznámky/Architektura Počítačů/Přednáška 07.md",
     "Poznámky/Architektura Počítačů/Přednáška 06.md",
@@ -261,7 +263,6 @@
     "Poznámky/Algoritmizace/Přednáška 05.md",
     "imgs/Drawing 2025-10-04 09.39.04.excalidraw.md",
     "Poznámky/Algoritmizace/Přednáška 04.md",
-    "Poznámky/Projekt/Projekt.md",
     "Poznámky/Projekt",
     "imgs/Pasted image 20251014212738.png.~tmp",
     "Poznámky/Nano",
