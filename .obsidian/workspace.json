@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Úvod do ICT/Přednáška 05.md",
+                "file": "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 05"
+              "title": "Přednáška 03"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Poznámky/Úvod do ICT/Přednáška 07.md",
+                "file": "Poznámky/Teoretické základy informatiky/Přednáška 06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Přednáška 07"
+              "title": "Přednáška 06"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,8 +224,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14dea56204c7177c",
+  "active": "85fcad50cd6f7d48",
   "lastOpenFiles": [
+    "Poznámky/Teoretické základy informatiky/Přednáška 04.md",
+    "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
+    "Poznámky/Úvod do ICT/Přednáška 05.md",
+    "Poznámky/Teoretické základy informatiky/Přednáška 06.md",
+    "Poznámky/Úvod do ICT/Přednáška 07.md",
     "imgs/Pasted image 20251105162318.png",
     "imgs/Pasted image 20251105161621.png",
     "imgs/Pasted image 20251105161545.png",
@@ -237,19 +242,13 @@
     "imgs/Pasted image 20251105152438.png",
     "imgs/Pasted image 20251105152029.png",
     "Poznámky/Úvod do ICT/Přednaška 06.md",
-    "Poznámky/Úvod do ICT/Přednáška 05.md",
-    "Poznámky/Úvod do ICT/Přednáška 07.md",
     "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 02.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 06.md",
-    "imgs/Pasted image 20251104142334.png",
     "To je jen na Blbosti.md",
     "Poznámky/Architektura Počítačů/Přednáška 07.md",
     "Poznámky/Architektura Počítačů/Přednáška 06.md",
     "Poznámky/Algoritmizace/Přednáška 07.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 05.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 04.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
     "Poznámky/Architektura Počítačů/Přednáška 02.md",

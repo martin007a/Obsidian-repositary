@@ -79,7 +79,7 @@ P(n) = 2<sup>n</sup> jiný zápis potoční množiny
 * – (𝐴 ∪ ∅) = A
 ### Průnik množin
 **Průnik množin** (značíme 𝐴 ∩ 𝐵) je množina prvků, které patří do obou množin současně.
-- • Formálně: $$𝐴 ∩ 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∧ (𝑥 ∈ 𝐵)}$$
+- Formálně: $$𝐴 ∩ 𝐵 = {𝑥 | (𝑥 ∈ 𝐴) ∧ (𝑥 ∈ 𝐵)}$$
 ###### Vlastnosti průniku 
 - (𝐴 ∩ 𝐵) ⊆ 𝐴 pro libovolné množiny 𝐴, 𝐵 
 - (𝐴 ∩ 𝐵) = (𝐵 ∩ 𝐴) 
@@ -149,7 +149,6 @@ Nechť 𝐴 a 𝑀 jsou množiny a platí 𝐴 ⊆ 𝑀. Doplňkem množiny 𝐴
 - Množina spolu se zobrazením **následovníka** S(x)
 	- z definice ordinální datový typ
 ![[Pasted image 20251021141912.png]]
-
 ### Přirozená čísla a nula
 - Axiomatická definice vyžaduje, aby 0 ∈ ℕ
 - **Všeobecně** platí, že 0 ∉ ℕ
