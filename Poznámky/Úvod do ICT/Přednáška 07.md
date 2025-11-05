@@ -83,3 +83,61 @@ pojem „plain text“ ještě v jiné souvislosti
 - dokumenty: DOC(X), XLS(X), PPT(X), ODF, PDF 
 - grafika: BMP, JPG, PNG, GIF, TIFF, CDR, EPS 
 - multimédia: MP3, AVI, MPEG – archivy: ZIP, RAR, 7Z
+### Přenositelnost formátu
+- Lze pracovně definovat jako množství programů schopných zpracovat tento formát
+- Důležitým faktorem je podpora zpracování formátu v různých operačních systémech 
+	- některé formáty úzce svázány s konkrétním OS
+- Přenositelnost je také úzce svázána s otevřeností formátu, ale závisí také na majiteli formátu 
+	- DOC × PDF a možnost generování 
+	- podpora DOCX ve starších verzích MS Office
+![[Pasted image 20251105155753.png]]
+### Pojmenování souborů a jejich formát
+- Pro usnadnění orientace v množství souborových formátů se používá rozšíření 
+	- též přípona (extension) 
+	- od jména souboru se odděluje tečkou
+- Obvykle používáme přípony odpovídající konkrétním souborovým formátům 
+	- .jpg nebo .jpeg pro rastrovou grafiku 
+	- .htm nebo .html pro webovou stránku 
+	- .mp3 pro komprimovaná zvuková data
+- **Přípona sama o sobě však neurčuje formát souboru**
+	- ve skutečnosti je tomu právě naopak! 
+	- pravidla pro přípony nejsou přesně dána 
+	- soubor ani příponu mít nemusí (Windows × Unix)
+### Asociace formátů a aplikací
+Usnadňuje zpracování dat zejména v OS Windows 
+- **která aplikace umí se souborem pracovat?**
+**Princip** – tabulka s řádky „formát → aplikace“ 
+- Nastavení → Aplikace → Výchozí aplikace
+**Spouštění aplikace** v okamžiku aktivace souboru 
+- stažení přes webový prohlížeč 
+- dvojklik v souborovém manažeru 
+- výběr v dokumentech apod.
+Orientace jen podle přípony proto může vést často ke zmatkům, které zpracování dat naopak komplikují
+**Ideální stav: 1 formát → 1 aplikace** 
+- platí jen pro speciální případy 
+- formát CDR → aplikace Corel Draw!
+**Problémové případy**
+**Více formátů → 1 aplikace**
+- časté, ale neproblematické
+**1 formát → více aplikací**
+- problém nejednoznačnosti, nepříjemné řešení 
+- aktivuje se buď posledně instalovaná aplikace, nebo podle výběru z nabídky
+**1 formát → žádná aplikace**
+- chybové hlášení s nabídkou dostupných aplikací, z nichž si uživatel může vybrat (prakticky k ničemu) 
+- Windows XP: rozšíření nabídky programů z Internetu
+**Žádný formát → 1 aplikace**
+- buď aplikace žádné formáty nepotřebuje, nebo se jedná o aplikaci DOS, nebo o chybnou instalaci
+### Rozpoznávání formátu
+Co dělat, když soubor abc.xyz nelze ničím otevřít? 
+- soubor může být nenávratně poškozen 
+- možná ale jen neexistuje asociovaná aplikace
+**První krok**
+- roztřídění na textové a binární formáty 
+- využití běžných programů (poznámkový blok)
+**Druhý krok**
+- **rozšířené textové formáty** – rozpoznání původu souboru (OS, v němž pravděpodobně vznikl) a kódování národních znaků 
+- **binární formáty** – použití rozpoznávacích programů
+Softwarová podpora
+ - Unix – file, enca, od 
+ - Windows – není nástroj (zkusmo?)
+ Potřebuji hexadecimální editor PSpad
