@@ -35,3 +35,51 @@ ta 00 je oddělovač
 ### Problémy s koncem řádku
 ### Textový a binární formát – srovnání
 ![[Pasted image 20251105153927.png]]
+### Souborový formát
+Přesný popis **způsobu uložení dat v souborech** 
+* pojem odvozený z pojmu „datový formát“ 
+Místo podrobného popisu používáme jména formátů 
+- rozšíření jména souboru o příponu 
+**Dokument** – soubor obsahující 
+- vlastní text 
+- formátovací značky 
+Dělení souborů podle tvaru značek 
+- **textové** – HTML, XML, RTF, PostScript, TEX, CSV 
+- **binární** – DOC, DOCX, INDD, PDF, Text602 
+Programy určitého zaměření mohou zpracovávat datové soubory v obou formátech 
+- rozdílné vlastnosti a možnosti použití
+### Otevřený a uzavřený formát
+**Otevřený formát** 
+- specifikace formátu je volně dostupná -
+- efektivní využití a zpracování uložených dat 
+- ideální prostředek pro výměnu informací 
+- příklady: JPG, PNG, PDF, všechny textové 
+**Uzavřený formát** 
+- specifikace formátu je utajována 
+- umožňuje získat monopol pro jeho zpracování 
+- silně omezuje možnosti využití uložených dat 
+- příklady: CDR, INDD, dříve MS Office (DOC, XLS, PPT)
+### Prostý a rozšířený text
+U textových formátů rozlišujeme, zda obsahují či neobsahují národní znaky
+**Prostý text** (plain text, ASCII text)
+- obsahuje pouze znaky z dolní poloviny ASCII tabulky 
+- žádné národní znaky → žádné problémy se zobrazením 
+- bohužel méně časté řešení
+**Rozšířený text** (extended text)
+- obsahuje znaky z horní poloviny ASCII tabulky 
+- nutno upřesnit kódování národních znaků 
+- velmi časté řešení, proto časté problémy
+**Poznámka k terminologii:** Mnoho zdrojů používá
+pojem „plain text“ ještě v jiné souvislosti 
+- neformátovaný text = plain text 
+- formátovaný text = dokument
+### Přehled základních souborových formátů
+**Textové formáty**
+- webové aplikace: HTML, XML, MHT, CSS 
+- zdrojové kódy: JS, PAS, JAVA, PL, PHP, ASP 
+- dokumenty: RTF, PS, CSV, TEX, TXT – grafika: SVG
+**Binární formáty**
+- historie: SAM, INDD, T602 
+- dokumenty: DOC(X), XLS(X), PPT(X), ODF, PDF 
+- grafika: BMP, JPG, PNG, GIF, TIFF, CDR, EPS 
+- multimédia: MP3, AVI, MPEG – archivy: ZIP, RAR, 7Z
