@@ -141,3 +141,67 @@ Softwarová podpora
  - Unix – file, enca, od 
  - Windows – není nástroj (zkusmo?)
  Potřebuji hexadecimální editor PSpad
+### Hlavička formátu
+ Každý souborový formát lze spolehlivě identifikovat podle tzv. hlavičky formátu
+ - několik prvních bajtů v souboru 
+ - u mnoha formátů jednoznačná identifikace 
+ - u některých alespoň identifikace příbuzné skupin
+![[Pasted image 20251105161545.png]]
+## Nejpoužívanější souborové formáty 
+![[Pasted image 20251105161621.png]]
+### Nejpoužívanější souborové formáty
+**Tabulková data**
+- XLS (Excel Spreadsheet) 
+- XLSX (Office Open XML Workbook) 
+- ODS (OpenDocument Spreadsheet) 
+- CSV (Comma-separated Values)
+**Grafické rastrové formáty**
+- BMP (Windows Bitmap) 
+- PCX (PC Paintbrush File Format) 
+- JFIF (JPEG File Interchange Format) 
+- GIF (Graphics Interchange Format) 
+- PNG (Portable Network Graphics) 
+- TIFF (Tagged Image File Format) 
+- WebP 
+- RAW
+## Grafické vektorové formáty
+- CDR (CorelDRAW File Format) 
+- SVG (Scalable Vector Graphics) 
+- EPS (Encapsulated PostScript) 
+- AI (Adobe Illustrator Artwork) 
+- DWG (AutoCAD Drawing) 
+- DXF (Drawing Interchange Format) 
+- DWF (Design Web Format) 
+- WMF (Windows Metafile) 
+- SWF (Small Web Format) 
+- ODG (OpenDocument Graphics)
+**Nejpoužívanější souborové formáty**
+**Prezentační formáty** 
+- PPT (PowerPoint Presentation) 
+- PPTX (Office Open XML Presentation) 
+- ODP (OpenDocument Presentation) 
+- PDF (Portable Document Format) 
+**Zvukové a videoformáty** 
+- MP3 (MPEG Audio Layer III) 
+- AAC (Advanced Audio Coding) 
+- WMA (Windows Media Audio) 
+- FLAC (Free Lossless Audio Codec) 
+- ALAC (Apple Lossless Audio Codec) 
+- WAV (Waveform Audio File Format)
+**Multimediální kontejnery**
+- AVI (Audio Video Interleave) 
+- MP4 (MPEG-4 Part 14) 
+- MPG (MPEG Program Stream) 
+- TS (MPEG Transport Stream) 
+- VOB (Video Object) 
+- MKV (Matroska Video) 
+- RIFF (Resource Interchange File Format) 
+- WebM
+### Konverze formátů
+**Změna formátu beze změny informačního obsahu**
+- v praxi vzácné ideální případy 
+- často vede ke ztrátě, ale i k nabytí informací
+**Provedení konverze**
+- speciálním konverzním programem 
+- službami Open a Save (As) běžných programů
+![[Pasted image 20251105162318.png]]
