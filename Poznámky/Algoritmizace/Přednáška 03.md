@@ -4,6 +4,12 @@ Datový typ je specifikace povolených hodnot a povolených operací, které lze
 ![[Pasted image 20251107173224.png]]
 ![[Pasted image 20251107173304.png]]
 #### Jaké aritmetické operace jsou k dispozici u číselných datových typů?
+- sčítání (+), 
+- odčítání (-), 
+- násobení (*), 
+- dělení (/), 
+- celočíselné dělení (div), 
+- zbytek po dělení (mod)
 
 Datový typ => povolené hodnoty, povolené operace
 ##### povolený rozsah 
