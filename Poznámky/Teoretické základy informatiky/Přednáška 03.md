@@ -1,3 +1,4 @@
+
 ### Formální definice úsudku
 **Značka ⊢** se nazývá **tvrzení (derivační) symbol** nebo také **syntaktický znak odvození**.  
 Čte se například jako „⊢“ = _„je dokazatelné“, „plyne z“, „lze odvodit“_.

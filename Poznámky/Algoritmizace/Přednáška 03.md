@@ -1,3 +1,10 @@
+### K čemu slouží datové typy?
+Datový typ je specifikace povolených hodnot a povolených operací, které lze s těmito hodnotami provádět.
+### Jaké datové typy jsou k dispozici pro číselné hodnoty?
+![[Pasted image 20251107173224.png]]
+![[Pasted image 20251107173304.png]]
+#### Jaké aritmetické operace jsou k dispozici u číselných datových typů?
+
 Datový typ => povolené hodnoty, povolené operace
 ##### povolený rozsah 
 - **int** - 4B = 32b <-2<sup>31</sup>; 2<sup>32</sup>-1> **(Povolené hodnoty INT)**
