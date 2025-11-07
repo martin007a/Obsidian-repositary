@@ -30,8 +30,12 @@ Příkazy definují **postup a logiku algoritmu**:
 - **Volání funkce s vedlejším účinkem (I/O):** K interakci s okolím.
     - _Příklad:_ **`vypis("Dobrý den");`** (Vypíše text, ale nevrací hodnotu pro další výpočet.)
 #### Co je to úplné a neúplné větvení?
-U uplného větvení definuje i podmínku jak If tak Else
-
+U **plného větvení** definuje i podmínku jak **If tak Else**, neúpné definuje jen podmínku **if**
+**Neupné větvení** znamená jedna z větví je prázdná. Obvykle se toto větvení zapisuje tak, aby prázdnou větví byla ta, která přichází na řadu při nesplnění podmínky.
+#### Kdy je vhodné použít úplné a kdy neúplné větvení?
+- **Neúplné větvení** - použijeme tehdy kdy potřebujeme reagovat jen na splnění podmínky,
+- **Úplné větvení-** se využívá když potřebujeme provést nějakou akci jak při splnění tak i při nesplnění.
+### Podmínky pro ukončení.
 na pracovních listech se nacházejí otázky které bych měl pochopit před cvičením
 Průběžné testy - v průběhu 30b / 2 (dva testy) 2 termíny bere se ten lepší výsledek.
 Zkouškové testy - zkouškové 70 bodů Příklady(Algoritmy)
