@@ -13,7 +13,24 @@ Vlastnosti Algoritmu:
 	- **kopenogram** - záznamy jsou strukturovány a snáze převeditelné do PGR jazyka.
 	- **struktogram** - určený k vyjádření strukturového přístupu.
 - **Počítačové** - jediná forma přímo zpracovatelná počítačem, používá  se programovací jazyk, bývá konečným cílem tvorby algorytmů.
-
+#### Kdy použijeme výraz a kdy příkaz?
+##### Výraz
+**Výraz je konstrukce**, která se vyhodnocuje (vypočítává) na jednu jedinou hodnotu.
+- Výrazy se používají všude tam, kde potřebujeme **vypočítat nebo získat hodnotu**:
+##### **Příkaz**
+**Příkaz** je kompletní jednotka kódu, která provádí určitou akci.
+##### Kdy ho použijeme?
+Příkazy definují **postup a logiku algoritmu**:
+- **Přiřazovací příkaz:** Ke změně hodnoty proměnné.
+    - _Příklad:_ **`a = b + 5;`**
+- **Podmíněný příkaz (větvení):** K provedení akce jen za určitých podmínek.
+    - _Příklad:_ **`if (x > 10) { ... } else { ... };`**
+- **Příkaz cyklu:** K opakování bloku kódu.
+    - _Příklad:_ **`while (i < 10) { ... };`**
+- **Volání funkce s vedlejším účinkem (I/O):** K interakci s okolím.
+    - _Příklad:_ **`vypis("Dobrý den");`** (Vypíše text, ale nevrací hodnotu pro další výpočet.)
+#### Co je to úplné a neúplné větvení?
+U uplného větvení definuje i podmínku jak If tak Else
 
 na pracovních listech se nacházejí otázky které bych měl pochopit před cvičením
 Průběžné testy - v průběhu 30b / 2 (dva testy) 2 termíny bere se ten lepší výsledek.
