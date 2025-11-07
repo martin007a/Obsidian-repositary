@@ -4,6 +4,8 @@ Vlastnosti Algoritmu:
 - **Konečnost** - Vždy dojde k nějakému výsledku
 - **Opakovatelnost** - pro stejné vstupní hodnoty dostaneme stejný výsledek.
 - **Hromadnost(Obecnost)** - algoritmus popisuje celou třídu podobných úloh
+#### Co to je proměnná?
+**Proměnná** - Je to místo v paměti počítače, které je určeno datovým typem který specifikuje jakých hodnot bude nabývat a jak s ní pracovat.  
 #### Vyjádření Algoritmu
 - **Slovně** - Vyjádřeno slovní formou např. recept v kuchařce. nevýhoda, každý může stejnou větu pochopit jinak.
 - **Matematicky** - Nejčastěji vyjádřen matematickým vztahem mezi vstupními hodnotami.
