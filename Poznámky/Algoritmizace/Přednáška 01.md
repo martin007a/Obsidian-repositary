@@ -5,8 +5,13 @@ Vlastnosti Algoritmu:
 - **Opakovatelnost** - pro stejné vstupní hodnoty dostaneme stejný výsledek.
 - **Hromadnost(Obecnost)** - algoritmus popisuje celou třídu podobných úloh
 #### Vyjádření Algoritmu
-- Slovně - Vyjádřeno slovní formou např. recept v kuchařce. nevýhoda, každý může stejnou větu pochopit jinak.
-- Matematicky - Nejčastěji vyjádřen matematickým vztahem mezi vstupními hodnotami.
+- **Slovně** - Vyjádřeno slovní formou např. recept v kuchařce. nevýhoda, každý může stejnou větu pochopit jinak.
+- **Matematicky** - Nejčastěji vyjádřen matematickým vztahem mezi vstupními hodnotami.
+- **Graficky** - Jednotlivé kroky jsou vyjádřeny pomocí grafických prvků, a doplněny popisy, např. **vývojový diagram.** 
+	- **kopenogram** - záznamy jsou strukturovány a snáze převeditelné do PGR jazyka.
+	- **struktogram** - určený k vyjádření strukturového přístupu.
+- **Počítačové** - jediná forma přímo zpracovatelná počítačem, používá  se programovací jazyk, bývá konečným cílem tvorby algorytmů.
+
 
 na pracovních listech se nacházejí otázky které bych měl pochopit před cvičením
 Průběžné testy - v průběhu 30b / 2 (dva testy) 2 termíny bere se ten lepší výsledek.
