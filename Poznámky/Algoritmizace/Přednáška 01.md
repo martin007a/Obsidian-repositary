@@ -1,3 +1,13 @@
+**Algoritmus** je přesný návod nebo postup pro řešení zadané úlohy.
+Vlastnosti Algoritmu:
+- **Jednoznačnost** - v každém kroku algoritmu je jednoznačně určeno c ose bude dít, je odstraněn prvek náhody.
+- **Konečnost** - Vždy dojde k nějakému výsledku
+- **Opakovatelnost** - pro stejné vstupní hodnoty dostaneme stejný výsledek.
+- **Hromadnost(Obecnost)** - algoritmus popisuje celou třídu podobných úloh
+#### Vyjádření Algoritmu
+- Slovně - Vyjádřeno slovní formou např. recept v kuchařce. nevýhoda, každý může stejnou větu pochopit jinak.
+- Matematicky - Nejčastěji vyjádřen matematickým vztahem mezi vstupními hodnotami.
+
 na pracovních listech se nacházejí otázky které bych měl pochopit před cvičením
 Průběžné testy - v průběhu 30b / 2 (dva testy) 2 termíny bere se ten lepší výsledek.
 Zkouškové testy - zkouškové 70 bodů Příklady(Algoritmy)
@@ -54,7 +64,8 @@ Výhoda: jednoznačnost zápisu
 - Rozvoj technologii: více informací, využívá se úschovný prostor.
 **Datový** typ
 - Souhrn povolených hodnot a povolených operací
-- S hodnotami jsou obvykle svázány možnosti manipulace, tj. algoritmy
+- S hodnotami jsou obvykle svázány možnosti manipulace, tj. 
+- algoritmy
 __Proměnná
 - Je to nějaké místo v paměti
 - název proměnné = identifikátor
