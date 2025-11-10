@@ -18,4 +18,8 @@
 - nepodmíněný skok se dá vyřešít.
 85
 - 1 a 5 instrukce problém provádí se zápis souběžně se čtením ale to nejde.
-- Kdyby jednotek bylo šest tak by konflikt nenastal.
+- Kdyby jednotek bylo šest tak by konflikt nenastal
+87 
+- dokud nedokončím první instrukci tak nemůžu provést tu druhou
+94
+- to si v klidu projděte
