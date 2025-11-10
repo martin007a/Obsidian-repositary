@@ -23,3 +23,5 @@
 - dokud nedokončím první instrukci tak nemůžu provést tu druhou
 94
 - to si v klidu projděte
+127
+- Exponenciálně roste výkonost toho systému
