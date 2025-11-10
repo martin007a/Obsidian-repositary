@@ -25,3 +25,7 @@
 - to si v klidu projděte
 127
 - Exponenciálně roste výkonost toho systému
+132
+- je to symetricky
+### Maticové
+- Provádění operaci v Matici
