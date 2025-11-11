@@ -9,4 +9,12 @@
 13- nemá žádné prvky 
 16- reflexivní relace musí obsahovat identitu
 17- pro každá (a,b) existuje (b,a)
-18- když (a,b)
+18- když (a,b) tak ne (b,a), diagonála všude **0**
+19-
+20- 
+Zamyšlení
+1 2<sup>n</sup>
+3 2<sup>n<sup>2</sup>-n</sup>
+4 2<sup>n*(n+1)/2</sup>
+5
+7  je refelxivní a upná
