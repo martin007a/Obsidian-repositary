@@ -112,3 +112,17 @@ Nechť 𝐴 je množina a 𝑛 je přirozené číslo. Zobrazení 𝐴 𝑛 → 
 ![[Pasted image 20251111141506.png]]
 ## Inverzní Prvek
 ![[Pasted image 20251111141544.png]]
+### Kardinalita
+![[Pasted image 20251111142613.png]]
+## Spočetné množiny
+![[Pasted image 20251111142644.png]]
+### Spočetnost racionálních čísel
+![[Pasted image 20251111143322.png]]
+### Nespočetnost reálných čísel 
+![[Pasted image 20251111143446.png]]
+### Cantorova metoda diagonalizace
+![[Pasted image 20251111143503.png]]
+### Cantorova metoda diagonalizace
+![[Pasted image 20251111143519.png]]
+### Cantorova metoda diagonalizace
+![[Pasted image 20251111143541.png]]
