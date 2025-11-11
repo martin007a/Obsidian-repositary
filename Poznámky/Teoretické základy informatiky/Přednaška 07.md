@@ -87,3 +87,28 @@ Je prosté zobrazení 𝑓 ∶ 𝐴 → 𝐵. Inverzním zobrazením k zobrazen�
 - Zřejmě 𝑓 −1(𝑓 (𝑥)) = 𝑥 
 - Tedy 𝑓 −1 ∘ 𝑓 = id
 ![[Pasted image 20251111140620.png]]
+### Inverze složeného zobrazení
+![[Pasted image 20251111140827.png]]
+## Operace
+**Definice:**
+Nechť 𝐴 je množina a 𝑛 je přirozené číslo. Zobrazení 𝐴 𝑛 → 𝐴 nazýváme 𝑛-ární **operací** na množině 𝐴. Číslo 𝑛 nazýváme **arita** (četnost) operace.
+- Pro 𝑛 = 0 hovoříme o nulární operaci 
+	- výběr konstanty 
+- Pro 𝑛 = 1 hovoříme o unární operaci 
+	- log𝑧 𝑥, 𝑥 2 , −𝑥, √𝑥 
+- Pro 𝑛 = 2 hovoříme o binární operaci 
+	- 𝑥 + 𝑦, 𝑥 ⋅ 𝑦
+### Vztah relací, zobrazení a operací
+- Operace je zobrazení, zobrazení je relace, tudíž operace je také relace
+**Příklad**y
+- Binární operace sčítání je tedy ve skutečnosti ternární relace obsahující právě prvky typu (𝑎, 𝑏, 𝑎 + 𝑏) 
+- Unární operace minus je ve skutečnosti binární relace obsahující právě prvky typu (𝑥, −𝑥)
+### Vlastnosti operací
+- **Uzavřenost** množiny vzhledem k operaci 
+	-  výsledek operace náleží do dané množiny 
+	- plyne přímo z definice operace
+![[Pasted image 20251111141228.png]]
+## Neutrální Prvek
+![[Pasted image 20251111141506.png]]
+## Inverzní Prvek
+![[Pasted image 20251111141544.png]]
