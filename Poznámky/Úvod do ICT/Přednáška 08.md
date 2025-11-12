@@ -87,3 +87,67 @@ CCITT
 	- rekurzivní pokračování do přečtení posledního znaku 
 	- výsledný interval reprezentuje danou zprávu 
 	- stačí vybrat libovolné číslo z intervalu
+### Metody LZW, LZMA
+Algoritmus **Lempel-Ziv-Welch** 
+- jedna z nejrozšířenějších kompresních metod 
+- adaptivní metoda nezávislá na vstupních datech 
+- ARJ, WinRAR, WinZIP; GIF, TIFF, PNG
+**Princip** 
+- hledání optimálního kódu pro zadaná hrubá data 
+- v hrubých datech se kódují posloupnosti
+Dvě základní schémata algoritmu  
+- A. Lempel, J. Ziv 
+- LZ77 a LZ78 (1977–78) 
+- T. Welch 
+- modifikace LZ78 pro diskové řadiče (1984)
+**LZMA** (Lempel-Ziv-Markov Chain Algorithm)
+- pomalejší, ale s lepším kompresním poměrem 
+- používá 7-Zip
+**Metody Deflate, CCITT**
+**Deflate**
+- kombinace slovníkové metody LZ77 a Huffmanova kódování 
+- implementace ve formátech PNG, ODF, PDF
+**CCITT**
+- standardy CCITT Group 3 a CCITT Group 4 
+- komprese faksimilních přenosů 
+- komprese obrazových dat monochromatických dokumentů 
+- využití principu podobného Huffmanovu kódování
+## Joint Photographic Experts Group
+**Vlastnosti**  
+- sada kompresních metod (není přesný algoritmus) 
+- možnost přizpůsobení požadavkům uživatele 
+- volba tzv. Q-faktoru ovlivňujícího kvalitu po kompresi
+**Použití** 
+- obrazy v odstínech šedi 
+- obrazy s velkou barevnou hloubkou
+**Postup** 
+1. transformace barev do barevného modelu YCBCR 
+2. redukce barev – snižování objemu dat průměrováním 
+3. rozdělení do bloků a aplikace DCT 
+4. kvantování koeficientů – stanovení kvality komprese 
+5. kódování (Huffmanovo nebo aritmetické)
+## Kompresní metody a souborové formáty
+![[Pasted image 20251112160830.png]]
+### Standardy pro kompresi videa
+![[Pasted image 20251112160900.png]]
+### Implementace
+**Komprimátory** – programy schopné komprimovat, ale také archivovat, pracovat se soubory a adresáři, šifrovat obsah, vkládat poznámky apod.
+**Dostupnost pod operačními systémy** 
+- **Unix** – gzip, zip/unzip 
+- **Windows** – pkzip/pkunzip, WinZIP, WinRAR, 7zip
+Komprimátory vytvářejí soubory zvané **archivy** 
+- obsahují čistá data a režijní informaci 
+- procento režijní informace závisí na velikosti a zejména počtu komprimovaných souborů
+Různé formáty archivů, různé ovládání
+Moderní komprimátory jsou schopny číst a někdy i vytvářet archivy různých typů
+### On-line komprese
+**Implementace uvnitř jiného programu** – služby Otevřít (Open) a Uložit (Save, Save As)
+- Při běžné práci se skrytě komprimuje a dekomprimuje 
+- Používáno u programů pracujících s vnitřně komprimovanými daty, například obrazové editory, zpracování hudebních dat a videodat 
+- Použita symetrická komprese – čas otevření a uložení je podobný, menší nároky na kvalitu komprese, často i ztrátová komprese
+Každé uložení JPG se zhoršuje kvalita
+### Archivace a zálohování
+![[Pasted image 20251112161433.png]]
+### Typy záloh
+![[Pasted image 20251112161544.png]]
+![[Pasted image 20251112161601.png]]
