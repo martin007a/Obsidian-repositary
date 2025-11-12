@@ -54,3 +54,36 @@ Dosažený kompresní poměr závisí na charakteru dat
  **pixelová** – obrazy v pravých barvách 
  na každé úrovni speciální tvar opakovače
 ![[Pasted image 20251112154421.png]]
+![[Pasted image 20251112154924.png]]
+### Modifikovaná metoda RLE
+- Snaha o eliminaci záporné komprese 
+- Každý paket se skládá ze **tří bajtů** 
+	- příznaková hodnota (escape sekvence) 
+	- proudové číslo 
+	- proudová hodnota
+![[Pasted image 20251112155115.png]]
+### Složitější kompresní metody
+**Statistické metody** 
+- četnost výskytů znaků v komprimovaném souboru 
+- Shannonovo-Fanovo kódování 
+- Huffmanovo kódování 
+- aritmetické kódování
+**Slovníkové metody** 
+kódování všech vyskytujících se posloupností 
+LZW, LZMA 
+Deflate 
+CCITT
+**Transformační metody** 
+- ortogonální nebo jiné transformace 
+- JPEG
+## Aritmetické kódování
+- Neztrátová kompresní metoda 
+- Entropické kódování s proměnlivou délkou slova 
+- Celý vstupní text je zakódován do jednoho čísla 0 ≤ 𝑛 < 1 
+- Hardwarově velmi náročná metoda 
+- **Princip kódování** -
+	- rozdělení intervalu ⟨0; 1) podle pravděpodobnosti jednotlivých prvků ze vstupní abecedy 
+	- po přečtení prvního znaku výběr příslušného podintervalu a jeho rozdělení 
+	- rekurzivní pokračování do přečtení posledního znaku 
+	- výsledný interval reprezentuje danou zprávu 
+	- stačí vybrat libovolné číslo z intervalu
