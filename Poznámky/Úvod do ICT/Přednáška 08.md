@@ -148,6 +148,16 @@ Moderní komprimátory jsou schopny číst a někdy i vytvářet archivy různý
 Každé uložení JPG se zhoršuje kvalita
 ### Archivace a zálohování
 ![[Pasted image 20251112161433.png]]
+- Archivace není kladen důraz na rychlost
 ### Typy záloh
 ![[Pasted image 20251112161544.png]]
 ![[Pasted image 20251112161601.png]]
+![[Pasted image 20251112162359.png]]
+### Zálohování
+![[Pasted image 20251112162433.png]]
+## Vzdálenost kopie
+![[Pasted image 20251112162506.png]]
+### Možnosti zálohování
+![[Pasted image 20251112162527.png]]
+### Synchronizace
+![[Pasted image 20251112162543.png]]
