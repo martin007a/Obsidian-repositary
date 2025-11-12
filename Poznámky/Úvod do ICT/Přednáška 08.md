@@ -31,3 +31,26 @@ Shrnutí více souborů do jednoho archivu znamená **eliminaci vnitřní fragme
 **Záporná komprese**
 - nežádoucí jev, data kompresí zvětšují objem
 ### Druhy kompresí
+![[Pasted image 20251112153558.png]]
+![[Pasted image 20251112153611.png]]
+### Metoda proudového kódování
+**Run Length Encoding** 
+- kódování délkou běhu, proudové kódování 
+- **běh** = posloupnost stejných hodnot
+**Základní princip – zhuštění opakovaný**
+- zhuštění opakovaných znaků, které se v souboru vyskytují bezprostředně po sobě
+- **paket RLE** – proudové číslo (opakovač) a hodnota
+Dosažený kompresní poměr závisí na charakteru dat
+![[Pasted image 20251112154134.png]]
+- využití u Fotografii 
+- Problém je když se data střídají
+**Použití metody** -
+ - problém způsobují střídavá data (záporná komprese) 
+ - není vhodné pro textové soubory ani většinu binárních 
+ - ideální pro jednoduché obrázky (max. 256 barev)
+ **Úrovně komprese** 
+ **bitová** – monochromatické rastrové obrazy 
+ **bajtová** – rastrové obrazy s hloubkou 1 bajt na pixel 
+ **pixelová** – obrazy v pravých barvách 
+ na každé úrovni speciální tvar opakovače
+![[Pasted image 20251112154421.png]]
