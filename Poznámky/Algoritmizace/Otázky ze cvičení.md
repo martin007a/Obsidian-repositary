@@ -35,7 +35,12 @@
 10. Jaké aritmetické operace jsou k dispozici u číselných datových typů?  
 	- ![[Pasted image 20251113144230.png]]
 11. Jaké operace s jednotlivými bity lze provádět u celočíselných hodnot? 
-12. Jak se deklarují proměnné a k čemu slouží? 
+	-![[Pasted image 20251113144356.png]]
+12. Jak se deklarují proměnné a k čemu slouží?
+	Slouží:
+	- 1. **Manipulace s daty:** Proměnné slouží jako **paměťová místa**, se kterými je následně možné **manipulovat při zpracování dat**.
+	- **Uchování hodnoty:** V proměnné se uchovává **hodnota** odpovídající jejímu datovému typu
+	- Deklarace proměnné je **požadavek k systému, aby v paměti vyhradil prostor** pro proměnnou. Tento požadavek zajišťuje vytvoření paměťového místa, které je vnitřně propojeno s názvem (identifikátorem) proměnné![[Pasted image 20251113144541.png]]
 13. Co je a jak se připojí k danému programu knihovna? 
 14. Co to jsou jmenné prostory v jazyce C++? 
 15. Která knihovna zahrnuje příkazy std::cin a std::cout ? K čemu tyto příkazy slouží? 

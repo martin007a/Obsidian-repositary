@@ -25,14 +25,10 @@
             "id": "a44ad7ab47d54caa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Poznámky/Algoritmizace/Otázky ze cvičení.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Otázky ze cvičení"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -107,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -206,8 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,10 +221,12 @@
   },
   "active": "a44ad7ab47d54caa",
   "lastOpenFiles": [
+    "Poznámky/Algoritmizace/Otázky ze cvičení.md",
+    "imgs/Pasted image 20251113144541.png",
+    "imgs/Pasted image 20251113144356.png",
     "imgs/Pasted image 20251113144230.png",
     "imgs/Pasted image 20251113144202.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 06.md",
-    "Poznámky/Algoritmizace/Otázky ze cvičení.md",
     "Tasks/To Do.md",
     "Poznámky/Úvod do ICT/Přednáška 08.md",
     "imgs/Pasted image 20251112162543.png",
@@ -239,9 +235,6 @@
     "imgs/Pasted image 20251112162433.png",
     "imgs/Pasted image 20251112162359.png",
     "imgs/Pasted image 20251112161601.png",
-    "imgs/Pasted image 20251112161544.png",
-    "imgs/Pasted image 20251112161433.png",
-    "imgs/Pasted image 20251112160900.png",
     "Poznámky/Teoretické základy informatiky/Přednaška 07.md",
     "Poznámky/Úvod do ICT/Přednaška 06.md",
     "Poznámky/Architektura Počítačů/Přednáška 08.md",
