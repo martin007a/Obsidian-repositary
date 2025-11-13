@@ -71,15 +71,33 @@ else if (Podmínka 2)
 else 
     // Příkazy pro Větev 3 (pokud NENÍ splněna ani Podmínka 1 ani Podmínka 2) 
 ```
-1. Co znamená zápis int i, j=5; ? Jakou hodnotu bude mít po skončení tohoto příkazu proměnná i ? nebude mi žádnou hodnotu, neinicializovanou
-2. Předpokládejte, že proměnná kolik má hodnotu 10. Jak se změní hodnota proměnné Cislo po provedení příkazu Cislo= --kolik + Cislo; ? 
-3. Jaký datový typ se používá pro zpracování znakové informace? 
+20. Co znamená zápis int i, j=5; ? Jakou hodnotu bude mít po skončení tohoto příkazu proměnná i ? nebude mi žádnou hodnotu, neinicializovanou
+21. Předpokládejte, že proměnná kolik má hodnotu 10. Jak se změní hodnota proměnné Cislo po provedení příkazu Cislo= --kolik + Cislo; ? 
+22. Jaký datový typ se používá pro zpracování znakové informace? 
 	-char
-4. Jak zapíšete test, že znaková proměnná obsahuje velké písmeno anglické abecedy? 
+23. Jak zapíšete test, že znaková proměnná obsahuje velké písmeno anglické abecedy? 
 	- if(a>=65 and a<=90)
-5. Jak se zapisují znakové a jak řetězcové konstanty?
+24. Jak se zapisují znakové a jak řetězcové konstanty?
 	-char - ' a'
 	-string - "ahoj"
-6. Jak zjistíte, které ze dvou jmen je první podle abecedy? 
+25. Jak zjistíte, které ze dvou jmen je první podle abecedy? 
 	-if (a<b) - pak **a** je první podle ABECEDY
-7. Co je to rekurentní vztah
+26. Co je to rekurentní vztah
+	-Rekurentní vztah (nebo **rekurence**) je matematická rovnice, která definuje prvek **sekvence** (posloupnosti) jako funkci **jedného nebo více předchozích prvků** téže sekvence.
+27. Čím se liší globální a lokální proměnné?
+	**Globální** je přístupná pro všechny podprogramy 
+	**Lokání** jen pro určitý programový celek
+28. Jaký je rozdíl mezi formálním a skutečným parametrem? 
+	**Formální parametr se uvádí v hlavičce podprogramu při jeho definici**
+	**Skutečná** je ta kterou zadáváme do hlavičky když program voláme
+29. Existují parametry vstupní (volané hodnotou) a vstupně-výstupní (volané odkazem). Kdy se používají a jak se rozlišují? 
+	- **Vstupní** parametr je ten který, se používá v podprogramu a zanikne při jeho konci
+	 - **Vstupně-výstupní** jsou takové na které se odkážeme odkazem a všechny změní v podprogramu se na nich projeví i mimo něj
+30. V čem se liší funkce od procedury? 
+	**Procedura** - Provádí nějaký proces neočekává se od ní že vrátí nějakou hodnotu
+	**Funkce** - Je od ní vyžadováno a by vracela nějakou hodnotu.
+31. Co je to návratová hodnota podprogramu? 
+32. Co znamená, že je podprogram rekurzivní? 
+33. Jaké jsou výhody a nevýhody rekurze? 
+34. Jaký je rozdíl mezi přímou a nepřímou rekurzí? 
+35. V čem se liší lineární a stromová rekurze?
