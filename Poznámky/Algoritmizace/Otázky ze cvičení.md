@@ -94,10 +94,23 @@ else
 	- **Vstupní** parametr je ten který, se používá v podprogramu a zanikne při jeho konci
 	 - **Vstupně-výstupní** jsou takové na které se odkážeme odkazem a všechny změní v podprogramu se na nich projeví i mimo něj
 30. V čem se liší funkce od procedury? 
-	**Procedura** - Provádí nějaký proces neočekává se od ní že vrátí nějakou hodnotu
-	**Funkce** - Je od ní vyžadováno a by vracela nějakou hodnotu.
+	**Procedura** - Provádí sekvenci nějakých akcí proces neočekává se od ní že vrátí nějakou hodnotu (**void)**
+	**Funkce** - Je od ní vyžadováno a by vracela nějakou hodnotu. (datový typ )
 31. Co je to návratová hodnota podprogramu? 
+	- Návratová hodnota podprogramu je **hodnota, kterou funkce (typ podprogramu) po svém provedení získá a předává zpět do místa, odkud byla vyvolána**
 32. Co znamená, že je podprogram rekurzivní? 
+	- Rekurzivní podprogram je definován na základě jednoduchého **technického principu**: **podprogram ve svém těle obsahuje volání sama sebe**
+Formulace a ukončení rekurze
 33. Jaké jsou výhody a nevýhody rekurze? 
+	- Nevýhody rekurze
+		Při každém zavolání rekurzivní funkce se provádí **deklarace nové lokální proměnné**
+		V některých jednoduchých případech (např. při sčítání řady hodnot) může být rekurzivní zápis algoritmu **poněkud složitější** než iterativní řešení
+	- Výhody rekurze
+		-**Automatická úschova dat:** Rekurze je výhodná, pokud úloha **vyžaduje úschovu zpracovávaných údajů v paměti**
+		-**Jednodušší řešení složitých úloh:** Rekurze je **opakování s využitím systémového zásobníku**
 34. Jaký je rozdíl mezi přímou a nepřímou rekurzí? 
+	 - **Přímá rekurze:** Podprogram ve svém těle přímo volá sám sebe
+	- **Nepřímá rekurze:** Nastává, když podprogram A volá podprogram B, a ten následně volá zpět podprogram A.
 35. V čem se liší lineární a stromová rekurze?
+	- Lineární rekurze nastává, když funkce provede **nejvýše jedno** rekurzivní volání v každém kroku. V podstatě se jedná o jednoduchý, přímý "řetěz" volání.
+	- Stromová rekurze nastává, když funkce provede **dvě nebo více** rekurzivních volání v každém kroku. Každé volání se pak rozvětvuje, což vytváří strukturu podobnou stromu.
