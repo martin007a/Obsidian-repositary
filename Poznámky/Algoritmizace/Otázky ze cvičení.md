@@ -42,6 +42,11 @@
 	- **Uchování hodnoty:** V proměnné se uchovává **hodnota** odpovídající jejímu datovému typu
 	- Deklarace proměnné je **požadavek k systému, aby v paměti vyhradil prostor** pro proměnnou. Tento požadavek zajišťuje vytvoření paměťového místa, které je vnitřně propojeno s názvem (identifikátorem) proměnné![[Pasted image 20251113144541.png]]
 13. Co je a jak se připojí k danému programu knihovna? 
+	- Knihovna je v programování chápána jako **rozsáhlá množina již hotových, odladěných a optimalizovaných rekvizit**, které lze v programu opakovaně použít
+	- Hlavičkový soubor, Obsahuje **deklarace a definice**,
+		Dva tipy:
+			- **Soubory, které jsou součástí instalace překladače** (**iostream**)
+			- 
 14. Co to jsou jmenné prostory v jazyce C++? 
 15. Která knihovna zahrnuje příkazy std::cin a std::cout ? K čemu tyto příkazy slouží? 
 16. K čemu je v C++ konstrukce int main() ? 
