@@ -46,8 +46,17 @@
 	- Hlavičkový soubor, Obsahuje **deklarace a definice**,
 		Dva tipy:
 			- **Soubory, které jsou součástí instalace překladače** (**iostream**)
-			- 
+			- **Soubory, které si programátor napíše sám**
+		Připojení knihovny (hlavičkového souboru) k programu se provádí pomocí **preprocesorové direktivy** **#include**
 14. Co to jsou jmenné prostory v jazyce C++? 
+	- Pojem **jmenný prostor** (_namespace_) v jazyce C++ slouží k organizaci prvků a je prostorem, kam jsou uloženy určité objekty
 15. Která knihovna zahrnuje příkazy std::cin a std::cout ? K čemu tyto příkazy slouží? 
+	- knihovna ``iostream
+	- std::cin - vstupní proud pro standartní vstup
+	- std::cout - výstupní proud pro standartní výstup
 16. K čemu je v C++ konstrukce int main() ? 
-17. K čemu slouží příkaz return 0; ve funkci main ?
+	- Konstrukce **int main()** v jazyce C++ má **zásadní význam**, protože **reprezentuje celý program** ve vztahu k operačnímu systému a zajišťuje komunikaci s ním
+	- Konstrukce `int main()` je ve své podstatě **hlavní funkce programu** nebo **hlavní podprogram programu**
+17. K čemu slouží příkaz return 0; ve funkci main 
+	- má zásadní význam pro **komunikaci mezi spuštěným programem a operačním systémem (OS)**
+	- **Indikace bezchybného ukončení:** Hodnota **nula (****0****)** je **domluvená hodnota**, která indikuje **bezchybné ukončení** programu
