@@ -59,4 +59,27 @@
 	- Konstrukce `int main()` je ve své podstatě **hlavní funkce programu** nebo **hlavní podprogram programu**
 17. K čemu slouží příkaz return 0; ve funkci main 
 	- má zásadní význam pro **komunikaci mezi spuštěným programem a operačním systémem (OS)**
-	- **Indikace bezchybného ukončení:** Hodnota **nula (****0****)** je **domluvená hodnota**, která indikuje **bezchybné ukončení** programu
+	- **Indikace bezchybného ukončení:** Hodnota **nula (****0****)** je **domluvená hodnota**, která indikuje **bezchybné ukončení** programu*
+18. Jak zapíšete test, že vstupní hodnota se nachází v uzavřeném intervalu od 1 do 20?
+	- if(a>1 and a<=20)
+19. Jak zapíšete větvení do tří větví? 
+```
+if (Podmínka 1)
+    // Příkazy pro Větev 1 (pokud je Podmínka 1 splněna)
+else if (Podmínka 2)
+    // Příkazy pro Větev 2 (pokud Podmínka 1 NENÍ, ale Podmínka 2 JE splněna) 
+else 
+    // Příkazy pro Větev 3 (pokud NENÍ splněna ani Podmínka 1 ani Podmínka 2) 
+```
+1. Co znamená zápis int i, j=5; ? Jakou hodnotu bude mít po skončení tohoto příkazu proměnná i ? nebude mi žádnou hodnotu, neinicializovanou
+2. Předpokládejte, že proměnná kolik má hodnotu 10. Jak se změní hodnota proměnné Cislo po provedení příkazu Cislo= --kolik + Cislo; ? 
+3. Jaký datový typ se používá pro zpracování znakové informace? 
+	-char
+4. Jak zapíšete test, že znaková proměnná obsahuje velké písmeno anglické abecedy? 
+	- if(a>=65 and a<=90)
+5. Jak se zapisují znakové a jak řetězcové konstanty?
+	-char - ' a'
+	-string - "ahoj"
+6. Jak zjistíte, které ze dvou jmen je první podle abecedy? 
+	-if (a<b) - pak **a** je první podle ABECEDY
+7. Co je to rekurentní vztah
