@@ -49,8 +49,7 @@
               "title": "Přednáška 06"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,10 +223,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a44ad7ab47d54caa",
+  "active": "7643719ff42b20cc",
   "lastOpenFiles": [
-    "Poznámky/Algoritmizace/Přednáška 07.md",
     "Poznámky/Algoritmizace/Otázky ze cvičení.md",
+    "Poznámky/Algoritmizace/Přednáška 07.md",
     "imgs/Pasted image 20251113144541.png",
     "imgs/Pasted image 20251113144356.png",
     "imgs/Pasted image 20251113144230.png",
