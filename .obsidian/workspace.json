@@ -49,8 +49,7 @@
               "title": "Přednáška 09"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -224,11 +224,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85fcad50cd6f7d48",
+  "active": "7643719ff42b20cc",
   "lastOpenFiles": [
+    "Poznámky/Teoretické základy informatiky/Přednáška 09.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 08.md",
     "Poznámky/Teoretické základy informatiky/Přednaška 07.md",
-    "Poznámky/Teoretické základy informatiky/Přednáška 09.md",
     "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 03.md",
     "Tasks/Done.md",
