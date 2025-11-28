@@ -114,3 +114,7 @@ Formulace a ukončení rekurze
 35. V čem se liší lineární a stromová rekurze?
 	- Lineární rekurze nastává, když funkce provede **nejvýše jedno** rekurzivní volání v každém kroku. V podstatě se jedná o jednoduchý, přímý "řetěz" volání.
 	- Stromová rekurze nastává, když funkce provede **dvě nebo více** rekurzivních volání v každém kroku. Každé volání se pak rozvětvuje, což vytváří strukturu podobnou stromu.
+36. Co je klíčové slovo?
+	 - **Klíčové slovo** (Keyword) je identifikátor, jehož význam je pevně určen a nelze jej změnit pr. **int float While**
+37.  Čemu se vyhýbáme, pokud píšeme program spouštěný z příkazového řádku nebo skriptu operačního systému?
+	- **Používání výstupů jako prostředku dialogu s uživatelem**

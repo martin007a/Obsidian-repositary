@@ -216,8 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,7 +234,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85fcad50cd6f7d48",
+  "active": "7643719ff42b20cc",
   "lastOpenFiles": [
     "Tasks/To Do.md",
     "Poznámky/Úvod do ICT/Přednáška 08.md",
