@@ -216,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,8 +237,9 @@
   },
   "active": "7643719ff42b20cc",
   "lastOpenFiles": [
-    "Poznámky/Algoritmizace/Otázky ze cvičení.md",
+    "Poznámky/Teoretické základy informatiky/Přednáška 10.md",
     "Tasks/To Do.md",
+    "Poznámky/Algoritmizace/Otázky ze cvičení.md",
     "Poznámky/Úvod do ICT/Přednáška 08.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 09.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 08.md",
@@ -271,7 +273,6 @@
     "Poznámky/Teoretické základy informatiky/Přednáška 01.md",
     "Poznámky/Nepřiřaditelné poznámky.md",
     "Poznámky/Architektura Počítačů/Přednáška 02.md",
-    "Poznámky/Architektura Počítačů/Přednaška 04.md",
     "imgs/Pasted image 20251021141912.png.~tmp",
     "Poznámky/Projekt",
     "imgs/Pasted image 20251014212738.png.~tmp",
