@@ -1,1 +1,5 @@
 I Když jednotlivé zdroje mají rozdílné názory na vliv AI na absolventy, všechny jsou ale propojeny podobnou myšlenkou. Že Ai se již stala nedílnou součástí našich životů. Avšak je pravdou, že s postupnou Implementací AI některé pracovní pozice zanikají, ale současně díky ní vnikají nové. Proto jsme došli závěru, že bychom AI neměli vnímat AI jako hrozbu, ale spíš jako příležitost. Naše stanovisko je jasné: budoucnost není v souboji, ale ve spolupráci.“
+
+
+I když jednotlivé zdroje mají různé postoje na vliv AI na Absolventy a jejich uplatnění na trhu práce. Ve všech se ale objevuje podobná myšlenka. Že Ai se již stala nedílnou součástí našich životů. 
+Avšak je pravdou, že s postupnou implementací AI, dochází k zániku některých pracovních pozic, a z toho bychom mohli usoudit že nám AI bere Práci, ale na druhou stranu zase vznikají nové pozice které by bez AI nevznikly. Proto bychom neměli vnímat AI jako hrozbu, ale spíš jako příležitost. Na této myšlence stojí i naše stanovisko. Budoucnost není v souboji, ale ve spolupráci.   
