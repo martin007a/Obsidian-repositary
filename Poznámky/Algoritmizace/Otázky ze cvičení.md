@@ -118,3 +118,236 @@ Formulace a ukončení rekurze
 	 - **Klíčové slovo** (Keyword) je identifikátor, jehož význam je pevně určen a nelze jej změnit pr. **int float While**
 37.  Čemu se vyhýbáme, pokud píšeme program spouštěný z příkazového řádku nebo skriptu operačního systému?
 	- **Používání výstupů jako prostředku dialogu s uživatelem**
+
+
+## dalsi Otayky
+8.1 Co je staticky alokovaná a dynamicky alokovaná paměť?
+
+Staticky alokovaná paměť (Statické proměnné):
+• Vznik: Při deklaraci (vyhradí se úsek odpovídající datovému typu).
+• Umístění: Systémový zásobník.
+• Životnost: Existují až do ukončení programového bloku, kde byly deklarovány.
+• Velikost: Pevná, daná datovým typem.
+• Přístup: Jsou uloženy na adrese symbolicky vyjádřené jejich identifikátorem.
+
+Dynamicky alokovaná paměť (Dynamické proměnné):
+• Vznik: Až za běhu programu speciálním příkazem.
+• Umístění: Větší část paměti zvaná hromada (halda/heap).
+• Velikost: Lze určit až v okamžiku vytvoření.
+• Přístup: Nemají vlastní identifikátor, přistupuje se k nim přes adresy uložené v ukazatelích.
+
+----------------------------------------------------------------
+
+8.2 Jaké zásadní výhody má dynamicky alokovaná paměť?
+
+1. Flexibilní životnost: Proměnná vzniká jen když je potřeba a lze ji kdykoliv zrušit (uvolnit paměť).
+2. Variabilní velikost: Velikost lze určit až v okamžiku vytvoření.
+3. Efektivní správa velkých dat: I velká struktura zabírá v zásobníku jen místo pro adresu (ukazatel), což obchází omezení paměti zásobníku.
+4. Komplexní struktury: Umožňuje spojování do rozsáhlých dynamických struktur.
+
+----------------------------------------------------------------
+
+8.3 Jaké nevýhody má práce s dynamicky alokovanou pamětí?
+
+1. Režie přístupu: Získání hodnoty vyžaduje dvojí přístup do paměti (nejprve získání adresy z ukazatele, poté přístup k hodnotě).
+2. Režie ukazatelů: Nutnost správy ukazatelů pro svázání struktury.
+3. Neefektivita u jednoduchých typů: U jednoduchých datových typů je tento způsob málo efektivní.
+
+----------------------------------------------------------------
+
+8.4 Jak se vytváří datový typ ukazatel?
+
+Ukazatel je proměnná obsahující adresu.
+• Deklarace: Použitím znaku hvězdička (*) mezi datovým typem a identifikátorem.
+• Příklad: "int *A" (určitý ukazatel, ukazuje na typ int).
+• Obecný ukazatel: Deklaruje se pomocí prázdného typu "void *X".
+
+----------------------------------------------------------------
+
+8.5 Jak se přistoupí k proměnné, na niž ukazuje nějaký ukazatel?
+
+Přístup se provádí tzv. dereferencí:
+• Základní přístup: Operátor hvězdička (*) před proměnnou (např. *A).
+• Přístup ke složkám struktury (záznamu):
+  a) Pomocí závorek a tečky: (*Z).slozka
+  b) Pomocí operátoru šipka (preferované): Z->slozka
+
+----------------------------------------------------------------
+
+8.6 Jaké operace se používají u fronty a jaké u zásobníku?
+
+Podle poskytnutých materiálů nejsou konkrétní názvy operací (jako push/pop) explicitně uvedeny.
+• Obecná manipulace: Se seznamem se manipuluje typicky pouze s prvky na začátku nebo na konci.
+• Systémový zásobník: Využívá se pro ukládání návratových adres a lokálních proměnných při volání podprogramů (zejména u rekurze).
+
+----------------------------------------------------------------
+
+8.7 Co je binární strom a jak se implementuje každý jeho uzel?
+
+Binární strom:
+Pravidelný strom, kde je počet následníků uzlu omezen nejvýše na dva. Častou variantou je Binární vyhledávací strom (BVS), kde platí uspořádání: Levý syn < Otec < Pravý syn.
+
+Implementace uzlu:
+Řešena pomocí dynamické struktury (záznamu), která obsahuje:
+1. Datovou složku (TypData Data nebo void *Data).
+2. Ukazatel na levého syna (TypUzel *Vlevo).
+3. Ukazatel na pravého syna (TypUzel *Vpravo).
+Celý strom je reprezentován ukazatelem na kořen.
+9.1 Jakým způsobem se čte ze standardního vstupu?
+
+Standardní vstup v C++ je reprezentován objektem std::cin (knihovna iostream).
+• Pro jednoduchý vstup dat se používá operátor vložení >> (např. std::cin >> proměnná;).
+• Dochází k automatické konverzi ze znakového tvaru do binárního.
+• Operátor >> standardně vynechává bílé znaky (mezery, entery).
+• Pro čtení znaků včetně bílých znaků lze využít metodu cin.get(ch);.
+
+----------------------------------------------------------------
+
+9.2 Jakým způsobem se vypisuje na standardní výstup a na standardní chybový výstup?
+
+• Standardní výstup: Objekt std::cout. Používá se operátor << (např. std::cout << výraz;).
+• Standardní chybový výstup: Objekt std::cerr (pro chyby) a std::clog (pro logy).
+• Odřádkování: Používá se znak \n nebo manipulátor std::endl.
+
+----------------------------------------------------------------
+
+9.3 K čemu slouží operace cin, cout, cerr, clog a v jaké knihovně se nacházejí?
+
+Nacházejí se v knihovně iostream a jmenném prostoru std.
+• std::cin: Vstupní proud pro standardní vstup.
+• std::cout: Výstupní proud pro standardní výstup.
+• std::cerr: Standardní chybový výstup (console error), určený pro chybová hlášení.
+• std::clog: Výstup pro záznamy (console log), např. info o úspěšném dokončení.
+
+----------------------------------------------------------------
+
+9.4 K čemu dochází při výměně dat mezi standardními soubory a operační pamětí?
+
+Standardní soubory jsou logicky textové. Dochází k automatické konverzi:
+• Při čtení (vstup): Konverze ze znakové podoby na binární podobu v paměti (aby šlo data zpracovat).
+• Při zápisu (výstup): Konverze obsahu paměti na posloupnost znaků (člověkem čitelná podoba).
+
+================================================================
+
+10.1 K čemu slouží příkazy setw(), right a setprecision()?
+
+Příkazy pro formátování výstupu:
+• setw(x): Nastavuje šířku výstupu na x znaků (platí jen pro nejbližší výraz).
+• right: Zarovná hodnotu ve výstupu doprava.
+• setprecision(p): Nastavuje přesnost desetinných čísel na p číslic.
+
+----------------------------------------------------------------
+
+10.2 Ve které knihovně se uvedené příkazy nacházejí?
+
+Manipulátory setw, setprecision (a setfill) jsou v knihovně iomanip.
+
+----------------------------------------------------------------
+
+10.3 Jak se definuje datový typ záznam?
+
+Používá se klíčové slovo struct pro seskupení položek rozdílných typů s logickou souvislostí.
+• Syntax: struct Identifikátor { typ polozka; ... };
+• Příklad:
+  struct Osoba { 
+      string Jmeno; 
+      int Plat; 
+      float Hmotnost; 
+  };
+
+----------------------------------------------------------------
+
+10.4 Jak se přistupuje ke složkám záznamu?
+
+Pomocí tečkové notace: jméno_proměnné.jméno_složky.
+Příklad: Franta.Jmeno
+
+----------------------------------------------------------------
+
+10.5 Jaké řadicí algoritmy s kvadratickou časovou složitostí znáte?
+
+Mají složitost O(N^2) a jsou vhodné spíše pro malá data.
+• Přímý výběr (Select sort)
+• Bublinové řazení (Bubble sort)
+• Přímé vkládání (Insert sort)
+
+================================================================
+
+11.1 Jak se vypočítá adresa z indexu pole a s jakou časovou složitostí výpočet probíhá?
+
+• Vzorec: A = PA + (I - I0) * V
+  (Kde PA je počátek pole, I je index, I0 je první index (v C++ 0), V je velikost složky).
+• Složitost: Výpočet probíhá s konstantní časovou složitostí O(1).
+
+----------------------------------------------------------------
+
+11.2 Jaký je obecný postup experimentálního stanovení časové složitosti?
+
+Měří se spotřebovaný čas (nebo prostor) pro různé velikosti vstupních dat (N). Výsledky se zanesou do tabulky a na jejich základě se interpoluje/extrapoluje charakter složitosti.
+
+----------------------------------------------------------------
+
+11.3 Co je množina (multimnožina) a jaký je princip její implementace?
+
+• Množina (Set): Prvky se neopakují. Implementace pomocí pole bool hodnot (index = prvek, hodnota = je/není).
+• Multimnožina (Multiset): Prvky se mohou opakovat. Implementace pomocí pole čísel (index = prvek, hodnota = počet výskytů).
+
+----------------------------------------------------------------
+
+11.4 Které řadicí metody patří k lineárně logaritmickým a jaké mají vlastnosti?
+
+Složitost O(N * logN).
+• Metody: Řazení hromadou (Heap sort), Quick sort, Merge sort, řazení binárním stromem.
+• Vlastnosti:
+  - Quick sort: Jeden z nejrychlejších obecně, průměrně k*N*logN.
+  - Heap sort: Práce in situ (bez další paměti), nestabilní.
+  - Merge sort: Sekvenční přístup, dříve vhodný pro vnější média.
+
+----------------------------------------------------------------
+
+11.5 Jaký je princip řazení množinou? Jaké výhody a nevýhody toto řazení má?
+
+• Princip: Data se vloží do multimnožiny (pole četností) a pak se sekvenčně vyčtou.
+• Výhoda: Nejnižší složitost O(N) - lineární.
+• Nevýhoda: Není univerzální (data musí sloužit jako indexy), velká paměťová náročnost při velkém rozsahu hodnot.
+
+================================================================
+
+12.1 Jak se jmenuje knihovna umožňující práci s uživatelskými soubory?
+
+Knihovna fstream.
+
+----------------------------------------------------------------
+
+12.2 Jakým způsobem se provede otevření binárního (netextového) souboru?
+
+Při otevření (metoda open) se musí specifikovat režim ios::binary.
+Příklad: Vstupy.open("../data/zdroje.txt", ios::binary);
+
+----------------------------------------------------------------
+
+12.3 Jakými operacemi se provádí čtení a zápis dat v binárním souboru?
+
+• Čtení: soubor.read(pole, M); (nutné přetypovat na char*). Počet přečtených bajtů zjistí gcount().
+• Zápis: soubor.write(pole, M); (nutné přetypovat na char*).
+
+----------------------------------------------------------------
+
+12.4 Co znamená get pointer (put pointer) a jakými operacemi jej lze zjisti nebo nastavit?
+
+• Get pointer: Pozice pro čtení. Zjištění: tellg(), Nastavení: seekg(index).
+• Put pointer: Pozice pro zápis. Zjištění: tellp(), Nastavení: seekp(index).
+
+----------------------------------------------------------------
+
+12.5 Co je bajtové (znakové) pole?
+
+V binárních souborech se data chápou jako sled bajtů. Jelikož bajt v C++ odpovídá typu char, každé pole typu char (znakové pole) lze chápat jako bajtové pole.
+
+----------------------------------------------------------------
+
+12.6 Co je reference a jak se zapisuje?
+
+Reference (odkaz) znamená, že formální parametr sdílí stejné místo v paměti jako skutečný parametr.
+• Zápis: Pomocí znaku & v definici.
+• Příklad: TypUzel &S.
