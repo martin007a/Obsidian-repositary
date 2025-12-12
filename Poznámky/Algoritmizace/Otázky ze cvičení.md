@@ -121,6 +121,89 @@ Formulace a ukončení rekurze
 
 
 ## dalsi Otayky
+6.1 Co je strukturovaná proměnná?
+
+Strukturované proměnné reprezentují celý celek, který je složen ze skupiny hodnot. Slouží k uchovávání velkého množství hodnot současně v paměti počítače.
+
+----------------------------------------------------------------
+
+6.2 Jaké známe strukturované datové typy?
+
+• Pole: Nejrozšířenější koncept strukturované proměnné.
+• Záznam (struct): Používá se pro seskupení položek rozdílných typů do jednoho celku.
+• Variantní záznam (union): Deklarované položky sdílejí stejný paměťový prostor.
+
+----------------------------------------------------------------
+
+6.3 Jak se definují datové typy?
+
+• typedef: Přiřazuje nové jméno existujícímu typu nebo odvození jiného typu.
+• enum: Výčtový typ pro definování vlastních celočíselných hodnot výčtem.
+• struct: Slouží pro definici struktury záznamu.
+
+----------------------------------------------------------------
+
+6.4 Jak se definují konstanty?
+
+Definují se přidáním klíčového slova const k obyčejné deklaraci proměnné.
+• Inicializace: Deklarace musí obsahovat vložení počáteční hodnoty.
+• Neměnnost: Hodnotu nelze dále v programu měnit.
+• Hodnota: Může být uvedena i jako výraz, ale musí být vyčíslitelný v době překladu (obsahuje pouze jiné konstanty).
+
+----------------------------------------------------------------
+
+6.5 Jak se vytvoří pole?
+
+Pole se vytvoří tak, že se k "obyčejné" deklaraci proměnné do hranatých závorek dopíše požadovaný počet prvků (složek). Počet složek je nutné určit v okamžiku deklarace.
+
+----------------------------------------------------------------
+
+6.6 Co je index, jaký může mít rozsah a jaké datové typy indexů lze používat?
+
+• Index: Představuje pořadové číslo prvku pole. Může jím být jakýkoliv celočíselný výraz.
+• Rozsah: V C++ mají pole vždy počáteční index I0 = 0. Pro pole o N složkách je rozsah <0, N-1>.
+
+----------------------------------------------------------------
+
+6.7 Co je záznam a jak se definuje?
+
+Záznam je datový typ (struct), který slouží ke sdružení položek rozdílných typů do jednoho celku (např. atributy osoby).
+• Definice: Pomocí klíčového slova struct.
+• Obsah: Posloupnost položek (deklarace typu a identifikátoru zakončená středníkem) uzavřená ve složených závorkách. Identifikátor nového typu se uvádí před seznam položek.
+
+================================================================
+
+7.1 K čemu slouží příkazy setw(), right a setprecision()?
+
+Jedná se o manipulátory pro formátování výstupu:
+• setw(x): Nastavuje šířku výstupu na x znaků (platí pouze pro první následující výraz).
+• right: Zarovnává hodnotu ve výstupu doprava.
+• setprecision(p): Nastavuje přesnost desetinných čísel na p číslic.
+
+----------------------------------------------------------------
+
+7.2 Ve které knihovně se uvedené příkazy nacházejí?
+
+Manipulátory setw a setprecision jsou obsaženy v knihovně iomanip.
+
+----------------------------------------------------------------
+
+7.3 Jak lze vytvářet v jazyce C++ vícerozměrná pole?
+
+V jazyce C/C++ existují pouze jednorozměrná pole. Vícerozměrná pole lze vytvořit tak, že složkou pole je opět pole (pole polí).
+
+----------------------------------------------------------------
+
+7.4 Jak se zpracovávají parametry zadané z příkazového řádku?
+
+Hodnoty jsou předávány do funkce main pomocí jejích parametrů:
+1. První parametr (int pocet): Obsahuje počet parametrů (vždy min. 1, protože nultý je název programu).
+2. Druhý parametr (char *param[]): Odkaz na pole řetězců s hodnotami jednotlivých parametrů.
+
+----------------------------------------------------------------
+
+7.5 Co je „null terminated string“ a jak se s ním pracuje?
+
 8.1 Co je staticky alokovaná a dynamicky alokovaná paměť?
 
 Staticky alokovaná paměť (Statické proměnné):
@@ -193,6 +276,7 @@ Implementace uzlu:
 2. Ukazatel na levého syna (TypUzel *Vlevo).
 3. Ukazatel na pravého syna (TypUzel *Vpravo).
 Celý strom je reprezentován ukazatelem na kořen.
+----------------------------------------------------------------
 9.1 Jakým způsobem se čte ze standardního vstupu?
 
 Standardní vstup v C++ je reprezentován objektem std::cin (knihovna iostream).
