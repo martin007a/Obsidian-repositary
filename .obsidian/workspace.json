@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "1696ba340a5304c7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
-            }
-          },
-          {
             "id": "a44ad7ab47d54caa",
             "type": "leaf",
             "state": {
@@ -237,15 +225,17 @@
   },
   "active": "7643719ff42b20cc",
   "lastOpenFiles": [
+    "imgs/Pasted image 20251213180806.png",
+    "imgs/Pasted image 20251213180703.png",
+    "Poznámky/Algoritmizace/Otázky ze cvičení.md",
+    "Poznámky/Teoretické základy informatiky/Přednaška 07.md",
     "imgs/Pasted image 20251213180001.png",
     "imgs/Pasted image 20251213175922.png",
     "imgs/Pasted image 20251213175712.png",
     "imgs/Pasted image 20251213175655.png",
     "imgs/Pasted image 20251213170924.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 06.md",
-    "Poznámky/Teoretické základy informatiky/Přednaška 07.md",
     "Tasks/To Do.md",
-    "Poznámky/Algoritmizace/Otázky ze cvičení.md",
     "Poznámky/Kom/Prezentace text.md",
     "Poznámky/Projekt/Projekt.md",
     "Poznámky/Untitled.md",
@@ -261,8 +251,6 @@
     "imgs/Pasted image 20251113144356.png",
     "imgs/Pasted image 20251113144230.png",
     "imgs/Pasted image 20251113144202.png",
-    "imgs/Pasted image 20251112162543.png",
-    "imgs/Pasted image 20251112162527.png",
     "Poznámky/Úvod do ICT/Přednaška 06.md",
     "Poznámky/Architektura Počítačů/Přednáška 08.md",
     "Poznámky/Algoritmizace/Přednáška 03.md",

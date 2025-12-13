@@ -23,23 +23,47 @@
 	Unární relace na množině $A$ je podmnožina $A^1$, což je prostě podmnožina $A$.
 	- unární relace: ℛ ⊆ 𝐴
 9 Jak lze relaci určit? 
-	- **Výčtem prvků:** $R = \{(1, 2), (2, 3), (3, 1)\}$.
-    **Charakteristickou vlastností:** $R = \{(x, y) \in \mathbb{R}^2 \mid x < y\}$.
-    
+- **Výčtem prvků:** $R = \{(1, 2), (2, 3), (3, 1)\}$.
+- **Charakteristickou vlastností:*$R = \{(x, y) \in \mathbb{R}^2 \mid x < y\}$.
 - **Maticí:** (U konečných množin) Matice s 0 a 1, kde 1 značí existenci vztahu.
-    
 - **Grafem:** Orientovaný graf, kde šipky vedou od $x$ k $y$, pokud jsou v relaci.
 10 Jak je definováno skládání relací? 
+	![[Pasted image 20251213180703.png]]
 11 Co je to inverzní relace? 
+	Nechť ℛ ⊆ 𝐴 × 𝐵 je relace. Relaci ℛ−1 ⊆ 𝐵 × 𝐴 nazveme inverzní relací k relaci ℛ právě tehdy, když pro ∀𝑎 ∈ 𝐴, ∀𝑏 ∈ 𝐵 platí, že (𝑎, 𝑏) ∈ ℛ ⟺ (𝑏, 𝑎) ∈ ℛ<sup>−1 </sup>.
 12 Jak vypočteme inverzi složené relace?
+	![[Pasted image 20251213180806.png]]
+13 Jak vypadá prázdná relace? 
+	nemá žádné prvky 
+14 Jak vypadá plná relace? 
+	Má všechny prvky kartézského součinu
+15 Jak je definována relace identity? 
+	Relace identity (často značená $id_A$ nebo $\Delta$) obsahuje pouze dvojice, kde je prvek v relaci **sám se sebou**.
+	**Zápis:** $id_A = \{(x, x) \mid x \in A\}$
+16 Co je to reflexivní relace? 
+	Každý prvek je v relaci sám se sebou. (diagonala)
+17 Co je to symetrická relace? 
+	Ke každé pokud existuje uspořádaná dvojice tak k ní existuje i dvojice opačná.
+	**Tabulka relace je symetrická podle hlavní diagonály**
+18 Co je to asymetrická relace? 
+	Relace ℛ ⊆ 𝐴 × 𝐴 je asymetrická právě tehdy, když platí (∀𝑎, 𝑏 ∈ 𝐴)(𝑎ℛ𝑏 ⇒ ¬𝑏ℛ𝑎).
+	- Situace, že by s některou uspořádanou dvojicí byla v relaci i dvojice opačná, nenastává nikdy
+	- **V tabulce nejsou na polích symetrických podle hlavní diagonály nikdy dvě 1, na hlavní diagonále jsou nuly**
+19 Co je to antisymetrická relace? 
+	Relace ℛ ⊆ 𝐴 × 𝐴 je antisymetrická právě tehdy, když platí (∀𝑎, 𝑏 ∈ 𝐴)(𝑎ℛ𝑏 ∧ 𝑏ℛ𝑎 ⇒ 𝑎 = 𝑏).
+		Je-li spolu s danou dvojicí v relaci zároveň i dvojice opačná, nutně se musí jednat o dvojice stejných prvků
+		**V tabulce relace nejsou na polích symetrických podle hlavní diagonály dvě jedničky**
+20 Co je to tranzitivní relace? 
+	Relace ℛ ⊆ 𝐴 × 𝐴 je tranzitivní právě tehdy, když platí (∀𝑎, 𝑏, 𝑐 ∈ 𝐴)(𝑎ℛ𝑏 ∧ 𝑏ℛ𝑐 ⇒ 𝑎ℛ𝑐).
+		Jsou-li v relaci prvek 𝑎 s prvkem 𝑏 a prvek 𝑏 s prvkem 𝑐, pak musí být v relaci i prvek 𝑎 s prvkem 𝑐
+21 Co je to úplná relace? 
+	Relace ℛ ⊆ 𝐴 × 𝐴 je úplná právě tehdy, když platí (∀𝑎 ∈ 𝐴)(𝑎ℛ𝑏 ∨ 𝑏ℛ𝑎).
+		Tedy každé dva prvky lze uspořádat do takové dvojice, která je prvkem relace
+22 Co je to relace ekvivalence? 
+	Relaci ℛ nazveme ekvivalence právě tehdy, když je zároveň reflexivní, symetrická a tranzitivní.
+23 Co je to relace uspořádání? 
+24 Ke kterým vlastnostem relace lze vytvořit uzávěr?
 
-5- N násobný kartézkský součin množiny
-6- libovoná podnožina na kartézkého součinu na 2 množin
-7- n množin
-8- libobolá pomnoina množiny
-10- Sládání relaci na relaci
-11- množiny vynásobím v opačném pořadí
-13- nemá žádné prvky 
 16- reflexivní relace musí obsahovat identitu
 17- pro každá (a,b) existuje (b,a)
 18- když (a,b) tak ne (b,a), diagonála všude **0**
