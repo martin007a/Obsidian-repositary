@@ -25,8 +25,11 @@ Zamyšlení
 	![[Pasted image 20251213170924.png]]
 6 Jaké vlastnosti má plná relace na neprázdné množině? 
 	 - Reflexivní
-	 - 
+	 -  Simetricka
+	 -  Trayitvni
 7 Jaké vlastnosti má prázdná relace na prázdné množině? 
+	- Refekxivni
+	- Sy
 8 Jsou všechny relace na jednoprvkové množině tranzitivní? 9 Najděte úplnou relaci na množině {𝑎, 𝑏}, která není ekvivalencí 10 Najděte všechna uspořádání na množině {𝑎, �
 1 2<sup>n</sup>
 3 2<sup>n<sup>2</sup>-n</sup>
