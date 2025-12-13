@@ -17,14 +17,20 @@
 	 Zobrazení, kde je cílová množina $B$ zcela pokryta. Každý prvek z $B$ je obrazem alespoň jednoho prvku z $A$. "Všechny židle jsou obsazené." 
 	- Je dáno zobrazení 𝑓 ∶ 𝐴 → 𝐵. Jestliže Im(𝑓 ) = 𝐵, zobrazení 𝑓 nazýváme zobrazením na množinu nebo též surjekce.
  47 Co je to bijekce? 
+	 Zobrazení, které je zároveň **injektivní i surjektivní**.
+	 - Je dáno zobrazení 𝑓 ∶ 𝐴 → 𝐵. Zobrazení 𝑓 nazveme bijekce právě tehdy, když je zároveň injekce a surjekce.
  48 Co je to složené zobrazení? 
+	 Jsou dány množiny 𝐴, 𝐵, 𝐶 a zobrazení 𝑓 ∶ 𝐴 → 𝐵 a 𝑔 ∶ 𝐵 → 𝐶. Složeným zobrazením 𝑔 ∘ 𝑓 nazveme složenou relaci 𝑔 ∘ 𝑓 .
  49 Co je to inverzní zobrazení? 
+	 Je dáno prosté zobrazení 𝑓 ∶ 𝐴 → 𝐵. Inverzním zobrazením k zobrazení 𝑓 nazveme zobrazení 𝑓 −1 ∶ Im(𝑓 ) → 𝐴 tak
  50 Jak určíme inverzi složeného zobrazení? 
  51 Co je to 𝑛-ární operace? 
  52 Co znamená, že operace je komutativní? 
  53 Co znamená, že operace je asociativní? 
  54 Co je to neutrální prvek? 
+	 Prvek $e$, který při operaci s jakýmkoli jiným prvkem $a$ tento prvek nezmění.
  55 Co je to inverzní prvek?
+	Prvek $a^{-1}$, který "vyruší" vliv prvku $a$ a výsledkem je neutrální prvek $e$.
 ## Zamyšlení
 Jsou dány množiny 𝐴, 𝐵 takové, že |𝐴| = 𝑚, |𝐵| = 𝑛. 
 1 Kolik existuje různých zobrazení 𝐴 → 𝐵? 
