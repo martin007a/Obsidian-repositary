@@ -34,9 +34,9 @@
 ## Zamyšlení
 Jsou dány množiny 𝐴, 𝐵 takové, že |𝐴| = 𝑚, |𝐵| = 𝑛. 
 1 Kolik existuje různých zobrazení 𝐴 → 𝐵? 
-	$m^n$
-2 Kolik existuje různých zobrazení 𝐵 → 𝐴?
 	$n^m$
+2 Kolik existuje různých zobrazení 𝐵 → 𝐴?
+	$m^n$
 3 Kolik z nich je injektivních? 
 - Pokud je $m > n$ (prvků v $A$ je více než v $B$):
     Podle Dirichletova principu se musí nějaké prvky "mačkat" na stejný obraz.
