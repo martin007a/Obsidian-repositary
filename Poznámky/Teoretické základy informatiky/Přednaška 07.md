@@ -25,16 +25,22 @@ Zamyšlení
 	![[Pasted image 20251213170924.png]]
 6 Jaké vlastnosti má plná relace na neprázdné množině? 
 	 - Reflexivní
-	 -  Simetricka
+	 -  Symetricka
 	 -  Trayitvni
 7 Jaké vlastnosti má prázdná relace na prázdné množině? 
 	- Refekxivni
-	- Sy
-8 Jsou všechny relace na jednoprvkové množině tranzitivní? 9 Najděte úplnou relaci na množině {𝑎, 𝑏}, která není ekvivalencí 10 Najděte všechna uspořádání na množině {𝑎, �
-1 2<sup>n</sup>
-3 2<sup>n<sup>2</sup>-n</sup>
-4 2<sup>n*(n+1)/2</sup>
-5
+	- Synetricka
+	- Antisymetrická
+	- Asymetricka
+	- Tranzitivní
+8 Jsou všechny relace na jednoprvkové množině tranzitivní? 
+	Ano
+9 Najděte úplnou relaci na množině{𝑎, 𝑏}, která není ekvivalencí
+$$\rho = \{(a, a), (b, b), (a, b)\} $$
+10 Najděte všechna uspořádání na množině {𝑎, n}
+$$\rho_1 = \{(a, a), (b, b)\}$$
+$$\rho_2 = \{(a, a), (b, b), (a, b)\}$$
+$$\rho_3 = \{(a, a), (b, b), (b, a)\}$$
 7  je refelxivní a upná
 ## Využití skládání relací v praxi
 ## Zobrazení
