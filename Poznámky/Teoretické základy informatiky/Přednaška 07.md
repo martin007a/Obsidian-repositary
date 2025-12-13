@@ -1,5 +1,38 @@
-2- množina uspořádaných n-tic
-4- 
+### Otazky
+1 Co je to uspořádaná dvojice? 
+	Uspořádaná dvojice, značená $(a, b)$, je dvojice objektů, u které **záleží na pořadí**.
+2 Co je to kartézský součin? 
+	množina uspořádaných n-tic
+3 Jaké vlastnosti má kartézský součin? 
+	- neni **komutativni**(záleží na pořadí operandů)
+	- neni **asociativni** 
+	- Platí-li |𝐴| = 𝑚, |𝐵| = 𝑛, pak |𝐴 × 𝐵| = 𝑚 ⋅ n
+	- ![[Pasted image 20251213175655.png]]
+	- ![[Pasted image 20251213175712.png]]
+4 Jak vypočítat kartézský součin více množin? 
+	![[Pasted image 20251213175922.png]]
+5 Jak je definována kartézská mocnina? 
+	![[Pasted image 20251213180001.png]]
+6 Co je to binární relace? 
+	(Binární) relací rozumíme libovolnou podmnožinu kartézského součinu dvou množin, tedy ℛ ⊆ 𝐴 × 𝐵.
+	
+7 Co je to 𝑛-ární relace? 
+	Jde tedy o podmnožinu kartézského součinu 𝑛 množin 
+		Prvky této relace jsou uspořádané $n$-tice. (Toto je základní koncept relačních databází, kde tabulka je relace a řádek je $n$-tice).
+8 Co je to unární relace?
+	Unární relace na množině $A$ je podmnožina $A^1$, což je prostě podmnožina $A$.
+	- unární relace: ℛ ⊆ 𝐴
+9 Jak lze relaci určit? 
+	- **Výčtem prvků:** $R = \{(1, 2), (2, 3), (3, 1)\}$.
+    **Charakteristickou vlastností:** $R = \{(x, y) \in \mathbb{R}^2 \mid x < y\}$.
+    
+- **Maticí:** (U konečných množin) Matice s 0 a 1, kde 1 značí existenci vztahu.
+    
+- **Grafem:** Orientovaný graf, kde šipky vedou od $x$ k $y$, pokud jsou v relaci.
+10 Jak je definováno skládání relací? 
+11 Co je to inverzní relace? 
+12 Jak vypočteme inverzi složené relace?
+
 5- N násobný kartézkský součin množiny
 6- libovoná podnožina na kartézkého součinu na 2 množin
 7- n množin
@@ -12,7 +45,7 @@
 18- když (a,b) tak ne (b,a), diagonála všude **0**
 19-
 20- 
-Zamyšlení
+### Zamyšlení
 1 Kolik různých relací existuje na 𝑛-prvkové množině? 
 	2<sup>n</sup>
 2 Kolik různých relací existuje na prázdné množině? 

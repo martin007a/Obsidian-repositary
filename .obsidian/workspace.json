@@ -216,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,6 +237,10 @@
   },
   "active": "7643719ff42b20cc",
   "lastOpenFiles": [
+    "imgs/Pasted image 20251213180001.png",
+    "imgs/Pasted image 20251213175922.png",
+    "imgs/Pasted image 20251213175712.png",
+    "imgs/Pasted image 20251213175655.png",
     "imgs/Pasted image 20251213170924.png",
     "Poznámky/Teoretické základy informatiky/Přednáška 06.md",
     "Poznámky/Teoretické základy informatiky/Přednaška 07.md",
@@ -258,10 +263,6 @@
     "imgs/Pasted image 20251113144202.png",
     "imgs/Pasted image 20251112162543.png",
     "imgs/Pasted image 20251112162527.png",
-    "imgs/Pasted image 20251112162506.png",
-    "imgs/Pasted image 20251112162433.png",
-    "imgs/Pasted image 20251112162359.png",
-    "imgs/Pasted image 20251112161601.png",
     "Poznámky/Úvod do ICT/Přednaška 06.md",
     "Poznámky/Architektura Počítačů/Přednáška 08.md",
     "Poznámky/Algoritmizace/Přednáška 03.md",
