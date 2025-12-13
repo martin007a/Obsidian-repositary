@@ -62,13 +62,9 @@
 22 Co je to relace ekvivalence? 
 	Relaci ℛ nazveme ekvivalence právě tehdy, když je zároveň reflexivní, symetrická a tranzitivní.
 23 Co je to relace uspořádání? 
+	Relaci ℛ nazveme uspořádání právě tehdy, když je zároveň reflexivní, antisymetrická a tranzitivní.
 24 Ke kterým vlastnostem relace lze vytvořit uzávěr?
-
-16- reflexivní relace musí obsahovat identitu
-17- pro každá (a,b) existuje (b,a)
-18- když (a,b) tak ne (b,a), diagonála všude **0**
-19-
-20- 
+	![[Pasted image 20251213182046.png]]
 ### Zamyšlení
 1 Kolik různých relací existuje na 𝑛-prvkové množině? 
 	2<sup>n</sup>
