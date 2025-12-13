@@ -22,7 +22,12 @@ Zamyšlení
 4 Kolik různých symetrických relací existuje na 𝑛-prvkové množině? 
 	2<sup>n*(n+1)/2</sup>
 5 Jaké vlastnosti má prázdná relace na neprázdné množině? 
-6 Jaké vlastnosti má plná relace na neprázdné množině? 7 Jaké vlastnosti má prázdná relace na prázdné množině? 8 Jsou všechny relace na jednoprvkové množině tranzitivní? 9 Najděte úplnou relaci na množině {𝑎, 𝑏}, která není ekvivalencí 10 Najděte všechna uspořádání na množině {𝑎, �
+	![[Pasted image 20251213170924.png]]
+6 Jaké vlastnosti má plná relace na neprázdné množině? 
+	 - Reflexivní
+	 - 
+7 Jaké vlastnosti má prázdná relace na prázdné množině? 
+8 Jsou všechny relace na jednoprvkové množině tranzitivní? 9 Najděte úplnou relaci na množině {𝑎, 𝑏}, která není ekvivalencí 10 Najděte všechna uspořádání na množině {𝑎, �
 1 2<sup>n</sup>
 3 2<sup>n<sup>2</sup>-n</sup>
 4 2<sup>n*(n+1)/2</sup>
