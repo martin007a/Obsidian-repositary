@@ -15,80 +15,80 @@
 	• Množina sousedů (U_G(x)): Je to sjednocení množiny následníků a množiny předchůdců. Uzly x a y se obecně nazývají sousední, jsou-li incidentní se stejnou hranou.
 
 4. Co je vstupní / výstupní okolí uzlu?
-Pro uzel x platí:
-• Výstupní okolí (H_G+(x)): Je to množina hran, které vycházejí z uzlu x.
-• Vstupní okolí (H_G-(x)): Je to množina hran, které vcházejí do uzlu x.
+	Pro uzel x platí:
+	• Výstupní okolí (H_G+(x)): Je to množina hran, které vycházejí z uzlu x.
+	• Vstupní okolí (H_G-(x)): Je to množina hran, které vcházejí do uzlu x.
 
 5. Co je vstupní / výstupní stupeň uzlu?
-Pro uzel x platí:
-• Výstupní stupeň (d_G+(x)): Je roven počtu hran ve výstupním okolí uzlu x, tedy počtu hran vedoucích z uzlu x.
-• Vstupní stupeň (d_G-(x)): Je roven počtu hran ve vstupním okolí uzlu x, tedy počtu hran vedoucích do uzlu x.
-• Celkový stupeň uzlu d_G(x) je součtem vstupního a výstupního stupně.
+	Pro uzel x platí:
+	• Výstupní stupeň (d_G+(x)): Je roven počtu hran ve výstupním okolí uzlu x, tedy počtu hran vedoucích z uzlu x.
+	• Vstupní stupeň (d_G-(x)): Je roven počtu hran ve vstupním okolí uzlu x, tedy počtu hran vedoucích do uzlu x.
+	• Celkový stupeň uzlu d_G(x) je součtem vstupního a výstupního stupně.
 
 6. Co je sled / tah / cesta / kružnice / cyklus?
-• Sled (Walk): Je střídavá posloupnost uzlů a hran u0, h1, u1, h2, u2, ..., hk, uk, kde každá hrana spojuje předchozí a následující uzel. Uzly i hrany se ve sledu mohou opakovat.
-• Tah (Trail): Je sled, ve kterém se žádná hrana neopakuje.
-• Cesta (Path): Je sled, ve kterém se neopakuje žádný vnitřní uzel. Každá cesta je také tah.
-• Kružnice (Circuit): Je to uzavřená cesta v neorientovaném grafu.
-• Cyklus (Cycle): Je to uzavřená orientovaná cesta.
+	• Sled (Walk): Je střídavá posloupnost uzlů a hran u0, h1, u1, h2, u2, ..., hk, uk, kde každá hrana spojuje předchozí a následující uzel. Uzly i hrany se ve sledu mohou opakovat.
+	• Tah (Trail): Je sled, ve kterém se žádná hrana neopakuje.
+	• Cesta (Path): Je sled, ve kterém se neopakuje žádný vnitřní uzel. Každá cesta je také tah.
+	• Kružnice (Circuit): Je to uzavřená cesta v neorientovaném grafu.
+	• Cyklus (Cycle): Je to uzavřená orientovaná cesta.
 
 7. Co je eulerovský tah?
-Eulerovský tah je takový tah, který obsahuje každou hranu grafu právě jednou. Graf je nazýván eulerovský, pokud v něm eulerovský tah existuje. Podmínkou existence uzavřeného eulerovského tahu je, že všechny uzly musí mít sudý stupeň; pro neuzavřený eulerovský tah musí mít právě dva uzly lichý stupeň.
+	Eulerovský tah je takový tah, který obsahuje každou hranu grafu právě jednou. Graf je nazýván eulerovský, pokud v něm eulerovský tah existuje. Podmínkou existence uzavřeného eulerovského tahu je, že všechny uzly musí mít sudý stupeň; pro neuzavřený eulerovský tah musí mít právě dva uzly lichý stupeň.
 
 8. Co je hamiltonovská cesta / kružnice?
-• Hamiltonovská cesta: Cesta, která prochází každým uzlem v grafu, přičemž uzly se neopakují (každým projde právě jednou).
-• Hamiltonovská kružnice: Je to uzavřená hamiltonovská cesta. Graf je hamiltonovský, jestliže v něm existuje hamiltonovská cesta.
+	• Hamiltonovská cesta: Cesta, která prochází každým uzlem v grafu, přičemž uzly se neopakují (každým projde právě jednou).
+	• Hamiltonovská kružnice: Je to uzavřená hamiltonovská cesta. Graf je hamiltonovský, jestliže v něm existuje hamiltonovská cesta.
 
 9. Co je souvislý / acyklický graf?
-• Acyklický graf: Graf, který neobsahuje kružnice (cykly).
-• Souvislý graf (neorientovaný): Je souvislý, pokud mezi každými dvěma uzly existuje sled.
-• Souvislý graf (orientovaný): Může být slabě souvislý (pokud je souvislá jeho symetrizace) nebo silně souvislý (pokud mezi každými dvěma různými uzly existuje orientovaný sled).
+	• Acyklický graf: Graf, který neobsahuje kružnice (cykly).
+	• Souvislý graf (neorientovaný): Je souvislý, pokud mezi každými dvěma uzly existuje sled.
+	• Souvislý graf (orientovaný): Může být slabě souvislý (pokud je souvislá jeho symetrizace) nebo silně souvislý (pokud mezi každými dvěma různými uzly existuje orientovaný sled).
 
 10. Co je podgraf a komponenta grafu?
-• Podgraf: Neformálně řečeno, podgraf je „část grafu“ G' = (U', H', f'). Musí platit, že U' je podmnožina uzlů U původního grafu a H' je podmnožina hran H taková, že hrany v H' spojují pouze uzly vybrané v U'. Pokud je U' = U, podgraf se nazývá faktor.
-• Komponenta grafu: Každý maximální souvislý podgraf se nazývá komponenta. Počet komponent je důležitá charakteristika grafu.
+	• Podgraf: Neformálně řečeno, podgraf je „část grafu“ G' = (U', H', f'). Musí platit, že U' je podmnožina uzlů U původního grafu a H' je podmnožina hran H taková, že hrany v H' spojují pouze uzly vybrané v U'. Pokud je U' = U, podgraf se nazývá faktor.
+	• Komponenta grafu: Každý maximální souvislý podgraf se nazývá komponenta. Počet komponent je důležitá charakteristika grafu.
 
 11. Co je (kořenový) strom a les?
-• Les: Prostý graf bez kružnic (tedy acyklický graf) se nazývá les.
-• Strom: Souvislý les se nazývá strom. Les je graf, jehož každou komponentou je strom. Strom je také minimální souvislý graf na daných uzlech.
-• Kořenový strom: Jedná se o orientovaný strom, který vznikne, jestliže se jeden uzel nazve kořenem a všechny hrany jsou orientovány směrem od tohoto kořene.
+	• Les: Prostý graf bez kružnic (tedy acyklický graf) se nazývá les.
+	• Strom: Souvislý les se nazývá strom. Les je graf, jehož každou komponentou je strom. Strom je také minimální souvislý graf na daných uzlech.
+	• Kořenový strom: Jedná se o orientovaný strom, který vznikne, jestliže se jeden uzel nazve kořenem a všechny hrany jsou orientovány směrem od tohoto kořene.
 
 --- (Druhá část) ---
 
 1. Co je cílem prohledávání grafu?
-Cílem prohledávání grafu je systematická „návštěva“ všech uzlů v grafu. „Navštívit uzel“ znamená provést s ním nějakou operaci nebo se podívat, zda nese hledanou hodnotu. Prohledávání vždy začíná od zvoleného počátečního uzlu u0. Pro souvislé grafy prohledávání slouží také jako test souvislosti grafu, jelikož jsou na konci zpracovány všechny uzly.
+	Cílem prohledávání grafu je systematická „návštěva“ všech uzlů v grafu. „Navštívit uzel“ znamená provést s ním nějakou operaci nebo se podívat, zda nese hledanou hodnotu. Prohledávání vždy začíná od zvoleného počátečního uzlu u0. Pro souvislé grafy prohledávání slouží také jako test souvislosti grafu, jelikož jsou na konci zpracovány všechny uzly.
 
 2. Čím se liší prohledávání do šířky a do hloubky?
-Prohledávání do šířky (Breadth-first search - BFS) a prohledávání do hloubky (Depth-first search - DFS) se liší především použitou datovou strukturou.
-• Prohledávání do šířky využívá datovou strukturu FIFO – frontu. Při iteraci se odebere uzel z fronty, zpracuje se, a všichni neoznačení následníci uzlu se označí a vloží do fronty.
-• Prohledávání do hloubky využívá datovou strukturu LIFO – zásobník. Při iteraci se odebere uzel ze zásobníku, zpracuje se, a všichni neoznačení následníci uzlu se označí a vloží do zásobníku.
-Oba algoritmy prohledávání jsou základní algoritmy, na nichž jsou založeny další, a liší se pouze použitou datovou strukturou.
+	Prohledávání do šířky (Breadth-first search - BFS) a prohledávání do hloubky (Depth-first search - DFS) se liší především použitou datovou strukturou.
+	• Prohledávání do šířky využívá datovou strukturu FIFO – frontu. Při iteraci se odebere uzel z fronty, zpracuje se, a všichni neoznačení následníci uzlu se označí a vloží do fronty.
+	• Prohledávání do hloubky využívá datovou strukturu LIFO – zásobník. Při iteraci se odebere uzel ze zásobníku, zpracuje se, a všichni neoznačení následníci uzlu se označí a vloží do zásobníku.
+	Oba algoritmy prohledávání jsou základní algoritmy, na nichž jsou založeny další, a liší se pouze použitou datovou strukturou.
 
 3. K čemu slouží Dijkstrův algoritmus?
-Dijkstrův algoritmus slouží k nalezení nejkratší cesty z počátečního uzlu s do všech uzlů v hranově ohodnoceném grafu. Tato cesta má nejmenší možný součet hranových ohodnocení. Je důležité, že Dijkstrův algoritmus je použitelný pouze pro grafy s nezáporným ohodnocením hran.
+	Dijkstrův algoritmus slouží k nalezení nejkratší cesty z počátečního uzlu s do všech uzlů v hranově ohodnoceném grafu. Tato cesta má nejmenší možný součet hranových ohodnocení. Je důležité, že Dijkstrův algoritmus je použitelný pouze pro grafy s nezáporným ohodnocením hran.
 
 4. Na jakém principu pracuje Dijkstrův algoritmus?
-Dijkstrův algoritmus udržuje a rozšiřuje množinu zpracovaných uzlů (Z) a nezpracovaných uzlů (N). U každého uzlu udržuje značku (d, p), kde d je délka dosud nejkratší nalezené cesty z počátečního uzlu s, a p je bezprostředně předcházející uzel na této cestě.
-Princip práce:
-5. Inicializace: Uzel s má značku (0, -), ostatní uzly (nekonečno, -) a všechny jsou nezpracované.
-6. Iterace: Dokud existují nezpracované uzly, vybere se ten nezpracovaný uzel w, který má minimální délku d.
-7. Relaxace: Provedou se relaxace všech hran vedoucích z uzlu w do jeho nezpracovaných následníků.
-8. Uzel w se nastaví jako zpracovaný.
-9. Algoritmus může být ukončen, jakmile je zpracován cílový uzel.
+	Dijkstrův algoritmus udržuje a rozšiřuje množinu zpracovaných uzlů (Z) a nezpracovaných uzlů (N). U každého uzlu udržuje značku (d, p), kde d je délka dosud nejkratší nalezené cesty z počátečního uzlu s, a p je bezprostředně předcházející uzel na této cestě.
+	Princip práce:
+	1. Inicializace: Uzel s má značku (0, -), ostatní uzly (nekonečno, -) a všechny jsou nezpracované.
+	2. Iterace: Dokud existují nezpracované uzly, vybere se ten nezpracovaný uzel w, který má minimální délku d.
+	3. Relaxace: Provedou se relaxace všech hran vedoucích z uzlu w do jeho nezpracovaných následníků.
+	4. Uzel w se nastaví jako zpracovaný.
+	5. Algoritmus může být ukončen, jakmile je zpracován cílový uzel.
 
 10. Co je to relaxace hrany?
-Relaxace hrany znamená přepočítání značky koncového uzlu hrany. Pokud je součet délky cesty do počátečního uzlu hrany a délky samotné hrany menší než aktuálně zaznamenaná délka cesty do koncového uzlu, pak se aktualizuje značka.
-Formálně: Je-li zacatek(h).d + delka(h) < konec(h).d, pak se nastaví:
-konec(h).d = zacatek(h).d + delka(h) a
-konec(h).p = zacatek(h).
+	Relaxace hrany znamená přepočítání značky koncového uzlu hrany. Pokud je součet délky cesty do počátečního uzlu hrany a délky samotné hrany menší než aktuálně zaznamenaná délka cesty do koncového uzlu, pak se aktualizuje značka.
+	Formálně: Je-li zacatek(h).d + delka(h) < konec(h).d, pak se nastaví:
+	konec(h).d = zacatek(h).d + delka(h) a
+	konec(h).p = zacatek(h).
 
 6. Na jakém principu pracuje Bellmanův-Fordův alg.?
-Bellmanův-Fordův algoritmus je založen na prohledávání grafu do šířky (resp. relaxaci v cyklech). Na rozdíl od Dijkstrova algoritmu připouští hrany se záporným ohodnocením, ale nesmí existovat cyklus záporné délky. Stejně jako Dijkstrův algoritmus najde cesty z počátečního uzlu do všech uzlů v grafu.
-Princip práce:
-7. Inicializace: Uzel s dostane značku (0, -, 0), ostatní uzly (nekonečno, -, 0), kde třetí složka značí počet hran na cestě.
-8. Iterace: Probíhá cyklus pro k < |U| (počet uzlů).
-9. U každého uzlu, který je dostupný cestou o k hranách, se provede relaxace všech výstupních hran a nastaví se počet hran na k+1.
-10. Do fronty se přidávají uzly, u nichž došlo ke změně značky.
+	Bellmanův-Fordův algoritmus je založen na prohledávání grafu do šířky (resp. relaxaci v cyklech). Na rozdíl od Dijkstrova algoritmu připouští hrany se záporným ohodnocením, ale nesmí existovat cyklus záporné délky. Stejně jako Dijkstrův algoritmus najde cesty z počátečního uzlu do všech uzlů v grafu.
+	Princip práce:
+	1. Inicializace: Uzel s dostane značku (0, -, 0), ostatní uzly (nekonečno, -, 0), kde třetí složka značí počet hran na cestě.
+	2. Iterace: Probíhá cyklus pro k < |U| (počet uzlů).
+	3. U každého uzlu, který je dostupný cestou o k hranách, se provede relaxace všech výstupních hran a nastaví se počet hran na k+1.
+	4. Do fronty se přidávají uzly, u nichž došlo ke změně značky.
 
 11. Na jakém principu pracuje Floydův-Warshallův alg.?
 Floydův-Warshallův algoritmus slouží k nalezení nejkratších cest mezi všemi dvojicemi uzlů. Také připouští hrany se záporným ohodnocením, ale nesmí existovat cyklus záporné délky.
