@@ -1,13 +1,12 @@
 1. Co je graf?
-Graf je uspořádaná trojice (U, H, f), kde U je množina uzlů, H je množina hran, a f: H -> U x U je incidenční zobrazení. Alternativní definice pro prosté grafy uvádí graf jako uspořádanou dvojici (U, H), kde U je množina uzlů a H je podmnožinou U x U (množina hran).
-
+	Graf je uspořádaná trojice (U, H, f), kde U je množina uzlů, H je množina hran, a f: H -> U x U je incidenční zobrazení. 
 2. Co to znamená, že graf je prostý / orientovaný / neorientovaný / úplný / bipartitní / rovinný?
-• Prostý graf: Graf, který neobsahuje násobné hrany, se nazývá prostý.
-• Orientovaný graf (digraf): Graf odpovídající základní definici, kde se rozlišuje počáteční a koncový uzel hrany, je orientovaný.
-• Neorientovaný graf: Jestliže ke každé hraně h existuje protisměrná hrana h', jedná se o neorientovaný graf. Dvojice těchto hran je považována za jedinou a nerozlišuje se počáteční a koncový uzel.
-• Úplný graf (Kn): Graf, ve kterém je každý uzel spojen se všemi ostatními uzly právě jednou neorientovanou hranou.
-• Bipartitní graf: Graf, jehož množina uzlů je rozložena na dvě disjunktní třídy U1 a U2 (U = U1 sjednoceno s U2 a průnik U1 a U2 je prázdný), přičemž hrany spojují jen uzly z různých tříd.
-• Rovinný graf (planární): Graf, k němuž existuje rovinné nakreslení. Rovinné nakreslení je takové zobrazení, v němž křivky zobrazující hrany mají společné nejvýše krajní body (obrazy uzlů).
+	• Prostý graf: Graf, který neobsahuje násobné hrany, se nazývá prostý.
+	• Orientovaný graf (digraf): Graf odpovídající základní definici, kde se rozlišuje počáteční a koncový uzel hrany, je orientovaný.
+	• Neorientovaný graf: Jestliže ke každé hraně h existuje protisměrná hrana h', jedná se o neorientovaný graf. Dvojice těchto hran je považována za jedinou a nerozlišuje se počáteční a koncový uzel.
+	• Úplný graf (Kn): Graf, ve kterém je každý uzel spojen se všemi ostatními uzly právě jednou neorientovanou hranou.
+	• Bipartitní graf: Graf, jehož množina uzlů je rozložena na dvě disjunktní třídy U1 a U2 (U = U1 sjednoceno s U2 a průnik U1 a U2 je prázdný), přičemž hrany spojují jen uzly z různých tříd.
+	• Rovinný graf (planární): Graf, k němuž existuje rovinné nakreslení. Rovinné nakreslení je takové zobrazení, v němž křivky zobrazující hrany mají společné nejvýše krajní body (obrazy uzlů).
 
 3. Co je množina následníků / předchůdců / sousedů uzlu?
 Pro uzel x platí:
