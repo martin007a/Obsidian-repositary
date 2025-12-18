@@ -9,10 +9,10 @@
 	• Rovinný graf (planární): Graf, k němuž existuje rovinné nakreslení. Rovinné nakreslení je takové zobrazení, v němž křivky zobrazující hrany mají společné nejvýše krajní body (obrazy uzlů).
 
 3. Co je množina následníků / předchůdců / sousedů uzlu?
-Pro uzel x platí:
-• Množina následníků (U_G+(x)): Je to množina uzlů z takových, že existuje hrana, pro kterou je x počáteční uzel a z koncový uzel (tedy f(h)=(x,z)).
-• Množina předchůdců (U_G-(x)): Je to množina uzlů z takových, že existuje hrana, pro kterou je z počáteční uzel a x koncový uzel (tedy f(h)=(z,x)).
-• Množina sousedů (U_G(x)): Je to sjednocení množiny následníků a množiny předchůdců. Uzly x a y se obecně nazývají sousední, jsou-li incidentní se stejnou hranou.
+	Pro uzel x platí:
+	• Množina následníků (U_G+(x)): Je to množina uzlů z takových, že existuje hrana, pro kterou je x počáteční uzel a z koncový uzel (tedy f(h)=(x,z)).
+	• Množina předchůdců (U_G-(x)): Je to množina uzlů z takových, že existuje hrana, pro kterou je z počáteční uzel a x koncový uzel (tedy f(h)=(z,x)).
+	• Množina sousedů (U_G(x)): Je to sjednocení množiny následníků a množiny předchůdců. Uzly x a y se obecně nazývají sousední, jsou-li incidentní se stejnou hranou.
 
 4. Co je vstupní / výstupní okolí uzlu?
 Pro uzel x platí:
