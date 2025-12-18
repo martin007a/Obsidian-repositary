@@ -91,36 +91,36 @@
 	4. Do fronty se přidávají uzly, u nichž došlo ke změně značky.
 
 11. Na jakém principu pracuje Floydův-Warshallův alg.?
-Floydův-Warshallův algoritmus slouží k nalezení nejkratších cest mezi všemi dvojicemi uzlů. Také připouští hrany se záporným ohodnocením, ale nesmí existovat cyklus záporné délky.
-Princip algoritmu je založen na opakovaném porovnávání a minimalizaci vzdáleností pomocí mezilehlého uzlu k:
-aij = min(aij, aik + akj)
-Vstupem je matice délek D, která se postupně upravuje na matici vzdáleností, a zároveň se konstruuje matice předchůdců P pro rekonstrukci cest.
+	Floydův-Warshallův algoritmus slouží k nalezení nejkratších cest mezi všemi dvojicemi uzlů. Také připouští hrany se záporným ohodnocením, ale nesmí existovat cyklus záporné délky.
+	Princip algoritmu je založen na opakovaném porovnávání a minimalizaci vzdáleností pomocí mezilehlého uzlu k:
+	aij = min(aij, aik + akj)
+	Vstupem je matice délek D, která se postupně upravuje na matici vzdáleností, a zároveň se konstruuje matice předchůdců P pro rekonstrukci cest.
 
 8. Co je minimální kostra grafu?
-Kostra grafu je takový podgraf, který obsahuje všechny uzly původního grafu a je to strom. Je to tedy souvislý acyklický podgraf, který je zároveň faktorem grafu. Cena (délka) kostry je definována jako součet délek hran.
-Cílem hledání minimální kostry je nalezení propojení všech uzlů s nejmenším možným součtem hranových ohodnocení.
+	Kostra grafu je takový podgraf, který obsahuje všechny uzly původního grafu a je to strom. Je to tedy souvislý acyklický podgraf, který je zároveň faktorem grafu. Cena (délka) kostry je definována jako součet délek hran.
+	Cílem hledání minimální kostry je nalezení propojení všech uzlů s nejmenším možným součtem hranových ohodnocení.
 
 9. Na jakém principu pracuje Kruskalův algoritmus?
-Kruskalův algoritmus slouží k nalezení minimální kostry.
-Princip práce:
-10. Inicializace: Vytvoří se graf G' tvořený pouze izolovanými uzly.
-11. Příprava: Hrany původního grafu G se seřadí vzestupně podle hranového ohodnocení.
-12. Iterace: Prochází se každá hrana v seřazeném pořadí a přidá se do G', pokud tím nevznikne v G' cyklus.
-13. Kontrola cyklu se řeší přidělením identifikátoru každé komponentě: hranu lze přidat jen tehdy, pokud identifikátory počátečního a koncového uzlu hrany jsou různé. Po přidání hrany je nutné sjednotit identifikátory uzlů v dané komponentě. Přidáním každé hrany se sníží počet komponent grafu.
+	Kruskalův algoritmus slouží k nalezení minimální kostry.
+	Princip práce:
+	1. Inicializace: Vytvoří se graf G' tvořený pouze izolovanými uzly.
+	2. Příprava: Hrany původního grafu G se seřadí vzestupně podle hranového ohodnocení.
+	3. Iterace: Prochází se každá hrana v seřazeném pořadí a přidá se do G', pokud tím nevznikne v G' cyklus.
+	4. Kontrola cyklu se řeší přidělením identifikátoru každé komponentě: hranu lze přidat jen tehdy, pokud identifikátory počátečního a koncového uzlu hrany jsou různé. Po přidání hrany je nutné sjednotit identifikátory uzlů v dané komponentě. Přidáním každé hrany se sníží počet komponent grafu.
 
 14. Jakým způsobem lze graf reprezentovat staticky?
-Graf lze staticky reprezentovat pomocí matic. Mezi statické reprezentace patří:
-• Matice sousednosti: Čtvercová matice řádu |U|, kde aij=1, pokud existuje hrana z ui do uj, a 0 jinak. Lze ji zobecnit pro multigrafy (počtem hran) a hranově ohodnocené grafy (hodnotou hrany).
-• Matice incidence: Obdélníková matice |U|x|H|. Hodnoty jsou 1 (hrana vychází), -1 (hrana vchází) nebo 2 (smyčka). Lze ji zobecnit pro hranově ohodnocené grafy bez smyček.
-• Matice délek: Používá se pro hranově ohodnocené grafy, kde aij je délka hrany, nekonečno značí neexistenci hrany a 0 pro i=j.
-• Matice vzdáleností: Obsahuje délku nejkratší cesty mezi uzly ui a uj.
-• Matice předchůdců: Zaznamenává předcházející uzel na nejkratší cestě z ui do uj.
-• Halda (heap): Statická reprezentace prioritního stromu, realizovaná jako pole, kde uzly jsou určeny indexy.
-Maticové reprezentace ovšem nemusí být paměťově efektivní, protože často obsahují mnoho nul (u řídkých grafů).
+	Graf lze staticky reprezentovat pomocí matic. Mezi statické reprezentace patří:
+	• Matice sousednosti: Čtvercová matice řádu |U|, kde aij=1, pokud existuje hrana z ui do uj, a 0 jinak. Lze ji zobecnit pro multigrafy (počtem hran) a hranově ohodnocené grafy (hodnotou hrany).
+	• Matice incidence: Obdélníková matice |U|x|H|. Hodnoty jsou 1 (hrana vychází), -1 (hrana vchází) nebo 2 (smyčka). Lze ji zobecnit pro hranově ohodnocené grafy bez smyček.
+	• Matice délek: Používá se pro hranově ohodnocené grafy, kde aij je délka hrany, nekonečno značí neexistenci hrany a 0 pro i=j.
+	• Matice vzdáleností: Obsahuje délku nejkratší cesty mezi uzly ui a uj.
+	• Matice předchůdců: Zaznamenává předcházející uzel na nejkratší cestě z ui do uj.
+	• Halda (heap): Statická reprezentace prioritního stromu, realizovaná jako pole, kde uzly jsou určeny indexy.
+	Maticové reprezentace ovšem nemusí být paměťově efektivní, protože často obsahují mnoho nul (u řídkých grafů).
 
 11. Jaké jsou možnosti dynamické reprezentace grafu?
-Dynamické reprezentace grafu využívají datové struktury jako jsou seznamy a objekty. Patří mezi ně:
-• Dynamický seznam sousedů (Adjacency List): Uzel má v sobě seznam následníků. Tato reprezentace umožňuje snadné prohledávání grafu.
-• Dynamický seznam uzlů a hran: Zahrnuje samostatný seznam pro uzly a samostatný seznam pro hrany (implementace odpovídá definici grafu G=(U,H,f)). Tato metoda je vhodná například při hledání kostry, protože poskytuje přímý přístup k seznamu hran.
-• Objektová reprezentace: Často se kombinuje s dynamickými seznamy, kde třída/objekt uzlu může obsahovat další informace o uzlu (pro uzlově ohodnocené grafy).
-Pro běžné použití jsou nejvýhodnější dynamické seznamy, případně s pomocí hashů a indexů.
+	Dynamické reprezentace grafu využívají datové struktury jako jsou seznamy a objekty. Patří mezi ně:
+	• Dynamický seznam sousedů (Adjacency List): Uzel má v sobě seznam následníků. Tato reprezentace umožňuje snadné prohledávání grafu.
+	• Dynamický seznam uzlů a hran: Zahrnuje samostatný seznam pro uzly a samostatný seznam pro hrany (implementace odpovídá definici grafu G=(U,H,f)). Tato metoda je vhodná například při hledání kostry, protože poskytuje přímý přístup k seznamu hran.
+	• Objektová reprezentace: Často se kombinuje s dynamickými seznamy, kde třída/objekt uzlu může obsahovat další informace o uzlu (pro uzlově ohodnocené grafy).
+	Pro běžné použití jsou nejvýhodnější dynamické seznamy, případně s pomocí hashů a indexů.
