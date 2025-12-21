@@ -435,3 +435,67 @@ V binárních souborech se data chápou jako sled bajtů. Jelikož bajt v C++ od
 Reference (odkaz) znamená, že formální parametr sdílí stejné místo v paměti jako skutečný parametr.
 • Zápis: Pomocí znaku & v definici.
 • Příklad: TypUzel &S.
+
+# 5. Podprogramy a jejich vlastnosti
+
+## 5.1 Čím se liší globální a lokální proměnné?
+* **Lokální proměnné**: 
+	* Jsou deklarovány uvnitř těla podprogramu a jsou použitelné pouze v něm. 
+	* Technicky jsou v okamžiku volání umístěny do **systémového zásobníku** a po ukončení podprogramu z něj odstraněny (zanikají).
+* **Globální proměnné**: 
+	* Jsou definovány vně podprogramů a jsou přístupné (viditelné) pro všechny podprogramy.
+* **Vzájemný vztah**: 
+	* Pokud má lokální proměnná stejné jméno jako globální, lokální prvek v zásobníku **zakryje** a znepřístupní prvek globální. 
+	* Manipulace s globálními prvky uvnitř podprogramu se považuje za nevhodnou praxi (tzv. **vedlejší efekt**), která vede k nepřehlednému „špagetovému kódu“.
+
+---
+
+## 5.2 Jaký je rozdíl mezi formálním a skutečným parametrem?
+* **Formální parametry**: Jsou uvedeny v hlavičce podprogramu při jeho definici. Představují „prázdná nachystaná místa“ (proměnné), se kterými pracují příkazy v těle podprogramu.
+* **Skutečné parametry**: Jsou konkrétní hodnoty nebo proměnné, které zadáváme do závorek v okamžiku, kdy podprogram voláme. Při volání dochází k **dosazení (substituci)** skutečných parametrů na místa formálních.
+
+---
+
+## 5.3 Vstupní (hodnotou) vs. vstupně-výstupní (odkazem) parametry
+* **Vstupní parametry (volané hodnotou)**: 
+	* Hodnota skutečného parametru se zkopíruje do formálního. 
+	* Skutečným parametrem může být jakýkoliv výraz. 
+	* Změny provedené uvnitř podprogramu se neprojeví vně, protože po ukončení podprogramu formální parametry zanikají.
+* **Vstupně-výstupní parametry (volané odkazem)**: 
+	* Formální parametr přebírá **adresu** skutečného parametru, takže v paměti sdílejí stejné umístění. 
+	* Skutečným parametrem musí být proměnná. Jakákoliv operace v podprogramu se přímo projeví i mimo něj.
+* **Rozlišení**: V jazyce C++ se parametry volané odkazem označují v definici hlavičky znakem ampersand `&`.
+
+---
+
+## 5.4 V čem se liší funkce od procedury?
+* **Funkce**: Jejím hlavním cílem je získání jedné výsledné hodnoty. Při definici musí mít určen datový typ této hodnoty a v těle obsahuje příkaz `return`.
+* **Procedura**: Provádí sekvenci akcí (změny v paměti, výstup dat), ale neočekává se od ní vrácení hodnoty. V C++ se definuje pomocí klíčového slova `void` a příkaz `return` v ní není povinný.
+
+---
+
+## 5.5 Co je to návratová hodnota podprogramu?
+Je to hodnota, kterou funkce po svém provedení získá a předává zpět do místa, odkud byla vyvolána. V C++ se k jejímu určení používá příkaz `return`, za nímž následuje výraz, jehož vyčíslením hodnota vznikne.
+
+---
+
+## 5.6 Co znamená, že je podprogram rekurzivní?
+Podprogram je rekurzivní, pokud na základě technického principu ve svém těle obsahuje **volání sama sebe**.
+
+---
+
+## 5.7 Jaké jsou výhody a nevýhody rekurze?
+* **Výhody**: Umožňuje automatickou úschovu dat v paměti (využívá systémový zásobník) a nabízí jednodušší řešení složitých úloh, které by jinak vyžadovaly manuální správu paměti.
+* **Nevýhody**: Při každém volání dochází k deklaraci nové lokální proměnné a uložení návratové adresy do zásobníku, což zvyšuje režii. U jednoduchých úloh může být rekurzivní zápis složitější a méně efektivní než cyklus (**iterace**).
+
+---
+
+## 5.8 Jaký je rozdíl mezi přímou a nepřímou rekurzí?
+* **Přímá rekurze**: Podprogram volá přímo sám sebe.
+* **Nepřímá rekurze**: Nastává, když podprogram A volá podprogram B a ten následně volá zpět podprogram A.
+
+---
+
+## 5.9 V čem se liší lineární a stromová rekurze?
+* **Lineární rekurze**: Funkce provede nejvýše jedno rekurzivní volání v každém kroku, čímž vytváří jednoduchý „řetěz“ volání.
+* **Stromová rekurze**: Funkce provede dvě nebo více rekurzivních volání v jednom kroku. Tato volání se dále větví a vytvářejí strukturu podobnou stromu.
