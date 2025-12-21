@@ -43,398 +43,236 @@
 	- Deklarace proměnné je **požadavek k systému, aby v paměti vyhradil prostor** pro proměnnou. Tento požadavek zajišťuje vytvoření paměťového místa, které je vnitřně propojeno s názvem (identifikátorem) proměnné![[Pasted image 20251113144541.png]]
 13. Co je a jak se připojí k danému programu knihovna? 
 	- Knihovna je v programování chápána jako **rozsáhlá množina již hotových, odladěných a optimalizovaných rekvizit**, které lze v programu opakovaně použít
-	- Hlavičkový soubor, Obsahuje **deklarace a definice**,
-		Dva tipy:
-			- **Soubory, které jsou součástí instalace překladače** (**iostream**)
-			- **Soubory, které si programátor napíše sám**
-		Připojení knihovny (hlavičkového souboru) k programu se provádí pomocí **preprocesorové direktivy** **#include**
+	- Hlavičkový soubor, obsahuje **deklarace a definice**
+	- Dva typy: **Soubory součástí instalace překladače** (`iostream`) a **soubory, které si programátor napíše sám**
+	- Připojení se provádí pomocí **preprocesorové direktivy #include**
+
 14. Co to jsou jmenné prostory v jazyce C++? 
 	- Pojem **jmenný prostor** (_namespace_) v jazyce C++ slouží k organizaci prvků a je prostorem, kam jsou uloženy určité objekty
+
 15. Která knihovna zahrnuje příkazy std::cin a std::cout ? K čemu tyto příkazy slouží? 
-	- knihovna ``iostream
-	- std::cin - vstupní proud pro standartní vstup
-	- std::cout - výstupní proud pro standartní výstup
+	- Knihovna `iostream`
+	- **std::cin** - vstupní proud pro standardní vstup
+	- **std::cout** - výstupní proud pro standardní výstup
+
 16. K čemu je v C++ konstrukce int main() ? 
-	- Konstrukce **int main()** v jazyce C++ má **zásadní význam**, protože **reprezentuje celý program** ve vztahu k operačnímu systému a zajišťuje komunikaci s ním
-	- Konstrukce `int main()` je ve své podstatě **hlavní funkce programu** nebo **hlavní podprogram programu**
+	- Konstrukce **int main()** reprezentuje **celý program** ve vztahu k operačnímu systému a zajišťuje komunikaci s ním
+	- Je to **hlavní funkce programu** nebo **hlavní podprogram programu**
+
 17. K čemu slouží příkaz return 0; ve funkci main 
-	- má zásadní význam pro **komunikaci mezi spuštěným programem a operačním systémem (OS)**
-	- **Indikace bezchybného ukončení:** Hodnota **nula (****0****)** je **domluvená hodnota**, která indikuje **bezchybné ukončení** programu*
+	- Má zásadní význam pro **komunikaci mezi spuštěným programem a operačním systémem (OS)**
+	- Hodnota **nula (0)** je domluvená hodnota, která indikuje **bezchybné ukončení** programu
+
 18. Jak zapíšete test, že vstupní hodnota se nachází v uzavřeném intervalu od 1 do 20?
-	- if(a>1 and a<=20)
+	- `if(a >= 1 && a <= 20)` (nebo s použitím `and`)
+
 19. Jak zapíšete větvení do tří větví? 
-```
-if (Podmínka 1)
-    // Příkazy pro Větev 1 (pokud je Podmínka 1 splněna)
-else if (Podmínka 2)
-    // Příkazy pro Větev 2 (pokud Podmínka 1 NENÍ, ale Podmínka 2 JE splněna) 
-else 
-    // Příkazy pro Větev 3 (pokud NENÍ splněna ani Podmínka 1 ani Podmínka 2) 
-```
-20. Co znamená zápis int i, j=5; ? Jakou hodnotu bude mít po skončení tohoto příkazu proměnná i ? nebude mi žádnou hodnotu, neinicializovanou
+	- Pomocí konstrukce `if`, `else if` a `else`
+	- Příklad:
+	  ```cpp
+	  if (Podmínka 1) // Větev 1
+	  else if (Podmínka 2) // Větev 2
+	  else // Větev 3
+	  ```
+
+20. Co znamená zápis int i, j=5; ? Jakou hodnotu bude mít po skončení tohoto příkazu proměnná i ?
+	- Deklaruje dvě proměnné; `j` je inicializována na 5, ale `i` nebude mít **žádnou hodnotu (neinicializovaná)**
+
 21. Předpokládejte, že proměnná kolik má hodnotu 10. Jak se změní hodnota proměnné Cislo po provedení příkazu Cislo= --kolik + Cislo; ? 
+	- Hodnota `kolik` se nejdříve dekrementuje na **9** a poté se přičte k aktuální hodnotě `Cislo`
+
 22. Jaký datový typ se používá pro zpracování znakové informace? 
-	-char
+	- Datový typ **char**
+
 23. Jak zapíšete test, že znaková proměnná obsahuje velké písmeno anglické abecedy? 
-	- if(a>=65 and a<=90)
+	- `if(a >= 65 && a <= 90)` (případně `if(a >= 'A' && a <= 'Z')`)
+
 24. Jak se zapisují znakové a jak řetězcové konstanty?
-	-char - ' a'
-	-string - "ahoj"
+	- Znakové: `'a'` (jednoduché apostrofy)
+	- Řetězcové: `"ahoj"` (dvojité uvozovky)
+
 25. Jak zjistíte, které ze dvou jmen je první podle abecedy? 
-	-if (a<b) - pak **a** je první podle ABECEDY
-26. Co je to rekurentní vztah
-	-Rekurentní vztah (nebo **rekurence**) je matematická rovnice, která definuje prvek **sekvence** (posloupnosti) jako funkci **jedného nebo více předchozích prvků** téže sekvence.
+	- `if (a < b)` - operátor porovnává řetězce lexikograficky, tedy podle abecedy
+
+26. Co je to rekurentní vztah?
+	- Matematická rovnice, která definuje prvek sekvence jako funkci **jednoho nebo více předchozích prvků** téže sekvence
+
 27. Čím se liší globální a lokální proměnné?
-	**Globální** je přístupná pro všechny podprogramy 
-	**Lokání** jen pro určitý programový celek
+	- **Globální** proměnná je přístupná pro všechny podprogramy
+	- **Lokální** proměnná je přístupná jen pro určitý programový celek (funkci), ve kterém byla deklarována
+
 28. Jaký je rozdíl mezi formálním a skutečným parametrem? 
-	**Formální parametr se uvádí v hlavičce podprogramu při jeho definici**
-	**Skutečná** je ta kterou zadáváme do hlavičky když program voláme
+	- **Formální parametr** se uvádí v hlavičce podprogramu při jeho definici
+	- **Skutečný parametr** je konkrétní hodnota/proměnná, kterou zadáváme při volání programu
+
 29. Existují parametry vstupní (volané hodnotou) a vstupně-výstupní (volané odkazem). Kdy se používají a jak se rozlišují? 
-	- **Vstupní** parametr je ten který, se používá v podprogramu a zanikne při jeho konci
-	 - **Vstupně-výstupní** jsou takové na které se odkážeme odkazem a všechny změní v podprogramu se na nich projeví i mimo něj
+	- **Vstupní (hodnotou)**: Hodnota se zkopíruje a zanikne při konci podprogramu
+	- **Vstupně-výstupní (odkazem)**: Sdílí místo v paměti a změny v podprogramu se projeví i mimo něj
+	- Rozlišení: V C++ se označují znakem **&** v hlavičce definice
+
 30. V čem se liší funkce od procedury? 
-	**Procedura** - Provádí sekvenci nějakých akcí proces neočekává se od ní že vrátí nějakou hodnotu (**void)**
-	**Funkce** - Je od ní vyžadováno a by vracela nějakou hodnotu. (datový typ )
+	- **Procedura**: Provádí sekvenci akcí, ale nevrací žádnou hodnotu (`void`)
+	- **Funkce**: Musí vracet hodnotu určitého datového typu (příkaz `return`)
+
 31. Co je to návratová hodnota podprogramu? 
-	- Návratová hodnota podprogramu je **hodnota, kterou funkce (typ podprogramu) po svém provedení získá a předává zpět do místa, odkud byla vyvolána**
+	- Hodnota, kterou funkce po svém provedení získá a předává zpět do místa, odkud byla vyvolána
+
 32. Co znamená, že je podprogram rekurzivní? 
-	- Rekurzivní podprogram je definován na základě jednoduchého **technického principu**: **podprogram ve svém těle obsahuje volání sama sebe**
-Formulace a ukončení rekurze
+	- Znamená to, že podprogram ve svém těle obsahuje **volání sama sebe**
+
 33. Jaké jsou výhody a nevýhody rekurze? 
-	- Nevýhody rekurze
-		Při každém zavolání rekurzivní funkce se provádí **deklarace nové lokální proměnné**
-		V některých jednoduchých případech (např. při sčítání řady hodnot) může být rekurzivní zápis algoritmu **poněkud složitější** než iterativní řešení
-	- Výhody rekurze
-		-**Automatická úschova dat:** Rekurze je výhodná, pokud úloha **vyžaduje úschovu zpracovávaných údajů v paměti**
-		-**Jednodušší řešení složitých úloh:** Rekurze je **opakování s využitím systémového zásobníku**
+	- **Nevýhody**: Při každém volání se deklaruje nová lokální proměnná v zásobníku (režie)
+	- **Výhody**: Automatická úschova dat přes systémový zásobník a jednodušší řešení složitých úloh
+
 34. Jaký je rozdíl mezi přímou a nepřímou rekurzí? 
-	 - **Přímá rekurze:** Podprogram ve svém těle přímo volá sám sebe
-	- **Nepřímá rekurze:** Nastává, když podprogram A volá podprogram B, a ten následně volá zpět podprogram A.
+	- **Přímá**: Podprogram volá přímo sám sebe
+	- **Nepřímá**: Podprogram A volá podprogram B a ten následně volá zpět podprogram A
+
 35. V čem se liší lineární a stromová rekurze?
-	- Lineární rekurze nastává, když funkce provede **nejvýše jedno** rekurzivní volání v každém kroku. V podstatě se jedná o jednoduchý, přímý "řetěz" volání.
-	- Stromová rekurze nastává, když funkce provede **dvě nebo více** rekurzivních volání v každém kroku. Každé volání se pak rozvětvuje, což vytváří strukturu podobnou stromu.
+	- **Lineární**: Funkce provede nejvýše jedno rekurzivní volání v každém kroku (řetěz)
+	- **Stromová**: Funkce provede dvě nebo více rekurzivních volání v jednom kroku (větvení)
+
 36. Co je klíčové slovo?
-	 - **Klíčové slovo** (Keyword) je identifikátor, jehož význam je pevně určen a nelze jej změnit pr. **int float While**
-37.  Čemu se vyhýbáme, pokud píšeme program spouštěný z příkazového řádku nebo skriptu operačního systému?
-	- **Používání výstupů jako prostředku dialogu s uživatelem**
+	- Identifikátor, jehož význam je v jazyce pevně určen a nelze jej změnit (např. `int`, `while`)
 
+37. Čemu se vyhýbáme, pokud píšeme program spouštěný z příkazového řádku?
+	- **Používání výstupů jako prostředku dialogu s uživatelem** (vyhýbáme se interaktivitě)
 
-## dalsi Otayky
+5.1 Čím se liší globální a lokální proměnné?
+	- **Lokální**: Deklarovány uvnitř podprogramu, v zásobníku, zanikají po ukončení
+	- **Globální**: Definované vně, přístupné všem
+	- Vzájemný vztah: Lokální proměnná se stejným jménem **zakryje** globální
+
+5.2 Jaký je rozdíl mezi formálním a skutečným parametrem?
+	- **Formální**: "Prázdná místa" v definici podprogramu
+	- **Skutečné**: Konkrétní hodnoty dosazené při volání
+
+5.3 Vstupní (hodnotou) vs. vstupně-výstupní (odkazem) parametry
+	- **Hodnotou**: Kopírování dat, změny se neprojeví vně
+	- **Odkazem**: Sdílení adresy v paměti přes znak **&**, změny se projeví vně
+
+5.4 V čem se liší funkce od procedury?
+	- **Funkce**: Vrací výsledek přes `return`
+	- **Procedura**: Provádí akce bez návratu hodnoty (`void`)
+
+5.5 Co je to návratová hodnota podprogramu?
+	- Hodnota předávaná funkcí zpět do místa vyvolání
+
+5.6 Co znamená, že je podprogram rekurzivní?
+	- Že ve svém těle volá sám sebe
+
+5.7 Jaké jsou výhody a nevýhody rekurze?
+	- **Výhody**: Snazší správa paměti pro složité úlohy
+	- **Nevýhody**: Vysoká režie zásobníku a paměti
+
+5.8 Jaký je rozdíl mezi přímou a nepřímou rekurzí?
+	- **Přímá**: A volá A
+	- **Nepřímá**: A volá B a B volá A
+
+5.9 V čem se liší lineární a stromová rekurze?
+	- **Lineární**: Jeden řetězec volání
+	- **Stromová**: Volání se větví jako koruna stromu
+
 6.1 Co je strukturovaná proměnná?
-
-Strukturované proměnné reprezentují celý celek, který je složen ze skupiny hodnot. Slouží k uchovávání velkého množství hodnot současně v paměti počítače.
-
-----------------------------------------------------------------
+	- Proměnná reprezentující celek složený ze skupiny hodnot (např. pole nebo záznam)
 
 6.2 Jaké známe strukturované datové typy?
-
-• Pole: Nejrozšířenější koncept strukturované proměnné.
-• Záznam (struct): Používá se pro seskupení položek rozdílných typů do jednoho celku.
-• Variantní záznam (union): Deklarované položky sdílejí stejný paměťový prostor.
-
-----------------------------------------------------------------
+	- **Pole**, **Záznam (struct)** a **Variantní záznam (union)**
 
 6.3 Jak se definují datové typy?
-
-• typedef: Přiřazuje nové jméno existujícímu typu nebo odvození jiného typu.
-• enum: Výčtový typ pro definování vlastních celočíselných hodnot výčtem.
-• struct: Slouží pro definici struktury záznamu.
-
-----------------------------------------------------------------
+	- Pomocí klíčových slov `typedef`, `enum` nebo `struct`
 
 6.4 Jak se definují konstanty?
-
-Definují se přidáním klíčového slova const k obyčejné deklaraci proměnné.
-• Inicializace: Deklarace musí obsahovat vložení počáteční hodnoty.
-• Neměnnost: Hodnotu nelze dále v programu měnit.
-• Hodnota: Může být uvedena i jako výraz, ale musí být vyčíslitelný v době překladu (obsahuje pouze jiné konstanty).
-
-----------------------------------------------------------------
+	- Přidáním klíčového slova **const** a okamžitou inicializací hodnoty
 
 6.5 Jak se vytvoří pole?
-
-Pole se vytvoří tak, že se k "obyčejné" deklaraci proměnné do hranatých závorek dopíše požadovaný počet prvků (složek). Počet složek je nutné určit v okamžiku deklarace.
-
-----------------------------------------------------------------
+	- Doplněním hranatých závorek s počtem složek k deklaraci typu a jména
 
 6.6 Co je index, jaký může mít rozsah a jaké datové typy indexů lze používat?
-
-• Index: Představuje pořadové číslo prvku pole. Může jím být jakýkoliv celočíselný výraz.
-• Rozsah: V C++ mají pole vždy počáteční index I0 = 0. Pro pole o N složkách je rozsah <0, N-1>.
-
-----------------------------------------------------------------
+	- **Index**: Pořadové číslo prvku (celočíselný výraz)
+	- **Rozsah**: V C++ vždy od **0** do **N-1**
 
 6.7 Co je záznam a jak se definuje?
-
-Záznam je datový typ (struct), který slouží ke sdružení položek rozdílných typů do jednoho celku (např. atributy osoby).
-• Definice: Pomocí klíčového slova struct.
-• Obsah: Posloupnost položek (deklarace typu a identifikátoru zakončená středníkem) uzavřená ve složených závorkách. Identifikátor nového typu se uvádí před seznam položek.
-
-================================================================
+	- Datový typ `struct` sdružující různé typy položek do jednoho celku
 
 7.1 K čemu slouží příkazy setw(), right a setprecision()?
-
-Jedná se o manipulátory pro formátování výstupu:
-• setw(x): Nastavuje šířku výstupu na x znaků (platí pouze pro první následující výraz).
-• right: Zarovnává hodnotu ve výstupu doprava.
-• setprecision(p): Nastavuje přesnost desetinných čísel na p číslic.
-
-----------------------------------------------------------------
+	- **setw(x)**: Šířka výstupu, **right**: Zarovnání doprava, **setprecision(p)**: Přesnost desetinných míst
 
 7.2 Ve které knihovně se uvedené příkazy nacházejí?
-
-Manipulátory setw a setprecision jsou obsaženy v knihovně iomanip.
-
-----------------------------------------------------------------
+	- Nacházejí se v knihovně **iomanip**
 
 7.3 Jak lze vytvářet v jazyce C++ vícerozměrná pole?
-
-V jazyce C/C++ existují pouze jednorozměrná pole. Vícerozměrná pole lze vytvořit tak, že složkou pole je opět pole (pole polí).
-
-----------------------------------------------------------------
+	- Vytvořením pole, jehož prvky jsou opět pole (pole polí)
 
 7.4 Jak se zpracovávají parametry zadané z příkazového řádku?
-
-Hodnoty jsou předávány do funkce main pomocí jejích parametrů:
-1. První parametr (int pocet): Obsahuje počet parametrů (vždy min. 1, protože nultý je název programu).
-2. Druhý parametr (char *param[]): Odkaz na pole řetězců s hodnotami jednotlivých parametrů.
-
-----------------------------------------------------------------
-
-7.5 Co je „null terminated string“ a jak se s ním pracuje?
+	- Předávají se jako argumenty funkce `main`: `argc` (počet) a `argv` (pole řetězců)
 
 8.1 Co je staticky alokovaná a dynamicky alokovaná paměť?
-
-Staticky alokovaná paměť (Statické proměnné):
-• Vznik: Při deklaraci (vyhradí se úsek odpovídající datovému typu).
-• Umístění: Systémový zásobník.
-• Životnost: Existují až do ukončení programového bloku, kde byly deklarovány.
-• Velikost: Pevná, daná datovým typem.
-• Přístup: Jsou uloženy na adrese symbolicky vyjádřené jejich identifikátorem.
-
-Dynamicky alokovaná paměť (Dynamické proměnné):
-• Vznik: Až za běhu programu speciálním příkazem.
-• Umístění: Větší část paměti zvaná hromada (halda/heap).
-• Velikost: Lze určit až v okamžiku vytvoření.
-• Přístup: Nemají vlastní identifikátor, přistupuje se k nim přes adresy uložené v ukazatelích.
-
-----------------------------------------------------------------
+	- **Statická**: Vzniká při deklaraci v zásobníku (stack), pevná velikost
+	- **Dynamická**: Vzniká za běhu na hromadě (heap) pomocí `new`, flexibilní
 
 8.2 Jaké zásadní výhody má dynamicky alokovaná paměť?
-
-1. Flexibilní životnost: Proměnná vzniká jen když je potřeba a lze ji kdykoliv zrušit (uvolnit paměť).
-2. Variabilní velikost: Velikost lze určit až v okamžiku vytvoření.
-3. Efektivní správa velkých dat: I velká struktura zabírá v zásobníku jen místo pro adresu (ukazatel), což obchází omezení paměti zásobníku.
-4. Komplexní struktury: Umožňuje spojování do rozsáhlých dynamických struktur.
-
-----------------------------------------------------------------
+	- Flexibilní životnost a variabilní velikost určitelná až za běhu
 
 8.3 Jaké nevýhody má práce s dynamicky alokovanou pamětí?
-
-1. Režie přístupu: Získání hodnoty vyžaduje dvojí přístup do paměti (nejprve získání adresy z ukazatele, poté přístup k hodnotě).
-2. Režie ukazatelů: Nutnost správy ukazatelů pro svázání struktury.
-3. Neefektivita u jednoduchých typů: U jednoduchých datových typů je tento způsob málo efektivní.
-
-----------------------------------------------------------------
+	- Režie při přístupu přes ukazatele a nutnost ruční správy
 
 8.4 Jak se vytváří datový typ ukazatel?
-
-Ukazatel je proměnná obsahující adresu.
-• Deklarace: Použitím znaku hvězdička (*) mezi datovým typem a identifikátorem.
-• Příklad: "int *A" (určitý ukazatel, ukazuje na typ int).
-• Obecný ukazatel: Deklaruje se pomocí prázdného typu "void *X".
-
-----------------------------------------------------------------
+	- Použitím znaku **\*** mezi typem a jménem (např. `int *p;`)
 
 8.5 Jak se přistoupí k proměnné, na niž ukazuje nějaký ukazatel?
-
-Přístup se provádí tzv. dereferencí:
-• Základní přístup: Operátor hvězdička (*) před proměnnou (např. *A).
-• Přístup ke složkám struktury (záznamu):
-  a) Pomocí závorek a tečky: (*Z).slozka
-  b) Pomocí operátoru šipka (preferované): Z->slozka
-
-----------------------------------------------------------------
-
-8.6 Jaké operace se používají u fronty a jaké u zásobníku?
-
-Podle poskytnutých materiálů nejsou konkrétní názvy operací (jako push/pop) explicitně uvedeny.
-• Obecná manipulace: Se seznamem se manipuluje typicky pouze s prvky na začátku nebo na konci.
-• Systémový zásobník: Využívá se pro ukládání návratových adres a lokálních proměnných při volání podprogramů (zejména u rekurze).
-
-----------------------------------------------------------------
+	- Pomocí dereference `*p` nebo operátoru šipka `->` u struktur
 
 8.7 Co je binární strom a jak se implementuje každý jeho uzel?
+	- Dynamická struktura uzlů, kde každý má data a ukazatele na levého a pravého syna
 
-Binární strom:
-Pravidelný strom, kde je počet následníků uzlu omezen nejvýše na dva. Častou variantou je Binární vyhledávací strom (BVS), kde platí uspořádání: Levý syn < Otec < Pravý syn.
-
-Implementace uzlu:
-Řešena pomocí dynamické struktury (záznamu), která obsahuje:
-1. Datovou složku (TypData Data nebo void *Data).
-2. Ukazatel na levého syna (TypUzel *Vlevo).
-3. Ukazatel na pravého syna (TypUzel *Vpravo).
-Celý strom je reprezentován ukazatelem na kořen.
-----------------------------------------------------------------
 9.1 Jakým způsobem se čte ze standardního vstupu?
-
-Standardní vstup v C++ je reprezentován objektem std::cin (knihovna iostream).
-• Pro jednoduchý vstup dat se používá operátor vložení >> (např. std::cin >> proměnná;).
-• Dochází k automatické konverzi ze znakového tvaru do binárního.
-• Operátor >> standardně vynechává bílé znaky (mezery, entery).
-• Pro čtení znaků včetně bílých znaků lze využít metodu cin.get(ch);.
-
-----------------------------------------------------------------
+	- Přes `std::cin` pomocí operátoru `>>` nebo metody `get()`
 
 9.2 Jakým způsobem se vypisuje na standardní výstup a na standardní chybový výstup?
-
-• Standardní výstup: Objekt std::cout. Používá se operátor << (např. std::cout << výraz;).
-• Standardní chybový výstup: Objekt std::cerr (pro chyby) a std::clog (pro logy).
-• Odřádkování: Používá se znak \n nebo manipulátor std::endl.
-
-----------------------------------------------------------------
+	- Standardní výstup: `std::cout`, Chybový výstup: `std::cerr` (nebo `std::clog`)
 
 9.3 K čemu slouží operace cin, cout, cerr, clog a v jaké knihovně se nacházejí?
-
-Nacházejí se v knihovně iostream a jmenném prostoru std.
-• std::cin: Vstupní proud pro standardní vstup.
-• std::cout: Výstupní proud pro standardní výstup.
-• std::cerr: Standardní chybový výstup (console error), určený pro chybová hlášení.
-• std::clog: Výstup pro záznamy (console log), např. info o úspěšném dokončení.
-
-----------------------------------------------------------------
+	- Slouží pro vstupy, výstupy a chybová hlášení; jsou v knihovně **iostream**
 
 9.4 K čemu dochází při výměně dat mezi standardními soubory a operační pamětí?
-
-Standardní soubory jsou logicky textové. Dochází k automatické konverzi:
-• Při čtení (vstup): Konverze ze znakové podoby na binární podobu v paměti (aby šlo data zpracovat).
-• Při zápisu (výstup): Konverze obsahu paměti na posloupnost znaků (člověkem čitelná podoba).
-
-================================================================
+	- K automatické konverzi mezi znakovou (textovou) a binární podobou dat
 
 10.1 K čemu slouží příkazy setw(), right a setprecision()?
-
-Příkazy pro formátování výstupu:
-• setw(x): Nastavuje šířku výstupu na x znaků (platí jen pro nejbližší výraz).
-• right: Zarovná hodnotu ve výstupu doprava.
-• setprecision(p): Nastavuje přesnost desetinných čísel na p číslic.
-
-----------------------------------------------------------------
-
-10.2 Ve které knihovně se uvedené příkazy nacházejí?
-
-Manipulátory setw, setprecision (a setfill) jsou v knihovně iomanip.
-
-----------------------------------------------------------------
+	- Formátování výstupu (šířka, zarovnání, přesnost) v knihovně `iomanip`
 
 10.3 Jak se definuje datový typ záznam?
-
-Používá se klíčové slovo struct pro seskupení položek rozdílných typů s logickou souvislostí.
-• Syntax: struct Identifikátor { typ polozka; ... };
-• Příklad:
-  struct Osoba { 
-      string Jmeno; 
-      int Plat; 
-      float Hmotnost; 
-  };
-
-----------------------------------------------------------------
+	- Klíčovým slovem `struct` a výčtem položek ve složených závorkách
 
 10.4 Jak se přistupuje ke složkám záznamu?
-
-Pomocí tečkové notace: jméno_proměnné.jméno_složky.
-Příklad: Franta.Jmeno
-
-----------------------------------------------------------------
+	- Pomocí tečkové notace: `jmeno_promenne.jmeno_slozky`
 
 10.5 Jaké řadicí algoritmy s kvadratickou časovou složitostí znáte?
-
-Mají složitost O(N^2) a jsou vhodné spíše pro malá data.
-• Přímý výběr (Select sort)
-• Bublinové řazení (Bubble sort)
-• Přímé vkládání (Insert sort)
-
-================================================================
+	- **Select sort**, **Bubble sort** a **Insert sort**
 
 11.1 Jak se vypočítá adresa z indexu pole a s jakou časovou složitostí výpočet probíhá?
-
-• Vzorec: A = PA + (I - I0) * V
-  (Kde PA je počátek pole, I je index, I0 je první index (v C++ 0), V je velikost složky).
-• Složitost: Výpočet probíhá s konstantní časovou složitostí O(1).
-
-----------------------------------------------------------------
-
-11.2 Jaký je obecný postup experimentálního stanovení časové složitosti?
-
-Měří se spotřebovaný čas (nebo prostor) pro různé velikosti vstupních dat (N). Výsledky se zanesou do tabulky a na jejich základě se interpoluje/extrapoluje charakter složitosti.
-
-----------------------------------------------------------------
+	- Pomocí vzorce `A = PA + (I - I0) * V`; složitost je konstantní **O(1)**
 
 11.3 Co je množina (multimnožina) a jaký je princip její implementace?
+	- Datová struktura pro unikátní (množina) nebo opakované (multimnožina) prvky; implementace polem četností nebo bool hodnot
 
-• Množina (Set): Prvky se neopakují. Implementace pomocí pole bool hodnot (index = prvek, hodnota = je/není).
-• Multimnožina (Multiset): Prvky se mohou opakovat. Implementace pomocí pole čísel (index = prvek, hodnota = počet výskytů).
+11.4 Které řadicí metody patří k lineárně logaritmickým?
+	- **Heap sort**, **Quick sort** a **Merge sort** ($O(N \cdot \log N)$)
 
-----------------------------------------------------------------
-
-11.4 Které řadicí metody patří k lineárně logaritmickým a jaké mají vlastnosti?
-
-Složitost O(N * logN).
-• Metody: Řazení hromadou (Heap sort), Quick sort, Merge sort, řazení binárním stromem.
-• Vlastnosti:
-  - Quick sort: Jeden z nejrychlejších obecně, průměrně k*N*logN.
-  - Heap sort: Práce in situ (bez další paměti), nestabilní.
-  - Merge sort: Sekvenční přístup, dříve vhodný pro vnější média.
-
-----------------------------------------------------------------
-
-11.5 Jaký je princip řazení množinou? Jaké výhody a nevýhody toto řazení má?
-
-• Princip: Data se vloží do multimnožiny (pole četností) a pak se sekvenčně vyčtou.
-• Výhoda: Nejnižší složitost O(N) - lineární.
-• Nevýhoda: Není univerzální (data musí sloužit jako indexy), velká paměťová náročnost při velkém rozsahu hodnot.
-
-================================================================
+11.5 Jaký je princip řazení množinou?
+	- Data se vloží do pole četností a sekvenčně vyčtou; složitost je lineární **O(N)**
 
 12.1 Jak se jmenuje knihovna umožňující práci s uživatelskými soubory?
+	- Knihovna **fstream**
 
-Knihovna fstream.
+12.2 Jakým způsobem se provede otevření binárního souboru?
+	- Použitím příznaku `ios::binary` v metodě `open()`
 
-----------------------------------------------------------------
-
-12.2 Jakým způsobem se provede otevření binárního (netextového) souboru?
-
-Při otevření (metoda open) se musí specifikovat režim ios::binary.
-Příklad: Vstupy.open("../data/zdroje.txt", ios::binary);
-
-----------------------------------------------------------------
-
-12.3 Jakými operacemi se provádí čtení a zápis dat v binárním souboru?
-
-• Čtení: soubor.read(pole, M); (nutné přetypovat na char*). Počet přečtených bajtů zjistí gcount().
-• Zápis: soubor.write(pole, M); (nutné přetypovat na char*).
-
-----------------------------------------------------------------
-
-12.4 Co znamená get pointer (put pointer) a jakými operacemi jej lze zjisti nebo nastavit?
-
-• Get pointer: Pozice pro čtení. Zjištění: tellg(), Nastavení: seekg(index).
-• Put pointer: Pozice pro zápis. Zjištění: tellp(), Nastavení: seekp(index).
-
-----------------------------------------------------------------
-
-12.5 Co je bajtové (znakové) pole?
-
-V binárních souborech se data chápou jako sled bajtů. Jelikož bajt v C++ odpovídá typu char, každé pole typu char (znakové pole) lze chápat jako bajtové pole.
-
-----------------------------------------------------------------
+12.4 Co znamená get pointer a put pointer?
+	- **Get pointer**: Pozice pro čtení (`tellg`), **Put pointer**: Pozice pro zápis (`tellp`)
 
 12.6 Co je reference a jak se zapisuje?
-
-Reference (odkaz) znamená, že formální parametr sdílí stejné místo v paměti jako skutečný parametr.
-• Zápis: Pomocí znaku & v definici.
-• Příklad: TypUzel &S.
+	- Odkaz na existující proměnnou sdílející stejnou paměť; zapisuje se pomocí znaku **&**
 
 # 5. Podprogramy a jejich vlastnosti
 
