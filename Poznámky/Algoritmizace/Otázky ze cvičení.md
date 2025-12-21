@@ -41,40 +41,37 @@
 	- 1. **Manipulace s daty:** Proměnné slouží jako **paměťová místa**, se kterými je následně možné **manipulovat při zpracování dat**.
 	- **Uchování hodnoty:** V proměnné se uchovává **hodnota** odpovídající jejímu datovému typu
 	- Deklarace proměnné je **požadavek k systému, aby v paměti vyhradil prostor** pro proměnnou. Tento požadavek zajišťuje vytvoření paměťového místa, které je vnitřně propojeno s názvem (identifikátorem) proměnné![[Pasted image 20251113144541.png]]
-13. Co je a jak se připojí k danému programu knihovna? 
-	- Knihovna je v programování chápána jako **rozsáhlá množina již hotových, odladěných a optimalizovaných rekvizit**, které lze v programu opakovaně použít
-	- Hlavičkový soubor, obsahuje **deklarace a definice**
-	- Dva typy: **Soubory součástí instalace překladače** (`iostream`) a **soubory, které si programátor napíše sám**
-	- Připojení se provádí pomocí **preprocesorové direktivy #include**
+## 13. Co je a jak se připojí k danému programu knihovna?
+* **Knihovna**: V programování chápána jako rozsáhlá množina již hotových, odladěných a optimalizovaných rekvizit, které lze v programu opakovaně použít.
+* **Hlavičkový soubor**: Obsahuje deklarace a definice; rozlišujeme soubory překladače (např. `<iostream>`) nebo soubory vlastní (např. `"moje.h"`).
+* **Připojení**: Provádí se pomocí preprocesorové direktivy `#include` na začátku zdrojového kódu.
 
-14. Co to jsou jmenné prostory v jazyce C++? 
-	- Pojem **jmenný prostor** (_namespace_) v jazyce C++ slouží k organizaci prvků a je prostorem, kam jsou uloženy určité objekty
+## 14. Co to jsou jmenné prostory v jazyce C++?
+* **Jmenný prostor**: (Namespace) slouží k organizaci prvků a je prostorem, kam jsou uloženy určité objekty, aby se zabránilo kolizím stejných názvů v různých částech kódu.
 
-15. Která knihovna zahrnuje příkazy std::cin a std::cout ? K čemu tyto příkazy slouží? 
-	- Knihovna `iostream`
-	- **std::cin** - vstupní proud pro standardní vstup
-	- **std::cout** - výstupní proud pro standardní výstup
+## 15. Která knihovna zahrnuje příkazy std::cin a std::cout? K čemu tyto příkazy slouží?
+* **Knihovna iostream**: Základní knihovna pro standardní vstup a výstup.
+* **std::cin**: Vstupní proud sloužící pro načítání dat ze standardního vstupu (zpravidla klávesnice).
+* **std::cout**: Výstupní proud sloužící pro výpis dat na standardní výstup (zpravidla monitor).
 
-16. K čemu je v C++ konstrukce int main() ? 
-	- Konstrukce **int main()** reprezentuje **celý program** ve vztahu k operačnímu systému a zajišťuje komunikaci s ním
-	- Je to **hlavní funkce programu** nebo **hlavní podprogram programu**
+## 16. K čemu je v C++ konstrukce int main()?
+* **Význam**: Reprezentuje celý program ve vztahu k operačnímu systému a zajišťuje komunikaci s ním.
+* **Podstata**: Je to hlavní funkce programu neboli hlavní podprogram, kde začíná samotné vykonávání kódu.
 
-17. K čemu slouží příkaz return 0; ve funkci main 
-	- Má zásadní význam pro **komunikaci mezi spuštěným programem a operačním systémem (OS)**
-	- Hodnota **nula (0)** je domluvená hodnota, která indikuje **bezchybné ukončení** programu
+## 17. K čemu slouží příkaz return 0; ve funkci main?
+* **Komunikace**: Má zásadní význam pro komunikaci mezi spuštěným programem a operačním systémem (OS).
+* **Indikace**: Hodnota nula (0) je domluvená hodnota, která indikuje bezchybné ukončení programu.
 
-18. Jak zapíšete test, že vstupní hodnota se nachází v uzavřeném intervalu od 1 do 20?
-	- `if(a >= 1 && a <= 20)` (nebo s použitím `and`)
+## 18. Jak zapíšete test, že vstupní hodnota se nachází v uzavřeném intervalu od 1 do 20?
+* **Zápis**: Používá se logický operátor AND: `if(a >= 1 && a <= 20)` nebo `if(a >= 1 and a <= 20)`.
 
-19. Jak zapíšete větvení do tří větví? 
-	- Pomocí konstrukce `if`, `else if` a `else`
-	- Příklad:
-	  ```cpp
-	  if (Podmínka 1) // Větev 1
-	  else if (Podmínka 2) // Větev 2
-	  else // Větev 3
-	  ```
-
+## 19. Jak zapíšete větvení do tří větví?
+* **Konstrukce**: Používá se struktura `if`, `else if` a `else`.
+```cpp
+if (Podmínka 1) // Příkazy pro Větev 1
+else if (Podmínka 2) // Příkazy pro Větev 2
+else // Příkazy pro Větev 3	  ```
+```
 20. Co znamená zápis int i, j=5; ? Jakou hodnotu bude mít po skončení tohoto příkazu proměnná i ?
 	- Deklaruje dvě proměnné; `j` je inicializována na 5, ale `i` nebude mít **žádnou hodnotu (neinicializovaná)**
 
@@ -337,3 +334,4 @@ Podprogram je rekurzivní, pokud na základě technického principu ve svém tě
 ## 5.9 V čem se liší lineární a stromová rekurze?
 * **Lineární rekurze**: Funkce provede nejvýše jedno rekurzivní volání v každém kroku, čímž vytváří jednoduchý „řetěz“ volání.
 * **Stromová rekurze**: Funkce provede dvě nebo více rekurzivních volání v jednom kroku. Tato volání se dále větví a vytvářejí strukturu podobnou stromu.
+
