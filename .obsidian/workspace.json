@@ -35,7 +35,8 @@
               "title": "Otázky ze cvičení"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,12 +210,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7643719ff42b20cc",
+  "active": "a44ad7ab47d54caa",
   "lastOpenFiles": [
+    "Tasks/To Do.md",
     "Poznámky/Algoritmizace/Otázky ze cvičení.md",
     "Poznámky/Algoritmizace/Otázky se cvičení.md",
     "Poznámky/Algoritmizace/Přednáška 07.md",
-    "Tasks/To Do.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 08.md",
     "Poznámky/Teoretické základy informatiky/Přednaška 07.md",
     "Poznámky/Teoretické základy informatiky/Přednáška 09.md",
