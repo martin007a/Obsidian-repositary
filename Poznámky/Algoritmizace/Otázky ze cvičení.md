@@ -209,6 +209,32 @@ Podprogram je rekurzivní, pokud na základě technického principu ve svém tě
 * **Rozsah**: V C++ začínají indexy vždy nulou; pro pole o N prvcích je rozsah od 0 do N-1.
 ## 6.7 Co je záznam a jak se definuje?
 * **Definice**: Datový typ (`struct`) pro sdružení položek rozdílných typů; položky jsou uzavřeny ve složených závorkách a identifikátor typu se uvádí před nimi.
+## 6.8 Jak se uloží řada vstupních hodnot do pole?
+* **Postup uložení**: Probíhá v cyklu (typicky `while`), přičemž je nutné provést několik kroků.
+* **Deklarace**: Nejdříve se deklaruje pole s dostatečnou kapacitou $N$.
+* **Čítač**: Použije se proměnná (např. `Pocet`), která sleduje index aktuální složky a celkový počet načtených prvků.
+* **Podmínka čtení**: Musí hlídat kapacitu pole i dostupnost dat na vstupu: `while (Pocet < N && cin >> P[Pocet])`.
+* **Inkrementace**: Po každém úspěšném načtení hodnoty se čítač zvýší.0
+## 6.9 Jaký je princip algoritmu pro zjištění počtu podprůměrných hodnot vstupu?
+* **Dvouprůchodový algoritmus**: Tento problém vyžaduje dva průchody, protože data nelze ze vstupu číst více než jednou.
+* **První průchod**: Data se čtou, ukládají do pole a současně se vypočítává jejich součet a počet.
+* **Mezikrok**: Po načtení všech dat se vypočítá aritmetický průměr jako $\text{součet} / \text{počet}$.
+* **Druhý průchod**: Program prochází uložené pole prvek po prvku a porovnává je s průměrem; pokud je hodnota menší, zvýší se čítač podprůměrných hodnot.
+## 6.10 Jak lze vypočítat ze dvou vstupních vektorů jejich skalární součin?
+* **Princip výpočtu**: Vychází se ze zobecněného algoritmu pro práci s polem, kde se operuje s každým prvkem.
+* **Algoritmus**: V cyklu `for` se vynásobí stejnolehlé prvky obou vektorů (např. $V1[i] \times V2[i]$).
+* **Sumace**: Tyto dílčí součiny se postupně přičítají do sumární proměnné, která byla na začátku inicializována na nulu.
+## 6.11 Jak se předává pole jako parametr podprogramu?
+* **Způsob předání**: V jazyce C++ se pole vždy předává odkazem, respektive se předává adresa jeho první složky.
+* **Zápis v hlavičce**: Pole se zapíše pomocí identifikátoru typu nebo jako datový typ s prázdnými hranatými závorkami (např. `float V[]`).
+* **Informace o velikosti**: Protože podprogram dostává jen adresu, musí se s polem předat i celočíselná hodnota udávající počet obsazených položek.
+* **Vedlejší efekt**: Jakákoliv změna složek pole uvnitř podprogramu se přímo projeví i v původní proměnné.
+## 6.12 Jak se definuje pole záznamů?
+* **Postup definice**: Nejprve se nadefinuje datový typ záznamu (`struct`) a následně se vytvoří pole, jehož bází je tento nadefinovaný typ.
+* **Příklad**: `typedef Osoba TypSeznam[N];`, kde `Osoba` je dříve definovaná struktura
+## 6.13 Jak se přistoupí k proměnné (složce záznamu), která je složkou pole?
+* **Způsob přístupu**: Používá se kombinace indexace pole pomocí hranatých závorek a tečkové notace pro přístup k položce záznamu.
+* **Syntaxe**: Zápis vypadá jako `JmenoPole[index].JmenoSlozky` (např. `Sklad[i].CenaKus`).
 ## 7.1 K čemu slouží příkazy setw(), right a setprecision()?
 * **setw(x)**: Nastavuje šířku pole pro následující výstup na x znaků.
 * **right**: Zarovnává vypisovanou hodnotu doprava v rámci nastavené šířky.
