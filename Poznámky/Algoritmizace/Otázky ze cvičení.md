@@ -247,6 +247,26 @@ Podprogram je rekurzivní, pokud na základě technického principu ve svém tě
 * **Předávání**: Hodnoty jsou předávány do funkce `main` pomocí parametrů: `int argc` (počet parametrů) a `char *argv[]` (pole řetězců s hodnotami).
 ## 7.5 Co je „null terminated string“ a jak se s ním pracuje?
 * **Definice**: Je to pole znaků (`char`), kde konec textu označuje speciální nulový znak `\0`. Takto pracují standardní funkce pro řetězce v C.
+## 7.6 Proč je výhodné definovat maximální rozměry pole jako konstanty?
+- **Výhody**: Především snadná údržba a přehlednost kódu. Klíčové slovo `const` zajišťuje, že se hodnota v průběhu programu nezmění.
+- **Správa kódu**: Při potřebě změnit kapacitu pole stačí upravit hodnotu na **jediném místě**. Změna se automaticky projeví ve všech deklaracích a cyklech, které konstantu používají.
+- **Prevence chyb**: Odpadá riziko zapomenutí úpravy literálu (např. čísla 1000) na některém z mnoha míst nebo chybná změna čísla, které má v jiném kontextu jiný význam.
+## 7.7 Jak vytvoříme vícerozměrné pole?
+- **Princip**: V C++ technicky existují pouze jednorozměrná pole. Vícerozměrnosti se dosahuje tak, že **prvkem pole je další pole**.
+- **Struktura**: Dvourozměrné pole (matice) je polem řádků, kde každý řádek je samostatné pole.
+- **Přístup k prvkům**: K jednotlivým hodnotám přistupujeme pomocí více indexů v hranatých závorkách, například `matice[i][j]`.
+## 7.8 K čemu je vhodný datový typ pro řádek matice?
+- **Logické strukturování**: Definice typu (např. pomocí `typedef` nebo `using`) umožňuje definovat matici přehledně jako „pole řádků“.
+- **Čitelnost**: Zpřehledňuje zápis kódu a usnadňuje pochopení hierarchie datové struktury.
+- **Předávání do funkcí**: Výrazně zjednodušuje hlavičky podprogramů (funkcí) a zajišťuje typovou bezpečnost při práci s částmi matice.
+## 7.9 Jak pracuje algoritmus na součin matic?
+- **Časová složitost**: Násobení matic má kubickou složitost $O(N^3)$, což znamená, že náročnost roste se třetí mocninou řádu matice.
+- **Implementace**: Vyžaduje **tři vnořené cykly**. První dva cykly procházejí řádky a sloupce výsledné matice, zatímco nejvnitřnější třetí cyklus provádí skalární součin řádku první matice a sloupce druhé matice.
+- **Datové typy**: Pro matice s desetinnými čísly se v těchto cyklech používají typy `float` nebo `double`.
+## 7.10 Jak vytvořit zarovnaný textový výstup matice?
+- **Knihovna**: Používají se formátovací manipulátory ze standardní knihovny `<iomanip>`.
+- **Zarovnání**: Manipulátor `setw(x)` nastaví pevnou šířku pole na `x` znaků a manipulátor `right` zajistí zarovnání hodnoty k pravému okraji tohoto prostoru.
+- **Postup výpisu**: Matici procházíme vnořenými cykly po řádcích. Po vypsání všech prvků v řádku vložíme znak nového řádku (`\n` nebo `std::endl`), aby se další řada prvků vypsala pod tu předchozí.
 ## 8.1 Co je staticky alokovaná a dynamicky alokovaná paměť?
 * **Statická paměť**: Vzniká při deklaraci v systémovém zásobníku, má pevnou velikost a existuje do konce bloku. Přistupuje se k ní přes identifikátor.
 * **Dynamická paměť**: Vzniká za běhu programu na hromadě (halda) pomocí příkazu `new`. Velikost lze určit až v okamžiku vytvoření a přistupuje se k ní přes ukazatele.
