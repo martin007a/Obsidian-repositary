@@ -283,6 +283,48 @@ Podprogram je rekurzivní, pokud na základě technického principu ve svém tě
 ## 8.7 Co je binární strom a jak se implementuje každý jeho uzel?
 * **Binární strom**: Struktura, kde každý uzel má nanejvýš dva následníky (levého a pravého syna).
 * **Implementace**: Uzel se implementuje jako `struct` obsahující data a dva ukazatele na syny stejného typu.
+## 8.8 V čem se liší implementace zásobníku pomocí pole a pomocí dynamické struktury?
+Hlavní rozdíly spočívají ve správě paměti a způsobu přístupu k datům.
+* **Implementace polem (statická)**:
+    * Vyžaduje, abychom již v okamžiku deklarace určili **pevnou velikost (kapacitu)**.
+    * **Rizika**: Pokud zvolíme příliš malou velikost, hrozí přetečení; při příliš velké dochází k plýtvání pamětí.
+    * **Výhoda**: Přístup k prvkům je velmi efektivní díky přímému výpočtu adresy z indexu.
+* **Dynamická implementace (seznamem)**:
+    * Zásobník vzniká v části paměti zvané **hromada (halda)** a jeho velikost je flexibilní – roste a zmenšuje se podle potřeby.
+    * Prvky jsou v paměti spojeny pomocí ukazatelů.
+    * **Nevýhoda**: Existuje určitá paměťová režie (každý prvek musí obsahovat adresu následníka) a nutnost minimálně dvojího přístupu do paměti pro získání hodnoty.
+## 8.9 Jak lze vyřešit efektivní práci s oběma konci fronty?
+Pro efektivní manipulaci s frontou (přidávání na konec a odebírání ze začátku) je nezbytné udržovat dva ukazatele:
+* **Potřebné ukazatele**: Kromě hlavního ukazatele na začátek (**Start**) musíme udržovat i ukazatel na současný poslední prvek (**Konec**).
+* **Výhoda**: Díky ukazateli na konec nemusíme při každém vkládání procházet celý seznam od začátku, abychom našli poslední prvek. To dramaticky zrychluje operaci.
+* **Alternativní řešení**:
+    * **Obousměrný seznam**: Každý prvek má ukazatele na následníka i předchůdce.
+    * **Kruhový seznam**: Poslední prvek ukazuje zpět na první.
+## 8.10 Jaká data lze umístit do složek dynamického seznamu?
+Složka dynamického seznamu (uzel) se obvykle skládá z datové části a ukazatelové části. Do datové části lze umístit:
+* **Jednoduché datové typy**: Např. `int`, `float`.
+* **Strukturované typy**: Například záznamy (`struct`), které obsahují více položek.
+* **Ukazatele na data**: Odkazy na data alokovaná v jiné části paměti.
+* **Obecný ukazatel (`void*`)**: Pomocí něj lze vytvořit univerzální strukturu, do níž lze vložit odkaz na jakákoliv data.
+## 8.11 Co se stane, neuvolníme-li při odebírání prvků z dynamického seznamu paměť?
+Dynamické proměnné vznikají pomocí příkazu `new` a systém je automaticky neruší ani po ukončení bloku, ve kterém byly vytvořeny.
+* **Ztráta přístupu**: Pokud prvek odebereme ze seznamu (přepíšeme ukazatele), ale nezavoláme operátor `delete`, paměť vyhrazená pro tento prvek zůstane obsazená, ale program k ní již ztratí přístup.
+* **Memory leak**: Dlouhodobé zanedbávání uvolňování paměti vede k jejímu postupnému vyčerpání (tzv. memory leak), což může způsobit zpomalení nebo pád celého systému.
+## 8.12 Jak se používá binární uspořádaný strom k řazení prvků?
+Algoritmus řazení pomocí binárního vyhledávacího stromu (BVS) probíhá ve dvou fázích:
+* **1. Budování stromu**: Vstupní data se postupně vkládají do stromu tak, aby byla zachována relace uspořádání: hodnoty menší nebo rovné otci jdou do **levého** podstromu, hodnoty větší do **pravého**.
+* **2. Průchod stromem (Inorder)**: Po naplnění stromu se provede rekurzivní průchod typu Inorder.
+    * Tento algoritmus nejprve navštíví levý podstrom, poté zpracuje uzel (kořen) a nakonec pravý podstrom.
+    * **Výsledek**: Vypsání (nebo uložení) hodnot v korektním vzestupném pořadí.
+
+## 8.13 Na čem závisí skutečný počet hladin binárního stromu? Liší se tento počet od teoretického?
+Skutečný počet hladin ($h$) binárního stromu je zcela závislý na **pořadí vstupních dat** a jejich posloupnosti.
+* **Teoretické minimum (ideální stav)**:
+    * U ideálně vyváženého stromu o $N$ prvcích je počet hladin dán vztahem $h=\log_2 N$.
+    * V tomto případě je vyhledávání velmi efektivní (logaritmická složitost).
+* **Skutečnost (nejhorší případ)**:
+    * Pokud jsou vstupní data již seřazena (např. vzestupně), uzel se vždy vloží pouze na jednu stranu a strom „zkolabuje“ do podoby **lineárního seznamu**.
+    * V takovém případě je skutečný počet hladin roven počtu prvků $N$, což degraduje rychlost operací na lineární složitost.
 ## 9.1 Jakým způsobem se čte ze standardního vstupu?
 * **Čtení**: Používá se objekt `std::cin` s operátorem `>>` (přeskakuje bílé znaky) nebo metoda `cin.get()` pro čtení včetně mezer.
 ## 9.2 Jakým způsobem se vypisuje na standardní výstup a na standardní chybový výstup?
