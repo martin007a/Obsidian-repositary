@@ -343,6 +343,42 @@ Skutečný počet hladin ($h$) binárního stromu je zcela závislý na **pořad
 * **Tečková notace**: Používá se zápis `jmeno_promenne.jmeno_slozky`.
 ## 10.5 Jaké řadicí algoritmy s kvadratickou časovou složitostí znáte?
 * **Algoritmy**: Patří sem Select sort (přímý výběr), Bubble sort (bublinkové řazení) a Insert sort (přímé vkládání).
+## 10.8 Jak pracuje algoritmus řazení přímým vkládáním, přímým výběrem a bublinovým řazením?
+Všechny tyto tři metody patří do kategorie **kvadratických metod** se složitostí $O(N^2)$.
+
+* **Přímý výběr (Straight Selection)**:
+    * Algoritmus rozdělí pole na seřazenou a neseřazenou část.
+    * V neseřazené části najde **extrém** (nejmenší nebo největší prvek) a ten vymění s prvkem na hranici těchto částí.
+    * Tento postup se opakuje, dokud seřazená část nepokryje celé pole.
+
+* **Bublinové řazení (Bubble Sort)**:
+    * Pole se sekvenčně prochází a **porovnávají se dva sousední prvky**.
+    * Pokud nemají požadované pořadí, vzájemně se zamění.
+    * **Základní verze**: Pole se prochází $N-1$ krát.
+    * **Přirozená verze**: Algoritmus skončí dříve, pokud při průchodu nedošlo k žádné záměně.
+
+* **Přímé vkládání (Straight Insertion)**:
+    * Algoritmus postupně bere prvky z neseřazené části a vkládá je na správné místo v seřazené části.
+    * Proces zahrnuje tři kroky:
+        1.  **Vyhledání** vhodného místa.
+        2.  **Odsunutí** stávajících prvků v poli o jednu pozici směrem ke konci.
+        3.  Samotné **vložení** nového prvku.
+## 10.9 Proč se pro řazení v programátorské praxi používají ještě jiné metody řazení?
+
+Výše uvedené kvadratické metody jsou sice snadno pochopitelné, ale pro rozsáhlejší data jsou prakticky nepoužitelné, protože jejich výpočetní čas roste se **čtvercem počtu dat**.
+* **Profesionální metody**: V praxi se využívají lineárně logaritmické metody se složitostí $O(N \cdot \log N)$.
+    * Příklady: **Quick sort**, **Heap sort** (řazení hromadou), **Merge sort** (řazení slučováním).
+* **Rychlost**: Jsou nesrovnatelně rychlejší. Zatímco u lineární složitosti trvá zpracování dvojnásobného množství dat dvojnásobek času, u kvadratické složitosti se tento čas zvýší **čtyřikrát**.
+* **Další důvody volby**:
+    * **Stabilita**: Zachování původního pořadí shodných položek.
+    * **In situ**: Schopnost pracovat s minimální dodatečnou pamětí.
+    * **Efektivita přístupu**: Vhodnost pro sekvenční přístup k datům.
+## 10.10 Pokud se do pole záznamů přidává nový záznam na začátek, jakého efektu se tím dosáhne?
+Přidání nového záznamu na začátek může mít několik efektů v závislosti na kontextu:
+* **1. Obrácení pořadí**: Pokud se prvky přidávají na začátek (např. v operaci zřetězení `celek = H + celek`), výsledná řada dat bude mít opačné pořadí, než v jakém byly prvky získávány.
+* **2. LIFO efekt (Zásobník)**: Technicky se tím realizuje princip zásobníku, kde prvky přidané jako poslední jsou nalezeny a zpracovány jako první (**Last In, First Out**).
+* **3. Časová efektivita u seznamů**: V případě dynamických struktur (např. seznamy synonym v hašovací tabulce) má vložení na začátek **konstantní časovou složitost** $O(1)$, protože není nutné procházet celou strukturu.
+* **4. Režie u statického pole**: U běžného pole vyžaduje přidání na začátek **přesun všech stávajících prvků** o jednu pozici dále, což je operace s **lineární časovou složitostí**.
 ## 11.1 Jak se vypočítá adresa z indexu pole a s jakou časovou složitostí výpočet probíhá?
 * **Vzorec**: $A = PA + (I - I_0) \times V$. Probíhá s konstantní časovou složitostí $O(1)$.
 ## 11.2 Jaký je obecný postup experimentálního stanovení časové složitosti?
@@ -355,15 +391,40 @@ Skutečný počet hladin ($h$) binárního stromu je zcela závislý na **pořad
 ## 11.5 Jaký je princip řazení množinou? Jaké výhody a nevýhody toto řazení má?
 * **Princip**: Data se vloží do pole četností a pak se postupně vypisují podle počtu výskytů. Výhodou je extrémní rychlost $O(N)$, nevýhodou vysoká paměťová náročnost.
 ## 12.1 Jak se jmenuje knihovna umožňující práci s uživatelskými soubory?
-* **Knihovna**: Práci se soubory umožňuje knihovna `fstream`.
+
+Knihovna, která implementuje veškerou potřebnou podporu pro práci s uživatelskými (nestandardními) soubory, se nazývá **`fstream`**. Tato knihovna obsahuje datové typy:
+* **`ifstream`**: Pro čtení ze souboru (input).
+* **`ofstream`**: Pro zápis do souboru (output).
+* **`fstream`**: Pro obousměrný přístup (čtení i zápis).
 ## 12.2 Jakým způsobem se provede otevření binárního (netextového) souboru?
-* **Otevření**: Při volání metody `open` je nutné uvést příznak `ios::binary`.
+Binární soubor se otevře tak, že se při volání metody `open` (nebo přímo v konstruktoru při deklaraci) uvede jako druhý parametr specifický režim **`ios::binary`**.
+* **Kombinace režimů**: Tento parametr lze kombinovat s dalšími režimy pomocí bitového součtu (operátor `|`).
+* **Příklad**: `ios::out | ios::binary` pro zápis do binárního souboru.
 ## 12.3 Jakými operacemi se provádí čtení a zápis dat v binárním souboru?
-* **Operace**: Používají se metody `read` a `write`, které pracují s bloky bajtů (vyžadují přetypování na `char*`).
-## 12.4 Co znamená get pointer (put pointer) a jakými operacemi jej lze zjisti nebo nastavit?
-* **Ukazatele pozice**: `tellg/seekg` určují pozici pro čtení, `tellp/seekp` určují pozici pro zápis.
+Výměna dat v netextových souborech probíhá **bez konverze** a **bez kontroly datových typů**. Data se přenášejí jako proud bajtů.
+* **Čtení**: Provádí se metodou `soubor.read(pole, M)`, kde $M$ je požadovaný počet přenesených bajtů.
+* **Zápis**: Provádí se metodou `soubor.write(pole, M)`.
+* **Poznámka k typům**: Při práci s jinými daty než bajtovým polem je nutné provést **přetypování** ukazatele na typ `char*`.
+## 12.4 Co znamená get pointer (put pointer) a jakými operacemi jej lze zjistit nebo nastavit?
+
+Otevřený soubor si udržuje informaci o aktuální pozici, na které se program právě nachází:
+* **Get pointer**: Aktuální pozice **čtení** v souboru.
+* **Put pointer**: Aktuální pozice **zápisu** v souboru.
+
+Pro manipulaci s těmito ukazateli slouží následující operace:
+* **Zjištění pozice**:
+    * `tellg()`: Pro čtení (tell get).
+    * `tellp()`: Pro zápis (tell put).
+* **Nastavení pozice**:
+    * `seekg(index)`: Pro posun při čtení (seek get).
+    * `seekp(index)`: Pro posun při zápisu (seek put).
 ## 12.5 Co je bajtové (znakové) pole?
-* **Definice**: Je to pole typu `char`, kde v binárním režimu chápeme každý prvek jako jeden bajt syrových dat.
+* **Princip**: Jeden bajt je v jazyce C++ reprezentován datovým typem `char`.
+* **Interpretace**: Z tohoto pohledu lze každé znakové pole (pole typu `char`) chápat jako **posloupnost bajtů**.
+* **Využití**: Tato interpretace je klíčová právě pro práci s **netextovými (binárními) soubory**, které se z hlediska programu jeví jako proud surových bajtů.
 ## 12.6 Co je reference a jak se zapisuje?
-* **Reference**: Odkaz na existující proměnnou, kdy formální parametr sdílí stejnou paměť jako skutečný parametr. Zapisuje se pomocí znaku `&`.
+Reference (v kontextu parametrů podprogramů nazývaná **volání odkazem**) znamená, že formální parametr nepřebírá pouze hodnotu, ale přímo **adresu** skutečného parametru.
+* **Důsledek**: Skutečný a formální parametr sdílejí **stejné místo v paměti**. Jakákoliv změna v podprogramu se projeví i navenek (v původní proměnné).
+* **Zápis**: V definici hlavičky podprogramu se reference zapisuje pomocí znaku ampersand **`&`** za datovým typem.
+    * Příklad: `void Init(UkPrvek &S)`
 
