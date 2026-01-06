@@ -18,6 +18,17 @@ Tyto příkazy jsou klíčové pro filtrování řádků (jako v otázce č. 11 
     - `^` – hledá na začátku řádku (např. `grep '^8'` vybere řádky začínající osmičkou).
     - `-v` – invertovaný výběr (vypíše vše, co **neodpovídá** vzoru).
     - `-i` – ignoruje velikost písmen.
+### Jak u `grep` zjistit počet (místo výpisu)
+Pokud tě nezajímá, co v těch řádcích je, ale jen **kolik** jich je, použij přepínač **`-c`** (count).
+- **Příkaz:** `grep -c "vzorek" soubor`
+- **Příklad:** `grep -c "^8" ucastnici.txt` (vrátí ti jen jedno číslo – počet řádků začínajících osmičkou).
+---
+### Jak hledat jen "přesné slovo"
+Standardně `grep` najde cokoli, kde se tvůj text vyskytuje (např. hledáš "auto" a on najde i "autobus"). Pokud chceš jen **přesné slovo**, máš dvě možnosti:
+#### 1. Přepínač `-w` (Word regexp)
+Hledá tvůj výraz jako celé slovo ohraničené mezerami nebo interpunkcí.
+- **Příkaz:** `grep -w "objednavka" soubor`
+- **Výsledek:** Najde "objednavka", ale ignoruje "objednavka_final" nebo "neobjednavka".
 - **`cut`:** Rozřezání řádku na pole (sloupce). Často se používá pro CSV
     - `-d ' '` – definuje oddělovač (delimiter), např. mezera.
     - `-f 1` – vybere konkrétní pole (field), zde první.
