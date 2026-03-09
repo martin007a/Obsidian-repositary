@@ -39,12 +39,14 @@
             "id": "b9a6635aece08a07",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "LS26/prezentace DBS projekt 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Poznámky k vydání 1.12.4"
+              "icon": "lucide-file",
+              "title": "prezentace DBS projekt 1"
             }
           }
         ],
