@@ -14,8 +14,9 @@ Po přečtení zadání a nalezení entit které z něj vyplívaly, jsem si pot�
 Když jsem měli již nějakou představu toho jak jednotlivé entity spolu souvisí mohli jsem se pustit do ERD.  
 Jelikož zadaní jako takové nám připadalo dosti komplexní tak jsem se rozhodli že celí problém rozdělíme na menší celky.
 ## Klik
-Prvním takovým celkem je Entita úroveň a entity sní spojené. Ta představuje jednotlivá kola hry, každá úroveň má jednu nebo více místností z toho jedna je v té úrovni poslední a nachází se v ní boss. Samotná místnost má nějaký typ prostředí který definuje její vzhled
-
+Prvním takovým celkem je Entita úroveň a entity sní spojené. Ta představuje jednotlivá kola hry, každá úroveň má jednu nebo více místností z toho jedna je v té úrovni poslední a nachází se v ní boss. Samotná místnost má nějaký typ prostředí který definuje její vzhled, muže se v ní nacházet nějaká nástraha určitého typu. Dále se v místnosti nachází nějaká kořist která může obsahovat nějaké peníze, léčiva či artefakty. Každá míst má jeden klíč do další místnosti, avšak tento klíč vlastní jedno ze strašidel v ni, tuto skutečnost řešíme přes tabulku klíč k místnosti, která zaznamenává které strašidlo to je.
+## Klik
+To nás přesouvá k entitě strašidlo ta představuje to určité strašidlo v místnosti každé strašidlo má svůj druh který ho specifikuje. Jelikož strašidlo může být i boss
 
 
 * Tvorba maticového diagramu Samuel
