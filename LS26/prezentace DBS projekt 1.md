@@ -9,7 +9,14 @@ V naší prezentaci se budeme zaobírat několika ti body
 **Spolupráce**
 Prvním krokem při zpracování našeho projektu bylo to že jsem se museli domluvit na tom jak budeme  fungovat jako tým. Jelikož nebydlíme ve stejném městě, rozhodli jsme se že veškerou naši týmovou komunikaci budeme řešit online VIA aplikaci discord, kde jsem buď přes audio hovory či chat řešili vše ohledně projektu.  
 ## Maticový diagram
-Po přečtení zadání a nalezení entit které z něj vyplívaly, jsem si potřebovali nějak udělat pořádek v entitách a vtazích mezi nimi. Pro jsme se rozhodli zpracovat Maticový diagram, který jsem vypracovaly za pomoci aplikace Microsoft Exel. 
+Po přečtení zadání a nalezení entit které z něj vyplívaly, jsem si potřebovali nějak udělat pořádek v entitách a vtazích mezi nimi. Pro jsme se rozhodli zpracovat Maticový diagram, který jsem vypracovaly za pomoci aplikace Microsoft Exel.
+## ERD
+Když jsem měli již nějakou představu toho jak jednotlivé entity spolu souvisí mohli jsem se pustit do ERD.  
+Jelikož zadaní jako takové nám připadalo dosti komplexní tak jsem se rozhodli že celí problém rozdělíme na menší celky.
+## Klik
+Prvním takovým celkem je Entita úroveň a entity sní spojené. Ta představuje jednotlivá kola hry, každá úroveň má jednu nebo více místností z toho jedna je v té úrovni poslední a nachází se v ní boss. Samotná místnost má nějaký typ prostředí který definuje její vzhled
+
+
 
 * Tvorba maticového diagramu Samuel
 * začátek se ERD Martin
