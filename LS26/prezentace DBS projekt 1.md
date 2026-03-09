@@ -1,6 +1,12 @@
-## úvod
-V rámci našeho projektu jsme dostaly za úkol vymyslet ERD model pro atmosférickou hru RPG tajemný hrad v Karpatech. Při  řešení tohoto zadání jsem se potýkaly s mnoha problémy.
-těmito problémy se budeme dále zabývat v této prezentaci. Martin
+## Uvod
+Dobrý dobrý den já jsem Martin S. a toto je můj kolega Samuel Prudký a mi vám odprezentujeme náš projekt.
+V rámci našeho projektu jsme dostaly za úkol vymyslet ERD model pro hororovou  RPG hru tajemný hrad v Karpatech. 
+## obsah
+V naší prezentaci se budeme zaobírat několika ti body
+	V první části se budeme zabývat problematikou naší týmové spolupráce
+	 Dále se budeme za
+	Maticový diagram
+	ERD model
 * Domluva jak bude spolupráce probíhat Samuel
 	* 
 * První konfrontace s zadáním Martin
