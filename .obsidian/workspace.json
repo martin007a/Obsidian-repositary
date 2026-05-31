@@ -49,7 +49,8 @@
               "title": "prezentace DBS projekt 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,10 +223,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7643719ff42b20cc",
+  "active": "a44ad7ab47d54caa",
   "lastOpenFiles": [
-    "Poznámky/Algoritmizace/Otázky ze cvičení.md",
     "LS26/prezentace DBS projekt 1.md",
+    "Poznámky/Algoritmizace/Otázky ze cvičení.md",
     "Tasks/To Do.md",
     "LS26",
     "Poznámky/Úvod do ICT/Untitled.md",
