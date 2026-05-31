@@ -50,33 +50,10 @@ Z pohledu kybernetiky (vědy o řízení a komunikaci, kterou definoval Norbert 
 - **Sociální ZV:** Nejvyšší vrstva zpětné vazby, která odráží chování společnosti, ekonomické modely a interakci technologií s lidmi a trhem.
 # 3. Přehled problematiky IoT, kořeny IoT a další rozvoj
 
-Pojem **Internet of Things (IoT)** poprv´e pouˇzil v roce 1999 **Kevin Ashton** ve společnosti Procter & Gamble (a později v Auto-ID Center na MIT) v souvislosti s propojováním technologie RFID s internetem.
+Pojem **Internet of Things (IoT)** poprvé použil v roce 1999 **Kevin Ashton** v souvislosti s propojováním technologie RFID s internetem.
 - Ashton si uvědomil obrovský problém: do té doby byly počítače závislé na datech, která zadávali lidé (téměř všech tehdejších 50 petabytů dat vytvořili lidé psaním, skenováním atd.). Lidé mají ale omezený čas, pozornost a přesnost.
 - **Ashtonova vize:** Pokud vybavíme počítače senzory a RFID, aby o věcech věděly vše samy bez lidské pomoci, budeme moci přesně sledovat a počítat fyzické objekty, čímž se radikálně sníží plýtvání, ztráty a náklady.
-
-K rozvoji IoT teoreticky přispěl i **William Nelson Joy (Bill Joy)**, který definoval tzv. "6 webů" vývoje internetu. Pro IoT je z nich nejdůležitější posun k **D2D (Device to Device)**, což je komunikace sítě senzorů rozmístěných v prostředí bez nutnosti lidského uživatelského rozhraní.
-
-2. Přehled problematiky: Co je IoT dnes?
-
-Dnes se IoT chápe jako síť jednoznačně identifikovatelných fyzických objektů a jejich virtuálních reprezentací ve struktuře internetu. Tyto "věci" používají senzory, aby vnímaly události ve fyzickém světě, a na základě těchto dat dokážou samy aktivovat akce.
-
-V praxi se dnes IoT rozděluje do dvou hlavních směrů:
-
-1. **Spotřebitelský internet věcí (CIoT - Consumer IoT):** Zaměřuje se na koncové uživatele, chytrou domácnost, nositelnou elektroniku (wearables) a chytré spotřebiče. Cílem je zvýšit uživatelský komfort a zjednodušit každodenní život.
-2. **Průmyslový internet věcí (IIoT - Industrial IoT / Industry 4.0):** Zaměřuje se na kritické úkoly ve výrobě, energetice (Smart Grids), zdravotnictví nebo logistice. Jeho cílem je zefektivnění využívání zdrojů, prediktivní údržba, snížení provozních nákladů a zvýšení produktivity. Tento segment má do budoucna největší ekonomický potenciál.
-
-3. Další rozvoj: Od IoT k IoE a výzvy do budoucna
-
-Rozvoj IoT neznamená jen přidávání dalších senzorů, ale strukturální změnu celých sítí a ekonomik.
-
-**Internet všeho (IoE - Internet of Everything) a Konvergence IT/OT:** Společnost Cisco a další lídři trhu posouvají pojem IoT k **IoE (Internet of Everything)**, který inteligentně propojuje čtyři základní pilíře: **Lidi, Procesy, Data a Věci**. Aby tento systém mohl fungovat v průmyslu, musí nutně dojít ke **konvergenci IT a OT**. To znamená spojení informačních technologií (IT – sítě, telekomunikace, servery) s operačními technologiemi (OT – hardware a software pro přímé řízení výrobních strojů a senzorů) do jedné infrastruktury.
-
-**Technologické předpoklady a budoucí rozvoj:**
-
-- **Adresný prostor a IPv6:** Vzhledem k odhadům, že k sítím budou připojeny desítky miliard zařízení (podle Cisca až 50 miliard), je pro další rozvoj naprostou nutností protokol **IPv6**, který poskytuje dostatečný adresní prostor (3,4×1038 adries) pro připojení jakéhokoliv předmětu na Zemi.
-- **Decentralizace zpracování dat (Fog/Edge Computing):** Věci v IoT generují enormní objem tzv. Big Data. Rozvoj směřuje k tomu, že se všechna data nebudou posílat centrálně do Cloudu, ale budou se předzpracovávat lokálně přímo u zařízení (Edge computing) nebo na úrovni lokálních uzlů (Fog computing). Zabrání se tak přetížení sítí a sníží se doba odezvy.
-
-**Klíčové výzvy dalšího rozvoje:**
-
-- **Bezpečnost (Security):** Představuje největší výzvu. Podle průzkumů je bezpečnost hlavní obavou (téměř 57 % organizací). Zařízení IoT se často stávají snadnými terči kyberútoků (např. botnet Mirai), což si vyžádá obrovské investice do zabezpečení komunikace a identity zařízení.
-- **Standardizace a interoperabilita:** Dalším problémem pro další rozvoj je, jak integrovat miliony různých zařízení od různých dodavatelů, z nichž každý používá vlastní komunikační protokoly a platformy. Neexistuje jeden univerzální standard, ale mnoho soupeřících platforem
+- **Principy IoT** – základním principem je propojení zařízení, sbírání dat a vzájemné komunikace. Zařízení mají senzory a aktuátory které umožňují komunikaci s okolím, data jsou přenášena přes sítě a analyzována k čemu jsou užitečné. 
+- **Aplikace IoT** – Široká skála uplatnění, od monitorování, řízení výroby až po chytré domácnosti, kde umožňují ovládání teplot, osvětlení, a dalších funkcí. Také pro sledování a správu vozidel. 
+- **Výzvy a bezpečnost** – týkají se převážně bezpečnosti, propojeným zařízením hrozí kybernetické útoky, je důležité zabezpečit komunikaci a přenos dat. Také ochranu soukromí a svých dat. 
+- **Budoucnost IoT** – obrovský potencionál, s rozšířením 5G sítí se očekává rychlejší a spolehlivější připojení, rozvoj AI přinese další možnosti v analýze dat z IoT.
