@@ -49,13 +49,8 @@ Z pohledu kybernetiky (vědy o řízení a komunikaci, kterou definoval Norbert 
 - **Programová ZV a Symbolická ZV (1 a 2):** Vyšší úrovně řízení pracující s predikcí, plánováním, zpracováním dat a softwarovými modely.
 - **Sociální ZV:** Nejvyšší vrstva zpětné vazby, která odráží chování společnosti, ekonomické modely a interakci technologií s lidmi a trhem.
 # 3. Přehled problematiky IoT, kořeny IoT a další rozvoj
-1. Kořeny IoT: Od telemetrie ke Kevinu Ashtonovi
 
-Ačkoliv je pojem Internet věcí (IoT) relativně nový, tento obor nevznikl na zelené louce. Skripta uvádějí, že **skutečné kořeny IoT leží v telemetrii** (měření na dálku a dálkový přenos dat) **a telematice**. Základní principy dálkového řízení se objevily již v roce 1898, kdy Nikola Tesla představil dálkově rádiově řízenou loď.
-
-Zásadní milník a samotný vznik pojmu se datuje do roku 1999:
-
-- Pojem **Internet of Things (IoT)** poprvé použil **Kevin Ashton** ve společnosti Procter & Gamble (a později v Auto-ID Center na MIT) v souvislosti s propojováním technologie RFID s internetem.
+Pojem **Internet of Things (IoT)** poprv´e pouˇzil v roce 1999 **Kevin Ashton** ve společnosti Procter & Gamble (a později v Auto-ID Center na MIT) v souvislosti s propojováním technologie RFID s internetem.
 - Ashton si uvědomil obrovský problém: do té doby byly počítače závislé na datech, která zadávali lidé (téměř všech tehdejších 50 petabytů dat vytvořili lidé psaním, skenováním atd.). Lidé mají ale omezený čas, pozornost a přesnost.
 - **Ashtonova vize:** Pokud vybavíme počítače senzory a RFID, aby o věcech věděly vše samy bez lidské pomoci, budeme moci přesně sledovat a počítat fyzické objekty, čímž se radikálně sníží plýtvání, ztráty a náklady.
 
