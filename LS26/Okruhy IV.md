@@ -1,59 +1,47 @@
+---
+tags: [IoT, zkouska, internet_veci, skripta]
+aliases: [Okruhy ke zkoušce IoT]
+---
+
+# Okruhy ke zkoušce: Internet věcí (IoT)
+
 ## 1. Trendy digitalizace a řízení, automatizace a sítě kolem nás
+* Očekává se, že do roku 2020 bude v síti IoT připojeno téměř 26 miliard zařízení, přičemž některá data uvádí i více než 30 miliard bezdrátově připojených zařízení[cite: 2].
+* Digitalizace (neboli digitální transformace) je proces, při kterém se celá organizace stává digitální a dochází k přesunu všech operací a procesů do digitálního provozního modelu[cite: 2].
+* Sítě tvoří absolutní základ pro IoT, přičemž se vyvíjejí od jednoduchých domácích sítí pro sdílení prostředků až po obrovské podnikové či globální konvergované sítě[cite: 2].
+* Konvergované sítě jsou schopné na jedné platformě přenášet hlas, video, text i grafiku[cite: 2].
+* Automatizace domácnosti (domotics) má 5 úrovní: od domů s izolovanými chytrými objekty, přes komunikující objekty, připojené domy s vnější sítí, učící se domy (predikce chování na základě dat) až po pozorný dům, který neustále registruje aktivity osob[cite: 2].
 
-Pojďme se na to podívat hezky od základu. Představ si, jak se celá naše lidská společnost historicky vyvíjí a jak to formuje technologie kolem nás. 
-
-* **Vývoj společnosti:** * Všechno to začalo **loveckou společností** (Společnost 1.0). 
-    * Přes **agrární společnost** (Společnost 2.0), která přinesla osidlování a první snahy o řízení zavlažování, jsme se dostali k **průmyslové společnosti** (Společnost 3.0), jež se vyznačovala masovou výrobou a parními stroji. 
-    * Odtud jsme se přehoupli do **informační společnosti** (Společnost 4.0), která je poháněná počítači, internetem a rychlou distribucí informací.
-    * Dnes ale směřujeme ještě dál, k takzvané **Super Smart Society**, neboli Společnosti 5.0. V té už technologie nejsou jen nástrojem, ale aktivně a inteligentně spolupracují na řešení společenských problémů a propojování s přírodou.
-
-* **Digitalizace a automatizace z pohledu Průmyslu 4.0:**
-    Digitalizace je proces, při kterém se celá organizace a její procesy transformují do jednotného digitálního modelu. Můžeme se na to podívat přes zjednodušený vrstvový model od Fraunhofer institutu, jak to celé v moderním podniku funguje:
-    * **Základní vrstva produkce (Production Core):** Tady se děje ta fyzická práce. Dnes v ní hrají hlavní roli kyberneticko-fyzikální systémy (stroje, co o sobě ví a komunikují), autonomní robotika a masivní využití strojového učení přímo ve výrobních procesech.
-    * **Vrstva informačních a komunikačních technologií (ICT Layer):** Tohle je ten "nervový systém" nad výrobou. Řeší se tu standardizace, zajišťuje se komunikace s co nejnižší latencí (aby stroje reagovaly okamžitě), zpracovávají se obrovské datové toky a kriticky důležitá je tu kybernetická bezpečnost.
-    * **Byznysová vrstva (Business Layer):** Úplně nahoře. Zde se nasbíraná a zpracovaná data mění v reálná rozhodnutí. Stará se o nové obchodní modely, řízení celého podniku a lidské zdroje.
-
-* **Sítě kolem nás a konvergence:**
-    Aby tohle všechno mohlo fungovat, neobejdeme se bez všudypřítomné konektivity a sjednocení sítí. Dochází k takzvané **konvergenci IT** (informačních technologií, jako jsou servery a e-maily) **a OT** (operačních technologií, jako jsou průmyslové senzory a výrobní linky). Sítě už nejsou oddělené pro stroje a pro lidi, vše směřuje k jednotné, bezpečné infrastruktuře, kde data plynule přecházejí z tovární haly až do cloudu.
-
-**📚 Kde to najdeš v materiálech (Reference):**
-* **Prezentace (Kebo - Co to je IoT a Kybernetika):** Snímek 5 (Vývoj společnosti až do verze 5.0) a snímek 11 (Vrstvový model Průmyslu 4.0 od Fraunhofer institutu).
-* **Skripta (Vaculík - Od telemetrie k internetu vecí):** Stránka 30 (definice digitální transformace a IoT) a stránky 105–106 (přechod na IoT a konvergence IT a OT sítí).
 ## 2. Průmyslové revoluce z pohledu kybernetiky a řízení
-Podívejme se, jak se vyvíjela výroba a její řízení[cite: 13].
-* **První průmyslová revoluce:** Přinesla mechanizaci pomocí vody a páry, typickým příkladem je mechanický tkalcovský stav z roku 1784[cite: 13].
-* **Druhá průmyslová revoluce:** Znamenala nástup masové výroby, dělby práce a využití elektrické energie[cite: 13]. Krásným příkladem je první pásový dopravník na jatkách v Cincinnati z roku 1870[cite: 13].
-* **Třetí průmyslová revoluce:** Začala využívat elektroniku a IT pro automatizaci[cite: 13]. Klíčovým bodem byl první programovatelný logický automat (PLC) Modicon 084 z roku 1969[cite: 13].
-* **Čtvrtá průmyslová revoluce (Průmysl 4.0):** Je založena na složitých kyberneticko-fyzikálních systémech (CPS)[cite: 13].
-* Z hlediska kybernetiky je základem všeho zpětná vazba, kterou popsal Norbert Wiener[cite: 13]. Zpětná vazba se postupně vyvíjela od základní stabilizace stroje, přes operační a programovou, až k symbolické a sociální[cite: 13].
+* První průmyslová revoluce (18. a 19. století) znamenala změnu z agrární společnosti na industrializovanou, a to především díky vynálezu parního stroje[cite: 2].
+* Druhá průmyslová revoluce byla poháněna elektřinou a zahrnovala rozšiřování průmyslu a masové výroby[cite: 2].
+* Třetí průmyslová revoluce (tzv. digitální revoluce) odstartovala v polovině 20. století a zahrnovala vývoj počítačů a informačních technologií (IT)[cite: 2].
+* Čtvrtá průmyslová revoluce (Industry 4.0) je současná éra, ve které technologie jako IoT, robotika, umělá inteligence (AI) a virtuální realita od základu mění způsob života a práce[cite: 2].
+* Čtvrtá revoluce roste ze třetí, ale odlišuje se obrovskou rychlostí technologických průlomů a všudypřítomností obrovských systémů[cite: 2].
 
 ## 3. Přehled problematiky IoT, kořeny IoT a další rozvoj
-* Termín "Internet of Things" poprvé použil Kevin Ashton v roce 1999 během své prezentace v Procter & Gamble, když navrhoval propojení tehdy nové myšlenky RFID v dodavatelském řetězci s internetem[cite: 16].
-* Upozornil na to, že do té doby byla většina dat na internetu (asi 50 petabajtů) vytvořena lidmi, kteří ale nemají čas ani pozornost vše přesně zaznamenávat a sledovat[cite: 16]. Počítače zkrátka potřebují vlastní "smysly", aby mohly samy sbírat data[cite: 16].
-* Kořeny můžeme hledat i u vizionáře Billa Joye, který definoval různé typy "webu", mezi nimiž byl D2D (Device to Device), což je vlastně internet senzorů vnesený do běžného života[cite: 20]. 
-* Historicky pak IoT do značné míry vychází z technologií jako telemetrie a telematika (měření a ovládání na dálku), je to vlastně jejich moderní evoluce[cite: 20].
+* Termín "Internet věcí" (IoT) byl poprvé navržen Kevinem Ashtonem v roce 1999[cite: 2].
+* Bill Joy popsal komunikaci D2D (Device to Device) jako "Internet senzorů" rozmístěných v systémech pro maximální účinnost a strojovou inteligenci v běžném životě[cite: 2].
+* Kořeny IoT leží primárně v telemetrii (technologie pro měření na dálku a bezdrátový přenos dat) a telematice (spojení telekomunikací a informatiky pro přenos dat v reálném čase)[cite: 2].
+* Základní koncept "Internet of Everything" (IoE) se skládá ze čtyř vzájemně propojených prvků: Lidé (People), Procesy (Process), Data (Data) a Věci (Things)[cite: 2].
 
 ## 4. Porovnání struktury IoT (4.PR) a struktury ASŘ (3.PR)
-* **Struktura ASŘ (3. průmyslová revoluce):** Funguje jako přísná pyramida, takzvaný model CIM[cite: 14]. Dole jsou technologie a senzory, nad nimi procesní úroveň (PLC, CNC), pak úroveň řízení výrobních procesů (operátorské stanice), nad tím úroveň plánování výroby (MES) a úplně nahoře podniková vrcholová úroveň (EIS, PPS)[cite: 14]. Komunikace je přísně hierarchická[cite: 11].
-* **Struktura IoT (4. průmyslová revoluce):** Zde pyramida mizí a vše připomíná spíše pavučinu nebo síť[cite: 11]. Podle modelu RAMI 4.0 už nejsou funkce vázané striktně na hardware, flexibilní systémy interagují napříč všemi úrovněmi a i samotný produkt se stává aktivní a propojenou součástí sítě (Smart Products)[cite: 11].
+* Tradiční systémy (tzv. operační technologie - OT) představovaly průmyslovou infrastrukturu kontroly a automatizace, kde probíhala komunikace převážně mezi stroji[cite: 2].
+* S nástupem IoT dochází k nutné konvergenci operačních technologií (OT) s informačními systémy (IT), což umožňuje vznik čtvrté průmyslové revoluce[cite: 2].
+* Konvergence IT a OT umožňuje organizacím zjednodušit infrastrukturu (snížení provozních nákladů) a vytvořit inteligenci a agilitu pomocí analytických nástrojů[cite: 2].
+* Integrace obou struktur vyžaduje řešení komplexní bezpečnosti, protože konvergovaná infrastruktura musí chránit jak fyzické stroje, tak data před kybernetickými útoky[cite: 2].
 
 ## 5. Signály, jejich typy, vzorkování a kvantování
-Senzory sbírají signály, které primárně dělíme do dvou hlavních skupin:
-* **Signály spojité v čase:** Patří sem čistý *analogový signál* (plynulý v čase i hodnotě) a *kvantovaný signál* (plynulý v čase, ale hodnoty se tvoří ve skocích/stupních)[cite: 14].
-* **Signály diskrétní v čase:** Zde máme *vzorkovaný signál* (měříme jen v určitých časových okamžicích) a *číslicový (digitální) signál*, který je vzorkovaný v čase a kvantovaný v hodnotě[cite: 14].
-* **Vzorkování:** Řídí se Shannon-Kotělnikovovým teorémem[cite: 14]. Ten říká, že pro dokonalou rekonstrukci signálu musí být vzorkovací frekvence větší než dvojnásobek maximální frekvence původního vzorkovaného signálu[cite: 14].
-* **Kvantování:** Vnáší do systému nelinearitu (kvantizační chybu)[cite: 14]. Čím delší je slovo v bitech, tím menší chyba vzniká (např. 8 bitů má chybu 0,39 %, ale 16 bitů už má chybu jen nepatrných 0,00152 %)[cite: 14].
+* Senzor převádí sledovanou fyzikální, chemickou nebo biologickou veličinu na měřitelnou výstupní veličinu, kterou je nejčastěji analogový nebo digitální elektrický signál[cite: 2].
+* Získaný signál je nutné upravit pro optimalizaci přenosu informace, což zahrnuje kroky: zesílení (zvýšení amplitudy), filtrování (odstranění nevýznamných částí a šumu), modulaci a demodulaci[cite: 2].
+* Analogový signál je následně transformován na digitální pomocí AD (analogově-číslicového) převodníku, který je součástí měřicího řetězce[cite: 2].
+* Pokud systém zpracovává více signálů ze sítě senzorů, využívá se multiplexování, například prostorový multiplex (SDM) nebo časový multiplex (TDM), kdy je jeden AD převodník společný pro všechny senzory[cite: 2].
+* Ke správnému časovému sladění signálů při vzorkování se využívá funkce zádrže (sample-hold), která naměřená data krátkodobě uloží do analogové paměti (např. kondenzátoru)[cite: 2].
 
 ## 6. Senzory a senzorové klastry v IoT
-* **Senzor (Snímač):** Jde o první základní "primitivum" IoT[cite: 20]. Jsou to fyzická zařízení, která měří vlastnosti okolí a převádí je na data (neelektrické veličiny na elektrické)[cite: 14, 20]. Mohou mít různou míru inteligence – od obyčejných senzorů až po takzvané Smart senzory s vlastním mikroprocesorem a A/D převodníkem[cite: 14]. 
-* Musíme počítat s tím, že senzory mohou být levné a náchylné k opotřebení nebo selhání, takže jimi vyprodukovaná data mohou být občas podezřelá[cite: 20].
-* **Senzorové klastry:** Senzory málokdy pracují izolovaně[cite: 20]. Sdružují se do takzvaných klastrů (shluků), což jsou účelová seskupení senzorů a jejich dat, která mohou fungovat ad hoc nebo podle pravidel[cite: 20]. Zajímavostí je, že jeden klastr může svá data sdílet s více IoT sítěmi současně[cite: 20].
-
-## 7. IoT agregátory a "fog computing"
-* **Agregátor (Koncentrátor dat):** Toto je druhé IoT primitivum[cite: 20]. Jde o softwarovou (někdy i hardwarovou) komponentu, která sbírá surová data ze senzorových klastrů a pomocí matematických funkcí je koncentruje a agreguje do smysluplných menších objemů[cite: 20]. K tomu využívá takzvané "váhy" (weights), kterými určuje, jakou prioritu či důvěryhodnost má dát konkrétnímu senzoru (např. podle jeho poruchovosti)[cite: 20].
-* **Fog computing (mlhové výpočty):** Zatímco klasický Cloud computing centralizuje všechna data na vzdálených serverech, Fog přesouvá výpočetní výkon přímo na "okraj" sítě (Edge), co nejblíže k těmto agregátorům a senzorům[cite: 14]. Je decentralizovaný, umožňuje peer-to-peer komunikaci zařízení a výrazně tak snižuje latenci (zpoždění)[cite: 14]. 
-
-## 8. Komunikační kanály v IoT, funkce, standardy
-* **Komunikační kanál:** Třetí IoT primitivum, které v síti funguje jako pomyslné "tepny a žíly"[cite: 20]. Přenáší data mezi senzory, agregátory a externími nástroji[cite: 20]. Přenos může probíhat jednosměrně i obousměrně, drátově či bezdrátově[cite: 20]. V kanálech mohou běžně nastat zpoždění a přerušení, takže pro zachování spolehlivosti se často využívá redundance[cite: 20].
-* **Bezdrátové standardy:** Pro osobní a lokální sítě s kratším dosahem se využívají zavedené protokoly jako Wi-Fi, Bluetooth (často jeho velmi úsporná varianta BLE) nebo ZigBee[cite: 11, 20].
-* Pro IoT jsou obzvlášť důležité nízkoenergetické sítě, do kterých se zařízení připojují pomocí speciálních protokolů[cite: 20]. Například 6LoWPAN byl vytvořen přímo pro to, aby i extrémně slabým zařízením přinesl podporu IPv6 adres, zatímco pro delší dosahy a malou spotřebu se uplatňují sítě typu LoRaWAN nebo Sigfox[cite: 11, 20].
+* Z hlediska abstrakce IoT je senzor označován jako "Primitivum 1", přičemž jeho úkolem je generovat data (např. o teplotě, váze, přítomnosti) z fyzikálního prostředí[cite: 2].
+* Senzory mohou disponovat pouze omezeným výpočetním výkonem, avšak mohou mít přidělenou identitu (Device_ID) a sledovat informace o svém vlastníkovi a poloze[cite: 2].
+* Klastr (Senzorový klastr) je abstraktní seskupení senzorů, které mohou vznikat ad-hoc nebo podle pevných pravidel a sdílejí výstupní data[cite: 2].
+* Jeden klastr ($C_{i}$) sestává z dat od mnoha různých (i nehomogenních) senzorů, přičemž jeden senzor může teoreticky sdílet svá data s vícero klastry současně[cite: 2].
+* Data ze senzorových klastrů jsou odesílána "agregátorům", což je Primitivum 2, které data komprimuje, průměruje a jinak zpracovává[cite: 2].
+* 
