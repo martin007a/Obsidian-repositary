@@ -33,36 +33,55 @@ U samotného řízení procesů a automatizace rozeznáváme 3 vývojové tříd
 - **EPA (Enhanced Process Automation):** Rozšířená automatizace pracující s nestrukturovanými daty a databázemi znalostí.
 - **Kognitivní automatizace:** Plné nasazení prvků umělé inteligence, strojového učení, analýzy velkých dat a zpracování přirozeného jazyka (NLP) k samostatnému rozhodování bez zásahu člověka.
 # 2. Průmyslové revoluce z pohledu kybernetiky a řízení
-1. Vývoj průmyslových revolucí a způsobů řízení
-
+#### 1. Vývoj průmyslových revolucí a způsobů řízení
 Abychom pochopili 4. průmyslovou revoluci, je nutné se podívat, jak se historicky měnila míra komplexity a přístup k řízení procesů:
-
 - **1. průmyslová revoluce (konec 18. stol.):** Přinesla mechanizaci výroby pomocí vodní a parní energie. Řízení bylo čistě mechanické bez inteligence. 
 - **2. průmyslová revoluce (začátek 20. stol.):** Typická zaváděním elektrické energie a specializovanou masovou výrobou (např. montážní linky Ford).
 - **3. **průmyslová revoluce:** Zásadní zlom – nástup IT a prvních PLC (Programovatelné logické automaty – průmyslové počítače). Vznikají ASŘ (Automatizované systémy řízení). Problém 3. revoluce spočíval v tom, že linky sice byly automatické, ale vysoce rigidní (nepružné) a centralizované. Stroj uměl provádět pouze jednu pevně naprogramovanou činnost.
 - **4. průmyslová revoluce (Průmysl 4.0 - současnost):** Dnešní stav, který staví na CPS (Kyberneticko-fyzikálních systémech). Pevné výrobní linky se mění na flexibilní sítě. Stroje a produkty jsou připojeny k internetu věcí a dokážou se mezi sebou domlouvat.
-
-  ### 2. Kybernetika jako základ moderního řízení
-
+#### 2. Kybernetika jako základ moderního řízení
 Z pohledu kybernetiky (vědy o řízení a komunikaci, kterou definoval Norbert Wiener) fungují všechny tyto automatizované systémy na principu takzvané zpětné vazby (feedback loop). Ta se skládá přesně ze 3 na sebe navazujících kroků:
 1. **Senzorický podsystém:** Nejprve musí systém změřit aktuální stav fyzického prostředí (např. senzor zjistí, že teplota v místnosti klesla na 15 °C).
 2. **Řídicí podsystém (Controller):** Tento mozek (počítač) přijme naměřenou hodnotu, porovná ji s požadovanou hodnotou (chceme 22 °C) a spočítá, že je nutné topit. Vygeneruje tedy povel.
 3. **Akční podsystém (Aktuátor):** Na základě povelu provede fyzickou změnu v prostředí (např. sepne kotel a začne topit). Prostředí se ohřeje, senzor to znovu změří a smyčka se uzavírá.
-
+**Úrovně řízení (zpětné vazby):
 - **Operační ZV:** Nejnižší úroveň, představuje přímé technologické řízení (senzor naměří hodnotu, aktuátor provede okamžitou akci).
 - **Programová ZV a Symbolická ZV (1 a 2):** Vyšší úrovně řízení pracující s predikcí, plánováním, zpracováním dat a softwarovými modely.
 - **Sociální ZV:** Nejvyšší vrstva zpětné vazby, která odráží chování společnosti, ekonomické modely a interakci technologií s lidmi a trhem.
+# 3. Přehled problematiky IoT, kořeny IoT a další rozvoj
+1. Kořeny IoT: Od telemetrie ke Kevinu Ashtonovi
 
-4. Kyberneticko-fyzikální systémy (CPS) a Digitální dvojče
+Ačkoliv je pojem Internet věcí (IoT) relativně nový, tento obor nevznikl na zelené louce. Skripta uvádějí, že **skutečné kořeny IoT leží v telemetrii** (měření na dálku a dálkový přenos dat) **a telematice**. Základní principy dálkového řízení se objevily již v roce 1898, kdy Nikola Tesla představil dálkově rádiově řízenou loď.
 
-Páteří Průmyslu 4.0 a dnešního způsobu řízení jsou Kyberneticko-fyzikální systémy (CPS). Fyzické výrobní zařízení (stroj) je zde úzce spjato se svým **digitálním modelem** (digitálním dvojčetem). Tento digitální model obsahuje naprosto všechny informace o dané věci – její mechaniku, software, informatiku, elektroniku, zabezpečení (security), stav údržby či uživatelská rozhraní (HMI). Důležité je, že se tento model neustále aktualizuje a rozšiřuje v průběhu celého životního cyklu produktu – od fáze návrhu (Product design), přes plánování a samotnou výrobu, až po finální služby a údržbu.
+Zásadní milník a samotný vznik pojmu se datuje do roku 1999:
 
-5. Úrovně řešení problémů a kolaborativní systémy
+- Pojem **Internet of Things (IoT)** poprvé použil **Kevin Ashton** ve společnosti Procter & Gamble (a později v Auto-ID Center na MIT) v souvislosti s propojováním technologie RFID s internetem.
+- Ashton si uvědomil obrovský problém: do té doby byly počítače závislé na datech, která zadávali lidé (téměř všech tehdejších 50 petabytů dat vytvořili lidé psaním, skenováním atd.). Lidé mají ale omezený čas, pozornost a přesnost.
+- **Ashtonova vize:** Pokud vybavíme počítače senzory a RFID, aby o věcech věděly vše samy bez lidské pomoci, budeme moci přesně sledovat a počítat fyzické objekty, čímž se radikálně sníží plýtvání, ztráty a náklady.
 
-Pokud se fyzické stroje a jejich digitální modely propojí do distribuovaných sítí, nevystačíme si s jednoduchým centrálním řízením. Do řízení vstupují autonomní agenti a tzv. **multiagentní systémy (MAS)**. Ty musí řešit problémy v reálném světě na třech základních úrovních:
+K rozvoji IoT teoreticky přispěl i **William Nelson Joy (Bill Joy)**, který definoval tzv. "6 webů" vývoje internetu. Pro IoT je z nich nejdůležitější posun k **D2D (Device to Device)**, což je komunikace sítě senzorů rozmístěných v prostředí bez nutnosti lidského uživatelského rozhraní.
 
-1. **Strategická úroveň:** Výběr hlavních cílů a podcílů na základě strategických plánů. Zde systém musí pracovat s abstraktními pojmy, znalostmi a umí logicky a symbolicky uvažovat.
-2. **Taktická úroveň:** Jde o úlohy takticko-operační povahy. Agenti (stroje) si na základě globální strategie připravují konkrétní plány dílčích operací.
-3. **Akční úroveň:** Samotné řízení motorických aktivit – provádění fyzických zásahů do prostředí a přímé řešení konfliktů v reálném čase (například to, aby se dva kooperující drony nebo agriboti ve fyzickém světě nesrazili a vyhnuli se překážkám).
+2. Přehled problematiky: Co je IoT dnes?
 
-Zatímco dřívější průmyslové revoluce pracovaly s izolovanými stroji v lokálních sítích, ve 4. průmyslové revoluci tyto autonomní kybernetické systémy komunikují bez asistence člověka (M2M), delegují na sebe podúlohy, analyzují velké objemy dat a proaktivně řídí výrobní operace na základě vlastního uvažování
+Dnes se IoT chápe jako síť jednoznačně identifikovatelných fyzických objektů a jejich virtuálních reprezentací ve struktuře internetu. Tyto "věci" používají senzory, aby vnímaly události ve fyzickém světě, a na základě těchto dat dokážou samy aktivovat akce.
+
+V praxi se dnes IoT rozděluje do dvou hlavních směrů:
+
+1. **Spotřebitelský internet věcí (CIoT - Consumer IoT):** Zaměřuje se na koncové uživatele, chytrou domácnost, nositelnou elektroniku (wearables) a chytré spotřebiče. Cílem je zvýšit uživatelský komfort a zjednodušit každodenní život.
+2. **Průmyslový internet věcí (IIoT - Industrial IoT / Industry 4.0):** Zaměřuje se na kritické úkoly ve výrobě, energetice (Smart Grids), zdravotnictví nebo logistice. Jeho cílem je zefektivnění využívání zdrojů, prediktivní údržba, snížení provozních nákladů a zvýšení produktivity. Tento segment má do budoucna největší ekonomický potenciál.
+
+3. Další rozvoj: Od IoT k IoE a výzvy do budoucna
+
+Rozvoj IoT neznamená jen přidávání dalších senzorů, ale strukturální změnu celých sítí a ekonomik.
+
+**Internet všeho (IoE - Internet of Everything) a Konvergence IT/OT:** Společnost Cisco a další lídři trhu posouvají pojem IoT k **IoE (Internet of Everything)**, který inteligentně propojuje čtyři základní pilíře: **Lidi, Procesy, Data a Věci**. Aby tento systém mohl fungovat v průmyslu, musí nutně dojít ke **konvergenci IT a OT**. To znamená spojení informačních technologií (IT – sítě, telekomunikace, servery) s operačními technologiemi (OT – hardware a software pro přímé řízení výrobních strojů a senzorů) do jedné infrastruktury.
+
+**Technologické předpoklady a budoucí rozvoj:**
+
+- **Adresný prostor a IPv6:** Vzhledem k odhadům, že k sítím budou připojeny desítky miliard zařízení (podle Cisca až 50 miliard), je pro další rozvoj naprostou nutností protokol **IPv6**, který poskytuje dostatečný adresní prostor (3,4×1038 adries) pro připojení jakéhokoliv předmětu na Zemi.
+- **Decentralizace zpracování dat (Fog/Edge Computing):** Věci v IoT generují enormní objem tzv. Big Data. Rozvoj směřuje k tomu, že se všechna data nebudou posílat centrálně do Cloudu, ale budou se předzpracovávat lokálně přímo u zařízení (Edge computing) nebo na úrovni lokálních uzlů (Fog computing). Zabrání se tak přetížení sítí a sníží se doba odezvy.
+
+**Klíčové výzvy dalšího rozvoje:**
+
+- **Bezpečnost (Security):** Představuje největší výzvu. Podle průzkumů je bezpečnost hlavní obavou (téměř 57 % organizací). Zařízení IoT se často stávají snadnými terči kyberútoků (např. botnet Mirai), což si vyžádá obrovské investice do zabezpečení komunikace a identity zařízení.
+- **Standardizace a interoperabilita:** Dalším problémem pro další rozvoj je, jak integrovat miliony různých zařízení od různých dodavatelů, z nichž každý používá vlastní komunikační protokoly a platformy. Neexistuje jeden univerzální standard, ale mnoho soupeřících platforem
