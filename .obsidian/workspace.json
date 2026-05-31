@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "932b455365cc4724",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-05-31 20.22.14.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-05-31 20.22.14.excalidraw"
+            }
+          },
+          {
             "id": "492aa5255ecd64b0",
             "type": "leaf",
             "state": {
@@ -62,19 +74,9 @@
               "icon": "lucide-file",
               "title": "prezentace DBS projekt 1"
             }
-          },
-          {
-            "id": "b279dd395ad60386",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nová karta"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -230,8 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,10 +250,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b279dd395ad60386",
+  "active": "492aa5255ecd64b0",
   "lastOpenFiles": [
-    "LS26/Okruhy IV.md",
+    "Excalidraw/Drawing 2026-05-31 20.22.14.excalidraw.md",
     "Tasks/To Do.md",
+    "Excalidraw",
+    "LS26/Okruhy IV.md",
     "LS26/prezentace DBS projekt 1.md",
     "Poznámky/Algoritmizace/Otázky ze cvičení.md",
     "LS26",
@@ -277,7 +280,6 @@
     "Poznámky/Úvod do ICT/Přednáška 07.md",
     "Poznámky/Úvod do ICT/Přednáška 08.md",
     "Poznámky/Úvod do ICT/Přednaška 06.md",
-    "Poznámky/Úvod do ICT/Přednáška 04.md",
     "imgs/Pasted image 20251213182046.png",
     "imgs/Pasted image 20251213180806.png",
     "imgs/Pasted image 20251213180703.png",
@@ -296,7 +298,6 @@
     "imgs/Pasted image 20251006095444.png.~tmp",
     "imgs/~MG_20250930_141405.tmp",
     "Poznámky/ZOO",
-    "Poznámky/Teoretické základy informatiky",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas"
