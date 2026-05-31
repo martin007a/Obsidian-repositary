@@ -62,9 +62,19 @@
               "icon": "lucide-file",
               "title": "prezentace DBS projekt 1"
             }
+          },
+          {
+            "id": "b279dd395ad60386",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nová karta"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -239,10 +249,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "492aa5255ecd64b0",
+  "active": "b279dd395ad60386",
   "lastOpenFiles": [
-    "Tasks/To Do.md",
     "LS26/Okruhy IV.md",
+    "Tasks/To Do.md",
     "LS26/prezentace DBS projekt 1.md",
     "Poznámky/Algoritmizace/Otázky ze cvičení.md",
     "LS26",
