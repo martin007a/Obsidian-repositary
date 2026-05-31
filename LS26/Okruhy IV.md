@@ -39,20 +39,15 @@ Abychom pochopili 4. průmyslovou revoluci, je nutné se podívat, jak se histor
 
 - **1. průmyslová revoluce (konec 18. stol.):** Přinesla mechanizaci výroby pomocí vodní a parní energie. Řízení bylo čistě mechanické bez inteligence. 
 - **2. průmyslová revoluce (začátek 20. stol.):** Typická zaváděním elektrické energie a specializovanou masovou výrobou (např. montážní linky Ford).
-- **3. průmyslová revoluce (od 70. let 20. stol.):** Někdy nazývaná též digitální revoluce. Přinesla elektroniku, informační technologie (IT) a nástup automatizace pomocí CNC strojů. V řízení to znamenalo přechod k flexibilnějším procesům orientovaným na spotřebu a větší participaci.
-- **4. průmyslová revoluce (Průmysl 4.0 - současnost):** Podle profesora Klause Schwaba se odlišuje zejména rychlostí technologických průlomů a zapojením disruptivních technologií, jako je IoT, robotika, virtuální realita (VR) a umělá inteligence (AI). Z pohledu řízení se vyznačuje kooperací a adaptivními procesy fungujícími v reálném čase, které reagují na konkrétní zakázky.
+- **3. **průmyslová revoluce:** Zásadní zlom – nástup IT a prvních PLC (Programovatelné logické automaty – průmyslové počítače). Vznikají ASŘ (Automatizované systémy řízení). Problém 3. revoluce spočíval v tom, že linky sice byly automatické, ale vysoce rigidní (nepružné) a centralizované. Stroj uměl provádět pouze jednu pevně naprogramovanou činnost.
+- **4. průmyslová revoluce (Průmysl 4.0 - současnost):** Dnešní stav, který staví na CPS (Kyberneticko-fyzikálních systémech). Pevné výrobní linky se mění na flexibilní sítě. Stroje a produkty jsou připojeny k internetu věcí a dokážou se mezi sebou domlouvat.
 
-2. Kybernetika jako základ moderního řízení
+  ### 2. Kybernetika jako základ moderního řízení
 
-Skripta definují kybernetiku pomocí slov jejího zakladatele Norberta Wienera (1948) jako „vědu o kontrole a komunikaci u zvířat a strojů“. Kybernetika zkoumá regulační a řídicí mechanismy, přičemž systém neustále komunikuje se svým prostředím. V moderním řízení (podle schémat z přednášek) systém funguje tak, že:
-
-1. **Vnímací podsystém** získá data přes senzory a provede zpracování a kódování vstupních signálů.
-2. Zatímco **řízení nižší úrovně** provádí okamžitou technologickou reakci, v **řízení vyšší úrovně** dochází k porozumění informaci, tvorbě vnitřních modelů (reprezentace prostředí) a plánování budoucí činnosti.
-3. **Akční podsystém** následně vygeneruje výstupní signály a provede fyzickou akci v prostředí.
-
-4. Hierarchie zpětných vazeb (ZV) v řízení
-
-Váš zkouškový okruh klade důraz na to, jak se posouvá složitost řízení. V přednáškách je tato stabilizace a řízení systémů rozdělena do hierarchie pěti úrovní zpětné vazby:
+Z pohledu kybernetiky (vědy o řízení a komunikaci, kterou definoval Norbert Wiener) fungují všechny tyto automatizované systémy na principu takzvané zpětné vazby (feedback loop). Ta se skládá přesně ze 3 na sebe navazujících kroků:
+1. **Senzorický podsystém:** Nejprve musí systém změřit aktuální stav fyzického prostředí (např. senzor zjistí, že teplota v místnosti klesla na 15 °C).
+2. **Řídicí podsystém (Controller):** Tento mozek (počítač) přijme naměřenou hodnotu, porovná ji s požadovanou hodnotou (chceme 22 °C) a spočítá, že je nutné topit. Vygeneruje tedy povel.
+3. **Akční podsystém (Aktuátor):** Na základě povelu provede fyzickou změnu v prostředí (např. sepne kotel a začne topit). Prostředí se ohřeje, senzor to znovu změří a smyčka se uzavírá.
 
 - **Operační ZV:** Nejnižší úroveň, představuje přímé technologické řízení (senzor naměří hodnotu, aktuátor provede okamžitou akci).
 - **Programová ZV a Symbolická ZV (1 a 2):** Vyšší úrovně řízení pracující s predikcí, plánováním, zpracováním dat a softwarovými modely.
