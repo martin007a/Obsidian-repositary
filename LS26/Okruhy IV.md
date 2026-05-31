@@ -5,7 +5,7 @@ aliases: [Okruhy ke zkoušce IoT]
 
 # Okruhy ke zkoušce: Internet věcí (IoT)
 
-## 1. Trendy digitalizace a řízení, automatizace a sítě kolem nás
+# 1. Trendy digitalizace a řízení, automatizace a sítě kolem nás
 **1. Sítě a systémy kolem nás** Koncepce internetu věcí (IoT) se postupně rozšiřuje do ještě komplexnější podoby, takzvaného **Internetu všeho (Internet of Everything - IoE)**. Jde o dynamickou síťovou infrastrukturu, která inteligentně propojuje čtyři hlavní pilíře: **lidi, procesy, data a věci**.
 
 Tyto vzájemně propojené systémy nás dnes obklopují v mnoha aplikačních oblastech, mezi které patří například:
@@ -61,3 +61,42 @@ Automatizace a řízení těží z několika principů:
 3. **Kognitivní automatizace:** Plné nasazení prvků umělé inteligence, strojového učení, analýzy velkých dat a zpracování přirozeného jazyka (NLP).
 
 Pokud si propojíte můj předchozí výstup s těmito čtyřmi doplňky, máte první okruh z vašich skript a přednášek pokrytý zcela komplexně.
+# 2. Průmyslové revoluce z pohledu kybernetiky a řízení
+1. Vývoj průmyslových revolucí a způsobů řízení
+
+Abychom pochopili 4. průmyslovou revoluci, je nutné se podívat, jak se historicky měnila míra komplexity a přístup k řízení procesů:
+
+- **1. průmyslová revoluce (konec 18. stol.):** Přinesla mechanizaci výroby pomocí vodní a parní energie. Z pohledu řízení šlo o velmi rigidní (pevné) procesy, autoritativní vedení a výrobu orientovanou čistě na odhady a prognózy.
+- **2. průmyslová revoluce (začátek 20. stol.):** Typická zaváděním elektrické energie a specializovanou masovou výrobou (např. montážní linky Ford).
+- **3. průmyslová revoluce (od 70. let 20. stol.):** Někdy nazývaná též digitální revoluce. Přinesla elektroniku, informační technologie (IT) a nástup automatizace pomocí CNC strojů. V řízení to znamenalo přechod k flexibilnějším procesům orientovaným na spotřebu a větší participaci.
+- **4. průmyslová revoluce (Průmysl 4.0 - současnost):** Podle profesora Klause Schwaba se odlišuje zejména rychlostí technologických průlomů a zapojením disruptivních technologií, jako je IoT, robotika, virtuální realita (VR) a umělá inteligence (AI). Z pohledu řízení se vyznačuje kooperací a adaptivními procesy fungujícími v reálném čase, které reagují na konkrétní zakázky.
+
+2. Kybernetika jako základ moderního řízení
+
+Skripta definují kybernetiku pomocí slov jejího zakladatele Norberta Wienera (1948) jako „vědu o kontrole a komunikaci u zvířat a strojů“. Kybernetika zkoumá regulační a řídicí mechanismy, přičemž systém neustále komunikuje se svým prostředím. V moderním řízení (podle schémat z přednášek) systém funguje tak, že:
+
+1. **Vnímací podsystém** získá data přes senzory a provede zpracování a kódování vstupních signálů.
+2. Zatímco **řízení nižší úrovně** provádí okamžitou technologickou reakci, v **řízení vyšší úrovně** dochází k porozumění informaci, tvorbě vnitřních modelů (reprezentace prostředí) a plánování budoucí činnosti.
+3. **Akční podsystém** následně vygeneruje výstupní signály a provede fyzickou akci v prostředí.
+
+4. Hierarchie zpětných vazeb (ZV) v řízení
+
+Váš zkouškový okruh klade důraz na to, jak se posouvá složitost řízení. V přednáškách je tato stabilizace a řízení systémů rozdělena do hierarchie pěti úrovní zpětné vazby:
+
+- **Operační ZV:** Nejnižší úroveň, představuje přímé technologické řízení (senzor naměří hodnotu, aktuátor provede okamžitou akci).
+- **Programová ZV a Symbolická ZV (1 a 2):** Vyšší úrovně řízení pracující s predikcí, plánováním, zpracováním dat a softwarovými modely.
+- **Sociální ZV:** Nejvyšší vrstva zpětné vazby, která odráží chování společnosti, ekonomické modely a interakci technologií s lidmi a trhem.
+
+4. Kyberneticko-fyzikální systémy (CPS) a Digitální dvojče
+
+Páteří Průmyslu 4.0 a dnešního způsobu řízení jsou Kyberneticko-fyzikální systémy (CPS). Fyzické výrobní zařízení (stroj) je zde úzce spjato se svým **digitálním modelem** (digitálním dvojčetem). Tento digitální model obsahuje naprosto všechny informace o dané věci – její mechaniku, software, informatiku, elektroniku, zabezpečení (security), stav údržby či uživatelská rozhraní (HMI). Důležité je, že se tento model neustále aktualizuje a rozšiřuje v průběhu celého životního cyklu produktu – od fáze návrhu (Product design), přes plánování a samotnou výrobu, až po finální služby a údržbu.
+
+5. Úrovně řešení problémů a kolaborativní systémy
+
+Pokud se fyzické stroje a jejich digitální modely propojí do distribuovaných sítí, nevystačíme si s jednoduchým centrálním řízením. Do řízení vstupují autonomní agenti a tzv. **multiagentní systémy (MAS)**. Ty musí řešit problémy v reálném světě na třech základních úrovních:
+
+1. **Strategická úroveň:** Výběr hlavních cílů a podcílů na základě strategických plánů. Zde systém musí pracovat s abstraktními pojmy, znalostmi a umí logicky a symbolicky uvažovat.
+2. **Taktická úroveň:** Jde o úlohy takticko-operační povahy. Agenti (stroje) si na základě globální strategie připravují konkrétní plány dílčích operací.
+3. **Akční úroveň:** Samotné řízení motorických aktivit – provádění fyzických zásahů do prostředí a přímé řešení konfliktů v reálném čase (například to, aby se dva kooperující drony nebo agriboti ve fyzickém světě nesrazili a vyhnuli se překážkám).
+
+Zatímco dřívější průmyslové revoluce pracovaly s izolovanými stroji v lokálních sítích, ve 4. průmyslové revoluci tyto autonomní kybernetické systémy komunikují bez asistence člověka (M2M), delegují na sebe podúlohy, analyzují velké objemy dat a proaktivně řídí výrobní operace na základě vlastního uvažování
