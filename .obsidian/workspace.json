@@ -39,12 +39,14 @@
             "id": "492aa5255ecd64b0",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "LS26/Okruhy IV.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Poznámky k vydání 1.12.7"
+              "icon": "lucide-file",
+              "title": "Okruhy IV"
             }
           },
           {
@@ -119,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5110321044922
+    "width": 311.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -217,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
