@@ -5,35 +5,6 @@ aliases: [Okruhy ke zkoušce IoT]
 
 # Okruhy ke zkoušce: Internet věcí (IoT)
 
-**1. Sítě a systémy kolem nás**
-- **Internet všeho (IoE):** Dynamická síťová infrastruktura inteligentně propojující lidi, procesy, data a věci.
-- **Aplikační oblasti:** Smart Home, Smart City, Smart Grids, Průmysl 4.0 a Zemědělství 4.0.
-- **Úrovně interakce komunikace:** M2M (stroj–stroj), M2P (stroj–člověk) a P2P (člověk–člověk). Dalším trendem jsou D2D (Device to Device) sítě komunikující bez lidského rozhraní.
-- **Vývojové fáze webu:**
-    - _Blízký (Near):_ Počítače a notebooky.
-    - _Všudypřítomný (Here):_ Mobily a nositelná elektronika.
-    - _Vzdálený (Far):_ Velkoplošné obrazovky, kiosky.
-    - _Podivný (Weird):_ Hlasové ovládání a umělá inteligence.
-**2. Trendy digitalizace a digitální ekonomika**
-- **Digitální transformace (DX):** Zásadní přepracování produktů, procesů a strategií organizací pomocí technologií. Vytváří digitální ekonomiku.
-- **Klíčové technologické trendy:** Cloud computing, mobilní platformy, Big Data, AI a strojové učení, IoT. Narušování trhů přinášejí také disruptivní technologie (např. blockchain a smart contracts).
-- **Konvergence IT a OT:** Sloučení informačních technologií (zpracování dat a sítí) a operačních technologií (hardware/software pro řízení strojů) do jednoho modelu pro snížení nákladů a zefektivnění výroby.
-- **Trendy ve výpočetních sítích (decentralizace):**
-    - _Cloud computing:_ Centralizovaná datacentra (původní přístup).
-    - _Fog computing:_ Přesun výpočetní kapacity blíž k okraji sítě k samotným zařízením (komunikace peer-to-peer, lokální řešení dat).
-    - _Edge computing:_ Zpracování dat probíhá přímo na koncových zařízeních nebo lokálních senzorových sítích.
-**3. Řízení a automatizace**
-- **Kyberneticko-fyzikální systémy (CPS):** Propojují fyzické výrobní zařízení s jeho digitálním dvojčetem a aktualizují se po celý životní cyklus.
-- **Distribuované a kolaborativní řízení:** Ústup od centralizace k multiagentním systémům (MAS). Autonomní prvky (agenti) vnímají prostředí, sdílejí cíle a aktivně spolupracují.
-- **Hierarchie zpětných vazeb v řízení:**
-    1. _Operační:_ Základní technologické řízení (senzor–akční člen).
-    2. _Programová a symbolická:_ Složitější prediktivní řízení (využití vnějších dat).
-    3. _Sociální:_ Nejvyšší úroveň zohledňující společnost a ekonomiku.
-- **Vývojové třídy automatizace:**
-    1. _RPA (Robotic Process Automation):_ Nasazení softwaru na vysoce objemové, rutinní a opakující se úkoly.
-    2. _EPA (Enhanced Process Automation):_ Rozšířená automatizace zpracovávající nestrukturovaná data a databáze znalostí.
-    3. _Kognitivní automatizace:_ Umělá inteligence, NLP a adaptivní algoritmy pro samostatné a komplexní rozhodování bez zásahu člověka.
-
 # 1. Trendy digitalizace a řízení, automatizace a sítě kolem nás
 **1. Sítě a systémy kolem nás** Koncepce internetu věcí (IoT) se postupně rozšiřuje do ještě komplexnější podoby, takzvaného **Internetu všeho (Internet of Everything - IoE)**. Jde o dynamickou síťovou infrastrukturu, která inteligentně propojuje čtyři hlavní pilíře: **lidi, procesy, data a věci**.
 
@@ -44,12 +15,12 @@ Tyto vzájemně propojené systémy nás dnes obklopují v mnoha aplikačních o
 - **Smart Grids** (chytré energetické sítě),
 - **Průmysl 4.0** a **Zemědělství 4.0** (Smart Farming, flotily agribotů).
 
-Základem fungování těchto sítí je komunikace, která probíhá na několika úrovních interakce: **M2M** (Machine to Machine – komunikace přímo mezi stroji bez manuální pomoci člověka), **M2P** (Machine to People) a **P2P** (People to People).
+*Základem fungování těchto sítí je komunikace, která probíhá na několika úrovních interakce: **M2M** (Machine to Machine – komunikace přímo mezi stroji bez manuální pomoci člověka), **M2P** (Machine to People) a **P2P** (People to People).*
 
-**2. Trendy digitalizace a digitální ekonomika** Digitalizace a **digitální transformace (DX)** představují proces, při kterém dochází k zásadnímu přepracování produktů, procesů a strategií uvnitř organizací s využitím moderních technologií. Nejde pouze o převedení starých analogových úloh do počítače. Digitalizace umožňuje dělat věci rychleji, lépe a zcela novými způsoby, čímž vzniká tzv. **digitální ekonomika**.
+**2. Digitalizace**
+Digitalizace neznamená jen prosté převedení starých analogových úloh do počítače. Jedná se o komplexní proces, při kterém se celé fyzické a provozní činnosti převádějí do digitálních modelů, čímž se podnikání stává rychlejším a efektivnějším..
 
 Klíčovými technologickými trendy, které tuto transformaci pohánějí, jsou:
-
 - **Cloud computing a mobilní platformy**.
 - **Zpracování velkých dat (Big Data)**.
 - **Umělá inteligence (AI) a strojové učení**.
