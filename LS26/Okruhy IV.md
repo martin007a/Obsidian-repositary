@@ -116,9 +116,8 @@ Tyto komunikační technologie se dělí podle toho, s jakou zónou – blízkou
 - **FFC** – Používá elektromagnetické vlny, které se šíří vzduchem na delší vzdálenosti (typicky **UHF RFID – 860–960 MHz**). Komunikace probíhá pomocí odražených vln – čtečka vyšle signál, tag ho moduluje zpět (tzv. backscatter). Dosah je až 10 metrů. Využití např ve skladech, logistice 
 - **NFC** – near field communication je bezdrátová komunikační technologie na výměnu dat na krátkou vzdálenost. Princip založen na elektromagnetickém poli. Využívá princip indukčního a rezonančního přenosu dat, má dva režimy: aktivní a pasivní. V aktivním režimu jsou obě zařízení schopny vzájemně vysílat a přijímat data. V pasivním je jedno aktivní a druhé pasivní, to získá energii z el.mag. pole k provádění komunikace. Často využíváno pro mobilní platby, sdílení souborů, připojování…
 ### 22. EPC, standardy a systémy AutoID, EPCIS
-- EPC - (Elektronický produktový kód) je globální standard pro jednoznačnou identifikaci každé konkrétní položky, který se používá hlavně s UHF RFID tagy. 
-- EPC Global – globální organizace která vyvíjí a udržuje standardy pro implementaci EPC a AutoID. Hlavním cílem je podpora a rozvoj sledování a řízení dodavatelského řetězce pomocí RFID. Definuje specifikace pro EPC jako: EPC Tag Data Standart, EPC Tag Data Translation atd. 
-- EPCIS – systém pro sběr, ukládání a sdílení informací o pohybu a stavu výrobků pomocí EPC. Slouží k vytváření a správě událostí souvisejících s EPC jako je příjem, výdej, přesuny… Poskytuje transparentnost a sledovatelnost v řetězci.
+- EPC (Electronic Product Code): Nový standard. Je to dlouhé číslo pro UHF tagy, absolutně unikátní pro každičký jednotlivý specifický kus zboží na světě. Standardy rozvíjí globální organizace EPC Global. 
+- EPCIS (EPC Information Services): Když RFID čtečky vygenerují obrovská data pohybu, všechno se propojí v EPCIS – standardizované sdílené databázi. To umožňuje dokonalou sledovatelnost a transparentnost (Traceability).
 
 | **Událost (Event)** | **Popis v EPCIS databázi**                                         |
 | ------------------- | ------------------------------------------------------------------ |
