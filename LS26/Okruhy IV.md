@@ -106,28 +106,7 @@ Rozdíl mezi běžným spotřebitelským IoT a IIoT (Industrial Internet of Thin
 - **Logistika věcí** – plánování, provádění a řízení toku materiálů, informací a služeb od dodavatelů k zákazníkům. Mnoho procesů jako je nákup, výroba, skladování, distribuce a správa inventáře. Cílem je zajištění správnosti zboží ve správném čase a za správnou cenu. Díky IOT můžeme zaznamenávat např. polohu (GPS, RFID), teplotu… 
 - **Automatická Identifikace** – identifikace a sběr dat o objektech a lidí, bez manuální práce. Zahrnuje různé metody jako – čárové kódy, RFID, QR kódy, biometrie a další. Automatické sledování a identifikace osob a objektů v logistickém řetězci. Např. pás se skenem čárových kódů.
 - **Traceability (Sledovatelnost):** Hlavním cílem logistiky. V potravinářství lze díky AutoID zkažené maso v supermarketu do vteřiny zpětně vytrasovat ke konkrétnímu kamionu, jatkám i přesné krávě na farmě.
-### 16. Značení věcí, čárové a QR kódy, GS1
-- **Čárové kódy** – metoda značení věcí která využívá čárových pruhů různé šířky a mezery mezi nimi pro zakódování informací. Jsou nejčastěji používány pro identifikaci výrobků v obchodech, skladech atd. K přečtení je používán skener. - 
-- QR kódy – Quick response – dvourozměrné čárové kódy obsahují čtvercovou matici černých a bílých kódů. Mají větší kapacitu pro uložení informací než čárové kódy. Mohou obsahovat text, url adresy, kontaktní údaje. Snadno čitelné pomocí čteček nebo chytrých telefonů. 
-- GS1 – mezinárodní standardizační organizace která se zabývá identifikací, označování, značením a sledováním logistických míst. Různé identifikační kódy – GTIN, SSCC, GLN. Standarty zajišťují jednotnost a interoperabilitu v logistických řetězcích.
-### 17. Typy elektromagnetického záření, frekvenční pásma v AutoID
-- **RFID** – technologie využívá rádiové frekvenční spektrum pro bezkontaktní identifikaci a sledování objektů. Systém se skládá z tagů a čtečky. Čtečka vyšle rádiové signály, které aktivují tagy a přenášejí data z tagu do čtečky. Frekvenční pásma také zahrnují nízké frekvence, vysoké frekvence, ultra vysoké frekvence a mikrovlnné frekvence. 
-	- LF – 125-134 kHz 
-	- HF – 13.56 MHz 
-	- UHF – 850-960 MHz 
-- **Infrapřenos (IrDA)** – využívá infračerveného spektra elektromag. Záření pro bezdrátový přenos dat. Používáno pro krátkodobou komunikaci – přenos mezi telefony, počítači… 
-- Optické skenery a čárové kódy – využívají spektrum viditelného a infračerveného záření pro snímání čárových nebo QR kódů. Světelné paprsky osvětlují čárový kód a snímač registruje odrazy světla a následně dekóduje informace. 
-- Bluetooth – bezdrátová technologie, využívá krátko dosahové rádiové vlny pro komunikaci. 2,4GHz. Dosah 1–100 m
-### 18. Materiály a rušivé zdroje z pohledu el-mag signálů
-- **Materiály s vysokou absorpcí** – Některé materiály mají vysokou absorpci na el.mag vlny, pohlcují a oslabují tyto signály. Jsou to třeba kovy, beton, tlusté zdi, voda, lesklé povrchy. Snižují dosah a kvalitu přenosu. -
-- **Překážky** – stěny, budovy, stromy, terén můžou oslabovat a deformovat el.mag. signály. Předměty umístěné mezi vysílačem a přijímačem mohou blokovat signály nebo způsobovat odrazy, což způsobuje zeslábnutí signálu a intervenci. 
-- **Elektromagnetické rušení** – jedná se o nežádoucí signál nebo elektromagnetické interference které mohou ovlivnit přenos. Mohou to být elektrická zařízení, vysílače, vedení, motory atd. Rušení může způsobit zkreslení, ztrátu dat, snížení rychlosti a spolehlivosti. 
-- **Prevence** – Proto se používá např. stíněný ethernetový kabel, aby se tomuto rušení předešlo
-### 19. Struktura a komponenty RFID systému
-- **RFID Čtečka** – generuje rádiové signály a komunikuje s RFID tagy, může být aktivní nebo pasivní, toto závisí na zdroji energie, pasivní získávají energii z tagů. Vysílá signály a přijímá odpovědi od tagů. 
-- **RFID Tag** – transpondér je malé zařízení které má paměť pro data a anténu pro komunikaci se čtečkou. Existují různé typy včetně pasivních a aktivních. Mohou být integrovány to různých objektů jako výrobky, palety, dopravní prostředky atd. •
-- **Anténa** – Součástí RFID systému, slouží k vysílání a přijímání signálů. Liší se v dosahu, směrovosti, zisku. • Řídící jednotka – zajišťuje správu a řízení RFID systému, může obsahovat software a hardware pro správu čteček, komunikaci a zpracování dat. 
-- **Software** – řízení a správa RFID systému, obsahuje třeba aplikace na sledování a správu, integraci a zpracování dat.
+
 ### 20. Aktivní a pasivní tagy, transpondéry
 - **Pasivní tagy** – neobsahují zdroj napájení, energii získávají z rádiových vln čtečky. Jednoduchá konstrukce, menší a levnější než aktivní. Mají omezený dosah, protože jejich výkon závisí na poskytnuté energii čtečkou. Dosah běžně v centimetrech až několika metrech. Využívány třeba ve sledování a identifikaci výrobků, palet, zásob atd. ISIC 
 - **Aktivní tagy** – mají vlastní napájení, většinou baterie. Jsou schopny generovat vlastní rádiové signály, mají vyšší dosah a výkon než pasivní tagy. Fungují na větší vzdálenost a mají spolehlivější komunikaci. Využívány v situacích, kde je potřeba větší vzdálenost – doprava, logistika, bezpečnost. • 
