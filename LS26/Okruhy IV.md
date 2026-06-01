@@ -79,8 +79,8 @@ Pro přenos dat slouží **Primitivum 3 – Komunikační kanál**. Na rozdíl o
     4. eUtilita přijme data a Decision trigger vodu opět vypne. (Praxe: Dron rozpozná plevel AI algoritmem a Trigger zcela sám pošle autonomnímu traktoru GPS přesně tam, kde má aplikovat herbicid).
 ### 10. Koncept IoT z pohledu vymezení OT a IT
 Průmysl 4.0 a IoT propojují dva přísně oddělené světy.
-- **Svět IT (Informační technologie):** Počítačový svět (datová centra, firemní sítě, účetnictví, maily). Absolutní prioritou je důvěrnost dat. Systémy dokážou tolerovat latenci (zdržený e-mail o 5 vteřin nevadí).
-- **Svět OT (Provozní technologie):** Fyzický svět v továrně, zahrnující frézy, PLC automaty a SCADA dispečerské systémy pro reálné řízení fyzických operací (energetika, doprava). Prioritou je Safety (bezpečnost provozu) a Availability (trvalá dostupnost). Musí vždy fungovat v přísném reálném čase; i půlvteřinové zpoždění povelu by způsobilo nabourání těžkého robotického ramene.
+	• OT – **Operační technologie**, zaměřuje se na technologie a systémy pro automatizaci fyzických operací. Využívají se senzory, kontrolní systémy a další technologie na sběr dat, řízení a monitorování. Zahrnují: průmyslovou automatizaci, energetiku, výrobu, dopravu, PLC (Programovatelný logický automat) • IT – **Informační technologie**, zaměřují se na datové centra, sítě, software… Specificky na sběr, analýzu, zpracování a distribuci dat a informací. Také na správu sítí, databází… 
+	• Vymezení OT a IT v IoT – vzájemně se propojují a spolupracují, OT sbírá data a řídí fyzické operace, IT zajišťuje správu a analýzu těchto dat.
 - **Konvergence a kyberbezpečnost:** Dříve tyto světy izolovalo tzv. Air Gap (vzduchová mezera) – výrobní stroje nebyly připojeny k internetu. IoT tento Air Gap prolamuje, nutí OT data posílat do IT cloudu kvůli analytice, což vystavuje staré stroje bez antivirů vůbec poprvé kybernetickým hrozbám.
 ### 11. Výhody a nevýhody OPC UA a MQTT v IoT
 Tyto dva komunikační protokoly slouží k výměně dat mezi zařízeními, každý se ale hodí na něco jiného.
