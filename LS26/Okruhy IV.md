@@ -82,6 +82,11 @@ Průmysl 4.0 a IoT propojují dva přísně oddělené světy.
 	• OT – **Operační technologie**, zaměřuje se na technologie a systémy pro automatizaci fyzických operací. Využívají se senzory, kontrolní systémy a další technologie na sběr dat, řízení a monitorování. Zahrnují: průmyslovou automatizaci, energetiku, výrobu, dopravu, PLC (Programovatelný logický automat) • IT – **Informační technologie**, zaměřují se na datové centra, sítě, software… Specificky na sběr, analýzu, zpracování a distribuci dat a informací. Také na správu sítí, databází… 
 	• Vymezení OT a IT v IoT – vzájemně se propojují a spolupracují, OT sbírá data a řídí fyzické operace, IT zajišťuje správu a analýzu těchto dat.
 - **Konvergence a kyberbezpečnost:** Dříve tyto světy izolovalo tzv. Air Gap (vzduchová mezera) – výrobní stroje nebyly připojeny k internetu. IoT tento Air Gap prolamuje, nutí OT data posílat do IT cloudu kvůli analytice, což vystavuje staré stroje bez antivirů vůbec poprvé kybernetickým hrozbám.
+
+
+
+/// MATROŠ dokument,
+
 ### 11. Výhody a nevýhody OPC UA a MQTT v IoT
 Tyto dva komunikační protokoly slouží k výměně dat mezi zařízeními, každý se ale hodí na něco jiného.
 - **Protokol MQTT:** Velmi lehký a jednoduchý protokol fungující přes Brokera s minimální režií.
@@ -121,30 +126,27 @@ Rozdíl mezi běžným spotřebitelským IoT a IIoT (Industrial Internet of Thin
 - Optické skenery a čárové kódy – využívají spektrum viditelného a infračerveného záření pro snímání čárových nebo QR kódů. Světelné paprsky osvětlují čárový kód a snímač registruje odrazy světla a následně dekóduje informace. 
 - Bluetooth – bezdrátová technologie, využívá krátko dosahové rádiové vlny pro komunikaci. 2,4GHz. Dosah 1–100 m
 ### 18. Materiály a rušivé zdroje z pohledu el-mag signálů
-Fyzika se nedá oklamat – materiály, stojící v cestě UHF signálům, útlum zásadně ovlivňují.
-1. **Prostupné (Transparentní):** Plast, papír, karton. Rádiová vlna jimi jednoduše projde – čip v krabici přečtete přes stěnu krabice bez problému.
-2. **Absorpční (Pohlcující):** Voda, beton, tlusté zdi. Pohlcují elektromagnetické vlny (molekuly vody je sežerou a přemění na teplo). Čip za člověkem degraduje v dosahu z 10 metrů na centimetry.
-3. **Odrazivé (Reflexní):** Kovy. Tvoří dokonalé zrcadlo a vlnu odrazí zpět, čímž způsobují vícenásobné cesty, tzv. Multipath efekt, který čtečku a signál oslepí.
-- **Praxe z pivovarů:** Ocelový sud plný vody by RFID běžným čipem zcela oslepil. Používají se proto tlusté "Metal-mount" tagy, které mají distanční pěnovou vložku oddalující čip od kovu. V továrnách navíc ruší i neviditelné zdroje (tzv. EMI rušení), jako jsou obrovské elektromotory či zářivky, proti kterým se využívá stíněných ethernet kabelů v rámci ochrany EMC.
+- **Materiály s vysokou absorpcí** – Některé materiály mají vysokou absorpci na el.mag vlny, pohlcují a oslabují tyto signály. Jsou to třeba kovy, beton, tlusté zdi, voda, lesklé povrchy. Snižují dosah a kvalitu přenosu. -
+- **Překážky** – stěny, budovy, stromy, terén můžou oslabovat a deformovat el.mag. signály. Předměty umístěné mezi vysílačem a přijímačem mohou blokovat signály nebo způsobovat odrazy, což způsobuje zeslábnutí signálu a intervenci. 
+- **Elektromagnetické rušení** – jedná se o nežádoucí signál nebo elektromagnetické interference které mohou ovlivnit přenos. Mohou to být elektrická zařízení, vysílače, vedení, motory atd. Rušení může způsobit zkreslení, ztrátu dat, snížení rychlosti a spolehlivosti. 
+- **Prevence** – Proto se používá např. stíněný ethernetový kabel, aby se tomuto rušení předešlo
 ### 19. Struktura a komponenty RFID systému
-RFID systém není "pouhý čip", ale systém sestávající ze čtyř stavebních prvků:
-1. **Tag (Transpondér):** Nálepka nebo pouzdro připevněné k objektu. Ukládá data do paměti a pomocí své miniaturní antény reaguje na čtečku.
-2. **Anténa:** Vysílá generované elektromagnetické vlny do prostoru a chytá odrazy zpět od tagů.
-3. **Reader (Čtečka / Řídicí jednotka):** Mozek systému (stojací brána nebo ruční pistole). Řídí anténu, posílá jí energii a digitalizuje přijaté rádiové signály na nuly a jedničky.
-4. **Middleware (Software):** Čtečka sejme 500 palet za vteřinu, což by ERP systém zahltilo. Middleware sedí mezi nimi a data vyfiltruje. Maže duplicity a odešle jen pročištěnou informaci ("Paleta XY dorazila").
+- **RFID Čtečka** – generuje rádiové signály a komunikuje s RFID tagy, může být aktivní nebo pasivní, toto závisí na zdroji energie, pasivní získávají energii z tagů. Vysílá signály a přijímá odpovědi od tagů. 
+- **RFID Tag** – transpondér je malé zařízení které má paměť pro data a anténu pro komunikaci se čtečkou. Existují různé typy včetně pasivních a aktivních. Mohou být integrovány to různých objektů jako výrobky, palety, dopravní prostředky atd. •
+- **Anténa** – Součástí RFID systému, slouží k vysílání a přijímání signálů. Liší se v dosahu, směrovosti, zisku. • Řídící jednotka – zajišťuje správu a řízení RFID systému, může obsahovat software a hardware pro správu čteček, komunikaci a zpracování dat. 
+- **Software** – řízení a správa RFID systému, obsahuje třeba aplikace na sledování a správu, integraci a zpracování dat.
 ### 20. Aktivní a pasivní tagy, transpondéry
-Rozlišujeme je primárně podle způsobu zisku energie.
-- **Pasivní tagy:** Jsou nejběžnější a nejlevnější (nálepky v obchodě). Nemají vlastní baterii. Jsou "mrtvé" do chvíle, dokud čtečka nevyšle rádiovou vlnu; tu anténa z tagu chytí, vyrobí drobný proud k probuzení čipu a odrazí zpět data. Mají mnohem kratší dosah (centimetry až pár metrů), ale vydrží bezúdržbově desetiletí.
-- **Aktivní tagy:** Větší, s vlastní baterií. Své rádiové signály generují aktivně a neustále křičí do okolí "Tady jsem!". Mají masivní dosah i na stovky metrů a spolehlivou komunikaci; ideální pro námořní kontejnery a drahou techniku v logistice.
-- (Samotný termín Transpondér pak znamená jakékoliv chytré elektronické zařízení – jako je právě RFID tag –, jež automaticky na nějaký signál přijme a odešle adekvátní zpětnou odpověď bez asistence člověka).
+- **Pasivní tagy** – neobsahují zdroj napájení, energii získávají z rádiových vln čtečky. Jednoduchá konstrukce, menší a levnější než aktivní. Mají omezený dosah, protože jejich výkon závisí na poskytnuté energii čtečkou. Dosah běžně v centimetrech až několika metrech. Využívány třeba ve sledování a identifikaci výrobků, palet, zásob atd. ISIC 
+- **Aktivní tagy** – mají vlastní napájení, většinou baterie. Jsou schopny generovat vlastní rádiové signály, mají vyšší dosah a výkon než pasivní tagy. Fungují na větší vzdálenost a mají spolehlivější komunikaci. Využívány v situacích, kde je potřeba větší vzdálenost – doprava, logistika, bezpečnost. • 
+- **Transpondéry** – elektronická zařízení, která automaticky přijímají, zpracovávají a odpovídají na rádiové nebo jiné signály. Je to zařízení, které reaguje na signál a většinou odpovídá nějakou informací – automaticky a bez zásahu člověka. Např. RFID TAG – reaguje na čtečku signálu a posílají uložené informace
 ### 21. Principy komunikace FFC a NFC
 Tyto komunikační technologie se dělí podle toho, s jakou zónou – blízkou, nebo dalekou – pracují.
-- **NFC (Near Field Communication):** Zóna blízkého pole (na pár centimetrů) pro nízké (LF) a vysoké frekvence (HF). Vůbec nevyužívá šíření vln prostorem; principem je **magnetická indukce** (funguje jako transformátor). Anténa čtečky (aktivní cívka) vytvoří magnetické pole a tag (např. mobil u platby) energii pro předání dat nasaje. Může mít pasivní (karta) i aktivní režim (dva telefony vysílající vzájemně).
-- **FFC (Far Field Communication):** Zóna dalekého pole. Operuje s UHF vlnami s dosahem až do deseti metrů. Zde nedochází k indukci; vzduchem letí skutečná elektromagnetická rádiová vlna. Ta narazí do RFID tagu, tag vlnu zdeformuje a pošle tzv. **zpětný odraz (Backscatter)** do čtečky.
+- **FFC** – Používá elektromagnetické vlny, které se šíří vzduchem na delší vzdálenosti (typicky **UHF RFID – 860–960 MHz**). Komunikace probíhá pomocí odražených vln – čtečka vyšle signál, tag ho moduluje zpět (tzv. backscatter). Dosah je až 10 metrů. Využití např ve skladech, logistice 
+- **NFC** – near field communication je bezdrátová komunikační technologie na výměnu dat na krátkou vzdálenost. Princip založen na elektromagnetickém poli. Využívá princip indukčního a rezonančního přenosu dat, má dva režimy: aktivní a pasivní. V aktivním režimu jsou obě zařízení schopny vzájemně vysílat a přijímat data. V pasivním je jedno aktivní a druhé pasivní, to získá energii z el.mag. pole k provádění komunikace. Často využíváno pro mobilní platby, sdílení souborů, připojování…
 ### 22. EPC, standardy a systémy AutoID, EPCIS
-Pokud využíváme UHF RFID v řetězci, starý kód EAN nepostačuje – zná jen "To je plechovka Coly", nerozezná, která konkrétní ze 100 to je.
-- **EPC (Electronic Product Code):** Nový standard. Je to dlouhé číslo pro UHF tagy, absolutně unikátní pro každičký jednotlivý specifický kus zboží na světě. Standardy rozvíjí globální organizace **EPC Global**.
-- **EPCIS (EPC Information Services):** Když RFID čtečky vygenerují obrovská data pohybu, všechno se propojí v EPCIS – standardizované sdílené databázi. To umožňuje dokonalou sledovatelnost a transparentnost (Traceability).
+- EPC - (Elektronický produktový kód) je globální standard pro jednoznačnou identifikaci každé konkrétní položky, který se používá hlavně s UHF RFID tagy. 
+- EPC Global – globální organizace která vyvíjí a udržuje standardy pro implementaci EPC a AutoID. Hlavním cílem je podpora a rozvoj sledování a řízení dodavatelského řetězce pomocí RFID. Definuje specifikace pro EPC jako: EPC Tag Data Standart, EPC Tag Data Translation atd. 
+- EPCIS – systém pro sběr, ukládání a sdílení informací o pohybu a stavu výrobků pomocí EPC. Slouží k vytváření a správě událostí souvisejících s EPC jako je příjem, výdej, přesuny… Poskytuje transparentnost a sledovatelnost v řetězci.
 
 | **Událost (Event)** | **Popis v EPCIS databázi**                                         |
 | ------------------- | ------------------------------------------------------------------ |
@@ -152,6 +154,7 @@ Pokud využíváme UHF RFID v řetězci, starý kód EAN nepostačuje – zná j
 | **Ship**            | Zboží opustilo sklad – EPCIS uloží událost jako odeslanou.         |
 | **Receive**         | Distributor krabici přijal a přečetl – zaznamenáno.                |
 | **Cold chain**      | Napojený senzor během logistiky potvrdí, že teplota se nezhoršila. |
+- **AutoID standarty** – Mezi tyto patří GS1, který zahrnuje kódování dat pomocí čárových/QR kódu pro identifikaci výrobků. Dalšími jsou třeba ISO/IEC 18000 pro RFID, ISO/IEC 15418 pro čárové kódy…
 ### 23. IoT ve Smart City a eHealth
 IoT přímo zlepšuje komfort měst a efektivitu zdravotnictví. Ve Smart City monitorují klastry infrastrukturu k hospodárnosti, v eHealth pomáhají dálkově pečovat.
 **Smart City z pohledu řešení:**
