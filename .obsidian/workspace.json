@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,12 +250,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "492aa5255ecd64b0",
+  "active": "a44ad7ab47d54caa",
   "lastOpenFiles": [
+    "LS26/Okruhy IV.md",
     "Excalidraw/Drawing 2026-05-31 20.22.14.excalidraw.md",
     "Tasks/To Do.md",
     "Excalidraw",
-    "LS26/Okruhy IV.md",
     "LS26/prezentace DBS projekt 1.md",
     "Poznámky/Algoritmizace/Otázky ze cvičení.md",
     "LS26",
