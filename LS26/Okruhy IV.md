@@ -98,13 +98,8 @@ Rozdíl mezi běžným spotřebitelským IoT a IIoT (Industrial Internet of Thin
 - **Životnost:** Zařízení se do linek instalují s očekáváním spolehlivého chodu 15 až 20 let (oproti 3 letům u telefonu).
 - **Výsledek:** Integrací s AI a Big Data zavádí prediktivní údržbu – stroj dokáže analyzovat vzorce, předpovídat chování a nahlásit budoucí poruchu dříve, než se skutečně rozbije.
 ### 13. Architektura IIoT – model IIRA a RRI&IoT
-Pro bezproblémové globální fungování IIoT strojů od různých výrobců vznikly standardizované architektury, dominují zejména americký a evropský/asijský přístup.
-- **Americký model IIRA (Industrial Internet Reference Architecture):** Vyvinutý konsorciem IIC (GE, AT&T, IBM). Je zaměřený softwarově a byznysově. Chce harmonizovat OT a IT systémy a dělí architekturu do 4 vrstev (Viewpoints):
-    1. Business (Ekonomický smysl a návratnost investic).
-    2. Usage (Uživatelské reálné použití).
-    3. Functional/Information (Softwarové moduly, analýza dat).
-    4. Implementation/Technology (Fyzické zapojení a servery).
-- **Evropské a japonské modely:** Jsou historicky orientovány přímo na výrobní linky a hardware (Německo je strojírenská velmoc). Patří sem koncept **RRI&IoT (Robot Revolution Initiative)** z Japonska, který klade důraz na Real-time procesy, rychlou odezvu, minimalizaci latence a využití AI v reálném čase. V praxi se modely IIRA a např. evropské RAMI doplňují (IIRA řeší IT a byznys, RAMI reálné OT stroje).
+- IIRA (Industrial Internet Reference Architecture) – model architektury vyvinutý organizací Industrial Internet Consortium s cílem poskytnout rámcovou strukturu pro IIoT. Má pět základních vrstev – Business, Usage, Information, Application, Technology. Každá vrstva má své role a funkce které přispívají k fungování IIoT. Zdůrazňuje důležitost interoperability, bezpečnosti a analýzy dat. Chce sladit OT (Operační technologie) + IT 
+- RRI&IoT (Robot Revolution Initiative & IoT) – koncept architektury která klade důraz na real time, responsive a intelligent aspekty IIoT. Japonský koncept. Zdůrazňuje potřebu rychlé odezvy a datové toky, také na využití pokročilých analytických technik, AI a strojového učení pro zpracování a interpretaci dat v reálném čase. Optimalizuje využití prostředků, minimalizuje odezvu, zajišťuje bezpečnost a spolehlivost.
 ### 14. Model architektury I4.0 – RAMI 4.0 a digitalizace
 Německým standardem pro digitalizaci (převod fyzického světa do virtuálního) je model **RAMI 4.0**. Tento model opouští starou 2D pyramidu a tvoří komplexní 3D matici umožňující propojování od systémů až po cloud.
 **Skládá se ze tří os:**
