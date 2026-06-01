@@ -101,26 +101,25 @@ Rozdíl mezi běžným spotřebitelským IoT a IIoT (Industrial Internet of Thin
 - IIRA (Industrial Internet Reference Architecture) – model architektury vyvinutý organizací Industrial Internet Consortium s cílem poskytnout rámcovou strukturu pro IIoT. Má pět základních vrstev – Business, Usage, Information, Application, Technology. Každá vrstva má své role a funkce které přispívají k fungování IIoT. Zdůrazňuje důležitost interoperability, bezpečnosti a analýzy dat. Chce sladit OT (Operační technologie) + IT 
 - RRI&IoT (Robot Revolution Initiative & IoT) – koncept architektury která klade důraz na real time, responsive a intelligent aspekty IIoT. Japonský koncept. Zdůrazňuje potřebu rychlé odezvy a datové toky, také na využití pokročilých analytických technik, AI a strojového učení pro zpracování a interpretaci dat v reálném čase. Optimalizuje využití prostředků, minimalizuje odezvu, zajišťuje bezpečnost a spolehlivost.
 ### 14. Model architektury I4.0 – RAMI 4.0 a digitalizace
-Německým standardem pro digitalizaci (převod fyzického světa do virtuálního) je model **RAMI 4.0**. Tento model opouští starou 2D pyramidu a tvoří komplexní 3D matici umožňující propojování od systémů až po cloud.
-**Skládá se ze tří os:**
-1. **Osa hierarchie (Hierarchy Levels):** Popisuje fyzický svět zespodu nahoru – Výrobek, Stroj (Control Device), Hala (Station) a Propojený svět (Connected World).
-2. **Osa životního cyklu (Life Cycle):** Převratná novinka. Sleduje produkt celým životem: Fáze "Type" (vývoj a prototypování) a Fáze "Instance" (reálná výroba a servis).
-3. **Osa vrstev (Layers):** Tvoří od fyzického "Assetu" dole, přes komunikaci (Business, Function, Information, Communication), model nahoru.
-**Digitální dvojče (Digital Twin):** Výsledkem modelu RAMI je, že pro fyzický motor dole existuje na 100 % identický virtuální odraz v datech. Automobilka už nestaví linku systémem "pokus-omyl"; vše se virtuálně postaví a nasimuluje v PC, a teprve, když si roboti nepřekážejí, se začne stavět fyzicky, což ušetří obrovské finance.
+- Model I4.0 – koncept digitální transformace průmyslu a propojení fyzického světa s virtuálním. Cílem je inteligentní výrobní prostředí, které využívá IoT, AI, Big data atd. Umožňuje propojení mezi různými zařízeními, systémy, procesy a datovými toky. Klíčové prvky jsou třeba – senzory, aktuátory, řídící systémy, softwarové platformy, cloudové služby atd. 
+- RAMI4.0 – referenční model navržený pro implementaci I4.0, obsahuje hierarchickou strukturu a vztahy mezi úrovněmi a vrstvami v průmyslovém prostředí. Má čtyři vrstvy – Business, function, information, communication. Každá vrstvá má své role a funkce které přispívají k propojení. Zdůrazňuje standardizaci, interoperabilitu a bezpečnost při implementaci. 
+- Model digitalizace – postupný proces převodu fyzického světa do digitální podoby. Cílem je umožnit sledovat, analyzovat, automatizovat a optimalizovat procesy a systémy.
 ### 15. Logistika věcí (Supply chain), automatická identifikace (AutoID)
-- **Supply Chain (Logistika věcí):** Obrovská síť toku materiálů a informací od těžby železné rudy přes dodavatele, nákup a montáž až po doručení k zákazníkovi domů. Cílem je zajištění správného zboží ve správný čas; IoT zaznamenává polohu přes GPS a monitoruje teplotu.
-- **AutoID (Automatická identifikace):** Odstraňuje pomalého a chybujícího skladníka s tužkou. Technologie automaticky, strojově sbírá a čte data. Patří sem: Čárové a QR kódy, RFID čipy, Biometrie a OCR kamery (čtení SPZ).
+- **Logistika věcí** – plánování, provádění a řízení toku materiálů, informací a služeb od dodavatelů k zákazníkům. Mnoho procesů jako je nákup, výroba, skladování, distribuce a správa inventáře. Cílem je zajištění správnosti zboží ve správném čase a za správnou cenu. Díky IOT můžeme zaznamenávat např. polohu (GPS, RFID), teplotu… 
+- **Automatická Identifikace** – identifikace a sběr dat o objektech a lidí, bez manuální práce. Zahrnuje různé metody jako – čárové kódy, RFID, QR kódy, biometrie a další. Automatické sledování a identifikace osob a objektů v logistickém řetězci. Např. pás se skenem čárových kódů.
 - **Traceability (Sledovatelnost):** Hlavním cílem logistiky. V potravinářství lze díky AutoID zkažené maso v supermarketu do vteřiny zpětně vytrasovat ke konkrétnímu kamionu, jatkám i přesné krávě na farmě.
 ### 16. Značení věcí, čárové a QR kódy, GS1
-Pro automatickou identifikaci v dodavatelském řetězci používáme nejčastěji tištěné kódy.
-- **1D kódy (Lineární čárové kódy):** Kódy typu EAN přečtené laserem. Mají velmi malou kapacitu – zakódují do sebe v podstatě jen jedno identifikační číslo (ID), nenese to cenu ani název. Systém si vše musí dohledat v databázi pokladny.
-- **2D kódy (QR kódy, DataMatrix):** Čtvercové matice s obrovskou kapacitou. Ke čtení se užívá kamera a software. Unesou odstavce textu, datum spotřeby, URL i šarži. Výhodou je matematická samoopravitelnost – kamera přečte kód bezchybně i zčásti utržený či zašpiněný.
-- **Systém GS1:** Aby kód českého mléka neznačil v Číně televizi, globální organizace GS1 zajišťuje mezinárodní standardy (GTIN, SSCC, GLN). Čísla přiděluje tak, aby byl kód unikátní pro celou planetu a logistický řetězec.
+- **Čárové kódy** – metoda značení věcí která využívá čárových pruhů různé šířky a mezery mezi nimi pro zakódování informací. Jsou nejčastěji používány pro identifikaci výrobků v obchodech, skladech atd. K přečtení je používán skener. - 
+- QR kódy – Quick response – dvourozměrné čárové kódy obsahují čtvercovou matici černých a bílých kódů. Mají větší kapacitu pro uložení informací než čárové kódy. Mohou obsahovat text, url adresy, kontaktní údaje. Snadno čitelné pomocí čteček nebo chytrých telefonů. 
+- GS1 – mezinárodní standardizační organizace která se zabývá identifikací, označování, značením a sledováním logistických míst. Různé identifikační kódy – GTIN, SSCC, GLN. Standarty zajišťují jednotnost a interoperabilitu v logistických řetězcích.
 ### 17. Typy elektromagnetického záření, frekvenční pásma v AutoID
-Při přechodu na RFID se už nepoužívá k identifikaci optický laser (pro IrDA a kódy z infračerveného spektra), ale rádiové elektromagnetické vlny. Jsou striktně odděleny do pásem. Fyzika zní: čím vyšší frekvence, tím dál signál doletí, ale tím hůř prostupuje překážkami.
-1. **LF (Low Frequency - Nízkofrekvenční):** 125–134 kHz. Dosáhne jen na centimetry, ale bez problémů prostupuje lidskou tkání i vodou. Použití: čipování domácích zvířat a přístupové "pípáky" k otevírání dveří.
-2. **HF (High Frequency - Vysokofrekvenční):** 13,56 MHz. Dosah je pár centimetrů, avšak přináší výhodu v bezpečnosti. Leží zde standard NFC. Použití: bezkontaktní platby terminálem, jízdenky a elektronické pasy.
-3. **UHF (Ultra High Frequency):** V EU 868 MHz (850-960 MHz). Páteř logistiky s dosahem 5 až 10 metrů. Čtečka je na stropě a čte pohyb palet, kartonů i průjezd aut přes závory. (Sítě jako Bluetooth využívají frekvenci 2,4 GHz pro komunikaci na 1–100 metrů).
+- **RFID** – technologie využívá rádiové frekvenční spektrum pro bezkontaktní identifikaci a sledování objektů. Systém se skládá z tagů a čtečky. Čtečka vyšle rádiové signály, které aktivují tagy a přenášejí data z tagu do čtečky. Frekvenční pásma také zahrnují nízké frekvence, vysoké frekvence, ultra vysoké frekvence a mikrovlnné frekvence. 
+	- LF – 125-134 kHz 
+	- HF – 13.56 MHz 
+	- UHF – 850-960 MHz 
+- **Infrapřenos (IrDA)** – využívá infračerveného spektra elektromag. Záření pro bezdrátový přenos dat. Používáno pro krátkodobou komunikaci – přenos mezi telefony, počítači… 
+- Optické skenery a čárové kódy – využívají spektrum viditelného a infračerveného záření pro snímání čárových nebo QR kódů. Světelné paprsky osvětlují čárový kód a snímač registruje odrazy světla a následně dekóduje informace. 
+- Bluetooth – bezdrátová technologie, využívá krátko dosahové rádiové vlny pro komunikaci. 2,4GHz. Dosah 1–100 m
 ### 18. Materiály a rušivé zdroje z pohledu el-mag signálů
 Fyzika se nedá oklamat – materiály, stojící v cestě UHF signálům, útlum zásadně ovlivňují.
 1. **Prostupné (Transparentní):** Plast, papír, karton. Rádiová vlna jimi jednoduše projde – čip v krabici přečtete přes stěnu krabice bez problému.
