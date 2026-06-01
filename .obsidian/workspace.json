@@ -133,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5110321044922
+    "width": 200
   },
   "right": {
     "id": "b49b3ab2b5af8d37",
@@ -231,7 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,7 +249,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "492aa5255ecd64b0",
+  "active": "85fcad50cd6f7d48",
   "lastOpenFiles": [
     "LS26/prezentace DBS projekt 1.md",
     "Tasks/To Do.md",
