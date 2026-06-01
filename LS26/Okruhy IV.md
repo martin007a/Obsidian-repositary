@@ -89,10 +89,10 @@ Průmysl 4.0 a IoT propojují dva přísně oddělené světy.
 
 ### 11. Výhody a nevýhody OPC UA a MQTT v IoT
 Tyto dva komunikační protokoly slouží k výměně dat mezi zařízeními, každý se ale hodí na něco jiného.
-- **Protokol MQTT:** Velmi lehký a jednoduchý protokol fungující přes Brokera s minimální režií.
+- **Protokol MQTT:** je lehký, rychlý a jednoduchý komunikační protokol, který se používá hlavně v IoT systémech pro přenos zpráv mezi zařízeními.
     - _Výhody:_ Extrémně datově nenáročný (šetří šířku pásma), spolehlivý i na špatných sítích (senzory na poli) a má nízkou spotřebu energie.
     - _Nevýhody:_ Přenáší pouze raw data ("holý text"). Neřeší strukturu – systém nepozná, zda jde o Celsius či Fahrenheit. Má omezenou škálovatelnost.
-- **Protokol OPC UA:** Aktuální zlatý standard a komplexní moderní architektura pro Průmysl 4.0.
+- **Protokol OPC UA:** je moderní standard pro komunikaci v průmyslové automatizaci, který slouží k bezpečné a strukturované výměně dat mezi zařízeními a systémy.
     - _Výhody:_ Je univerzální, nezávislý na platformě (Windows, Linux, Cloud), a především řeší sémantiku a rozšířená metadata. Nepošle jen číslo "22", ale strukturovaný balíček ("22 °C, čidlo 5, robot KUKA"). Má zabudovanou velmi silnou kybernetickou bezpečnost (šifrování).
     - _Nevýhody:_ Je to "těžký" a komplexní protokol náročný na výpočetní výkon, paměť i datovou propustnost, který se nehodí pro bateriové levné čipy.
 ### 12. Průmyslový internet věcí (IIoT)
@@ -102,13 +102,6 @@ Rozdíl mezi běžným spotřebitelským IoT a IIoT (Industrial Internet of Thin
 - **Extrémní podmínky:** Hardware musí odolávat silným vibracím, žáru, prachu a agresivním chemikáliím.
 - **Životnost:** Zařízení se do linek instalují s očekáváním spolehlivého chodu 15 až 20 let (oproti 3 letům u telefonu).
 - **Výsledek:** Integrací s AI a Big Data zavádí prediktivní údržbu – stroj dokáže analyzovat vzorce, předpovídat chování a nahlásit budoucí poruchu dříve, než se skutečně rozbije.
-### 13. Architektura IIoT – model IIRA a RRI&IoT
-- IIRA (Industrial Internet Reference Architecture) – model architektury vyvinutý organizací Industrial Internet Consortium s cílem poskytnout rámcovou strukturu pro IIoT. Má pět základních vrstev – Business, Usage, Information, Application, Technology. Každá vrstva má své role a funkce které přispívají k fungování IIoT. Zdůrazňuje důležitost interoperability, bezpečnosti a analýzy dat. Chce sladit OT (Operační technologie) + IT 
-- RRI&IoT (Robot Revolution Initiative & IoT) – koncept architektury která klade důraz na real time, responsive a intelligent aspekty IIoT. Japonský koncept. Zdůrazňuje potřebu rychlé odezvy a datové toky, také na využití pokročilých analytických technik, AI a strojového učení pro zpracování a interpretaci dat v reálném čase. Optimalizuje využití prostředků, minimalizuje odezvu, zajišťuje bezpečnost a spolehlivost.
-### 14. Model architektury I4.0 – RAMI 4.0 a digitalizace
-- Model I4.0 – koncept digitální transformace průmyslu a propojení fyzického světa s virtuálním. Cílem je inteligentní výrobní prostředí, které využívá IoT, AI, Big data atd. Umožňuje propojení mezi různými zařízeními, systémy, procesy a datovými toky. Klíčové prvky jsou třeba – senzory, aktuátory, řídící systémy, softwarové platformy, cloudové služby atd. 
-- RAMI4.0 – referenční model navržený pro implementaci I4.0, obsahuje hierarchickou strukturu a vztahy mezi úrovněmi a vrstvami v průmyslovém prostředí. Má čtyři vrstvy – Business, function, information, communication. Každá vrstvá má své role a funkce které přispívají k propojení. Zdůrazňuje standardizaci, interoperabilitu a bezpečnost při implementaci. 
-- Model digitalizace – postupný proces převodu fyzického světa do digitální podoby. Cílem je umožnit sledovat, analyzovat, automatizovat a optimalizovat procesy a systémy.
 ### 15. Logistika věcí (Supply chain), automatická identifikace (AutoID)
 - **Logistika věcí** – plánování, provádění a řízení toku materiálů, informací a služeb od dodavatelů k zákazníkům. Mnoho procesů jako je nákup, výroba, skladování, distribuce a správa inventáře. Cílem je zajištění správnosti zboží ve správném čase a za správnou cenu. Díky IOT můžeme zaznamenávat např. polohu (GPS, RFID), teplotu… 
 - **Automatická Identifikace** – identifikace a sběr dat o objektech a lidí, bez manuální práce. Zahrnuje různé metody jako – čárové kódy, RFID, QR kódy, biometrie a další. Automatické sledování a identifikace osob a objektů v logistickém řetězci. Např. pás se skenem čárových kódů.
