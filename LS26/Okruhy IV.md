@@ -180,10 +180,16 @@ Aplikace znalostí má dva odlišné přístupy v metodě rozuzlení AI.
 - **V kombinace s IoT** – expertní systémy a neuronové sítě mohou poskytovat inteligentní rozhodování, analýzu a řízení v reálném čase. Expertní systémy mohou využívat neuronové sítě k učení a získávání znalostí, mezitím co neuronové sítě mohou díky vstupem z IoT mohou poskytovat predikce a adaptivní řízení na základě dat.
 ### 32. Aplikace prvků umělé inteligence, umělý život, AIoT
 ### 1. Praktické aplikace v praxi
-- **Prediktivní údržba** – analyzování dat ze senzorů, předpovídání budoucích poruch a potřebu údržby. Prevence poruch a optimalizace provozu zařízení. 
 - **Chytrá domácnost** – AI může být použito k rozpoznávání hlasových příkazů, automatizaci zařízení v domácnosti, správu spotřeby energie, optimalizace osvětlení, topení a dále. 
 - **Průmyslová automatizace** – AI v AIoT může zlepšit automatizaci v průmyslových prostředích díky rozpoznávání vzorců, předpovídáním poruch, optimalizaci procesů a řízení chytrých továren. 
-- **Inteligentní doprava** – může být využito také pro řízení a optimalizaci dopravního systému, predikce dopravních situací, správa parkování, poskytnutí personalizovaných informacích o dopravě.****
+- **Inteligentní doprava** – může být využito také pro řízení a optimalizaci dopravního systému, predikce dopravních situací, správa parkování, poskytnutí personalizovaných informacích o dopravě.
+##### Koncept AIoT
+AIoT představuje fúzi dvou špičkových technologií, která zásadně mění dosavadní fungování sítí. Klasické „primitivní“ senzory dříve pouze sbíraly data a kompletně spoléhaly na obrovský výkon vzdálených centralizovaných cloudů, kam musely vše odesílat.
+Díky konceptu **Edge computingu** se však výkonný AI čip integruje přímo do koncových zařízení na okraji sítě (např. do bezpečnostních kamer).
+##### Umělý život
+Jedná se o fascinující a specifickou odnož umělé inteligence. Na rozdíl od běžné AI nekopíruje logiku lidského neuronu, ale inspiruje se biologií – konkrétně principy přirozeného výběru, mutace a evolučního přežití.
+
+Tento přístup se využívá tam, kde lidská představivost nestačí, například při navrhování aerodynamiky nového čelního skla nebo tvaru křídla dronu.
 ### 33. Chytrá farma a zemědělství 4.0
 Vize modernizace prokazatelně čelí stárnoucím kapacitám farmářů i vyšťavené chemicky plošně drcené destrukci pro ornou půdu zaváděním Průmyslu 4.0 pro takzvané "Precizní hospodářství" pomocí analýzy IoT i dronů pro zvýšení výnosů rostlin i efektivit a zaručení zdraví zvířat pod dozorem systémů v reálném pohledu dat, avšak výzvami je cena a investice na experty pro instalace.
 1. **Pěstitelské agriboty a drony:** Minulost patřila plošnému postřiku ohromné zasažené toxické dávky po plodině traktorem (ve 3. PR). Moderně letící senzory vytvoří bezkontaktní síť v mapě u plevele a chřadnutí dehydratace, agriboti s automatickým ovládacím řízením obdrží příkaz z AI výpočtu, naběhnou přesně na mikrodávku a postříkají roztok chemie i hnojiv exkluzivně jen po dvou slabých natích pro celkové astronomické a 90% bezbřehé šetření a ekologickou údržbu.
