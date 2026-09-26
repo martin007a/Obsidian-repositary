@@ -29,6 +29,10 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "GIT HELP.md": {
+      "icon": "lucide-github",
+      "color": "yellow"
+    },
     "Poznámky": {
       "icon": "lucide-notebook-pen",
       "unsynced": [

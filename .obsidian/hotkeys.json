@@ -24,5 +24,13 @@
       ],
       "key": "J"
     }
+  ],
+  "cmenu-plugin:codeblock": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
   ]
 }
