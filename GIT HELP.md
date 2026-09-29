@@ -86,3 +86,50 @@ git remote add origin https://github.com/uzivatel/repo.git
 ```
 git push -u origin main
 ```
+# Miltiplatform prace na projektu v C++
+### Varianta A: Když projekt stahuješ z GitHubu (Doporučeno)
+1. **Otevři terminál na Macu** a přejdi do složky, kam chceš projekt umístit:
+    Bash:
+    ```
+    cd ~/Documents
+    ```
+2. **Naklonuj repozitář:**
+    Bash:
+    ```
+    git clone https://github.com/tve-jmeno/Fotbalek.git
+    cd Fotbalek
+    ```
+3. **Vygeneruj Xcode projekt přímo vedle zdrojáků:**
+    Bash:
+    ```
+    cmake -G Xcode .
+    ```
+4. **Otevři projekt:**
+    Bash:
+    ```
+    open Fotbalek.xcodeproj
+    ```
+### Varianta B: Když máš projekt jako ZIP soubor
+1. **Rozbal ZIP archiv** (dvojklikem ve Finderu).
+2. **Otevři terminál** v dané rozbalené složce:
+    - Nejjednodušší: do terminálu napiš `cd` (s mezerou) a přetáhni rozbalenou složku z Finderu přímo do okna terminálu, pak stiskni `Enter`.
+3. **Zkontroluj přítomnost `CMakeLists.txt`:**
+    Bash:
+    ```
+    ls
+    ```
+    _(Pokud soubor vidíš ve výpisu, stojíš ve správném kořenu)._
+4. **Vygeneruj a otevři Xcode projekt:**
+    Bash
+    ```
+    cmake -G Xcode .
+    open Fotbalek.xcodeproj
+    ```
+### Co udělat v Xcode (platí pro obě varianty)
+Jakmile se Xcode otevře:
+1. **Přepni cíl (schéma):**
+    Nahoře uprostřed v okně Xcode je vedle tlačítek Play a Stop rozbalovací nabídka. Zřejmě tam bude svítit `ALL_BUILD`.
+    - **Klikni na ni a vyber `Fotbalek`.**
+2. **Spusť aplikaci:**
+    - Klikni na tlačítko **Play** (nebo stiskni klávesovou zkratku `Cmd + R`).
+    - Aplikace se zkompiluje a výstup (konzole) se zobrazí ve spodním panelu Xcode.

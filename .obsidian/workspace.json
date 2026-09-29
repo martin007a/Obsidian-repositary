@@ -79,12 +79,14 @@
             "id": "6be1acbdf2da0e11",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "GIT HELP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Poznámky k vydání 1.13.7"
+              "icon": "lucide-file",
+              "title": "GIT HELP"
             }
           },
           {
